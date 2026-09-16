@@ -1,0 +1,263 @@
+/* ══════════════════════════════════════
+   PLANNING STUDIO STYLES
+══════════════════════════════════════ */
+.planning-header {
+  background: var(--s1);
+  border-bottom: 1px solid var(--b1);
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan-tabs {
+  display: flex;
+  gap: 8px;
+}
+
+.plan-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--b1);
+  background: var(--s2);
+  color: var(--t2);
+  transition: all 0.15s ease;
+}
+
+.plan-tab-btn.active {
+  background: var(--primary-bg);
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.plan-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.plan-form-col {
+  width: 420px;
+  flex-shrink: 0;
+  background: var(--s1);
+  border: 1px solid var(--b1);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.plan-form-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--t1);
+  border-bottom: 1px solid var(--b1);
+  padding-bottom: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--t2);
+}
+
+.form-input, .form-select {
+  background: var(--s2);
+  border: 1px solid var(--b2);
+  border-radius: 6px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--t1);
+  font-family: var(--font-main);
+  outline: none;
+}
+
+.form-input:focus, .form-select:focus {
+  border-color: var(--primary);
+}
+
+.form-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* Interactive Material Gate Card */
+.material-gate-box {
+  background: var(--s2);
+  border: 1px solid var(--b1);
+  border-radius: 8px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gate-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gate-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--t1);
+}
+
+.gate-status-pill {
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 4px;
+}
+
+.gate-status-pill.ok {
+  background: var(--success-bg);
+  color: var(--success);
+}
+
+.gate-status-pill.warn {
+  background: var(--warning-bg);
+  color: var(--warning);
+}
+
+.gate-mat-list {
+  font-size: 11px;
+  color: var(--t2);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lead-prompts {
+  background: rgba(0,0,0,0.25);
+  border: 1px dashed rgba(251,191,36,0.3);
+  border-radius: 6px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.plan-results-col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result-card {
+  background: var(--s1);
+  border: 1px solid var(--b1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.result-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--b1);
+  padding-bottom: 14px;
+  margin-bottom: 16px;
+}
+
+.result-metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.metric-box {
+  background: var(--s2);
+  border: 1px solid var(--b1);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.metric-box-lbl {
+  font-size: 11px;
+  color: var(--t3);
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.metric-box-val {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--t1);
+}
+
+.metric-box-sub {
+  font-size: 10.5px;
+  color: var(--t2);
+  margin-top: 2px;
+}
+
+/* Timeline Gantt / Stages */
+.timeline-stages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stage-bar-item {
+  background: var(--s2);
+  border: 1px solid var(--b1);
+  border-radius: 7px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stage-bar-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stage-num-box {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  background: var(--s3);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--t2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage-name-text {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--t1);
+}
+
+.stage-dates-text {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  color: var(--t2);
+}

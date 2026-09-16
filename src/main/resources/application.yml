@@ -1,0 +1,32 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: erp-planning-engine
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/erp_database
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+ 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  legacy-db:
+    url: jdbc:sqlserver://192.168.100.1:1433;databaseName=BTFERPDB;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+    coraba-url: jdbc:sqlserver://192.168.100.1:1433;databaseName=BTFERPDB_CORABA;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+    username: User1
+    password: bfzY7835WCS72M
