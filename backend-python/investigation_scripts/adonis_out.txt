@@ -1,0 +1,11 @@
+Searching for Adonis today...
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M(PARÇA)', 'miqdar': Decimal('43.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L(PARÇA)', 'miqdar': Decimal('43.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL(PARÇA)', 'miqdar': Decimal('86.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL(PARÇA)', 'miqdar': Decimal('86.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL(PARÇA)', 'miqdar': Decimal('43.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL (PARÇA)', 'miqdar': Decimal('43.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M (PARÇA)', 'miqdar': Decimal('43.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL(PARÇA)', 'miqdar': Decimal('86.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL(PARÇA)', 'miqdar': Decimal('86.0000')}
+Form: {'idn': 22378, 'sen_no': '022378', 'tarix': datetime.datetime(2026, 5, 20, 0, 0), 'cname': 'ADONES İÇ GEYİM', 'pname': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L (PARÇA)', 'miqdar': Decimal('43.0000')}

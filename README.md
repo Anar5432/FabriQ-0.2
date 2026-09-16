@@ -1,101 +1,60 @@
-﻿# FabriQ-Spring (Next-Gen Production ERP & Planning Studio)
+﻿# FabriQ 0.2 (Unified Textile ERP & Planning Platform)
 
-FabriQ-Spring is an enterprise-grade Production ERP and Real-Time Planning Engine built with **Java 21** and **Spring Boot 3.3.1**. It manages multi-facility textile manufacturing operations spanning **Workwear (İş geyimləri)**, **Underwear (Alt geyimləri)**, and **Socks (Corab fabriki)**.
-
----
-
-## 🚀 Key Features
-
-### 1. Multi-Database Legacy ERP Synchronization
-- **Dual MSSQL Integration**: 
-  - `BTFERPDB`: Production data, department transfers (`sm_sob_trans`), and stage logs for Workwear & Underwear.
-  - `BTFERPDB_CORABA`: Discrete production tickets (`sm_good_ist`, `sm_good_ist_el`), circular knitting phases (`sm_faza`), and raw yarn stock (`sm_mal_say`) for the Socks factory.
-- **Resilient Fallback & In-Memory Data Initializer**: When legacy databases are offline, auto-initializes realistic mock factory datasets with all 3 production bands and live metrics.
-
-### 2. Intelligent Production Planning Engine
-- **Capacity & Bottleneck Balancing**: Computes daily throughput, cycle times, and operational constraints across sewing, cutting, knitting, and boarding departments.
-- **BOM (Bill of Materials) & Material Allocation**: Verifies fabric, trim, and yarn stock balances (Cotton Ne, Polyamide, Elastane) before releasing orders to the factory floor.
-- **Automated Queue Planning**: Dispatches and sequences sub-orders based on delivery deadlines, available workshop capacity, and worker team assignments.
-
-### 3. Sub-Order Stage Tracking
-- **Workwear & Underwear**: Tracks sub-orders across Design, Material Sourcing, Cutting, Sewing, Ironing/Finishing, and Warehouse dispatch.
-- **Socks**: Tracks sub-orders across Yarn Sourcing (İplik Təchizatı), Knitting (Hörgü - Circular machines), Toe Closing (Rosso linking), Boarding (Forma - Steam heat setting), and Packaging/Finished stock.
-
-### 4. Modular Modern UI Architecture
-- **Vanilla ES6 Architecture**: Pure modular JavaScript without heavyweight bundle overhead:
-  - `config.js`: Central configuration, stage definitions, and endpoints.
-  - `state.js`: Reactive singleton application state store.
-  - `utils.js`: Currency/date formatters, toast notifications, DOM helpers.
-  - `api.js`: Unified REST API client with error handling and request caching.
-  - `dashboard.js`: Stage columns, order cards, search/filter, and category toggles.
-  - `planning.js`: Interactive planning studio, capacity meters, and schedule simulation.
-- **Modular Component CSS**: Organized into `variables.css`, `layout.css`, `components.css`, `dashboard.css`, and `planning.css`.
+This repository contains both the **Spring Boot** and **Python** implementations of the FabriQ Textile Production ERP and Planning Engine. Each implementation is contained in its own dedicated, independent folder.
 
 ---
 
-## 🛠️ Tech Stack
+## 📁 Repository Structure
 
-- **Backend**: Java 21, Spring Boot 3.3.1, Spring Data JPA, Hibernate, Microsoft JDBC Driver
-- **Frontend**: HTML5, Modular CSS3, Vanilla ES6 JavaScript
-- **Build Tool**: Apache Maven (`mvnw`)
-- **Testing**: JUnit 5, Mockito, AssertJ
-
----
-
-## 🚦 Getting Started
-
-### Prerequisites
-- JDK 21 or higher installed
-- Maven (or use the included `./mvnw` wrapper)
-
-### Build & Run
-```bash
-# Clone the repository
-git clone https://github.com/Anar5432/FabriQ-Spring.git
-cd FabriQ-Spring
-
-# Run tests
-./mvnw test
-
-# Start the application
-./mvnw spring-boot:run
 ```
-
-Once started, open your browser and navigate to:
-```
-http://localhost:8080
+FabriQ-0.2/
+├── backend-spring/              # Java 21 & Spring Boot 3.3.1 Implementation
+│   ├── src/main/java/           # REST APIs, JPA Entities, Planning Engine, Legacy MSSQL Sync
+│   ├── src/main/resources/      # application.yml & Modular Web Frontend (css/, js/, index.html)
+│   ├── src/test/java/           # Automated Unit & Mockito Test Suites
+│   ├── pom.xml                  # Maven Dependencies & Plugins
+│   ├── mvnw / mvnw.cmd          # Maven Wrapper
+│   └── README.md                # Spring Boot specific documentation
+│
+└── backend-python/              # Python (FastAPI & Django) Implementation
+    ├── dashboard/               # Planning engine, ERP connector, queries, queue engine
+    ├── socks_dashboard/         # Django configuration & settings
+    ├── static/                  # Python dashboard web assets (app.js, styles.css)
+    ├── docs/                    # Architecture and logic maps
+    ├── Database_Diagrams/       # DBML domain diagrams (sm_goods, sm_sob_trans, etc.)
+    ├── investigation_scripts/   # Factory database exploration and verification scripts
+    ├── main.py                  # FastAPI entry point & material reservation engine
+    ├── manage.py                # Django administrative CLI
+    ├── models.py & schemas.py   # SQLAlchemy domain models & Pydantic schemas
+    ├── requirements.txt         # Python package dependencies
+    ├── Dockerfile               # Container deployment specification
+    └── README.md                # Python backend overview
 ```
 
 ---
 
-## 📂 Project Structure
+## 🚀 Quick Navigation
 
-```
-FabriQ-Spring/
-├── pom.xml
-├── mvnw / mvnw.cmd
-└── src/
-    ├── main/
-    │   ├── java/com/company/erp/
-    │   │   ├── config/             # DataInitializer & App configurations
-    │   │   ├── controller/         # REST Controllers (Orders, Planning, Sync)
-    │   │   ├── dto/                # Data Transfer Objects
-    │   │   ├── modules/
-    │   │   │   ├── catalog/        # Material, ProductType, RecipeBOM
-    │   │   │   ├── dashboard/      # OrderSnapshot, OrderSubItem
-    │   │   │   ├── inventory/      # InventoryBalance
-    │   │   │   └── planning/       # Baselines, Reserves, Teams
-    │   │   ├── repository/         # Spring Data JPA Repositories
-    │   │   └── service/            # PlanningService, LegacyService
-    │   └── resources/
-    │       ├── application.yml     # Database & Server configuration
-    │       └── static/             # Modular Web Frontend
-    │           ├── index.html
-    │           ├── css/            # variables, layout, components, dashboard, planning
-    │           └── js/             # config, state, utils, api, dashboard, planning, app
-    └── test/
-        └── java/com/company/erp/   # Automated Unit & Integration tests
-```
+### 1. Spring Boot Version (`/backend-spring`)
+* **Tech Stack:** Java 21, Spring Boot 3.3.1, Spring Data JPA, Microsoft JDBC Driver, JUnit 5.
+* **Frontend:** Modern Vanilla ES6 modules (`config.js`, `state.js`, `api.js`, `dashboard.js`, `planning.js`) and component CSS.
+* **Features:** Dual MSSQL connection (`BTFERPDB` + `BTFERPDB_CORABA`), in-memory simulation engine, capacity constraint planning, BOM stock verification, and sub-order lifecycle tracking across Workwear, Underwear, and Socks.
+* **To Run:**
+  ```bash
+  cd backend-spring
+  ./mvnw spring-boot:run
+  ```
+
+### 2. Python Version (`/backend-python`)
+* **Tech Stack:** Python 3.10+, FastAPI, Django, SQLAlchemy, PyMSSQL, Uvicorn.
+* **Frontend:** Lightweight responsive dashboard (`static/`).
+* **Features:** Raw legacy database queries, ERP queue sequencing, material reservations, and throughput analytics.
+* **To Run:**
+  ```bash
+  cd backend-python
+  pip install -r requirements.txt
+  uvicorn main:app --reload --port 8000
+  ```
 
 ---
 

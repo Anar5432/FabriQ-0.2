@@ -1,0 +1,2 @@
+sm_kmd: [{'kontra': '195', 'yekun': Decimal('4413.00000000')}]
+Error bank: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'kontra'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'yekun'. (207)")

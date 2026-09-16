@@ -1,0 +1,1994 @@
+Order: TƏCİLİ YARDIM AVTOBAZASI - HM-TƏCİLİ TİBBİ YARDIM KÖYNƏK U\Q AĞ R-50 (40.0000 pcs)
+Readiness: 88%
+  -> Missing: YAĞMURLUQ-TAYTEST 100% POLYESTER TÜND SARI | Need: 54.800000000000004 | Missing: 47.300000000000004
+
+Order: TƏCİLİ YARDIM AVTOBAZASI - HM-TƏCİLİ TİBBİ YARDIM KÖYNƏK Q\Q AĞ R-50 (40.0000 pcs)
+Readiness: 88%
+  -> Missing: YAĞMURLUQ-TAYTEST 100% POLYESTER TÜND SARI | Need: 54.800000000000004 | Missing: 54.800000000000004
+
+Order: BAZA SƏNAYE KOMBİNATI - HM-BAZA SƏNAYE KOMBİNATI GÖDƏKCƏ QARA R-36 (50.0000 pcs)
+Readiness: 91%
+  -> Missing: MİKROPOLESTER PARÇA 70/70 XARDAL | Need: 44.5 | Missing: 39.61
+
+Order: BAZA SƏNAYE KOMBİNATI - HM-BAZA SƏNAYE KOMBİNATI GÖDƏKCƏ QARA R-38 (50.0000 pcs)
+Readiness: 91%
+  -> Missing: MİKROPOLESTER PARÇA 70/70 XARDAL | Need: 44.5 | Missing: 44.5
+
+Order: BAZA SƏNAYE KOMBİNATI - HM-BAZA SƏNAYE KOMBİNATI GÖDƏKCƏ PƏMBƏ R-36 (30.0000 pcs)
+Readiness: 91%
+  -> Missing: MİKROPOLESTER PARÇA 70/70 XARDAL | Need: 26.7 | Missing: 26.7
+
+Order: BAZA SƏNAYE KOMBİNATI - HM-BAZA SƏNAYE KOMBİNATI GÖDƏKCƏ PƏMBƏ R-38 (5.0000 pcs)
+Readiness: 91%
+  -> Missing: MİKROPOLESTER PARÇA 70/70 XARDAL | Need: 4.45 | Missing: 4.45
+
+Order: BAZA SƏNAYE KOMBİNATI - HM-BAZA SƏNAYE KOMBİNATI GÖDƏKCƏ PƏMBƏ R-40 (12.0000 pcs)
+Readiness: 91%
+  -> Missing: MİKROPOLESTER PARÇA 70/70 XARDAL | Need: 10.68 | Missing: 10.68
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-50 (76.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 201.55200000000002 | Missing: 121.1720000000015
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-50 (16.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 42.432 | Missing: 42.432
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-50 (16.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 42.432 | Missing: 42.432
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-52 (45.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 119.34 | Missing: 119.34
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-52 (45.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 119.34 | Missing: 119.34
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-54 (27.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 71.604 | Missing: 71.604
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-48 (15.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 39.78 | Missing: 39.78
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-48 (15.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 39.78 | Missing: 39.78
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-50 (1.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-50 (1.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-54 (10.0000 pcs)
+Readiness: 88%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 26.520000000000003 | Missing: 26.520000000000003
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-50 (47.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 124.644 | Missing: 124.644
+  -> Missing: İSTEM TÜND GÖY | Need: 64.86 | Missing: 5.62000000000171
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-50 (53.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 140.556 | Missing: 140.556
+  -> Missing: İSTEM TÜND GÖY | Need: 73.14 | Missing: 73.14
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-52 (52.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 137.904 | Missing: 137.904
+  -> Missing: İSTEM TÜND GÖY | Need: 71.75999999999999 | Missing: 71.75999999999999
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-52 (42.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 111.384 | Missing: 111.384
+  -> Missing: İSTEM TÜND GÖY | Need: 57.959999999999994 | Missing: 57.959999999999994
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-46 (45.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 119.34 | Missing: 119.34
+  -> Missing: İSTEM TÜND GÖY | Need: 62.099999999999994 | Missing: 62.099999999999994
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-46 (49.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 129.948 | Missing: 129.948
+  -> Missing: İSTEM TÜND GÖY | Need: 67.61999999999999 | Missing: 67.61999999999999
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR GÖDƏKÇƏ QADIN R-48 (13.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 34.476 | Missing: 34.476
+  -> Missing: İSTEM TÜND GÖY | Need: 17.939999999999998 | Missing: 17.939999999999998
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR GÖDƏKÇƏ QADIN R-52 (2.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 5.304 | Missing: 5.304
+  -> Missing: İSTEM TÜND GÖY | Need: 2.76 | Missing: 2.76
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR GÖDƏKÇƏ QADIN R-54 (2.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 5.304 | Missing: 5.304
+  -> Missing: İSTEM TÜND GÖY | Need: 2.76 | Missing: 2.76
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-48 (10.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 26.520000000000003 | Missing: 26.520000000000003
+  -> Missing: İSTEM TÜND GÖY | Need: 13.799999999999999 | Missing: 13.799999999999999
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-46 (4.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 10.608 | Missing: 10.608
+  -> Missing: İSTEM TÜND GÖY | Need: 5.52 | Missing: 5.52
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-54 (2.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 5.304 | Missing: 5.304
+  -> Missing: İSTEM TÜND GÖY | Need: 2.76 | Missing: 2.76
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-52 (10.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 26.520000000000003 | Missing: 26.520000000000003
+  -> Missing: İSTEM TÜND GÖY | Need: 13.799999999999999 | Missing: 13.799999999999999
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-50 (7.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 18.564 | Missing: 18.564
+  -> Missing: İSTEM TÜND GÖY | Need: 9.66 | Missing: 9.66
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR GÖDƏKÇƏ QADIN R-50 (1.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+  -> Missing: İSTEM TÜND GÖY | Need: 1.38 | Missing: 1.38
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR XALAT-ŞALVAR R-52 (30.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 79.56 | Missing: 79.56
+  -> Missing: İSTEM TÜND GÖY | Need: 41.4 | Missing: 41.4
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR XALAT-ŞALVAR R-50 (21.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 55.692 | Missing: 55.692
+  -> Missing: İSTEM TÜND GÖY | Need: 28.979999999999997 | Missing: 28.979999999999997
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-48 (1.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+  -> Missing: İSTEM TÜND GÖY | Need: 1.38 | Missing: 1.38
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-48 (1.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+  -> Missing: İSTEM TÜND GÖY | Need: 1.38 | Missing: 1.38
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR PENCƏK QADIN R-50 (1.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+  -> Missing: İSTEM TÜND GÖY | Need: 1.38 | Missing: 1.38
+
+Order: SOSİAL XİDMƏTLƏR AGENTLİYİ (DOST) - HM-SOSİAL XİDMƏTLƏR ƏTƏK QADIN R-50 (1.0000 pcs)
+Readiness: 77%
+  -> Missing: ALPAKA BƏNÖVŞƏYİ | Need: 2.652 | Missing: 2.652
+  -> Missing: İSTEM TÜND GÖY | Need: 1.38 | Missing: 1.38
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (184.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 29.992 | Missing: 15.496000000000091
+
+Order: MAĞAZA NAĞD SATIŞ - HM-MAYKA ALPAR BOZ R-S (4.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.652 | Missing: 0.652
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (285.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 46.455 | Missing: 46.455
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (298.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 48.574000000000005 | Missing: 48.574000000000005
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (6.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.978 | Missing: 0.978
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (288.0000 pcs)
+Readiness: 97%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 46.944 | Missing: 46.944
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (822.0000 pcs)
+Readiness: 94%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 133.98600000000002 | Missing: 133.98600000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 80.556 | Missing: 72.12999999999994
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (912.0000 pcs)
+Readiness: 94%
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 148.656 | Missing: 148.656
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 89.376 | Missing: 89.376
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (900.0000 pcs)
+Readiness: 91%
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 117.0 | Missing: 3.0600000000000023
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 146.70000000000002 | Missing: 146.70000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 88.2 | Missing: 88.2
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (822.0000 pcs)
+Readiness: 91%
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 106.86 | Missing: 106.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 133.98600000000002 | Missing: 133.98600000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 80.556 | Missing: 80.556
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-2XL (822.0000 pcs)
+Readiness: 91%
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 106.86 | Missing: 106.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 133.98600000000002 | Missing: 133.98600000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 80.556 | Missing: 80.556
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-XL (924.0000 pcs)
+Readiness: 91%
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 120.12 | Missing: 120.12
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 150.612 | Missing: 150.612
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 90.552 | Missing: 90.552
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-L (936.0000 pcs)
+Readiness: 91%
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 121.68 | Missing: 121.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 152.568 | Missing: 152.568
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 91.72800000000001 | Missing: 91.72800000000001
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-M (822.0000 pcs)
+Readiness: 89%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 57.540000000000006 | Missing: 11.810000000000073
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 106.86 | Missing: 106.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 133.98600000000002 | Missing: 133.98600000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 80.556 | Missing: 80.556
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-2XL (3.0000 pcs)
+Readiness: 89%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.21000000000000002 | Missing: 0.21000000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.39 | Missing: 0.39
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.489 | Missing: 0.489
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.29400000000000004 | Missing: 0.29400000000000004
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-L (4.0000 pcs)
+Readiness: 89%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.28 | Missing: 0.28
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.52 | Missing: 0.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.652 | Missing: 0.652
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.392 | Missing: 0.392
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (522.0000 pcs)
+Readiness: 89%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 36.540000000000006 | Missing: 36.540000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 67.86 | Missing: 67.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 85.086 | Missing: 85.086
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 51.156 | Missing: 51.156
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (324.0000 pcs)
+Readiness: 89%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 22.680000000000003 | Missing: 22.680000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 42.120000000000005 | Missing: 42.120000000000005
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 52.812000000000005 | Missing: 52.812000000000005
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 31.752000000000002 | Missing: 31.752000000000002
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (636.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 44.52 | Missing: 44.52
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 44.52 | Missing: 1.019999999999989
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 82.68 | Missing: 82.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 103.668 | Missing: 103.668
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 62.328 | Missing: 62.328
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (522.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 36.540000000000006 | Missing: 36.540000000000006
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 36.540000000000006 | Missing: 36.540000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 67.86 | Missing: 67.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 85.086 | Missing: 85.086
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 51.156 | Missing: 51.156
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (594.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 41.580000000000005 | Missing: 41.580000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 41.580000000000005 | Missing: 41.580000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 77.22 | Missing: 77.22
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 96.822 | Missing: 96.822
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 58.212 | Missing: 58.212
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-S (1032.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 72.24000000000001 | Missing: 72.24000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 72.24000000000001 | Missing: 72.24000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 134.16 | Missing: 134.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 168.216 | Missing: 168.216
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 101.13600000000001 | Missing: 101.13600000000001
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-M (1110.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 77.7 | Missing: 77.7
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 77.7 | Missing: 77.7
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 144.3 | Missing: 144.3
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 180.93 | Missing: 180.93
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 108.78 | Missing: 108.78
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-L (882.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 61.74000000000001 | Missing: 61.74000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 61.74000000000001 | Missing: 61.74000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 114.66000000000001 | Missing: 114.66000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 143.766 | Missing: 143.766
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 86.436 | Missing: 86.436
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-XL (174.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 12.180000000000001 | Missing: 12.180000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 12.180000000000001 | Missing: 12.180000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 22.62 | Missing: 22.62
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 28.362000000000002 | Missing: 28.362000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 17.052 | Missing: 17.052
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-2XL (582.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 40.74 | Missing: 40.74
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 40.74 | Missing: 40.74
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 75.66 | Missing: 75.66
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 94.866 | Missing: 94.866
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 57.036 | Missing: 57.036
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-3XL (84.0000 pcs)
+Readiness: 86%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 5.880000000000001 | Missing: 5.880000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 5.880000000000001 | Missing: 5.880000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 10.92 | Missing: 10.92
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 13.692 | Missing: 13.692
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 8.232000000000001 | Missing: 8.232000000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (432.0000 pcs)
+Readiness: 83%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 30.240000000000002 | Missing: 30.240000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 30.240000000000002 | Missing: 30.240000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 40.176 | Missing: 26.81200000000035
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 56.160000000000004 | Missing: 56.160000000000004
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 70.416 | Missing: 70.416
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 42.336 | Missing: 42.336
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (24.0000 pcs)
+Readiness: 83%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 1.6800000000000002 | Missing: 1.6800000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 1.6800000000000002 | Missing: 1.6800000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 2.232 | Missing: 2.232
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 3.12 | Missing: 3.12
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 3.912 | Missing: 3.912
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 2.3520000000000003 | Missing: 2.3520000000000003
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (732.0000 pcs)
+Readiness: 83%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 51.24 | Missing: 51.24
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 51.24 | Missing: 51.24
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 68.076 | Missing: 68.076
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 95.16 | Missing: 95.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 119.316 | Missing: 119.316
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 71.736 | Missing: 71.736
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (960.0000 pcs)
+Readiness: 78%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 67.2 | Missing: 67.2
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 67.2 | Missing: 67.2
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 89.28 | Missing: 89.28
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 93.12 | Missing: 91.20000000000026
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 117.12 | Missing: 30.30000000000055
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 124.80000000000001 | Missing: 124.80000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 156.48000000000002 | Missing: 156.48000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 94.08 | Missing: 94.08
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (882.0000 pcs)
+Readiness: 75%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 61.74000000000001 | Missing: 61.74000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 61.74000000000001 | Missing: 61.74000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 82.026 | Missing: 82.026
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 85.554 | Missing: 85.554
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 103.194 | Missing: 100.59400000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 107.604 | Missing: 107.604
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 114.66000000000001 | Missing: 114.66000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 143.766 | Missing: 143.766
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 86.436 | Missing: 86.436
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-2XL (1.0000 pcs)
+Readiness: 75%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.07 | Missing: 0.07
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.07 | Missing: 0.07
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.093 | Missing: 0.093
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.097 | Missing: 0.097
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.117 | Missing: 0.117
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.122 | Missing: 0.122
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.13 | Missing: 0.13
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.163 | Missing: 0.163
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.098 | Missing: 0.098
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-L (853.0000 pcs)
+Readiness: 70%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 59.71000000000001 | Missing: 59.71000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 59.71000000000001 | Missing: 59.71000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 79.329 | Missing: 79.329
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 82.741 | Missing: 82.741
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 92.977 | Missing: 64.17399999999972
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 99.801 | Missing: 99.801
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 104.066 | Missing: 104.066
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 81.035 | Missing: 54.31999999999999
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 110.89 | Missing: 110.89
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 139.03900000000002 | Missing: 139.03900000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 83.59400000000001 | Missing: 83.59400000000001
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-S (144.0000 pcs)
+Readiness: 70%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 10.080000000000002 | Missing: 10.080000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 10.080000000000002 | Missing: 10.080000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 13.392 | Missing: 13.392
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 13.968 | Missing: 13.968
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 15.696 | Missing: 15.696
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 16.848000000000003 | Missing: 16.848000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 17.567999999999998 | Missing: 17.567999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 13.68 | Missing: 13.68
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 18.72 | Missing: 18.72
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 23.472 | Missing: 23.472
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 14.112 | Missing: 14.112
+
+Order: PİONEER - HM-MAYKA ALPAR BOZ R-2XL (261.0000 pcs)
+Readiness: 70%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 18.270000000000003 | Missing: 18.270000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 18.270000000000003 | Missing: 18.270000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 24.273 | Missing: 24.273
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 25.317 | Missing: 25.317
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 28.449 | Missing: 28.449
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 30.537000000000003 | Missing: 30.537000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 31.842 | Missing: 31.842
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 24.795 | Missing: 24.795
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 33.93 | Missing: 33.93
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 42.543 | Missing: 42.543
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 25.578 | Missing: 25.578
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (2.0000 pcs)
+Readiness: 70%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.14 | Missing: 0.14
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.14 | Missing: 0.14
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.186 | Missing: 0.186
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.194 | Missing: 0.194
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.218 | Missing: 0.218
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.234 | Missing: 0.234
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.244 | Missing: 0.244
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.19 | Missing: 0.19
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.26 | Missing: 0.26
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.326 | Missing: 0.326
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.196 | Missing: 0.196
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (229.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 16.03 | Missing: 16.03
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 16.03 | Missing: 16.03
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 21.297 | Missing: 21.297
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 22.213 | Missing: 22.213
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 24.961 | Missing: 24.961
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 26.793000000000003 | Missing: 26.793000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 27.938 | Missing: 27.938
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 21.755 | Missing: 21.755
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 27.48 | Missing: 10.189999999999877
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 29.77 | Missing: 29.77
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 37.327 | Missing: 37.327
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 22.442 | Missing: 22.442
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (753.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 52.71000000000001 | Missing: 52.71000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 52.71000000000001 | Missing: 52.71000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 70.029 | Missing: 70.029
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 73.041 | Missing: 73.041
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 82.077 | Missing: 82.077
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 88.101 | Missing: 88.101
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 91.866 | Missing: 91.866
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 71.535 | Missing: 71.535
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 90.36 | Missing: 90.36
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 97.89 | Missing: 97.89
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 122.739 | Missing: 122.739
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 73.794 | Missing: 73.794
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (434.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 30.380000000000003 | Missing: 30.380000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 30.380000000000003 | Missing: 30.380000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 40.362 | Missing: 40.362
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 42.098 | Missing: 42.098
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 47.306 | Missing: 47.306
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 50.778000000000006 | Missing: 50.778000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 52.948 | Missing: 52.948
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 41.230000000000004 | Missing: 41.230000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 52.08 | Missing: 52.08
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 56.42 | Missing: 56.42
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 70.742 | Missing: 70.742
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 42.532000000000004 | Missing: 42.532000000000004
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (260.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 18.200000000000003 | Missing: 18.200000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 18.200000000000003 | Missing: 18.200000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 24.18 | Missing: 24.18
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 25.220000000000002 | Missing: 25.220000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 28.34 | Missing: 28.34
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 30.42 | Missing: 30.42
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 31.72 | Missing: 31.72
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 24.7 | Missing: 24.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 31.2 | Missing: 31.2
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 33.800000000000004 | Missing: 33.800000000000004
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 42.38 | Missing: 42.38
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 25.48 | Missing: 25.48
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (266.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 18.62 | Missing: 18.62
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 18.62 | Missing: 18.62
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 24.738 | Missing: 24.738
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 25.802 | Missing: 25.802
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 28.994 | Missing: 28.994
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 31.122000000000003 | Missing: 31.122000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 32.452 | Missing: 32.452
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 25.27 | Missing: 25.27
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 31.919999999999998 | Missing: 31.919999999999998
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 34.58 | Missing: 34.58
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 43.358000000000004 | Missing: 43.358000000000004
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 26.068 | Missing: 26.068
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (451.0000 pcs)
+Readiness: 67%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 31.570000000000004 | Missing: 31.570000000000004
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 31.570000000000004 | Missing: 31.570000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 41.943 | Missing: 41.943
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 43.747 | Missing: 43.747
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 49.159 | Missing: 49.159
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 52.767 | Missing: 52.767
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 55.022 | Missing: 55.022
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 42.845 | Missing: 42.845
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 54.12 | Missing: 54.12
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 58.63 | Missing: 58.63
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 73.513 | Missing: 73.513
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 44.198 | Missing: 44.198
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (1039.0000 pcs)
+Readiness: 64%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 72.73 | Missing: 72.73
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 72.73 | Missing: 72.73
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 96.627 | Missing: 96.627
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 100.783 | Missing: 100.783
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 113.251 | Missing: 113.251
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 121.563 | Missing: 121.563
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 126.758 | Missing: 126.758
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 98.705 | Missing: 98.705
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 97.666 | Missing: 62.89999999999899
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 124.67999999999999 | Missing: 124.67999999999999
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 135.07 | Missing: 135.07
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 169.357 | Missing: 169.357
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 101.822 | Missing: 101.822
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (263.0000 pcs)
+Readiness: 64%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 18.41 | Missing: 18.41
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 18.41 | Missing: 18.41
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 24.459 | Missing: 24.459
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 25.511 | Missing: 25.511
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 28.667 | Missing: 28.667
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 30.771 | Missing: 30.771
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 32.086 | Missing: 32.086
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 24.985 | Missing: 24.985
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 24.722 | Missing: 24.722
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 31.56 | Missing: 31.56
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 34.19 | Missing: 34.19
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 42.869 | Missing: 42.869
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 25.774 | Missing: 25.774
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (434.0000 pcs)
+Readiness: 62%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 30.380000000000003 | Missing: 30.380000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 30.380000000000003 | Missing: 30.380000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 40.362 | Missing: 40.362
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 42.098 | Missing: 42.098
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 47.306 | Missing: 47.306
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 50.778000000000006 | Missing: 50.778000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 52.948 | Missing: 52.948
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 41.230000000000004 | Missing: 41.230000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 40.796 | Missing: 40.796
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 43.400000000000006 | Missing: 18.950000000001996
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 52.08 | Missing: 52.08
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 56.42 | Missing: 56.42
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 70.742 | Missing: 70.742
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 42.532000000000004 | Missing: 42.532000000000004
+
+Order: HƏDİYYƏ VƏ XEYRİYYƏ - HM-MAYKA ALPAR BOZ R-XL (194.0000 pcs)
+Readiness: 62%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 13.580000000000002 | Missing: 13.580000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 13.580000000000002 | Missing: 13.580000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 18.042 | Missing: 18.042
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 18.818 | Missing: 18.818
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 21.146 | Missing: 21.146
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 22.698 | Missing: 22.698
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 23.668 | Missing: 23.668
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 18.43 | Missing: 18.43
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 18.236 | Missing: 18.236
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 19.400000000000002 | Missing: 19.400000000000002
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 23.279999999999998 | Missing: 23.279999999999998
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 25.220000000000002 | Missing: 25.220000000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 31.622 | Missing: 31.622
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 19.012 | Missing: 19.012
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (222.0000 pcs)
+Readiness: 62%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 15.540000000000001 | Missing: 15.540000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 15.540000000000001 | Missing: 15.540000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 20.646 | Missing: 20.646
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 21.534 | Missing: 21.534
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 24.198 | Missing: 24.198
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 25.974 | Missing: 25.974
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 27.084 | Missing: 27.084
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 21.09 | Missing: 21.09
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 20.868 | Missing: 20.868
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 22.200000000000003 | Missing: 22.200000000000003
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 26.64 | Missing: 26.64
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 28.86 | Missing: 28.86
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 36.186 | Missing: 36.186
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 21.756 | Missing: 21.756
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (537.0000 pcs)
+Readiness: 54%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 37.59 | Missing: 37.59
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 37.59 | Missing: 37.59
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 49.941 | Missing: 49.941
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 52.089 | Missing: 52.089
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 58.533 | Missing: 58.533
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 62.829 | Missing: 62.829
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 65.514 | Missing: 65.514
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 51.015 | Missing: 51.015
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 50.478 | Missing: 50.478
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 53.7 | Missing: 53.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 64.44 | Missing: 64.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 60.144 | Missing: 55.350000000000875
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 63.903 | Missing: 14.724999999999909
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 73.03200000000001 | Missing: 2.000000000000469
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 69.81 | Missing: 69.81
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 87.531 | Missing: 87.531
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 52.626000000000005 | Missing: 52.626000000000005
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (188.0000 pcs)
+Readiness: 54%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 17.483999999999998 | Missing: 17.483999999999998
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 18.236 | Missing: 18.236
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 20.492 | Missing: 20.492
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 21.996000000000002 | Missing: 21.996000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 22.936 | Missing: 22.936
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 17.86 | Missing: 17.86
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 17.672 | Missing: 17.672
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 18.8 | Missing: 18.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 22.56 | Missing: 22.56
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 21.056 | Missing: 21.056
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 22.372 | Missing: 22.372
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 25.568 | Missing: 25.568
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 24.44 | Missing: 24.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 30.644000000000002 | Missing: 30.644000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 18.424 | Missing: 18.424
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (96.0000 pcs)
+Readiness: 54%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 6.720000000000001 | Missing: 6.720000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 6.720000000000001 | Missing: 6.720000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 8.928 | Missing: 8.928
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 9.312000000000001 | Missing: 9.312000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 10.464 | Missing: 10.464
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 11.232000000000001 | Missing: 11.232000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 11.712 | Missing: 11.712
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 9.120000000000001 | Missing: 9.120000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 9.024000000000001 | Missing: 9.024000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 9.600000000000001 | Missing: 9.600000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 11.52 | Missing: 11.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 10.752 | Missing: 10.752
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 11.424 | Missing: 11.424
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 13.056000000000001 | Missing: 13.056000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 12.48 | Missing: 12.48
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 15.648 | Missing: 15.648
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 9.408000000000001 | Missing: 9.408000000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (387.0000 pcs)
+Readiness: 51%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 27.090000000000003 | Missing: 27.090000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 27.090000000000003 | Missing: 27.090000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 35.991 | Missing: 35.991
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 37.539 | Missing: 37.539
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 42.183 | Missing: 42.183
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 45.279 | Missing: 45.279
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 47.214 | Missing: 47.214
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 36.765 | Missing: 36.765
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 33.669 | Missing: 19.402000000000314
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 36.378 | Missing: 36.378
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 38.7 | Missing: 38.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 46.44 | Missing: 46.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 43.344 | Missing: 43.344
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 46.053 | Missing: 46.053
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 52.632000000000005 | Missing: 52.632000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 50.31 | Missing: 50.31
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 63.081 | Missing: 63.081
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 37.926 | Missing: 37.926
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (150.0000 pcs)
+Readiness: 51%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 10.500000000000002 | Missing: 10.500000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 10.500000000000002 | Missing: 10.500000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 13.95 | Missing: 13.95
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 14.55 | Missing: 14.55
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 16.35 | Missing: 16.35
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 17.55 | Missing: 17.55
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 18.3 | Missing: 18.3
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 14.25 | Missing: 14.25
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 13.049999999999999 | Missing: 13.049999999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 14.1 | Missing: 14.1
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 15.0 | Missing: 15.0
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 18.0 | Missing: 18.0
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 16.8 | Missing: 16.8
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 17.849999999999998 | Missing: 17.849999999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 20.400000000000002 | Missing: 20.400000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 19.5 | Missing: 19.5
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 24.45 | Missing: 24.45
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 14.700000000000001 | Missing: 14.700000000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (300.0000 pcs)
+Readiness: 51%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 21.000000000000004 | Missing: 21.000000000000004
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 21.000000000000004 | Missing: 21.000000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 27.9 | Missing: 27.9
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 29.1 | Missing: 29.1
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 32.7 | Missing: 32.7
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 35.1 | Missing: 35.1
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 36.6 | Missing: 36.6
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 28.5 | Missing: 28.5
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 26.099999999999998 | Missing: 26.099999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 28.2 | Missing: 28.2
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 30.0 | Missing: 30.0
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 36.0 | Missing: 36.0
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 33.6 | Missing: 33.6
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 35.699999999999996 | Missing: 35.699999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 40.800000000000004 | Missing: 40.800000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 39.0 | Missing: 39.0
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 48.9 | Missing: 48.9
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 29.400000000000002 | Missing: 29.400000000000002
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (537.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 37.59 | Missing: 37.59
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 37.59 | Missing: 37.59
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 49.941 | Missing: 49.941
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 52.089 | Missing: 52.089
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 58.533 | Missing: 58.533
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 62.829 | Missing: 62.829
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 65.514 | Missing: 65.514
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 51.015 | Missing: 51.015
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 46.718999999999994 | Missing: 46.718999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 50.478 | Missing: 50.478
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 53.7 | Missing: 53.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 64.44 | Missing: 64.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 60.144 | Missing: 60.144
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 63.903 | Missing: 63.903
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 73.03200000000001 | Missing: 73.03200000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 71.958 | Missing: 60.62200000000151
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 69.81 | Missing: 69.81
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 87.531 | Missing: 87.531
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 52.626000000000005 | Missing: 52.626000000000005
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (188.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 17.483999999999998 | Missing: 17.483999999999998
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 18.236 | Missing: 18.236
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 20.492 | Missing: 20.492
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 21.996000000000002 | Missing: 21.996000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 22.936 | Missing: 22.936
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 17.86 | Missing: 17.86
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 16.355999999999998 | Missing: 16.355999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 17.672 | Missing: 17.672
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 18.8 | Missing: 18.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 22.56 | Missing: 22.56
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 21.056 | Missing: 21.056
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 22.372 | Missing: 22.372
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 25.568 | Missing: 25.568
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 25.192 | Missing: 25.192
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 24.44 | Missing: 24.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 30.644000000000002 | Missing: 30.644000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 18.424 | Missing: 18.424
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (138.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 9.66 | Missing: 9.66
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 9.66 | Missing: 9.66
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 12.834 | Missing: 12.834
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 13.386000000000001 | Missing: 13.386000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 15.042 | Missing: 15.042
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 16.146 | Missing: 16.146
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 16.836 | Missing: 16.836
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 13.11 | Missing: 13.11
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 12.005999999999998 | Missing: 12.005999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 12.972 | Missing: 12.972
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 13.8 | Missing: 13.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 16.56 | Missing: 16.56
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 15.456 | Missing: 15.456
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 16.422 | Missing: 16.422
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 18.768 | Missing: 18.768
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 18.492 | Missing: 18.492
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 17.94 | Missing: 17.94
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 22.494 | Missing: 22.494
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 13.524000000000001 | Missing: 13.524000000000001
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-L (3.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.21000000000000002 | Missing: 0.21000000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.21000000000000002 | Missing: 0.21000000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.279 | Missing: 0.279
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.29100000000000004 | Missing: 0.29100000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.327 | Missing: 0.327
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.35100000000000003 | Missing: 0.35100000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.366 | Missing: 0.366
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.28500000000000003 | Missing: 0.28500000000000003
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.261 | Missing: 0.261
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.28200000000000003 | Missing: 0.28200000000000003
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.30000000000000004 | Missing: 0.30000000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.36 | Missing: 0.36
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.336 | Missing: 0.336
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.357 | Missing: 0.357
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.40800000000000003 | Missing: 0.40800000000000003
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.402 | Missing: 0.402
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.39 | Missing: 0.39
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.489 | Missing: 0.489
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.29400000000000004 | Missing: 0.29400000000000004
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-M (7.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.651 | Missing: 0.651
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.679 | Missing: 0.679
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.763 | Missing: 0.763
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.8190000000000001 | Missing: 0.8190000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.854 | Missing: 0.854
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.665 | Missing: 0.665
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.609 | Missing: 0.609
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.658 | Missing: 0.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.7000000000000001 | Missing: 0.7000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.84 | Missing: 0.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.784 | Missing: 0.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.833 | Missing: 0.833
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.9380000000000001 | Missing: 0.9380000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.91 | Missing: 0.91
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 1.141 | Missing: 1.141
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.686 | Missing: 0.686
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-M (330.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 23.1 | Missing: 23.1
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 23.1 | Missing: 23.1
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 30.69 | Missing: 30.69
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 32.01 | Missing: 32.01
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 35.97 | Missing: 35.97
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 38.61 | Missing: 38.61
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 40.26 | Missing: 40.26
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 31.35 | Missing: 31.35
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 28.709999999999997 | Missing: 28.709999999999997
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 31.02 | Missing: 31.02
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 33.0 | Missing: 33.0
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 39.6 | Missing: 39.6
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 36.96 | Missing: 36.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 39.269999999999996 | Missing: 39.269999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 44.88 | Missing: 44.88
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 44.220000000000006 | Missing: 44.220000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 42.9 | Missing: 42.9
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 53.79 | Missing: 53.79
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 32.34 | Missing: 32.34
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-L (537.0000 pcs)
+Readiness: 48%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 37.59 | Missing: 37.59
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 37.59 | Missing: 37.59
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 49.941 | Missing: 49.941
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 52.089 | Missing: 52.089
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 58.533 | Missing: 58.533
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 62.829 | Missing: 62.829
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 65.514 | Missing: 65.514
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 51.015 | Missing: 51.015
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 46.718999999999994 | Missing: 46.718999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 50.478 | Missing: 50.478
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 53.7 | Missing: 53.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 64.44 | Missing: 64.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 60.144 | Missing: 60.144
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 63.903 | Missing: 63.903
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 73.03200000000001 | Missing: 73.03200000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 71.958 | Missing: 71.958
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 69.81 | Missing: 69.81
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 87.531 | Missing: 87.531
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 52.626000000000005 | Missing: 52.626000000000005
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-XL (344.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 24.080000000000002 | Missing: 24.080000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 24.080000000000002 | Missing: 24.080000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 31.992 | Missing: 31.992
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 33.368 | Missing: 33.368
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 37.496 | Missing: 37.496
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 40.248000000000005 | Missing: 40.248000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 41.967999999999996 | Missing: 41.967999999999996
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 32.68 | Missing: 32.68
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 29.927999999999997 | Missing: 29.927999999999997
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 32.336 | Missing: 32.336
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 34.4 | Missing: 34.4
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 41.28 | Missing: 41.28
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 36.12 | Missing: 30.64999999999973
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 38.528 | Missing: 38.528
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 40.936 | Missing: 40.936
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 46.784000000000006 | Missing: 46.784000000000006
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 46.096000000000004 | Missing: 46.096000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 44.72 | Missing: 44.72
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 56.072 | Missing: 56.072
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 33.712 | Missing: 33.712
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-2XL (192.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 13.440000000000001 | Missing: 13.440000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 13.440000000000001 | Missing: 13.440000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 17.856 | Missing: 17.856
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 18.624000000000002 | Missing: 18.624000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 20.928 | Missing: 20.928
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 22.464000000000002 | Missing: 22.464000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 23.424 | Missing: 23.424
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 18.240000000000002 | Missing: 18.240000000000002
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 16.704 | Missing: 16.704
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 18.048000000000002 | Missing: 18.048000000000002
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 19.200000000000003 | Missing: 19.200000000000003
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 23.04 | Missing: 23.04
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 20.16 | Missing: 20.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 21.504 | Missing: 21.504
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 22.848 | Missing: 22.848
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 26.112000000000002 | Missing: 26.112000000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 25.728 | Missing: 25.728
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 24.96 | Missing: 24.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 31.296 | Missing: 31.296
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 18.816000000000003 | Missing: 18.816000000000003
+
+Order: ƏMƏKDAŞLAR - HM-MAYKA ALPAR BOZ R-M (6.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.42000000000000004 | Missing: 0.42000000000000004
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.42000000000000004 | Missing: 0.42000000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.558 | Missing: 0.558
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.5820000000000001 | Missing: 0.5820000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.654 | Missing: 0.654
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.7020000000000001 | Missing: 0.7020000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.732 | Missing: 0.732
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.5700000000000001 | Missing: 0.5700000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.522 | Missing: 0.522
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.5640000000000001 | Missing: 0.5640000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.6000000000000001 | Missing: 0.6000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.72 | Missing: 0.72
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.63 | Missing: 0.63
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.672 | Missing: 0.672
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.714 | Missing: 0.714
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.8160000000000001 | Missing: 0.8160000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.804 | Missing: 0.804
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.78 | Missing: 0.78
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.978 | Missing: 0.978
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.5880000000000001 | Missing: 0.5880000000000001
+
+Order: MAĞAZA NAĞD SATIŞ - HM-MAYKA ALPAR BOZ R-2XL (5.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.35000000000000003 | Missing: 0.35000000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.35000000000000003 | Missing: 0.35000000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.46499999999999997 | Missing: 0.46499999999999997
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.485 | Missing: 0.485
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.545 | Missing: 0.545
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.5850000000000001 | Missing: 0.5850000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.61 | Missing: 0.61
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.475 | Missing: 0.475
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.43499999999999994 | Missing: 0.43499999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.47 | Missing: 0.47
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.5 | Missing: 0.5
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.6 | Missing: 0.6
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.525 | Missing: 0.525
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.56 | Missing: 0.56
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.595 | Missing: 0.595
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.68 | Missing: 0.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.67 | Missing: 0.67
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.65 | Missing: 0.65
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.8150000000000001 | Missing: 0.8150000000000001
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.49 | Missing: 0.49
+
+Order: MAĞAZA NAĞD SATIŞ - HM-MAYKA ALPAR BOZ R-2XL (7.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.651 | Missing: 0.651
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.679 | Missing: 0.679
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.763 | Missing: 0.763
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.8190000000000001 | Missing: 0.8190000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.854 | Missing: 0.854
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.665 | Missing: 0.665
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.609 | Missing: 0.609
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.658 | Missing: 0.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.7000000000000001 | Missing: 0.7000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.84 | Missing: 0.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.735 | Missing: 0.735
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.784 | Missing: 0.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.833 | Missing: 0.833
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.9380000000000001 | Missing: 0.9380000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.91 | Missing: 0.91
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 1.141 | Missing: 1.141
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.686 | Missing: 0.686
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (181.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 12.670000000000002 | Missing: 12.670000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 12.670000000000002 | Missing: 12.670000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 16.833 | Missing: 16.833
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 17.557000000000002 | Missing: 17.557000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 19.729 | Missing: 19.729
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 21.177 | Missing: 21.177
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 22.082 | Missing: 22.082
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 17.195 | Missing: 17.195
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 15.746999999999998 | Missing: 15.746999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 17.014 | Missing: 17.014
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 18.1 | Missing: 18.1
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 21.72 | Missing: 21.72
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 19.005 | Missing: 19.005
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 20.272000000000002 | Missing: 20.272000000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 21.538999999999998 | Missing: 21.538999999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 24.616000000000003 | Missing: 24.616000000000003
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 24.254 | Missing: 24.254
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 23.53 | Missing: 23.53
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 29.503 | Missing: 29.503
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 17.738 | Missing: 17.738
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (966.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 67.62 | Missing: 67.62
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 67.62 | Missing: 67.62
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 89.838 | Missing: 89.838
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 93.702 | Missing: 93.702
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 105.294 | Missing: 105.294
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 113.022 | Missing: 113.022
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 117.852 | Missing: 117.852
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 91.77 | Missing: 91.77
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 84.04199999999999 | Missing: 84.04199999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 90.804 | Missing: 90.804
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 96.60000000000001 | Missing: 96.60000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 115.92 | Missing: 115.92
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 101.42999999999999 | Missing: 101.42999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 108.19200000000001 | Missing: 108.19200000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 114.954 | Missing: 114.954
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 131.376 | Missing: 131.376
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 129.44400000000002 | Missing: 129.44400000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 125.58 | Missing: 125.58
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 157.458 | Missing: 157.458
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 94.668 | Missing: 94.668
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (188.0000 pcs)
+Readiness: 45%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 13.160000000000002 | Missing: 13.160000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 17.483999999999998 | Missing: 17.483999999999998
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 18.236 | Missing: 18.236
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 20.492 | Missing: 20.492
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 21.996000000000002 | Missing: 21.996000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 22.936 | Missing: 22.936
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 17.86 | Missing: 17.86
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 16.355999999999998 | Missing: 16.355999999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 17.672 | Missing: 17.672
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 18.8 | Missing: 18.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 22.56 | Missing: 22.56
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 19.74 | Missing: 19.74
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 21.056 | Missing: 21.056
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 22.372 | Missing: 22.372
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 25.568 | Missing: 25.568
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 25.192 | Missing: 25.192
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 24.44 | Missing: 24.44
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 30.644000000000002 | Missing: 30.644000000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 18.424 | Missing: 18.424
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (1219.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 85.33000000000001 | Missing: 85.33000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 85.33000000000001 | Missing: 85.33000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 17.066 | Missing: 1.515999999999897
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 113.367 | Missing: 113.367
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 118.24300000000001 | Missing: 118.24300000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 132.871 | Missing: 132.871
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 142.62300000000002 | Missing: 142.62300000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 148.718 | Missing: 148.718
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 115.805 | Missing: 115.805
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 106.053 | Missing: 106.053
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 114.586 | Missing: 114.586
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 121.9 | Missing: 121.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 146.28 | Missing: 146.28
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 127.99499999999999 | Missing: 127.99499999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 136.528 | Missing: 136.528
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 145.061 | Missing: 145.061
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 165.78400000000002 | Missing: 165.78400000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 163.346 | Missing: 163.346
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 158.47 | Missing: 158.47
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 198.697 | Missing: 198.697
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 119.462 | Missing: 119.462
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (151.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 10.57 | Missing: 10.57
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 10.57 | Missing: 10.57
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 2.114 | Missing: 2.114
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 14.043 | Missing: 14.043
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 14.647 | Missing: 14.647
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 16.459 | Missing: 16.459
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 17.667 | Missing: 17.667
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 18.422 | Missing: 18.422
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 14.345 | Missing: 14.345
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 13.136999999999999 | Missing: 13.136999999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 14.194 | Missing: 14.194
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 15.100000000000001 | Missing: 15.100000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 18.12 | Missing: 18.12
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 15.854999999999999 | Missing: 15.854999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 16.912 | Missing: 16.912
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 17.968999999999998 | Missing: 17.968999999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 20.536 | Missing: 20.536
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 20.234 | Missing: 20.234
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 19.63 | Missing: 19.63
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 24.613 | Missing: 24.613
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 14.798 | Missing: 14.798
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (1236.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 86.52000000000001 | Missing: 86.52000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 86.52000000000001 | Missing: 86.52000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 17.304000000000002 | Missing: 17.304000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 114.948 | Missing: 114.948
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 119.89200000000001 | Missing: 119.89200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 134.724 | Missing: 134.724
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 144.612 | Missing: 144.612
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 150.792 | Missing: 150.792
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 117.42 | Missing: 117.42
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 107.532 | Missing: 107.532
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 116.184 | Missing: 116.184
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 123.60000000000001 | Missing: 123.60000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 148.32 | Missing: 148.32
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 129.78 | Missing: 129.78
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 138.43200000000002 | Missing: 138.43200000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 147.084 | Missing: 147.084
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 168.096 | Missing: 168.096
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 165.62400000000002 | Missing: 165.62400000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 160.68 | Missing: 160.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 201.46800000000002 | Missing: 201.46800000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 121.128 | Missing: 121.128
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (158.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 11.06 | Missing: 11.06
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 11.06 | Missing: 11.06
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 2.212 | Missing: 2.212
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 14.693999999999999 | Missing: 14.693999999999999
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 15.326 | Missing: 15.326
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 17.222 | Missing: 17.222
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 18.486 | Missing: 18.486
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 19.276 | Missing: 19.276
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 15.01 | Missing: 15.01
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 13.745999999999999 | Missing: 13.745999999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 14.852 | Missing: 14.852
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 15.8 | Missing: 15.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 18.96 | Missing: 18.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 16.59 | Missing: 16.59
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 17.696 | Missing: 17.696
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 18.802 | Missing: 18.802
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 21.488000000000003 | Missing: 21.488000000000003
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 21.172 | Missing: 21.172
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 20.54 | Missing: 20.54
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 25.754 | Missing: 25.754
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 15.484 | Missing: 15.484
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (1189.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 83.23 | Missing: 83.23
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 83.23 | Missing: 83.23
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 16.646 | Missing: 16.646
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 110.577 | Missing: 110.577
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 115.333 | Missing: 115.333
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 129.601 | Missing: 129.601
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 139.113 | Missing: 139.113
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 145.058 | Missing: 145.058
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 112.955 | Missing: 112.955
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 103.443 | Missing: 103.443
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 111.766 | Missing: 111.766
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 118.9 | Missing: 118.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 142.68 | Missing: 142.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 124.845 | Missing: 124.845
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 133.168 | Missing: 133.168
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 141.49099999999999 | Missing: 141.49099999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 161.704 | Missing: 161.704
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 159.32600000000002 | Missing: 159.32600000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 154.57 | Missing: 154.57
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 193.80700000000002 | Missing: 193.80700000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 116.522 | Missing: 116.522
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (1083.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 75.81 | Missing: 75.81
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 75.81 | Missing: 75.81
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 15.162 | Missing: 15.162
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 100.719 | Missing: 100.719
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 105.051 | Missing: 105.051
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 118.047 | Missing: 118.047
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 126.71100000000001 | Missing: 126.71100000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 132.126 | Missing: 132.126
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 102.885 | Missing: 102.885
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 94.22099999999999 | Missing: 94.22099999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 101.802 | Missing: 101.802
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 108.30000000000001 | Missing: 108.30000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 129.96 | Missing: 129.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 113.71499999999999 | Missing: 113.71499999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 121.296 | Missing: 121.296
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 128.87699999999998 | Missing: 128.87699999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 147.288 | Missing: 147.288
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 145.122 | Missing: 145.122
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 140.79 | Missing: 140.79
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 176.529 | Missing: 176.529
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 106.134 | Missing: 106.134
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (458.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 32.06 | Missing: 32.06
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 32.06 | Missing: 32.06
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 6.412 | Missing: 6.412
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 42.594 | Missing: 42.594
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 44.426 | Missing: 44.426
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 49.922 | Missing: 49.922
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 53.586000000000006 | Missing: 53.586000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 55.876 | Missing: 55.876
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 43.51 | Missing: 43.51
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 39.846 | Missing: 39.846
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 43.052 | Missing: 43.052
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 45.800000000000004 | Missing: 45.800000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 54.96 | Missing: 54.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 48.089999999999996 | Missing: 48.089999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 51.296 | Missing: 51.296
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 54.501999999999995 | Missing: 54.501999999999995
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 62.288000000000004 | Missing: 62.288000000000004
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 61.37200000000001 | Missing: 61.37200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 59.54 | Missing: 59.54
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 74.654 | Missing: 74.654
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 44.884 | Missing: 44.884
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (1489.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 104.23 | Missing: 104.23
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 104.23 | Missing: 104.23
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 20.846 | Missing: 20.846
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 138.477 | Missing: 138.477
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 144.433 | Missing: 144.433
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 162.301 | Missing: 162.301
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 174.21300000000002 | Missing: 174.21300000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 181.658 | Missing: 181.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 141.455 | Missing: 141.455
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 129.54299999999998 | Missing: 129.54299999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 139.966 | Missing: 139.966
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 148.9 | Missing: 148.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 178.68 | Missing: 178.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 156.345 | Missing: 156.345
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 166.768 | Missing: 166.768
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 177.191 | Missing: 177.191
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 202.50400000000002 | Missing: 202.50400000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 199.526 | Missing: 199.526
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 193.57 | Missing: 193.57
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 242.70700000000002 | Missing: 242.70700000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 145.922 | Missing: 145.922
+
+Order: Elşad Binə - HM-MAYKA ALPAR BOZ R-2XL (1489.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 104.23 | Missing: 104.23
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 104.23 | Missing: 104.23
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 20.846 | Missing: 20.846
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 138.477 | Missing: 138.477
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 144.433 | Missing: 144.433
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 162.301 | Missing: 162.301
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 174.21300000000002 | Missing: 174.21300000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 181.658 | Missing: 181.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 141.455 | Missing: 141.455
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 129.54299999999998 | Missing: 129.54299999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 139.966 | Missing: 139.966
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 148.9 | Missing: 148.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 178.68 | Missing: 178.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 156.345 | Missing: 156.345
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 166.768 | Missing: 166.768
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 177.191 | Missing: 177.191
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 202.50400000000002 | Missing: 202.50400000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 199.526 | Missing: 199.526
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 193.57 | Missing: 193.57
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 242.70700000000002 | Missing: 242.70700000000002
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 145.922 | Missing: 145.922
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (1271.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 88.97000000000001 | Missing: 88.97000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 88.97000000000001 | Missing: 88.97000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 17.794 | Missing: 17.794
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 118.203 | Missing: 118.203
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 123.287 | Missing: 123.287
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 138.539 | Missing: 138.539
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 148.70700000000002 | Missing: 148.70700000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 155.06199999999998 | Missing: 155.06199999999998
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 120.745 | Missing: 120.745
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 110.577 | Missing: 110.577
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 119.474 | Missing: 119.474
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 127.10000000000001 | Missing: 127.10000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 152.51999999999998 | Missing: 152.51999999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 133.45499999999998 | Missing: 133.45499999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 142.352 | Missing: 142.352
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 151.249 | Missing: 151.249
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 172.85600000000002 | Missing: 172.85600000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 170.31400000000002 | Missing: 170.31400000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 165.23000000000002 | Missing: 165.23000000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 207.173 | Missing: 207.173
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 124.558 | Missing: 124.558
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (374.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 26.180000000000003 | Missing: 26.180000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 26.180000000000003 | Missing: 26.180000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 5.236 | Missing: 5.236
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 34.782 | Missing: 34.782
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 36.278 | Missing: 36.278
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 40.766 | Missing: 40.766
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 43.758 | Missing: 43.758
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 45.628 | Missing: 45.628
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 35.53 | Missing: 35.53
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 32.538 | Missing: 32.538
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 35.156 | Missing: 35.156
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 37.4 | Missing: 37.4
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 44.879999999999995 | Missing: 44.879999999999995
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 39.269999999999996 | Missing: 39.269999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 41.888 | Missing: 41.888
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 44.506 | Missing: 44.506
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 50.864000000000004 | Missing: 50.864000000000004
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 50.116 | Missing: 50.116
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 48.620000000000005 | Missing: 48.620000000000005
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 60.962 | Missing: 60.962
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 36.652 | Missing: 36.652
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (1318.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 92.26 | Missing: 92.26
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 92.26 | Missing: 92.26
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 18.452 | Missing: 18.452
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 122.574 | Missing: 122.574
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 127.846 | Missing: 127.846
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 143.662 | Missing: 143.662
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 154.20600000000002 | Missing: 154.20600000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 160.796 | Missing: 160.796
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 125.21000000000001 | Missing: 125.21000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 114.666 | Missing: 114.666
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 123.892 | Missing: 123.892
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 131.8 | Missing: 131.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 158.16 | Missing: 158.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 138.39 | Missing: 138.39
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 147.616 | Missing: 147.616
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 156.84199999999998 | Missing: 156.84199999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 179.24800000000002 | Missing: 179.24800000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 176.61200000000002 | Missing: 176.61200000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 171.34 | Missing: 171.34
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 214.834 | Missing: 214.834
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 129.16400000000002 | Missing: 129.16400000000002
+
+Order: Elşad Binə - HM-MAYKA ALPAR BOZ R-M (7.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.098 | Missing: 0.098
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.651 | Missing: 0.651
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.679 | Missing: 0.679
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.763 | Missing: 0.763
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.8190000000000001 | Missing: 0.8190000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.854 | Missing: 0.854
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.665 | Missing: 0.665
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.609 | Missing: 0.609
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.658 | Missing: 0.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.7000000000000001 | Missing: 0.7000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.84 | Missing: 0.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.735 | Missing: 0.735
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.784 | Missing: 0.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.833 | Missing: 0.833
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.9380000000000001 | Missing: 0.9380000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.91 | Missing: 0.91
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 1.141 | Missing: 1.141
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.686 | Missing: 0.686
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (1048.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 73.36000000000001 | Missing: 73.36000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 73.36000000000001 | Missing: 73.36000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 14.672 | Missing: 14.672
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 97.464 | Missing: 97.464
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 101.656 | Missing: 101.656
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 114.232 | Missing: 114.232
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 122.61600000000001 | Missing: 122.61600000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 127.856 | Missing: 127.856
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 99.56 | Missing: 99.56
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 91.17599999999999 | Missing: 91.17599999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 98.512 | Missing: 98.512
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 104.80000000000001 | Missing: 104.80000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 125.75999999999999 | Missing: 125.75999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 110.03999999999999 | Missing: 110.03999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 117.376 | Missing: 117.376
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 124.71199999999999 | Missing: 124.71199999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 142.52800000000002 | Missing: 142.52800000000002
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 140.43200000000002 | Missing: 140.43200000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 136.24 | Missing: 136.24
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 170.824 | Missing: 170.824
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 102.70400000000001 | Missing: 102.70400000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (68.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 4.760000000000001 | Missing: 4.760000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 4.760000000000001 | Missing: 4.760000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 6.324 | Missing: 6.324
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 6.596 | Missing: 6.596
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 7.412 | Missing: 7.412
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 7.956 | Missing: 7.956
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 8.296 | Missing: 8.296
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 6.46 | Missing: 6.46
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 5.9159999999999995 | Missing: 5.9159999999999995
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 6.392 | Missing: 6.392
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 6.800000000000001 | Missing: 6.800000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 8.16 | Missing: 8.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 7.14 | Missing: 7.14
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 7.6160000000000005 | Missing: 7.6160000000000005
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 8.091999999999999 | Missing: 8.091999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 9.248000000000001 | Missing: 9.248000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 9.112 | Missing: 9.112
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 8.84 | Missing: 8.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 11.084 | Missing: 11.084
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 6.664000000000001 | Missing: 6.664000000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (971.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 67.97000000000001 | Missing: 67.97000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 67.97000000000001 | Missing: 67.97000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 13.594 | Missing: 13.594
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 90.303 | Missing: 90.303
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 94.187 | Missing: 94.187
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 105.839 | Missing: 105.839
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 113.60700000000001 | Missing: 113.60700000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 118.462 | Missing: 118.462
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 92.245 | Missing: 92.245
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 84.47699999999999 | Missing: 84.47699999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 91.274 | Missing: 91.274
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 97.10000000000001 | Missing: 97.10000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 116.52 | Missing: 116.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 101.955 | Missing: 101.955
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 108.752 | Missing: 108.752
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 115.54899999999999 | Missing: 115.54899999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 132.056 | Missing: 132.056
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 130.114 | Missing: 130.114
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 126.23 | Missing: 126.23
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 158.273 | Missing: 158.273
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 95.158 | Missing: 95.158
+
+Order: Elşad Binə - HM-MAYKA ALPAR BOZ R-2XL (898.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 62.86000000000001 | Missing: 62.86000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 62.86000000000001 | Missing: 62.86000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 12.572000000000001 | Missing: 12.572000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 83.514 | Missing: 83.514
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 87.10600000000001 | Missing: 87.10600000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 97.882 | Missing: 97.882
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 105.066 | Missing: 105.066
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 109.556 | Missing: 109.556
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 85.31 | Missing: 85.31
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 78.12599999999999 | Missing: 78.12599999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 84.412 | Missing: 84.412
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 89.80000000000001 | Missing: 89.80000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 107.75999999999999 | Missing: 107.75999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 94.28999999999999 | Missing: 94.28999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 100.57600000000001 | Missing: 100.57600000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 106.862 | Missing: 106.862
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 122.12800000000001 | Missing: 122.12800000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 120.33200000000001 | Missing: 120.33200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 116.74000000000001 | Missing: 116.74000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 146.374 | Missing: 146.374
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 88.004 | Missing: 88.004
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (868.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 60.760000000000005 | Missing: 60.760000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 60.760000000000005 | Missing: 60.760000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 12.152000000000001 | Missing: 12.152000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 80.724 | Missing: 80.724
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 84.196 | Missing: 84.196
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 94.612 | Missing: 94.612
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 101.55600000000001 | Missing: 101.55600000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 105.896 | Missing: 105.896
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 82.46000000000001 | Missing: 82.46000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 75.51599999999999 | Missing: 75.51599999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 81.592 | Missing: 81.592
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 86.80000000000001 | Missing: 86.80000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 104.16 | Missing: 104.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 91.14 | Missing: 91.14
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 97.21600000000001 | Missing: 97.21600000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 103.292 | Missing: 103.292
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 118.048 | Missing: 118.048
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 116.31200000000001 | Missing: 116.31200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 112.84 | Missing: 112.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 141.484 | Missing: 141.484
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 85.06400000000001 | Missing: 85.06400000000001
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (821.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 57.470000000000006 | Missing: 57.470000000000006
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 57.470000000000006 | Missing: 57.470000000000006
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 11.494 | Missing: 11.494
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 76.353 | Missing: 76.353
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 79.637 | Missing: 79.637
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 89.489 | Missing: 89.489
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 96.057 | Missing: 96.057
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 100.16199999999999 | Missing: 100.16199999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 77.995 | Missing: 77.995
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 71.42699999999999 | Missing: 71.42699999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 77.174 | Missing: 77.174
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 82.10000000000001 | Missing: 82.10000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 98.52 | Missing: 98.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 86.205 | Missing: 86.205
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 91.952 | Missing: 91.952
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 97.699 | Missing: 97.699
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 111.656 | Missing: 111.656
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 110.01400000000001 | Missing: 110.01400000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 106.73 | Missing: 106.73
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 133.823 | Missing: 133.823
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 80.458 | Missing: 80.458
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (718.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 50.260000000000005 | Missing: 50.260000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 50.260000000000005 | Missing: 50.260000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 10.052 | Missing: 10.052
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 66.774 | Missing: 66.774
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 69.646 | Missing: 69.646
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 78.262 | Missing: 78.262
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 84.006 | Missing: 84.006
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 87.596 | Missing: 87.596
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 68.21 | Missing: 68.21
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 62.465999999999994 | Missing: 62.465999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 67.492 | Missing: 67.492
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 71.8 | Missing: 71.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 86.16 | Missing: 86.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 75.39 | Missing: 75.39
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 80.416 | Missing: 80.416
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 85.442 | Missing: 85.442
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 97.64800000000001 | Missing: 97.64800000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 96.212 | Missing: 96.212
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 93.34 | Missing: 93.34
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 117.034 | Missing: 117.034
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 70.364 | Missing: 70.364
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-3XL (80.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 5.6000000000000005 | Missing: 5.6000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 5.6000000000000005 | Missing: 5.6000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 1.12 | Missing: 1.12
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 7.4399999999999995 | Missing: 7.4399999999999995
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 7.76 | Missing: 7.76
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 8.72 | Missing: 8.72
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 9.360000000000001 | Missing: 9.360000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 9.76 | Missing: 9.76
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 7.6 | Missing: 7.6
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 6.959999999999999 | Missing: 6.959999999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 7.52 | Missing: 7.52
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 8.0 | Missing: 8.0
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 9.6 | Missing: 9.6
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 8.4 | Missing: 8.4
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 8.96 | Missing: 8.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 9.52 | Missing: 9.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 10.88 | Missing: 10.88
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 10.72 | Missing: 10.72
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 10.4 | Missing: 10.4
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 13.040000000000001 | Missing: 13.040000000000001
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 7.84 | Missing: 7.84
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-2XL (568.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 39.760000000000005 | Missing: 39.760000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 39.760000000000005 | Missing: 39.760000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 7.952 | Missing: 7.952
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 52.824 | Missing: 52.824
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 55.096000000000004 | Missing: 55.096000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 61.912 | Missing: 61.912
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 66.456 | Missing: 66.456
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 69.29599999999999 | Missing: 69.29599999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 53.96 | Missing: 53.96
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 49.416 | Missing: 49.416
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 53.392 | Missing: 53.392
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 56.800000000000004 | Missing: 56.800000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 68.16 | Missing: 68.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 59.64 | Missing: 59.64
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 63.616 | Missing: 63.616
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 67.592 | Missing: 67.592
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 77.248 | Missing: 77.248
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 76.11200000000001 | Missing: 76.11200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 73.84 | Missing: 73.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 92.584 | Missing: 92.584
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 55.664 | Missing: 55.664
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-XL (2.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.14 | Missing: 0.14
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.14 | Missing: 0.14
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.028 | Missing: 0.028
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.186 | Missing: 0.186
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.194 | Missing: 0.194
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.218 | Missing: 0.218
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.234 | Missing: 0.234
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.244 | Missing: 0.244
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.19 | Missing: 0.19
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.174 | Missing: 0.174
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.188 | Missing: 0.188
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.2 | Missing: 0.2
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.24 | Missing: 0.24
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.21 | Missing: 0.21
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.224 | Missing: 0.224
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.238 | Missing: 0.238
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.272 | Missing: 0.272
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.268 | Missing: 0.268
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.26 | Missing: 0.26
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.326 | Missing: 0.326
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.196 | Missing: 0.196
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-L (677.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 47.39000000000001 | Missing: 47.39000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 47.39000000000001 | Missing: 47.39000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 9.478 | Missing: 9.478
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 62.961 | Missing: 62.961
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 65.669 | Missing: 65.669
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 73.793 | Missing: 73.793
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 79.209 | Missing: 79.209
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 82.594 | Missing: 82.594
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 64.315 | Missing: 64.315
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 58.898999999999994 | Missing: 58.898999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 63.638 | Missing: 63.638
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 67.7 | Missing: 67.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 81.24 | Missing: 81.24
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 71.085 | Missing: 71.085
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 75.824 | Missing: 75.824
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 80.563 | Missing: 80.563
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 92.072 | Missing: 92.072
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 90.718 | Missing: 90.718
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 88.01 | Missing: 88.01
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 110.351 | Missing: 110.351
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 66.346 | Missing: 66.346
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-M (139.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 9.73 | Missing: 9.73
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 9.73 | Missing: 9.73
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 1.946 | Missing: 1.946
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 12.927 | Missing: 12.927
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 13.483 | Missing: 13.483
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 15.151 | Missing: 15.151
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 16.263 | Missing: 16.263
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 16.958 | Missing: 16.958
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 13.205 | Missing: 13.205
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 12.093 | Missing: 12.093
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 13.066 | Missing: 13.066
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 13.9 | Missing: 13.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 16.68 | Missing: 16.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 14.594999999999999 | Missing: 14.594999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 15.568 | Missing: 15.568
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 16.541 | Missing: 16.541
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 18.904 | Missing: 18.904
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 18.626 | Missing: 18.626
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 18.07 | Missing: 18.07
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 22.657 | Missing: 22.657
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 13.622 | Missing: 13.622
+
+Order: F/H ABBASOVA YAQUT - HM-MAYKA ALPAR BOZ R-S (7.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.098 | Missing: 0.098
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.651 | Missing: 0.651
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.679 | Missing: 0.679
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.763 | Missing: 0.763
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.8190000000000001 | Missing: 0.8190000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.854 | Missing: 0.854
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.665 | Missing: 0.665
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.609 | Missing: 0.609
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.658 | Missing: 0.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.7000000000000001 | Missing: 0.7000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.84 | Missing: 0.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.735 | Missing: 0.735
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.784 | Missing: 0.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.833 | Missing: 0.833
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.9380000000000001 | Missing: 0.9380000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.91 | Missing: 0.91
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 1.141 | Missing: 1.141
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.686 | Missing: 0.686
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-M (139.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 9.73 | Missing: 9.73
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 9.73 | Missing: 9.73
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 1.946 | Missing: 1.946
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 12.927 | Missing: 12.927
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 13.483 | Missing: 13.483
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 15.151 | Missing: 15.151
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 16.263 | Missing: 16.263
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 16.958 | Missing: 16.958
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 13.205 | Missing: 13.205
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 12.093 | Missing: 12.093
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 13.066 | Missing: 13.066
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 13.9 | Missing: 13.9
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 16.68 | Missing: 16.68
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 14.594999999999999 | Missing: 14.594999999999999
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 15.568 | Missing: 15.568
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 16.541 | Missing: 16.541
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 18.904 | Missing: 18.904
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 18.626 | Missing: 18.626
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 18.07 | Missing: 18.07
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 22.657 | Missing: 22.657
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 13.622 | Missing: 13.622
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-L (677.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 47.39000000000001 | Missing: 47.39000000000001
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 47.39000000000001 | Missing: 47.39000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 9.478 | Missing: 9.478
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 62.961 | Missing: 62.961
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 65.669 | Missing: 65.669
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 73.793 | Missing: 73.793
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 79.209 | Missing: 79.209
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 82.594 | Missing: 82.594
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 64.315 | Missing: 64.315
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 58.898999999999994 | Missing: 58.898999999999994
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 63.638 | Missing: 63.638
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 67.7 | Missing: 67.7
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 81.24 | Missing: 81.24
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 71.085 | Missing: 71.085
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 75.824 | Missing: 75.824
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 80.563 | Missing: 80.563
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 92.072 | Missing: 92.072
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 90.718 | Missing: 90.718
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 88.01 | Missing: 88.01
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 110.351 | Missing: 110.351
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 66.346 | Missing: 66.346
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-XL (2.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.14 | Missing: 0.14
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.14 | Missing: 0.14
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.028 | Missing: 0.028
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.186 | Missing: 0.186
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.194 | Missing: 0.194
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.218 | Missing: 0.218
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.234 | Missing: 0.234
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.244 | Missing: 0.244
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.19 | Missing: 0.19
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.174 | Missing: 0.174
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.188 | Missing: 0.188
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.2 | Missing: 0.2
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.24 | Missing: 0.24
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.21 | Missing: 0.21
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.224 | Missing: 0.224
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.238 | Missing: 0.238
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.272 | Missing: 0.272
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.268 | Missing: 0.268
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.26 | Missing: 0.26
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 0.326 | Missing: 0.326
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.196 | Missing: 0.196
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (568.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 39.760000000000005 | Missing: 39.760000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 39.760000000000005 | Missing: 39.760000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 7.952 | Missing: 7.952
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 52.824 | Missing: 52.824
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 55.096000000000004 | Missing: 55.096000000000004
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 61.912 | Missing: 61.912
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 66.456 | Missing: 66.456
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 69.29599999999999 | Missing: 69.29599999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 53.96 | Missing: 53.96
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 49.416 | Missing: 49.416
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 53.392 | Missing: 53.392
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 56.800000000000004 | Missing: 56.800000000000004
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 68.16 | Missing: 68.16
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 59.64 | Missing: 59.64
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 63.616 | Missing: 63.616
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 67.592 | Missing: 67.592
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 77.248 | Missing: 77.248
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 76.11200000000001 | Missing: 76.11200000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 73.84 | Missing: 73.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 92.584 | Missing: 92.584
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 55.664 | Missing: 55.664
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-3XL (80.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 5.6000000000000005 | Missing: 5.6000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 5.6000000000000005 | Missing: 5.6000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 1.12 | Missing: 1.12
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 7.4399999999999995 | Missing: 7.4399999999999995
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 7.76 | Missing: 7.76
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 8.72 | Missing: 8.72
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 9.360000000000001 | Missing: 9.360000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 9.76 | Missing: 9.76
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 7.6 | Missing: 7.6
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 6.959999999999999 | Missing: 6.959999999999999
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 7.52 | Missing: 7.52
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 8.0 | Missing: 8.0
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 9.6 | Missing: 9.6
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 8.4 | Missing: 8.4
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 8.96 | Missing: 8.96
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 9.52 | Missing: 9.52
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 10.88 | Missing: 10.88
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 10.72 | Missing: 10.72
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 10.4 | Missing: 10.4
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 13.040000000000001 | Missing: 13.040000000000001
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 7.84 | Missing: 7.84
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-S (7.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 0.49000000000000005 | Missing: 0.49000000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 0.098 | Missing: 0.098
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 0.651 | Missing: 0.651
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 0.679 | Missing: 0.679
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 0.763 | Missing: 0.763
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 0.8190000000000001 | Missing: 0.8190000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 0.854 | Missing: 0.854
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 0.665 | Missing: 0.665
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 0.609 | Missing: 0.609
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 0.658 | Missing: 0.658
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 0.7000000000000001 | Missing: 0.7000000000000001
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 0.84 | Missing: 0.84
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 0.735 | Missing: 0.735
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 0.784 | Missing: 0.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 0.833 | Missing: 0.833
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 0.9520000000000001 | Missing: 0.9520000000000001
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 0.9380000000000001 | Missing: 0.9380000000000001
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 0.91 | Missing: 0.91
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 1.141 | Missing: 1.141
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 0.686 | Missing: 0.686
+
+Order: Xəyyam Siyabov - HM-MAYKA ALPAR BOZ R-2XL (298.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 4.172 | Missing: 4.172
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 27.714 | Missing: 27.714
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 28.906000000000002 | Missing: 28.906000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 32.482 | Missing: 32.482
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 34.866 | Missing: 34.866
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 36.356 | Missing: 36.356
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 28.31 | Missing: 28.31
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 25.926 | Missing: 25.926
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 28.012 | Missing: 28.012
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 29.8 | Missing: 29.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 35.76 | Missing: 35.76
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 31.29 | Missing: 31.29
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 33.376 | Missing: 33.376
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 35.461999999999996 | Missing: 35.461999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 40.528000000000006 | Missing: 40.528000000000006
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 39.932 | Missing: 39.932
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 38.74 | Missing: 38.74
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 48.574000000000005 | Missing: 48.574000000000005
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 29.204 | Missing: 29.204
+
+Order: Elşad Binə - HM-MAYKA ALPAR BOZ R-L (382.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 26.740000000000002 | Missing: 26.740000000000002
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 26.740000000000002 | Missing: 26.740000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 5.348 | Missing: 5.348
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 35.525999999999996 | Missing: 35.525999999999996
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 37.054 | Missing: 37.054
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 41.638 | Missing: 41.638
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 44.694 | Missing: 44.694
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 46.604 | Missing: 46.604
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 36.29 | Missing: 36.29
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 33.233999999999995 | Missing: 33.233999999999995
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 35.908 | Missing: 35.908
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 38.2 | Missing: 38.2
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 45.839999999999996 | Missing: 45.839999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 40.11 | Missing: 40.11
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 42.784 | Missing: 42.784
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 45.458 | Missing: 45.458
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 51.952000000000005 | Missing: 51.952000000000005
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 51.188 | Missing: 51.188
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 49.660000000000004 | Missing: 49.660000000000004
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 62.266000000000005 | Missing: 62.266000000000005
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 37.436 | Missing: 37.436
+
+Order: Elşad Binə - HM-MAYKA ALPAR BOZ R-2XL (298.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 4.172 | Missing: 4.172
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 27.714 | Missing: 27.714
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 28.906000000000002 | Missing: 28.906000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 32.482 | Missing: 32.482
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 34.866 | Missing: 34.866
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 36.356 | Missing: 36.356
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 28.31 | Missing: 28.31
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 25.926 | Missing: 25.926
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 28.012 | Missing: 28.012
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 29.8 | Missing: 29.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 35.76 | Missing: 35.76
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 31.29 | Missing: 31.29
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 33.376 | Missing: 33.376
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 35.461999999999996 | Missing: 35.461999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 40.528000000000006 | Missing: 40.528000000000006
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 39.932 | Missing: 39.932
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 38.74 | Missing: 38.74
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 48.574000000000005 | Missing: 48.574000000000005
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 29.204 | Missing: 29.204
+
+Order: HƏDİYYƏ VƏ XEYRİYYƏ - HM-MAYKA ALPAR BOZ R-2XL (298.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 20.860000000000003 | Missing: 20.860000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 4.172 | Missing: 4.172
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 27.714 | Missing: 27.714
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 28.906000000000002 | Missing: 28.906000000000002
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 32.482 | Missing: 32.482
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 34.866 | Missing: 34.866
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 36.356 | Missing: 36.356
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 28.31 | Missing: 28.31
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 25.926 | Missing: 25.926
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 28.012 | Missing: 28.012
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 29.8 | Missing: 29.8
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 35.76 | Missing: 35.76
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 31.29 | Missing: 31.29
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 33.376 | Missing: 33.376
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 35.461999999999996 | Missing: 35.461999999999996
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 40.528000000000006 | Missing: 40.528000000000006
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 39.932 | Missing: 39.932
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 38.74 | Missing: 38.74
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 48.574000000000005 | Missing: 48.574000000000005
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 29.204 | Missing: 29.204
+
+Order: HƏDİYYƏ VƏ XEYRİYYƏ - HM-MAYKA ALPAR BOZ R-2XL (266.0000 pcs)
+Readiness: 43%
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 QARA | Need: 18.62 | Missing: 18.62
+  -> Missing: SÜPRƏM LİKRALI OE 30/1 TÜND GÖY | Need: 18.62 | Missing: 18.62
+  -> Missing: DARPUS NE 30/1 QARA EN 72 | Need: 3.724 | Missing: 3.724
+  -> Missing: DARPUS NE 30/1 QARA EN 46 | Need: 24.738 | Missing: 24.738
+  -> Missing: DARPUS NE 30/1 QARA EN 48 | Need: 25.802 | Missing: 25.802
+  -> Missing: DARPUS NE 30/1 QARA EN 50 | Need: 28.994 | Missing: 28.994
+  -> Missing: DARPUS NE 30/1 QARA EN 52 | Need: 31.122000000000003 | Missing: 31.122000000000003
+  -> Missing: DARPUS NE 30/1 QARA EN 54 | Need: 32.452 | Missing: 32.452
+  -> Missing: DARPUS NE 30/1 BOZ EN 46 | Need: 25.27 | Missing: 25.27
+  -> Missing: DARPUS NE 30/1 BOZ EN 48 | Need: 23.142 | Missing: 23.142
+  -> Missing: DARPUS NE 30/1 BOZ EN 50 | Need: 25.004 | Missing: 25.004
+  -> Missing: DARPUS NE 30/1 BOZ EN 52 | Need: 26.6 | Missing: 26.6
+  -> Missing: DARPUS NE 30/1 BOZ EN 54 | Need: 31.919999999999998 | Missing: 31.919999999999998
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 46 | Need: 27.93 | Missing: 27.93
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 48 | Need: 29.792 | Missing: 29.792
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 50 | Need: 31.654 | Missing: 31.654
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 52 | Need: 36.176 | Missing: 36.176
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 54 | Need: 35.644000000000005 | Missing: 35.644000000000005
+  -> Missing: DARPUS NE 30/1 QARA EN 56 | Need: 34.58 | Missing: 34.58
+  -> Missing: DARPUS PAMUK POLYESTER QARA EN 56 | Need: 43.358000000000004 | Missing: 43.358000000000004
+  -> Missing: EMPREME PARÇA TÜP DESENLİ EN 103 145-150 GR  OE KOD 7097 | Need: 26.068 | Missing: 26.068
+
+=== 100% READY ORDERS ===
+Count: 102
+=== 0% READY ORDERS ===
+Count: 0
+=== NO SMETA ORDERS ===
+Count: 2147

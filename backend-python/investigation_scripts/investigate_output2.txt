@@ -1,0 +1,12 @@
+CASH PAYMENTS (sm_kmd_el):
+[{'with_qaime': 100, 'without_qaime': 428, 'total_rows': 528}]
+
+BANK PAYMENTS (sm_bank_od_el_el):
+[{'with_qaime': 561, 'without_qaime': 10, 'total_rows': 571}]
+
+Recent Cash Payments directly to Customer Account (No Invoice specified):
+{'idn': 44723, 'kontra': '963', 'tarix': datetime.datetime(2025, 7, 18, 0, 0), 'Total_Header_Payment': Decimal('4.9000'), 'Detail_Payment': Decimal('0.0000'), 'qaime': None}
+{'idn': 44721, 'kontra': '963', 'tarix': datetime.datetime(2025, 7, 17, 0, 0), 'Total_Header_Payment': Decimal('16.5000'), 'Detail_Payment': Decimal('0.0000'), 'qaime': None}
+{'idn': 44537, 'kontra': '963', 'tarix': datetime.datetime(2025, 6, 12, 0, 0), 'Total_Header_Payment': Decimal('5.0000'), 'Detail_Payment': Decimal('0.0000'), 'qaime': None}
+{'idn': 44538, 'kontra': '963', 'tarix': datetime.datetime(2025, 6, 12, 0, 0), 'Total_Header_Payment': Decimal('5.0000'), 'Detail_Payment': Decimal('0.0000'), 'qaime': None}
+{'idn': 42463, 'kontra': '963', 'tarix': datetime.datetime(2024, 11, 2, 0, 0), 'Total_Header_Payment': Decimal('90.0000'), 'Detail_Payment': Decimal('0.0000'), 'qaime': None}

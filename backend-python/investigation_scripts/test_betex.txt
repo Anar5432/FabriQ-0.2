@@ -1,0 +1,13 @@
+Class: 27 | Name: İŞÇİ GEYİMLƏRİ
+Class: None | Name: None
+Class: 48 | Name: None
+Class: 15 | Name: TƏSƏRRÜFAT MALLARI
+Class: 28 | Name: MƏKTƏBLİ GEYİMLƏRİ
+Class: 21 | Name: CORAB
+Class: 10 | Name: FURNİTURA
+Class: 34960 | Name: None
+Class: 32 | Name: ÜST GEYİMLƏRİ
+Class: 31 | Name: SWEATSHIRT
+Class: 6 | Name: None
+Class: 18 | Name: None
+Class: 20 | Name: İÇ GEYİMLƏRİ

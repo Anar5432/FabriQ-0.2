@@ -1,0 +1,10 @@
+Checking sm_sif_sened for 4111 and 4198...
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'ADONES İÇ GEYİM', 'miqdar': Decimal('3.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'ADONES İÇ GEYİM', 'miqdar': Decimal('6.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'ADONES İÇ GEYİM', 'miqdar': Decimal('9.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'ADONES İÇ GEYİM', 'miqdar': Decimal('3.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'ADONES İÇ GEYİM', 'miqdar': Decimal('6.0000')}
+{'idn': 4198, 'sen_no': '004198', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'EKIN SMART CITY TEKNOLOJİ', 'miqdar': Decimal('4.0000')}
+{'idn': 4198, 'sen_no': '004198', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'EKIN SMART CITY TEKNOLOJİ', 'miqdar': Decimal('4.0000')}
+{'idn': 4198, 'sen_no': '004198', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'EKIN SMART CITY TEKNOLOJİ', 'miqdar': Decimal('8.0000')}
+{'idn': 4198, 'sen_no': '004198', 'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'name': 'EKIN SMART CITY TEKNOLOJİ', 'miqdar': Decimal('4.0000')}

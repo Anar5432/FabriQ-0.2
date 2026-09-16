@@ -1,0 +1,448 @@
+{
+  "top_20_overall": [
+    {
+      "idn": 4223,
+      "sen_no": "004223",
+      "tarix": "2026-06-29",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4222,
+      "sen_no": "004222",
+      "tarix": "2026-06-29",
+      "customer": "IL MMC ",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4221,
+      "sen_no": "004221",
+      "tarix": "2026-06-27",
+      "customer": "ADON",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4220,
+      "sen_no": "004220",
+      "tarix": "2026-06-26",
+      "customer": "H",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4219,
+      "sen_no": "004219",
+      "tarix": "2026-06-26",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4218,
+      "sen_no": "004218",
+      "tarix": "2026-06-26",
+      "customer": "ADON",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4217,
+      "sen_no": "004217",
+      "tarix": "2026-06-26",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4216,
+      "sen_no": "004216",
+      "tarix": "2026-06-26",
+      "customer": "MR F",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4215,
+      "sen_no": "004215",
+      "tarix": "2026-06-25",
+      "customer": "FLAME BUS",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4214,
+      "sen_no": "004214",
+      "tarix": "2026-06-24",
+      "customer": "HERMANO MMC",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4213,
+      "sen_no": "004213",
+      "tarix": "2026-06-24",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4212,
+      "sen_no": "004212",
+      "tarix": "2026-06-23",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4211,
+      "sen_no": "004211",
+      "tarix": "2026-06-23",
+      "customer": "FLAME BUS",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4210,
+      "sen_no": "004210",
+      "tarix": "2026-06-23",
+      "customer": "UM",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4209,
+      "sen_no": "004209",
+      "tarix": "2026-06-21",
+      "customer": "BRAVO",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4208,
+      "sen_no": "004208",
+      "tarix": "2026-06-21",
+      "customer": "BRAVO",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4207,
+      "sen_no": "004207",
+      "tarix": "2026-06-21",
+      "customer": "TAM STORE MMC",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4205,
+      "sen_no": "004205",
+      "tarix": "2026-06-18",
+      "customer": "GENERAL SUPPLY",
+      "yekun": "0.0000"
+    },
+    {
+      "idn": 4204,
+      "sen_no": "004204",
+      "tarix": "2026-06-18",
+      "customer": "GENERAL SUPPLY",
+      "yekun": "0.0000"
+    }
+  ],
+  "top_10_underwear": [
+    {
+      "idn": 4215,
+      "sen_no": "004215",
+      "tarix": "2026-06-25",
+      "customer": "FLAME BUS",
+      "product": "HM-MAYKA EMZO PREM",
+      "miqdar": "1.0000"
+    },
+    {
+      "idn": 4214,
+      "sen_no": "004214",
+      "tarix": "2026-06-24",
+      "customer": "HERMANO MMC",
+      "product": "HM-MAYKA EMZO PREM",
+      "miqdar": "15.0000"
+    },
+    {
+      "idn": 4214,
+      "sen_no": "004214",
+      "tarix": "2026-06-24",
+      "customer": "HERMANO MMC",
+      "product": "HM-MAYKA EMZO PREM",
+      "miqdar": "15.0000"
+    },
+    {
+      "idn": 4214,
+      "sen_no": "004214",
+      "tarix": "2026-06-24",
+      "customer": "HERMANO MMC",
+      "product": "HM-MAYKA EMZO PREM",
+      "miqdar": "15.0000"
+    },
+    {
+      "idn": 4211,
+      "sen_no": "004211",
+      "tarix": "2026-06-23",
+      "customer": "FLAME BUS",
+      "product": "HM-MAYKA EMZO PREM",
+      "miqdar": "30.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "product": "HM-EL",
+      "miqdar": "120.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "product": "HM-EL",
+      "miqdar": "120.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "product": "HM-EL",
+      "miqdar": "120.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "product": "HM-EL",
+      "miqdar": "120.0000"
+    },
+    {
+      "idn": 4206,
+      "sen_no": "004206",
+      "tarix": "2026-06-18",
+      "customer": "Elxan ",
+      "product": "HM-EL",
+      "miqdar": "120.0000"
+    }
+  ],
+  "other_categories": {
+    "Class 6": [
+      {
+        "idn": 4190,
+        "sen_no": "004190",
+        "tarix": "2026-06-10",
+        "customer": "M",
+        "product": "HM-BTF ",
+        "miqdar": "32.0000"
+      },
+      {
+        "idn": 4116,
+        "sen_no": "004116",
+        "tarix": "2026-04-30",
+        "customer": "HAC",
+        "product": "HM-MASKA 1 QATLI",
+        "miqdar": "10000.0000"
+      },
+      {
+        "idn": 4102,
+        "sen_no": "004102",
+        "tarix": "2026-04-22",
+        "customer": "ATS Food LLC",
+        "product": "HM-AYAQQABI YAY R-42",
+        "miqdar": "1.0000"
+      },
+      {
+        "idn": 4102,
+        "sen_no": "004102",
+        "tarix": "2026-04-22",
+        "customer": "ATS Food LLC",
+        "product": "HM-BTF KEPKA GÖY",
+        "miqdar": "1.0000"
+      },
+      {
+        "idn": 4102,
+        "sen_no": "004102",
+        "tarix": "2026-04-22",
+        "customer": "ATS Food LLC",
+        "product": "HM-T-SH",
+        "miqdar": "1.0000"
+      }
+    ],
+    "Class 27": [
+      {
+        "idn": 4222,
+        "sen_no": "004222",
+        "tarix": "2026-06-29",
+        "customer": "IL MMC ",
+        "product": "HM-BETEX/11/0130 XALAT A",
+        "miqdar": "10.0000"
+      },
+      {
+        "idn": 4222,
+        "sen_no": "004222",
+        "tarix": "2026-06-29",
+        "customer": "IL MMC ",
+        "product": "HM-BETEX/11/0130 XALAT A",
+        "miqdar": "25.0000"
+      },
+      {
+        "idn": 4222,
+        "sen_no": "004222",
+        "tarix": "2026-06-29",
+        "customer": "IL MMC ",
+        "product": "HM-BETEX/11/0130 XALAT A",
+        "miqdar": "40.0000"
+      },
+      {
+        "idn": 4222,
+        "sen_no": "004222",
+        "tarix": "2026-06-29",
+        "customer": "IL MMC ",
+        "product": "HM-BETEX/11/0130 XALAT A",
+        "miqdar": "25.0000"
+      },
+      {
+        "idn": 4221,
+        "sen_no": "004221",
+        "tarix": "2026-06-27",
+        "customer": "ADON",
+        "product": "HM-BETEX/13/0072 ADON",
+        "miqdar": "62.0000"
+      }
+    ],
+    "Class 21": [
+      {
+        "idn": 4186,
+        "sen_no": "004186",
+        "tarix": "2026-06-06",
+        "customer": "ARC PROTECT",
+        "product": "HM-BETEX/09/0047 KÖYN",
+        "miqdar": "4.0000"
+      },
+      {
+        "idn": 4186,
+        "sen_no": "004186",
+        "tarix": "2026-06-06",
+        "customer": "ARC PROTECT",
+        "product": "HM-BETEX/09/0047 KÖYN",
+        "miqdar": "4.0000"
+      },
+      {
+        "idn": 4186,
+        "sen_no": "004186",
+        "tarix": "2026-06-06",
+        "customer": "ARC PROTECT",
+        "product": "HM-BETEX/09/0047 KÖYN",
+        "miqdar": "4.0000"
+      },
+      {
+        "idn": 4186,
+        "sen_no": "004186",
+        "tarix": "2026-06-06",
+        "customer": "ARC PROTECT",
+        "product": "HM-BETEX/09/0047 KÖYN",
+        "miqdar": "10.0000"
+      },
+      {
+        "idn": 4186,
+        "sen_no": "004186",
+        "tarix": "2026-06-06",
+        "customer": "ARC PROTECT",
+        "product": "HM-BETEX/09/0047 KÖYN",
+        "miqdar": "10.0000"
+      }
+    ],
+    "Class 25": [
+      {
+        "idn": 3995,
+        "sen_no": "003995",
+        "tarix": "2026-04-21",
+        "customer": "T",
+        "product": "TM-RESP",
+        "miqdar": "2850.0000"
+      }
+    ],
+    "Class 34": [
+      {
+        "idn": 4183,
+        "sen_no": "004183",
+        "tarix": "2026-06-06",
+        "customer": "KONVEN SERV",
+        "product": "TM-EMZO MATRAS 180*200",
+        "miqdar": "3.0000"
+      },
+      {
+        "idn": 4074,
+        "sen_no": "004074",
+        "tarix": "2026-06-18",
+        "customer": "H",
+        "product": "HM-YASTIQ ÜZÜ 70*50",
+        "miqdar": "150.0000"
+      },
+      {
+        "idn": 4073,
+        "sen_no": "004073",
+        "tarix": "2026-04-08",
+        "customer": "H",
+        "product": "HM-YASTIQ ÜZÜ 70*50",
+        "miqdar": "450.0000"
+      },
+      {
+        "idn": 4073,
+        "sen_no": "004073",
+        "tarix": "2026-04-08",
+        "customer": "H",
+        "product": "HM-YOR",
+        "miqdar": "100.0000"
+      },
+      {
+        "idn": 4070,
+        "sen_no": "004070",
+        "tarix": "2026-04-08",
+        "customer": "H",
+        "product": "HM-YASTIQ ÜZÜ 70*50",
+        "miqdar": "150.0000"
+      }
+    ],
+    "Class 28": [
+      {
+        "idn": 4223,
+        "sen_no": "004223",
+        "tarix": "2026-06-29",
+        "customer": "UM",
+        "product": "HM-M",
+        "miqdar": "2.0000"
+      },
+      {
+        "idn": 4223,
+        "sen_no": "004223",
+        "tarix": "2026-06-29",
+        "customer": "UM",
+        "product": "HM-M",
+        "miqdar": "2.0000"
+      },
+      {
+        "idn": 4219,
+        "sen_no": "004219",
+        "tarix": "2026-06-26",
+        "customer": "UM",
+        "product": "HM-M",
+        "miqdar": "2.0000"
+      },
+      {
+        "idn": 4217,
+        "sen_no": "004217",
+        "tarix": "2026-06-26",
+        "customer": "UM",
+        "product": "HM-M",
+        "miqdar": "1.0000"
+      },
+      {
+        "idn": 4213,
+        "sen_no": "004213",
+        "tarix": "2026-06-24",
+        "customer": "UM",
+        "product": "HM-M",
+        "miqdar": "1.0000"
+      }
+    ]
+  }
+}

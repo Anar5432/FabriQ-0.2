@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Production Planning Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="icon">🏭</span>
+                <h2>Factory ERP</h2>
+            </div>
+            <nav class="menu">
+                <button class="menu-item active" data-target="worker-profiles-view">
+                    <span class="icon">👥</span> Worker Profiles
+                </button>
+                <button class="menu-item" data-target="planning-details-view">
+                    <span class="icon">📅</span> Planning Details
+                </button>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- View: Worker Profiles -->
+            <section id="worker-profiles-view" class="view active">
+                <div class="header">
+                    <h1>Worker Profiles</h1>
+                    <p>Manage your workforce and their production capacities.</p>
+                </div>
+                <div class="workers-grid" id="workers-container">
+                    <!-- Populated via JS -->
+                </div>
+            </section>
+
+            <!-- View: Planning Details -->
+            <section id="planning-details-view" class="view">
+                <div class="header">
+                    <h1>Planning Details</h1>
+                    <p>Select an order to view its material shortages and assign workers.</p>
+                </div>
+                
+                <div class="planning-layout">
+                    <!-- Order Selector (Left) -->
+                    <div class="orders-list-panel glass-card">
+                        <h3>Active Orders</h3>
+                        <div class="orders-list" id="orders-list">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Details Panel (Right) -->
+                    <div class="order-details-panel glass-card" id="order-details-container" style="display: none;">
+                        <div class="order-header" id="order-header">
+                            <!-- Populated via JS -->
+                        </div>
+
+                        <div class="sections">
+                            <!-- Materials Section -->
+                            <div class="section-card" style="margin-bottom: 32px;">
+                                <h3 style="margin-bottom: 12px; color: #94a3b8;">📦 Material Requirements</h3>
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Material</th>
+                                            <th>Needed</th>
+                                            <th>In Stock (WH + Prod)</th>
+                                            <th>Shortage</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="materials-tbody">
+                                        <!-- Populated via JS -->
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!-- Assignments Section -->
+                            <div class="section-card">
+                                <h3 style="margin-bottom: 12px; color: #94a3b8;">⏱️ Production Timeline & Assignments</h3>
+                                <div class="timeline" id="timeline-container">
+                                    <!-- Populated via JS -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal for Assigning Worker -->
+    <div class="modal-overlay" id="assign-modal">
+        <div class="modal glass-card">
+            <h3 style="margin-bottom: 12px;">Assign Worker</h3>
+            <p id="assign-modal-stage-info" style="color: #94a3b8; font-size: 0.9rem;"></p>
+            <div class="form-group">
+                <label>Select Available Worker</label>
+                <select id="worker-select">
+                    <!-- Populated via JS based on stage_id -->
+                </select>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="submitAssignment()">Assign</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

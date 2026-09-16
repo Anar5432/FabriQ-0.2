@@ -1,0 +1,30 @@
+﻿======================================================================
+UNDERSTANDING qaliq: what does 'qaliq > 0' mean in context?
+qaliq = remaining quantity not yet delivered to customer
+An item can be in FINISHED GOODS WAREHOUSE (sobe2=6) with qaliq>0
+meaning it's MADE but not yet shipped/delivered to customer
+======================================================================
+
+Expanding to 180 days - are there really items in middle stages?
+180 days distribution: [{'computed_stage': '5 Anbar (left tikis)', 'cnt': 166}, {'computed_stage': '0 Satis', 'cnt': 31}, {'computed_stage': '5 SonBolum/Anbar', 'cnt': 11}, {'computed_stage': '5 IntSales/Anbar', 'cnt': 6}, {'computed_stage': '2 Exp/Kesim', 'cnt': 1}]
+
+
+ACTION PLAN: The mapping should use sobe1 (source) from latest transfer:
+  NULL => Sat─▒┼ƒ
+  3 => K╔Ösim-LEFT = now in Tiki┼ƒ (stage 4)
+  4,5 => Tiki┼ƒ-LEFT = now in Ambar (stage 5)
+  24 => Experimental = K╔Ösim (stage 2)
+  39 => Son B├╢l├╝m = Ambar (stage 5)
+  15 => Internal Sales = Ambar (stage 5)
+
+BUT WAIT - do any items show sobe1=3 (LEFT Kesim) recently?
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE A─₧ K─░┼₧─░ R-M(PAR├ç | sobe2=5 | date=2026-06-09 00:00:00
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE A─₧ K─░┼₧─░ R-M(R─░BA | sobe2=5 | date=2026-06-09 00:00:00
+  sobe1=3 example: YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-46 | sobe2=4 | date=2026-06-06 00:00:00
+  sobe1=3 example: YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-48 | sobe2=4 | date=2026-06-06 00:00:00
+  sobe1=3 example: YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-50 | sobe2=4 | date=2026-06-06 00:00:00
+  sobe1=3 example: YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-52 | sobe2=4 | date=2026-06-06 00:00:00
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M (P | sobe2=5 | date=2026-05-28 00:00:00
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L (P | sobe2=5 | date=2026-05-28 00:00:00
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M (R | sobe2=5 | date=2026-05-28 00:00:00
+  sobe1=3 example: YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L (R | sobe2=5 | date=2026-05-28 00:00:00

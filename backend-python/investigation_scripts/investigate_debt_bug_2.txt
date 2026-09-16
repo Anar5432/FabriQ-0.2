@@ -1,0 +1,2 @@
+Type in sm_borc: <class 'str'>
+Type in sm_kontr_sat: <class 'int'>

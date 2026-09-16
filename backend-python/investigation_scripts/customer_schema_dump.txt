@@ -1,0 +1,526 @@
+
+=================================
+TABLE: sm_kontra
+Columns:
+ - idn (int)
+ - kod (nvarchar)
+ - name (nvarchar)
+ - emp (int)
+ - surucu (int)
+ - ziy_gun (int)
+ - guzest (int)
+ - unvan (nvarchar)
+ - tel (nvarchar)
+ - firma (nvarchar)
+ - nov (int)
+ - al_der (int)
+ - mus_nov (int)
+ - qeyd (nvarchar)
+ - depozit (decimal)
+ - folder (int)
+ - fol_idn (int)
+ - hesab (nvarchar)
+ - real_hes (nvarchar)
+ - sat_hes (nvarchar)
+ - anbar (int)
+ - branch (int)
+ - tes (bit)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+ - hesab1 (nvarchar)
+ - gun (decimal)
+ - al_nov (int)
+ - valyuta (nvarchar)
+ - limit (decimal)
+ - emp_limit (decimal)
+ - sektor (int)
+ - sektor_name (nvarchar)
+ - yer_ec (int)
+ - email (nvarchar)
+ - r (bit)
+ - voen (nvarchar)
+ - rekvizit (nvarchar)
+ - active (int)
+ - vergi_status (int)
+
+Sample Row:
+ idn: 1
+ kod: 
+ name: CANELLA
+ emp: None
+ surucu: None
+ ziy_gun: None
+ guzest: None
+ unvan: TÜRKİYƏ
+ tel: 
+ firma: None
+ nov: 1
+ al_der: 5
+ mus_nov: 5
+ qeyd: 
+ depozit: 0.0000
+ folder: 0
+ fol_idn: None
+ hesab: 531.01
+ real_hes: 
+ sat_hes: 
+ anbar: None
+ branch: 1
+ tes: False
+ ins_user: Admin
+ ins_date: 2018-04-13 17:24:39
+ upd_user: Elcin Babayev
+ upd_date: 2019-11-06 02:22:06
+ hesab1: 201.01
+ gun: 0
+ al_nov: -1
+ valyuta: 
+ limit: 0.0000
+ emp_limit: 0.0000
+ sektor: None
+ sektor_name: None
+ yer_ec: 0
+ email: None
+ r: None
+ voen: None
+ rekvizit: None
+ active: None
+ vergi_status: None
+
+=================================
+TABLE: sm_kontra_is
+Columns:
+ - idn (int)
+ - es_no (int)
+ - num (int)
+ - nov (int)
+ - name (nvarchar)
+ - vezife (int)
+ - dog_tar (datetime)
+ - cins (int)
+ - aile_vez (int)
+ - milliyyet (int)
+ - vetendas (int)
+ - hobbi (nvarchar)
+ - tel (nvarchar)
+ - email (nvarchar)
+ - masin (nvarchar)
+ - qeyd (nvarchar)
+
+Sample Row:
+ idn: 8
+ es_no: 36
+ num: None
+ nov: 0
+ name: Samir Teymurov
+ vezife: None
+ dog_tar: 1980-10-06 00:00:00
+ cins: 0
+ aile_vez: 0
+ milliyyet: 1
+ vetendas: 1
+ hobbi: səyahət
+ tel: 00994505148380
+ email: vsgroup2008@mail.ru
+ masin: Pajero
+ qeyd: None
+
+=================================
+TABLE: sm_kontra_class
+Columns:
+ - idn (int)
+ - name (nvarchar)
+ - tes (bit)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+
+Sample Row:
+ idn: 1
+ name: MƏKTƏBLİLƏR
+ tes: False
+ ins_user: Admin
+ ins_date: 2018-04-13 17:21:45
+ upd_user: Aqil Azakov
+ upd_date: 2019-10-28 11:14:32
+
+=================================
+TABLE: sm_kontr_sat
+Columns:
+ - idn (int)
+ - sen_no (nvarchar)
+ - tarix (datetime)
+ - od_tar (datetime)
+ - kontra (int)
+ - liz_kon (int)
+ - liz_faiz (decimal)
+ - liz_kas (int)
+ - ilk_od (decimal)
+ - med_sen (int)
+ - med_sen_no (nvarchar)
+ - sif_sen (int)
+ - sif_form (int)
+ - sif_form_name (nvarchar)
+ - surucu (int)
+ - expeditor (int)
+ - kontra_name (nvarchar)
+ - surucu_name (nvarchar)
+ - expeditor_name (nvarchar)
+ - anbar (int)
+ - getdi (datetime)
+ - mebleg (decimal)
+ - guzest (decimal)
+ - guz_meb (decimal)
+ - guz_yek (decimal)
+ - yekun (decimal)
+ - xid_meb (decimal)
+ - xid_edv (decimal)
+ - is_meb (decimal)
+ - valyuta (nvarchar)
+ - kurs (decimal)
+ - mv_meb (decimal)
+ - edv_der (int)
+ - edv_faiz (decimal)
+ - edv_meb (decimal)
+ - mv_edv (decimal)
+ - tam_yek (decimal)
+ - mv_yek (decimal)
+ - edv_dax (bit)
+ - mux (bit)
+ - serh (nvarchar)
+ - kon_hes (nvarchar)
+ - xerc_nov (int)
+ - tes (bit)
+ - dov_nis (nvarchar)
+ - satici (int)
+ - el_serh (nvarchar)
+ - imp_idn (int)
+ - kod (nvarchar)
+ - med_idn (int)
+ - tr_idn (int)
+ - ist_idn (int)
+ - sg_idn (int)
+ - sy_idn (int)
+ - is_idn (int)
+ - sobe (int)
+ - r (bit)
+ - sif_idn (int)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+ - hes (bit)
+ - kampaniya (int)
+ - ad_soyad (nvarchar)
+ - mqd (decimal)
+ - cancel (bit)
+ - status_med (bit)
+ - nov (int)
+ - e_qaime (bit)
+
+Sample Row:
+ idn: 1
+ sen_no: 000001
+ tarix: 2018-07-13 00:00:00
+ od_tar: None
+ kontra: 25
+ liz_kon: None
+ liz_faiz: 0.0000
+ liz_kas: None
+ ilk_od: 0.0000
+ med_sen: None
+ med_sen_no: None
+ sif_sen: None
+ sif_form: None
+ sif_form_name: None
+ surucu: None
+ expeditor: None
+ kontra_name: KƏPƏZ ALÇI
+ surucu_name: None
+ expeditor_name: None
+ anbar: 6
+ getdi: None
+ mebleg: 1050.0000
+ guzest: 0.0000
+ guz_meb: 0.0000
+ guz_yek: 0E-9
+ yekun: 1050.00000000
+ xid_meb: 0.0000
+ xid_edv: 0.0000
+ is_meb: 0.0000
+ valyuta: AZN
+ kurs: 1.0000
+ mv_meb: 1050.000000
+ edv_der: None
+ edv_faiz: 0.0000
+ edv_meb: 0.0000
+ mv_edv: 0E-8
+ tam_yek: 1050.00000000
+ mv_yek: 1050.000000
+ edv_dax: False
+ mux: True
+ serh: QN 20182872
+ kon_hes: 211.01
+ xerc_nov: None
+ tes: False
+ dov_nis: None
+ satici: None
+ el_serh: None
+ imp_idn: None
+ kod: 
+ med_idn: None
+ tr_idn: None
+ ist_idn: None
+ sg_idn: None
+ sy_idn: None
+ is_idn: None
+ sobe: None
+ r: None
+ sif_idn: None
+ ins_user: Admin
+ ins_date: 2018-07-17 16:32:00
+ upd_user: Aqil Azakov
+ upd_date: 2019-10-08 09:19:23
+ hes: False
+ kampaniya: None
+ ad_soyad: 
+ mqd: 300.0000
+ cancel: None
+ status_med: True
+ nov: 0
+ e_qaime: None
+
+=================================
+TABLE: sm_kontr_sat_el
+Columns:
+ - idn (bigint)
+ - num (int)
+ - kod (nvarchar)
+ - barcode (nvarchar)
+ - serial (nvarchar)
+ - mal (int)
+ - sobe (int)
+ - reng (int)
+ - miqdar (decimal)
+ - maya_qiy (decimal)
+ - maya_meb (decimal)
+ - al_qiy (decimal)
+ - qiymet (decimal)
+ - guzest (decimal)
+ - mebleg (decimal)
+ - al_meb (decimal)
+ - edv_meb (decimal)
+ - yekun (decimal)
+ - qaliq (decimal)
+ - vitrin (bit)
+ - es_no (int)
+ - od_tar (datetime)
+ - ol_vah (int)
+ - qeyd (nvarchar)
+ - son_tar (datetime)
+ - ferq (decimal)
+ - sif_miq (decimal)
+ - kurs_qiy (decimal)
+ - numune (bit)
+ - hed (bit)
+
+Sample Row:
+ idn: 1408126
+ num: None
+ kod: -043727
+ barcode: 2043727000005
+ serial: None
+ mal: 43727
+ sobe: None
+ reng: None
+ miqdar: 1.0000
+ maya_qiy: 0.0000
+ maya_meb: 0.0000
+ al_qiy: 0.0000
+ qiymet: 25.0000
+ guzest: 0.0000
+ mebleg: 25.0000
+ al_meb: 0.0000
+ edv_meb: 4.5000
+ yekun: 29.5000
+ qaliq: 0.0000
+ vitrin: None
+ es_no: 53871
+ od_tar: None
+ ol_vah: 2
+ qeyd: None
+ son_tar: None
+ ferq: 0.0000
+ sif_miq: 0.0000
+ kurs_qiy: 0.0000
+ numune: False
+ hed: False
+
+=================================
+TABLE: sm_sifaris_form
+Columns:
+ - idn (int)
+ - sen_no (nvarchar)
+ - tarix (datetime)
+ - kontra (int)
+ - kassa (int)
+ - emp (int)
+ - anbar (int)
+ - guzest (decimal)
+ - mebleg (decimal)
+ - beh_meb (decimal)
+ - yekun (decimal)
+ - serh (nvarchar)
+ - mux (bit)
+ - tes (bit)
+ - but_sif (int)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+ - sif_no (int)
+ - nov (int)
+ - vaxt (int)
+ - sifaris (int)
+ - miq_cem (decimal)
+ - ym (bit)
+ - hm (bit)
+ - get_all (bit)
+ - depo (int)
+ - depo_name (nvarchar)
+ - r (bit)
+
+Sample Row:
+ idn: 3
+ sen_no: 000003
+ tarix: 2019-03-12 00:00:00
+ kontra: 234
+ kassa: None
+ emp: 27
+ anbar: 4
+ guzest: 0.0000
+ mebleg: 184.0000
+ beh_meb: 0.0000
+ yekun: 184.0000
+ serh: 
+ mux: False
+ tes: None
+ but_sif: 1
+ ins_user: Ayten
+ ins_date: 2019-03-13 12:31:54
+ upd_user: Mensure Memmedyarova
+ upd_date: 2019-04-26 09:51:48
+ sif_no: None
+ nov: None
+ vaxt: None
+ sifaris: 7
+ miq_cem: 8.0000
+ ym: None
+ hm: None
+ get_all: None
+ depo: None
+ depo_name: None
+ r: None
+
+=================================
+TABLE: sm_borc
+Columns:
+ - idn (int)
+ - sen_no (nvarchar)
+ - tarix (datetime)
+ - nov (int)
+ - kontra (nvarchar)
+ - kon_name (nvarchar)
+ - mebleg (decimal)
+ - kon_hes (nvarchar)
+ - hesab (nvarchar)
+ - valyuta (nvarchar)
+ - kurs (decimal)
+ - yekun (decimal)
+ - serh (nvarchar)
+ - mux (bit)
+ - tes (bit)
+ - sobe (int)
+ - gx_nov (int)
+ - r (bit)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+
+Sample Row:
+ idn: 1
+ sen_no: 000001
+ tarix: 2018-07-01 00:00:00
+ nov: 1
+ kontra: 125
+ kon_name: TÜRKİYƏ BAKU ÖRME KUMAŞ SƏNAYE 2 yeni
+ mebleg: 183000.0000
+ kon_hes: 531.01
+ hesab: 000
+ valyuta: usd
+ kurs: 1.70300000000000000000
+ yekun: 311649.0000
+ serh: a ve b sektoru cemi
+ mux: True
+ tes: False
+ sobe: None
+ gx_nov: 361
+ r: False
+ ins_user: Admin
+ ins_date: 2018-06-13 17:41:09
+ upd_user: Destec
+ upd_date: 2020-10-29 14:57:27
+
+=================================
+TABLE: sm_kassa_transfer
+Columns:
+ - idn (int)
+ - sen_no (nvarchar)
+ - tarix (datetime)
+ - kassa1 (int)
+ - kassa2 (int)
+ - mebleg (decimal)
+ - mezmun (nvarchar)
+ - valyuta (nvarchar)
+ - kurs (decimal)
+ - yekun (decimal)
+ - kon_val (nvarchar)
+ - kon_kurs (decimal)
+ - mux (bit)
+ - tes (bit)
+ - sobe (int)
+ - r (bit)
+ - status (int)
+ - ins_user (nvarchar)
+ - ins_date (datetime)
+ - upd_user (nvarchar)
+ - upd_date (datetime)
+ - tesdiq (bit)
+
+Sample Row:
+ idn: 1
+ sen_no: 000001
+ tarix: 2018-08-06 00:00:00
+ kassa1: 4
+ kassa2: 1
+ mebleg: 250.0000
+ mezmun: 
+ valyuta: AZN
+ kurs: 1.0000
+ yekun: 250.00000000
+ kon_val: AZN
+ kon_kurs: 1.0000
+ mux: True
+ tes: False
+ sobe: 23
+ r: False
+ status: 1
+ ins_user: Sumqayit
+ ins_date: 2018-08-16 18:12:24
+ upd_user: Sumqayit
+ upd_date: 2018-08-18 18:17:27
+ tesdiq: None

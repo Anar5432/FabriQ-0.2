@@ -1,0 +1,17 @@
+﻿Products with 'muddet' (duration) > 0:
+{'name': 'HM-BETEX/01/0130 G├ûD╞ÅKC╞ÅV╞Å ┼₧ALVAR  ─░ST─░ ASTARLI R-50 (MODEL 17-18)', 'muddet': Decimal('2844')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-46', 'muddet': Decimal('2390')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-44', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-48', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-50', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-52', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-54', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-56', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-58', 'muddet': Decimal('2174')}
+{'name': 'HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-60', 'muddet': Decimal('2174')}
+
+Tables related to Tech/Tex:
+sm_tech_plan_xammal
+sm_tech_plan_cem_xammal
+sm_tech_plan_sif
+sm_tech_plan

@@ -1,0 +1,10 @@
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 1, 0, 0)}
+{'miqdar': Decimal('117.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 4, 0, 0)}
+{'miqdar': Decimal('188.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 4, 0, 0)}
+{'miqdar': Decimal('40.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 4, 0, 0)}
+{'miqdar': Decimal('37.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 4, 0, 0)}

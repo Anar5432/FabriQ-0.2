@@ -1,0 +1,13 @@
+=== 1. SEARCHING FOR EXPENSE TABLES ===
+Potential expense/payment tables: ['sm_smeta_real_xerc', 'sm_smeta_real_xerc_ds', 'sm_bank_hes', 'sm_smeta_xerc', 'sm_bank_od', 'sm_kassa_transfer', 'sm_good_ist_xerc', 'sm_smeta_xerc_yeni', 'sm_pul_her_shablon_kassa', 'sm_maas_hes', 'sm_pul_her_shablon_xerc', 'sm_maas_hes_el', 'sm_smeta_xidmet_xerc', 'users_kassa', 'sm_bank_od_el_el', 'sm_good_birles_xerc', 'xerc_maddeleri', 'sm_good_xerc', 'sm_alis_xerc', 'sm_maya_xerc', 'sm_bank_od_el']
+
+=== 2. OUTGOING CASH (sm_kmx) ===
+Error querying sm_kmx: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'serh'. (207) (SQLExecDirectW)")
+
+=== 3. VENDOR VS CUSTOMER SEPARATION ===
+sm_kontra columns: ['idn', 'kod', 'name', 'emp', 'surucu', 'ziy_gun', 'guzest', 'unvan', 'tel', 'firma', 'nov', 'al_der', 'mus_nov', 'qeyd', 'depozit', 'folder', 'fol_idn', 'hesab', 'real_hes', 'sat_hes', 'anbar', 'branch', 'tes', 'ins_user', 'ins_date', 'upd_user', 'upd_date', 'hesab1', 'gun', 'al_nov', 'valyuta', 'limit', 'emp_limit', 'sektor', 'sektor_name', 'yer_ec', 'email', 'r', 'voen', 'rekvizit', 'active', 'vergi_status']
+
+No 'tip' column found or error.
+
+Checking contractor overlap (based on Sales vs Purchases):
+Error in Vendor section: ('42S02', "[42S02] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid object name 'sm_kontr_al'. (208) (SQLExecDirectW)")

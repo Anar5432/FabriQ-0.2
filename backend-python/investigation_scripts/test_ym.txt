@@ -1,0 +1,59 @@
+ID: 35645 | Name: YM-BETEX/01/0119 BOZ R-44 (PARÇA) | Class: None
+ID: 35646 | Name: YM-BETEX/01/0119 BOZ R-46 (PARÇA) | Class: None
+ID: 35647 | Name: YM-BETEX/01/0119 BOZ R-48 (PARÇA) | Class: None
+ID: 35648 | Name: YM-BETEX/01/0119 BOZ R-50 (PARÇA) | Class: None
+ID: 35649 | Name: YM-BETEX/01/0119 BOZ R-52 (PARÇA) | Class: None
+ID: 35650 | Name: YM-BETEX/01/0119 BOZ R-54 (PARÇA) | Class: None
+ID: 35651 | Name: YM-BETEX/01/0119 BOZ R-56 (PARÇA) | Class: None
+ID: 35652 | Name: YM-BETEX/01/0119 BOZ R-58 (PARÇA) | Class: None
+ID: 35653 | Name: YM-BETEX/01/0119 BOZ R-60 (PARÇA) | Class: None
+ID: 35654 | Name: YM-BETEX/01/0119 BOZ R-62 (ASTAR) | Class: None
+ID: 35655 | Name: YM-BETEX/01/0119 BOZ R-64 (ASTAR) | Class: None
+ID: 35656 | Name: YM-BETEX/01/0119 BOZ R-68 (PARÇA) | Class: None
+ID: 36872 | Name: YM-BETEX/01/0119 BOZ R-46 (ASTAR) | Class: None
+ID: 36873 | Name: YM-BETEX/01/0119 BOZ R-46 (CİBLİK) | Class: None
+ID: 36874 | Name: YM-BETEX/01/0119 BOZ R-48 (ASTAR) | Class: None
+ID: 36875 | Name: YM-BETEX/01/0119 BOZ R-48 (CİBLİK) | Class: None
+ID: 36876 | Name: YM-BETEX/01/0119 BOZ R-50 (ASTAR) | Class: None
+ID: 36877 | Name: YM-BETEX/01/0119 BOZ R-50 (CİBLİK) | Class: None
+ID: 36878 | Name: YM-BETEX/01/0119 BOZ R-52 (ASTAR) | Class: None
+ID: 36879 | Name: YM-BETEX/01/0119 BOZ R-52 (CİBLİK) | Class: None
+ID: 36880 | Name: YM-BETEX/01/0119 BOZ R-54 (ASTAR) | Class: None
+ID: 36881 | Name: YM-BETEX/01/0119 BOZ R-54 (CİBLİK) | Class: None
+ID: 36882 | Name: YM-BETEX/01/0119 BOZ R-56 (CİBLİK) | Class: None
+ID: 36883 | Name: YM-BETEX/01/0119 BOZ R-56 (ASTAR) | Class: None
+ID: 36884 | Name: YM-BETEX/01/0119 BOZ R-58 (CİBLİK) | Class: None
+ID: 36885 | Name: YM-BETEX/01/0119 BOZ R-58 (ASTAR) | Class: None
+ID: 36886 | Name: YM-BETEX/01/0119 BOZ R-60 (ASTAR) | Class: None
+ID: 36887 | Name: YM-BETEX/01/0119 BOZ R-60 (CİBLİK) | Class: None
+ID: 36888 | Name: YM-BETEX/01/0119 BOZ R-62 (PARÇA) | Class: None
+ID: 36889 | Name: YM-BETEX/01/0119 BOZ R-62 (CİBLİK) | Class: None
+ID: 36890 | Name: YM-BETEX/01/0119 BOZ R-64 (PARÇA) | Class: None
+ID: 36891 | Name: YM-BETEX/01/0119 BOZ R-64 (CİBLİK) | Class: None
+ID: 36892 | Name: YM-BETEX/01/0119 BOZ R-68 (ASTAR) | Class: None
+ID: 36893 | Name: YM-BETEX/01/0119 BOZ R-68 (CİBLİK) | Class: None
+ID: 38574 | Name: YM-BETEX/01/0119 BOZ R-66 (ASTAR) | Class: None
+ID: 42918 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-M (PARÇA) | Class: None
+ID: 42919 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-L (PARÇA) | Class: None
+ID: 42920 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-XL (PARÇA) | Class: None
+ID: 42921 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-3XL (PARÇA) | Class: None
+ID: 42922 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-4XL (PARÇA) | Class: None
+ID: 42923 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-M (SİNTİFON) | Class: None
+ID: 42924 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-L (SİNTİFON) | Class: None
+ID: 42925 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-XL (SİNTİFON) | Class: None
+ID: 42926 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-3XL (SİNTİFON) | Class: None
+ID: 42927 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-4XL (SİNTİFON) | Class: None
+ID: 42928 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-M (ASTAR) | Class: None
+ID: 42929 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-L (ASTAR) | Class: None
+ID: 42930 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-XL (ASTAR) | Class: None
+ID: 42931 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-3XL (ASTAR) | Class: None
+ID: 42932 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-4XL (ASTAR) | Class: None
+ID: 42933 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-M (CİBLİK) | Class: None
+ID: 42934 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-L (CİBLİK) | Class: None
+ID: 42935 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-XL (CİBLİK) | Class: None
+ID: 42936 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-3XL (CİBLİK) | Class: None
+ID: 42937 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-4XL (CİBLİK) | Class: None
+ID: 45766 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-2XL (ASTAR) | Class: None
+ID: 45767 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-2XL (CİBLİK) | Class: None
+ID: 45768 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-2XL (PARÇA) | Class: None
+ID: 45769 | Name: YM-BETEX/01/0119 GÖDƏKÇƏ TÜND GÖY R-2XL (SİNTİFON) | Class: None

@@ -1,0 +1,2 @@
+sm_kmx_el columns: ['idn', 'num', 'es_no', 'qaime', 'kontra', 'anbar', 'mebleg', 'odenen', 'qaliq']
+sm_kmx columns: ['idn', 'sen_no', 'tarix', 'kassa', 'nov', 'kontra', 'kon_name', 'alis_xerc', 'mebleg', 'mezmun', 'valyuta', 'kurs', 'yekun', 'kon_val', 'kon_kurs', 'mux', 'hesab', 'emp', 'tes', 'ins_user', 'ins_date', 'upd_user', 'upd_date', 'sobe', 'r', 'teh_al', 'hes', 'borc', 'hes_ay', 'qaime_sg', 'sifaris', 'bolme', 'bolme_name', 'teleb_id']

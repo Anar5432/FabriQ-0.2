@@ -1,0 +1,14 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:1
++ python -X utf8 -c "
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<string>", line 37, in <module>
+    rows = query(sql)
+  File "C:\Users\User\.gemini\antigravity\scratch\backend\dashboard\erp_connector.py", line 56, in query
+    cursor.execute(sql)
+    ~~~~~~~~~~~~~~^^^^^
+pyodbc.ProgrammingError: ('42000', "[42000] [Microsoft][ODBC SQL Server Driver][SQL Server]Incorrect syntax near 'YM'. 
+(102) (SQLExecDirectW)")

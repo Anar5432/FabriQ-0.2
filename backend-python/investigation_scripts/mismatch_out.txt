@@ -1,0 +1,19 @@
+﻿INVESTIGATING: Why are some delivered orders (qaliq=0) showing up in Sewing/Cutting?
+
+Order 61485 (061485) Date: 2026-06-11 00:00:00
+Product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L
+Ordered: 8.0000  |  Qaliq: 0 (Delivered)
+LATEST TRANSFER found in DB for this product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L
+Transfer Date: 2026-05-25 00:00:00 | From Sobe 5 to 6
+
+Order 61607 (061607) Date: 2026-06-11 00:00:00
+Product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S
+Ordered: 1.0000  |  Qaliq: 0 (Delivered)
+LATEST TRANSFER found in DB for this product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S
+Transfer Date: 2026-06-02 00:00:00 | From Sobe 5 to 6
+
+Order 61485 (061485) Date: 2026-06-11 00:00:00
+Product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M
+Ordered: 7.0000  |  Qaliq: 0 (Delivered)
+LATEST TRANSFER found in DB for this product: HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M
+Transfer Date: 2026-05-25 00:00:00 | From Sobe 5 to 6

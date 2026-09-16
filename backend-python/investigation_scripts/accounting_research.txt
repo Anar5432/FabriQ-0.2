@@ -1,0 +1,78 @@
+--- TABLE: dbo.sm_kassa_transfer ---
+Row count: 2456
+Last updated: 2026-06-13 16:02:25
+Columns: idn, sen_no, tarix, kassa1, kassa2, mebleg, mezmun, valyuta, kurs, yekun, kon_val, kon_kurs, mux, tes, sobe, r, status, ins_user, ins_date, upd_user, upd_date, tesdiq
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 8, 6, 0, 0), 'kassa1': 4, 'kassa2': 1, 'mebleg': Decimal('250.0000'), 'mezmun': '', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'yekun': Decimal('250.00000000'), 'kon_val': 'AZN', 'kon_kurs': Decimal('1.0000'), 'mux': True, 'tes': False, 'sobe': 23, 'r': False, 'status': 1, 'ins_user': 'Sumqayit', 'ins_date': datetime.datetime(2018, 8, 16, 18, 12, 24), 'upd_user': 'Sumqayit', 'upd_date': datetime.datetime(2018, 8, 18, 18, 17, 27), 'tesdiq': None}
+
+--- TABLE: dbo.sm_bank_od ---
+Row count: 4417
+Last updated: 2026-06-10 14:00:40
+Columns: idn, sen_no, tarix, bank_hes, hesab, valyuta, kurs, med_meb, med_yek, mex_meb, mex_yek, mezmun, mux, tes, kassa, sobe, nov, mebleg, r, ins_user, ins_date, upd_user, upd_date
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 7, 1, 0, 0), 'bank_hes': 1, 'hesab': '223.01', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'med_meb': Decimal('11247.4300'), 'med_yek': Decimal('0.0000'), 'mex_meb': Decimal('0.0000'), 'mex_yek': Decimal('0.0000'), 'mezmun': '', 'mux': True, 'tes': False, 'kassa': None, 'sobe': None, 'nov': None, 'mebleg': Decimal('11247.4300'), 'r': False, 'ins_user': 'Admin', 'ins_date': datetime.datetime(2018, 7, 20, 14, 49, 44), 'upd_user': 'Sahib', 'upd_date': datetime.datetime(2023, 6, 17, 10, 26, 33)}
+
+--- TABLE: dbo.sm_cash ---
+Row count: 12
+Last updated: 2025-12-16 17:05:03
+Columns: idn, name, nov, valyuta, hesab, branch, tes, kod, ins_user, ins_date, upd_user, upd_date, r
+Sample: {'idn': 1, 'name': 'MERKEZI KASSA', 'nov': None, 'valyuta': '', 'hesab': '221.01', 'branch': 1, 'tes': False, 'kod': '1', 'ins_user': '01', 'ins_date': None, 'upd_user': 'Movsumlu Sefer', 'upd_date': datetime.datetime(2025, 8, 11, 14, 10, 53), 'r': None}
+
+--- TABLE: dbo.sm_bank_hes ---
+Row count: 18
+Last updated: 2025-12-11 19:12:37
+Columns: idn, name, hes_no, valyuta, bank_name, swift, fil_kod, mux_hes, hesab, bank_addr, voen, el_sexs, hes_tar, branch, tes, ins_user, ins_date, upd_user, upd_date, r
+Sample: {'idn': 1, 'name': 'KAPİTAL BANK GƏNCLİK FİLİALI AZN', 'hes_no': '1', 'valyuta': 'AZN', 'bank_name': 'KAPİTAL BANK', 'swift': '', 'fil_kod': '', 'mux_hes': '', 'hesab': '223.01', 'bank_addr': 'HƏSƏN ƏLİYEV 82', 'voen': '', 'el_sexs': '', 'hes_tar': None, 'branch': 1, 'tes': False, 'ins_user': 'Admin', 'ins_date': datetime.datetime(2018, 4, 18, 17, 17, 42), 'upd_user': 'Irade Qasimova', 'upd_date': datetime.datetime(2018, 12, 12, 10, 44, 3), 'r': None}
+
+--- TABLE: dbo.sm_hesab_bagla ---
+Row count: 2
+Last updated: 2025-07-01 00:00:00
+Columns: idn, sen_no, tarix, il, ay, branch, hes_ay, hes, mux, qeyd, r, sablon
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2025, 7, 1, 0, 0), 'il': 13, 'ay': 6, 'branch': 1, 'hes_ay': '2025.07', 'hes': None, 'mux': False, 'qeyd': '', 'r': False, 'sablon': None}
+
+--- TABLE: dbo.users_cash ---
+Row count: 265
+Last updated: None
+Columns: idn, user_id, num, cash
+Sample: {'idn': 2014, 'user_id': 5, 'num': None, 'cash': 1}
+
+--- TABLE: dbo.accounting_template_ex_ex ---
+Row count: 276
+Last updated: None
+Columns: idn, num, es_no, el_no, sort_no, table_name, condition
+Sample: {'idn': 3034, 'num': None, 'es_no': 3, 'el_no': 3, 'sort_no': 1, 'table_name': 'sm_sobeler_med', 'condition': 't0.es_no=t1.idn'}
+
+--- TABLE: dbo.sm_pul_her_shablon_kassa ---
+Row count: 3
+Last updated: None
+Columns: idn, num, es_no, hesab
+Sample: {'idn': 1, 'num': None, 'es_no': 1, 'hesab': '221'}
+
+--- TABLE: dbo.sm_bank_od_el_el ---
+Row count: 571
+Last updated: None
+Columns: idn, es_no, el_no, num, qaime, kontra, mebleg, odenen, qaliq
+Sample: {'idn': 14, 'es_no': 476, 'el_no': 8, 'num': None, 'qaime': 720, 'kontra': 8, 'mebleg': Decimal('72655.00'), 'odenen': Decimal('32248.00'), 'qaliq': Decimal('40407.00')}
+
+--- TABLE: dbo.sm_hesab_bagla_el ---
+Row count: 12
+Last updated: None
+Columns: idn, num, es_no, hes_sifir, desc1, desc2, desc3, dn1, dn2, dn3, d1, d2, d3, hes_artan, desc4, desc5, desc6, dn4, dn5, dn6, d4, d5, d6, mebleg, val, kurs, yekun, mezmun, merhele
+Sample: {'idn': 949, 'num': None, 'es_no': 1, 'hes_sifir': '701.01', 'desc1': '', 'desc2': '', 'desc3': '', 'dn1': '', 'dn2': '', 'dn3': '', 'd1': 0, 'd2': 0, 'd3': 0, 'hes_artan': '801.01', 'desc4': '', 'desc5': '', 'desc6': '', 'dn4': '', 'dn5': '', 'dn6': '', 'd4': 0, 'd5': 0, 'd6': 0, 'mebleg': Decimal('0.0000'), 'val': None, 'kurs': Decimal('0.0000'), 'yekun': Decimal('0.0000'), 'mezmun': None, 'merhele': None}
+
+--- TABLE: dbo.accounting_template_ex ---
+Row count: 99
+Last updated: None
+Columns: idn, num, es_no, table_name, condition, sen_id, sen_no, tarix, mezmun, emel_sab, sobe, emel_id, deb_hes, d1, d2, d3, desc1, desc2, desc3, meb_d, val_d, kurs_d, kred_hes, d4, d5, d6, desc4, desc5, desc6, meb_k, val_k, kurs_k
+Sample: {'idn': 1, 'num': None, 'es_no': 1, 'table_name': 'sm_kmd', 'condition': 't0.mux=1and t0.mebleg>0', 'sen_id': 't0.idn', 'sen_no': 't0.sen_no', 'tarix': 't0.tarix', 'mezmun': 't0.mezmun', 'emel_sab': 1, 'sobe': 'NULL', 'emel_id': 'NULL', 'deb_hes': 't1.hesab', 'd1': '34', 'd2': '0', 'd3': '0', 'desc1': 't0.kassa', 'desc2': 'NULL', 'desc3': 'NULL', 'meb_d': 't0.mebleg', 'val_d': 't0.valyuta', 'kurs_d': 't0.kurs', 'kred_hes': 't0.hesab', 'd4': 'case t0.nov when 0 then 2 when 1 then 39 when 2 then 3 when 3 then 2 when 4 then 3 when 5 then 3  else 0 end', 'd5': '0', 'd6': '0', 'desc4': 't0.kontra', 'desc5': 'NULL', 'desc6': 'NULL', 'meb_k': 't0.mebleg*t0.kurs/t0.kon_kurs', 'val_k': 't0.kon_val', 'kurs_k': 't0.kon_kurs'}
+
+--- TABLE: dbo.sm_bank_od_el ---
+Row count: 24856
+Last updated: None
+Columns: idn, es_no, num, sen_no, hesab, desc1, desc2, desc3, dn1, dn2, dn3, d1, d2, d3, edv_der, edv_faiz, med_meb, mex_meb, med_edv, mex_edv, valyuta, kurs, mezmun, nov, bank_hes, mebleg, med_kon, mex_kon, val_kon, kur_kon, sifaris, bolme, teleb_id
+Sample: {'idn': 1, 'es_no': 1, 'num': None, 'sen_no': None, 'hesab': '531.01', 'desc1': 144, 'desc2': '', 'desc3': '', 'dn1': 'ILKIN QALIQ', 'dn2': '', 'dn3': '', 'd1': 2, 'd2': 0, 'd3': 0, 'edv_der': None, 'edv_faiz': Decimal('0.0000'), 'med_meb': Decimal('11247.4300'), 'mex_meb': Decimal('0.0000'), 'med_edv': Decimal('0.0000'), 'mex_edv': Decimal('0.0000'), 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'mezmun': None, 'nov': None, 'bank_hes': None, 'mebleg': Decimal('11247.4300'), 'med_kon': Decimal('0.0000'), 'mex_kon': Decimal('0.0000'), 'val_kon': None, 'kur_kon': Decimal('0.0000'), 'sifaris': None, 'bolme': None, 'teleb_id': None}
+
+--- TABLE: dbo.accounting_template ---
+Row count: 33
+Last updated: None
+Columns: idn, name, emel, sen_id
+Sample: {'idn': 1, 'name': 'Kassaya mədaxil', 'emel': 51, 'sen_id': 'idn'}
+

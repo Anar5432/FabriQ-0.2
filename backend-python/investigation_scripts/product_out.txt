@@ -1,0 +1,10 @@
+In form_el:
+{'idn': 3, 'es_no': 19647, 'num': None, 'kod': '-045689', 'mal': 45689, 'deri': None, 'parca': None, 'miqdar': Decimal('4.0000'), 'qiymet': Decimal('0.0000'), 'guzest': Decimal('0.0000'), 'mebleg': Decimal('0.0000'), 'beh': Decimal('0.0000'), 'cat_tar': None, 'qeyd': None, 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'faza': 5, 'esas_mal': 45689, 'gul_id': 60006}
+
+In sat_el:
+{'idn': 1459356, 'num': None, 'kod': '-045689', 'barcode': '2045689000000', 'serial': None, 'mal': 45689, 'sobe': None, 'reng': None, 'miqdar': Decimal('4.0000'), 'maya_qiy': Decimal('0.0000'), 'maya_meb': Decimal('0.0000'), 'al_qiy': Decimal('0.0000'), 'qiymet': Decimal('25.0000'), 'guzest': Decimal('0.0000'), 'mebleg': Decimal('100.0000'), 'al_meb': Decimal('0.0000'), 'edv_meb': Decimal('18.0000'), 'yekun': Decimal('118.0000'), 'qaliq': Decimal('0.0000'), 'vitrin': None, 'es_no': 55494, 'od_tar': None, 'ol_vah': 2, 'qeyd': None, 'son_tar': None, 'ferq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'kurs_qiy': Decimal('0.0000'), 'numune': False, 'hed': False}
+{'idn': 1607360, 'num': None, 'kod': '-045689', 'barcode': '2045689000000', 'serial': None, 'mal': 45689, 'sobe': None, 'reng': None, 'miqdar': Decimal('1.0000'), 'maya_qiy': Decimal('0.0000'), 'maya_meb': Decimal('0.0000'), 'al_qiy': Decimal('0.0000'), 'qiymet': Decimal('0.0000'), 'guzest': Decimal('0.0000'), 'mebleg': Decimal('0.0000'), 'al_meb': Decimal('0.0000'), 'edv_meb': Decimal('0.0000'), 'yekun': Decimal('0.0000'), 'qaliq': Decimal('0.0000'), 'vitrin': None, 'es_no': 58719, 'od_tar': None, 'ol_vah': 2, 'qeyd': None, 'son_tar': None, 'ferq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'kurs_qiy': Decimal('0.0000'), 'numune': False, 'hed': False}
+
+In qaime_el_el:
+
+In sifaris_el:

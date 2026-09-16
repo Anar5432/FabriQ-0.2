@@ -1,0 +1,32 @@
+{'class': 1, 'class_name': None}
+{'class': 2, 'class_name': None}
+{'class': 3, 'class_name': None}
+{'class': 6, 'class_name': None}
+{'class': 7, 'class_name': None}
+{'class': 8, 'class_name': 'OFİS LƏVAZİMATLARI'}
+{'class': 9, 'class_name': None}
+{'class': 10, 'class_name': 'FURNİTURA'}
+{'class': 11, 'class_name': None}
+{'class': 12, 'class_name': 'EHTİYAT HİSSƏLƏRİ'}
+{'class': 14, 'class_name': 'ƏSAS VƏSAİTLƏR'}
+{'class': 15, 'class_name': 'TƏSƏRRÜFAT MALLARI'}
+{'class': 17, 'class_name': None}
+{'class': 18, 'class_name': None}
+{'class': 19, 'class_name': None}
+{'class': 20, 'class_name': 'İÇ GEYİMLƏRİ'}
+{'class': 21, 'class_name': 'CORAB'}
+{'class': 22, 'class_name': 'TOXUMA '}
+{'class': 23, 'class_name': 'ÖRMƏ PARÇA'}
+{'class': 24, 'class_name': 'YAĞMURLUQ'}
+{'class': 25, 'class_name': 'MASKA'}
+{'class': 26, 'class_name': 'İPLİK VƏ SAPLAR'}
+{'class': 27, 'class_name': 'İŞÇİ GEYİMLƏRİ'}
+{'class': 28, 'class_name': 'MƏKTƏBLİ GEYİMLƏRİ'}
+{'class': 29, 'class_name': 'QADIN CORABI'}
+{'class': 30, 'class_name': 'UŞAQ CORABI'}
+{'class': 31, 'class_name': 'SWEATSHIRT'}
+{'class': 32, 'class_name': 'ÜST GEYİMLƏRİ'}
+{'class': 33, 'class_name': 'UŞAQ GEYİMİ'}
+{'class': 34, 'class_name': 'HOREKA'}
+{'class': 48, 'class_name': None}
+{'class': 34960, 'class_name': None}

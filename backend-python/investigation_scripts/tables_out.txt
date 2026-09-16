@@ -1,0 +1,15 @@
+Finding tables with 'satis'...
+{'TABLE_NAME': 'sm_smeta_satis'}
+
+Finding tables with 'sifaris'...
+{'TABLE_NAME': 'sm_sifaris'}
+{'TABLE_NAME': 'sm_sifaris_el'}
+{'TABLE_NAME': 'sm_sifaris_form'}
+{'TABLE_NAME': 'sm_sifaris_qaime'}
+{'TABLE_NAME': 'sm_sifaris_qaime_el'}
+{'TABLE_NAME': 'sm_sifaris_qaime_el_el'}
+{'TABLE_NAME': 'mob_sifaris_el'}
+{'TABLE_NAME': 'mob_sifaris'}
+{'TABLE_NAME': 'sm_sifaris_qal'}
+{'TABLE_NAME': 'sm_sifaris_form_el_el'}
+{'TABLE_NAME': 'sm_sifaris_form_el'}

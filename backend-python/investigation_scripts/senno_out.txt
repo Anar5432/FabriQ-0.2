@@ -1,0 +1,17 @@
+Checking sm_sifaris_form for sen_no 004111...
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('230.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('12.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('230.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('12.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('41.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('21.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('21.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 9, 14, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('41.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('40.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('10.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('10.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('29.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('10.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('12.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('2.0000')}
+{'idn': 14111, 'sen_no': '014111', 'tarix': datetime.datetime(2023, 8, 22, 0, 0), 'name': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('10.0000')}

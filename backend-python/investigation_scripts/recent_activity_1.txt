@@ -1,0 +1,52 @@
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.
+Msg 300, Level 14, State 1, Server DB-03, Line 1
+VIEW SERVER STATE permission was denied on object 'server', database 'master'.
+Msg 297, Level 16, State 1, Server DB-03, Line 1
+The user does not have permission to perform this action.

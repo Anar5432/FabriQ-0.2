@@ -1,0 +1,69 @@
+
+--- Table: materials ---
+(0, 'id', 'VARCHAR', 1, None, 1)
+(1, 'name', 'VARCHAR', 0, None, 0)
+(2, 'unit', 'VARCHAR', 0, None, 0)
+Sample row: ('m_yarn_thick', 'Thick Yarn', 'kg')
+
+--- Table: stages ---
+(0, 'id', 'VARCHAR', 1, None, 1)
+(1, 'sector_id', 'VARCHAR', 0, None, 0)
+(2, 'name', 'VARCHAR', 0, None, 0)
+(3, 'capacity', 'INTEGER', 0, None, 0)
+(4, 'order_index', 'INTEGER', 0, None, 0)
+Sample row: ('c1', 'corab', 'Hörgü', 2000, 0)
+
+--- Table: orders ---
+(0, 'id', 'VARCHAR', 1, None, 1)
+(1, 'sector_id', 'VARCHAR', 0, None, 0)
+(2, 'company_id', 'VARCHAR', 0, None, 0)
+(3, 'product_type', 'VARCHAR', 0, None, 0)
+(4, 'quantity', 'VARCHAR', 0, None, 0)
+(5, 'stage_index', 'INTEGER', 0, None, 0)
+(6, 'status', 'VARCHAR', 0, None, 0)
+(7, 'deadline', 'VARCHAR', 0, None, 0)
+(8, 'color', 'VARCHAR', 0, None, 0)
+(9, 'notes', 'VARCHAR', 0, None, 0)
+(10, 'difficulty', 'VARCHAR', 0, None, 0)
+(11, 'workers_assigned', 'INTEGER', 0, None, 0)
+(12, 'planned_days', 'INTEGER', 0, None, 0)
+(13, 'created_at', 'DATETIME', 0, None, 0)
+(14, 'priority', 'INTEGER', 0, None, 0)
+Sample row: ('ORD-101', 'corab', 'brav', 'Qış corabı (Qalın)', '15,000', 2, 'Davam edir', '24 Fevral', '#b91c1c', 'İplik sayı xüsusi olaraq 2 qat artırılıb.', None, None, None, '2026-07-17 03:27:03.659443', 0)
+
+--- Table: material_stocks ---
+(0, 'id', 'INTEGER', 1, None, 1)
+(1, 'material_id', 'VARCHAR', 0, None, 0)
+(2, 'location', 'VARCHAR', 0, None, 0)
+(3, 'quantity', 'FLOAT', 0, None, 0)
+Sample row: (1, 'm_yarn_thick', 'Warehouse', 500.0)
+
+--- Table: product_boms ---
+(0, 'id', 'INTEGER', 1, None, 1)
+(1, 'product_type', 'VARCHAR', 0, None, 0)
+(2, 'material_id', 'VARCHAR', 0, None, 0)
+(3, 'quantity_per_unit', 'FLOAT', 0, None, 0)
+Sample row: (1, 'Qış corabı (Qalın)', 'm_yarn_thick', 0.05)
+
+--- Table: order_material_reserves ---
+(0, 'id', 'INTEGER', 1, None, 1)
+(1, 'order_id', 'VARCHAR', 0, None, 0)
+(2, 'material_id', 'VARCHAR', 0, None, 0)
+(3, 'quantity', 'FLOAT', 0, None, 0)
+Sample row: (1, 'ORD-101', 'm_yarn_thick', 750.0)
+
+--- Table: product_processes ---
+(0, 'id', 'INTEGER', 1, None, 1)
+(1, 'product_type', 'VARCHAR', 0, None, 0)
+(2, 'stage_id', 'VARCHAR', 0, None, 0)
+(3, 'step_order', 'INTEGER', 0, None, 0)
+Sample row: (1, 'Qış corabı (Qalın)', 'c1', 1)
+
+--- Table: order_stage_assignments ---
+(0, 'id', 'INTEGER', 1, None, 1)
+(1, 'order_id', 'VARCHAR', 0, None, 0)
+(2, 'stage_id', 'VARCHAR', 0, None, 0)
+(3, 'worker_id', 'VARCHAR', 0, None, 0)
+(4, 'daily_goal', 'FLOAT', 0, None, 0)
+(5, 'days_required', 'INTEGER', 0, None, 0)
+Sample row: (3, 'ORD-201', 't1', 'w1', 1000.0, 5)

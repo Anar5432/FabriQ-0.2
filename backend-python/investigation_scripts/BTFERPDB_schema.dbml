@@ -1,0 +1,7315 @@
+Table "accounting_template" {
+  "idn" int
+  "name" nvarchar
+  "emel" int
+  "sen_id" nvarchar
+}
+
+Table "accounting_template_ex" {
+  "idn" bigint
+  "num" int
+  "es_no" int
+  "table_name" nvarchar
+  "condition" nvarchar
+  "sen_id" nvarchar
+  "sen_no" nvarchar
+  "tarix" nvarchar
+  "mezmun" nvarchar
+  "emel_sab" int
+  "sobe" nvarchar
+  "emel_id" nvarchar
+  "deb_hes" nvarchar
+  "d1" nvarchar
+  "d2" nvarchar
+  "d3" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "meb_d" nvarchar
+  "val_d" nvarchar
+  "kurs_d" nvarchar
+  "kred_hes" nvarchar
+  "d4" nvarchar
+  "d5" nvarchar
+  "d6" nvarchar
+  "desc4" nvarchar
+  "desc5" nvarchar
+  "desc6" nvarchar
+  "meb_k" nvarchar
+  "val_k" nvarchar
+  "kurs_k" nvarchar
+}
+
+Table "accounting_template_ex_ex" {
+  "idn" int [primary key]
+  "num" int
+  "es_no" int
+  "el_no" int
+  "sort_no" int
+  "table_name" nvarchar
+  "condition" nvarchar
+}
+
+Table "aciqlama" {
+  "idn" int
+  "name" nvarchar
+  "nov" int
+  "shn" nvarchar
+  "cedvel" nvarchar
+  "col1" nvarchar
+  "col2" nvarchar
+  "deb" nvarchar
+  "kred" nvarchar
+  "vdeb" nvarchar
+  "vkred" nvarchar
+}
+
+Table "blocks" {
+  "idn" int [primary key]
+  "table_name" nvarchar
+  "table_id" int
+  "ip" nvarchar
+}
+
+Table "emel_alt_nov" {
+  "emel" int
+  "idn" int
+  "name" nvarchar
+}
+
+Table "emel_lar" {
+  "idn" bigint [primary key]
+  "num" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "deb_hes" nvarchar
+  "kred_hes" nvarchar
+  "valyuta" nvarchar
+  "val_meb" decimal
+  "kurs" decimal
+  "qiymet" decimal
+  "miqdar" decimal
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "emel" int
+  "sen_id" bigint
+  "emel_id" bigint
+  "emel_sab" int
+  "deb_val" nvarchar
+  "kred_val" nvarchar
+  "deb_tbl_id" bigint
+  "kred_tbl_id" bigint
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "desc4" nvarchar
+  "desc5" nvarchar
+  "desc6" nvarchar
+  "d4" int
+  "d5" int
+  "d6" int
+  "val_d" nvarchar
+  "val_k" nvarchar
+  "meb_d" decimal
+  "meb_k" decimal
+  "kurs_d" decimal
+  "kurs_k" decimal
+  "sobe" int
+  "pul_vesait" int
+}
+
+Table "emel_name" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "emel_sab" {
+  "idn" int
+  "name" nvarchar
+  "deb_tbl" nvarchar
+  "kred_tbl" nvarchar
+  "deb_fld" nvarchar
+  "kred_fld" nvarchar
+  "deb_fld_tbl" nvarchar
+  "kred_fld_tbl" nvarchar
+  "deb_hes_fld" nvarchar
+  "kred_hes_fld" nvarchar
+  "deb_cap" nvarchar
+  "kred_cap" nvarchar
+}
+
+Table "emel_sen" {
+  "idn" bigint [primary key]
+  "tarix" datetime
+  "gun_id" int
+  "sen_no" nvarchar
+  "emel" int
+  "sen_id" int
+  "mezmun" nvarchar
+}
+
+Table "fields" {
+  "df" decimal
+  "bf" bit
+  "ff" float
+  "ig" int
+  "gelen" bigint
+  "geden" bigint
+  "mues_idn" int
+  "getds" nvarchar
+  "scr" nvarchar
+}
+
+Table "hes_plan" {
+  "idn" nvarchar
+  "name" nvarchar
+  "val" bit
+  "miq" bit
+  "bal_arx" bit
+  "ap" int
+  "desc1" int
+  "desc2" int
+  "desc3" int
+  "qaliq" numeric
+  "deb_dovr" numeric
+  "kred_dovr" numeric
+  "lev" int
+  "ana_hes" nvarchar
+  "qrup" nvarchar
+  "yeni" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "hr_eh_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "hes_ay" nvarchar
+  "is_gun" int
+  "branch" int
+  "hes_meb" decimal
+  "eh_ayirma" decimal
+  "eh_tutulma" decimal
+  "od_meb" decimal
+  "is_faiz" decimal
+  "is_meb" decimal
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "satisdan_borc" decimal
+  "bolme" int
+  "r_is_gun" int
+  "tibb_meb" decimal
+  "r" bit
+  "qeyd" nvarchar
+  "r_hes" bit
+  "colleagues_amount" decimal
+}
+
+Table "hr_eh_hes_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "eh_hes" nvarchar
+  "is_gun" int
+  "islen_gun" decimal
+  "xes_gun" int
+  "oklad" decimal
+  "hes_meb" decimal
+  "mukafat" decimal
+  "elave" decimal
+  "mezuniyyet" decimal
+  "xestelik" decimal
+  "kompens" decimal
+  "hes_cem" decimal
+  "gv_azad" decimal
+  "gv_hes_meb" decimal
+  "sab_ver_meb" decimal
+  "min_eh" decimal
+  "gv_der" decimal
+  "gv_meb" decimal
+  "gv_hes" nvarchar
+  "tf_der" decimal
+  "tf_meb" decimal
+  "tf_hes" nvarchar
+  "hem_der" decimal
+  "hem_meb" decimal
+  "hem_hes" nvarchar
+  "dv_der" decimal
+  "dv_meb" decimal
+  "dv_hes" nvarchar
+  "eh_ayirma" decimal
+  "od_meb" decimal
+  "borc" decimal
+  "avans" decimal
+  "od_cem" decimal
+  "ss_der" decimal
+  "ss_meb" decimal
+  "ss_hes" nvarchar
+  "ss_xh" nvarchar
+  "ss_desc1" nvarchar
+  "ss_desc2" nvarchar
+  "ss_desc3" nvarchar
+  "ss_dn1" nvarchar
+  "ss_dn2" nvarchar
+  "ss_dn3" nvarchar
+  "ss_d1" int
+  "ss_d2" int
+  "ss_d3" int
+  "dt_der" decimal
+  "dt_meb" decimal
+  "dt_hes" nvarchar
+  "dt_xh" nvarchar
+  "dt_desc1" nvarchar
+  "dt_desc2" nvarchar
+  "dt_desc3" nvarchar
+  "dt_dn1" nvarchar
+  "dt_dn2" nvarchar
+  "dt_dn3" nvarchar
+  "dt_d1" int
+  "dt_d2" int
+  "dt_d3" int
+  "is_faiz" decimal
+  "is_meb" decimal
+  "is_hes" nvarchar
+  "eh_tutulma" decimal
+  "es_no" int
+  "yap" decimal
+  "qaliq_borc" decimal
+  "yemek" decimal
+  "bonus" decimal
+  "briqadir" decimal
+  "cerime" decimal
+  "tutulma" decimal
+  "emek_borc" decimal
+  "kart" decimal
+  "um_qal" decimal
+  "ise_muzd" decimal
+  "hes_nov" int
+  "bolme" int
+}
+
+Table "hr_eh_hes_res_el" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "tabel_no" nvarchar
+  "employee" int
+  "employee_name" nvarchar
+  "personal_no" nvarchar
+  "position" int
+  "salary_account" nvarchar
+  "workday" int
+  "worked_day" int
+  "workhour" decimal
+  "workedhour" decimal
+  "salary" decimal
+  "accured_amount" decimal
+  "reward" decimal
+  "extra" decimal
+  "leave" decimal
+  "sick" decimal
+  "compensation" decimal
+  "overtime" decimal
+  "total_calculated" decimal
+  "income_tax_free" decimal
+  "income_tax_calc_amount" decimal
+  "constant_tax_amount" decimal
+  "min_salary" decimal
+  "income_tax_rate" decimal
+  "income_tax_amount" decimal
+  "constant_tax_pension_emp" decimal
+  "minimum_amount_pension_emp" decimal
+  "pension_fond_rate" decimal
+  "pension_fond_amount" decimal
+  "colleagues_rate" decimal
+  "colleagues_amount" decimal
+  "other_tax_rate" decimal
+  "other_tax_amount" decimal
+  "allocation_salary" decimal
+  "payable_amount" decimal
+  "debt" decimal
+  "advance" decimal
+  "payable_total" decimal
+  "fine_amount" decimal
+  "court_amount" decimal
+  "constant_tax_pension_company" decimal
+  "minimum_amount_pension_company" decimal
+  "social_insurance_rate" decimal
+  "social_insurance_amount" decimal
+  "other_deduction_rate" decimal
+  "other_deduction_amount" decimal
+  "salary_deduction" decimal
+  "unemployment_rate" decimal
+  "unemployment_amount" decimal
+  "health_insurance_amount" decimal
+  "health_insurance_rate" decimal
+  "health_insurance_constant_amount" decimal
+  "health_insurance_min_amount" decimal
+  "const_pension_emp_compen" decimal
+  "min_pension_emp_compen" decimal
+  "pen_fond_rate_compen" decimal
+  "const_pension_company_compen" decimal
+  "min_pension_company_compen" decimal
+  "soc_insurance_rate_compen" decimal
+  "allowance" decimal
+  "const_pension_emp_leave" decimal
+  "min_pension_emp_leave" decimal
+  "pen_fond_rate_leave" decimal
+  "const_pension_company_leave" decimal
+  "min_pension_company_leave" decimal
+  "soc_insurance_rate_leave" decimal
+  "tf_hes" nvarchar
+  "ss_hes" nvarchar
+  "tibb_hes" nvarchar
+  "ss_desc1" nvarchar
+  "ss_xh" nvarchar
+  "is_hes" nvarchar
+  "bolme" int
+}
+
+Table "hr_gc" {
+  "idn" int
+}
+
+Table "hr_tabel_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "hes_ay" nvarchar
+  "is_gun" int
+  "branch" int
+  "hes_meb" decimal
+  "eh_ayirma" decimal
+  "eh_tutulma" decimal
+  "od_meb" decimal
+  "is_faiz" decimal
+  "is_meb" decimal
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "satisdan_borc" decimal
+  "bolme" int
+  "r_is_gun" int
+  "tibb_meb" decimal
+  "r" bit
+  "qeyd" nvarchar
+}
+
+Table "hr_tabel_hes_el" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "day1" nvarchar
+  "day2" nvarchar
+  "day3" nvarchar
+  "day4" nvarchar
+  "day5" nvarchar
+  "day6" nvarchar
+  "day7" nvarchar
+  "day8" nvarchar
+  "day9" nvarchar
+  "day10" nvarchar
+  "day11" nvarchar
+  "day12" nvarchar
+  "day13" nvarchar
+  "day14" nvarchar
+  "day15" nvarchar
+  "day16" nvarchar
+  "day17" nvarchar
+  "day18" nvarchar
+  "day19" nvarchar
+  "day20" nvarchar
+  "day21" nvarchar
+  "day22" nvarchar
+  "day23" nvarchar
+  "day24" nvarchar
+  "day25" nvarchar
+  "day26" nvarchar
+  "day27" nvarchar
+  "day28" nvarchar
+  "day29" nvarchar
+  "day30" nvarchar
+  "day31" nvarchar
+  "workday" decimal
+  "workhour" decimal
+  "workedday" decimal
+  "workedhour" decimal
+  "overtime" decimal
+  "total_overtime" decimal
+}
+
+Table "language" {
+  "idn" int
+  "name" nvarchar
+  "glyph" varbinary
+}
+
+Table "language_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "original" nvarchar
+  "selected" nvarchar
+}
+
+Table "logins" {
+  "spid" int
+  "user_name" nvarchar
+  "vaxt" datetime
+  "machine" nvarchar
+}
+
+Table "logs" {
+  "idn" bigint [primary key]
+  "log_idn" int
+  "user_name" nvarchar
+  "vaxt" datetime
+  "hadise" int
+  "emel" int
+  "qaime" nvarchar
+  "tarixce" nvarchar
+}
+
+Table "mes_group" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "mes_group_el" {
+  "idn" int
+  "es_no" int
+  "user_name" nvarchar
+}
+
+Table "messages" {
+  "idn" bigint [primary key]
+  "message" nvarchar
+  "tarix" datetime
+  "user_name" nvarchar
+  "gr_idn" int
+  "gr_name" nvarchar
+  "machine" nvarchar
+}
+
+Table "messages_el" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "user_name" nvarchar
+  "cat_tar" datetime
+  "cat_mas" nvarchar
+}
+
+Table "mm_center_to_local" {
+  "idn" bigint [primary key]
+  "table_name" nvarchar
+  "table_idn" int
+  "nov" tinyint
+  "hara" int
+}
+
+Table "mm_local_to_center_1" {
+  "idn" bigint [primary key]
+  "table_name" nvarchar
+  "table_idn" int
+  "nov" tinyint
+  "getdi" bit
+}
+
+Table "mm_table_send" {
+  "idn" int
+  "table_name" nvarchar
+  "table_el_name" nvarchar
+}
+
+Table "mob_sifaris" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "hesab" int
+  "hesab_name" nvarchar
+  "sobe" int
+  "sobe_name" nvarchar
+  "stol" int
+  "stol_name" nvarchar
+  "mus_say" int
+  "yemek" int
+  "name" nvarchar
+  "yekun" decimal
+  "bonus" decimal
+  "beyen" int
+  "mezmun" nvarchar
+  "status" int
+  "nov" int
+  "ok" int
+}
+
+Table "mob_sifaris_el" {
+  "idn" int
+  "tarix" datetime
+  "hesab" int
+  "sobe" int
+  "stol" int
+  "latitude" nvarchar
+  "longitude" nvarchar
+  "mus_say" int
+  "yemek" int
+  "yem_name" nvarchar
+  "icon_name" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "bonus" decimal
+  "beyen" int
+  "qeyd" nvarchar
+  "status" int
+  "nov" int
+  "ok" int
+  "es_no" int
+}
+
+Table "pro_amounts" {
+  "idn" bigint
+  "name" nvarchar
+  "tag" int
+}
+
+Table "simvol" {
+  "idn" int [primary key]
+  "n1" nvarchar
+  "n2" nvarchar
+}
+
+Table "sm_al_sat" {
+  "idn" int
+  "name" nvarchar
+  "hesab" nvarchar
+  "sat_hes" nvarchar
+  "tes" bit
+}
+
+Table "sm_alis_xerc" {
+  "idn" int
+  "name" nvarchar
+  "folder" tinyint
+  "fol_idn" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ate_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "anbar" int
+  "branch" int
+  "ist_tey" int
+  "mebleg" decimal
+  "amort_meb" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_ate_ist_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "ate_siy" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "amort_meb" decimal
+  "es_no" int
+}
+
+Table "sm_ate_ist_tey" {
+  "idn" int
+  "name" nvarchar
+  "hesab" nvarchar
+  "xerc_hes" nvarchar
+  "xerc_mad" int
+  "tes" bit
+}
+
+Table "sm_ate_med" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "nov" int
+  "anbar" int
+  "kontra" int
+  "kon_name" nvarchar
+  "kon_hes" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "alis_xerc" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "edv_dax" bit
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_ate_med_ax" {
+  "idn" bigint [primary key]
+  "num" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "deb_hes" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "alis_xerc" int
+  "hes_forma" int
+  "adi_xerc" int
+  "val_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_ate_med_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "ate_siy" int
+  "miqdar" decimal
+  "hecm" decimal
+  "hecm_cem" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "son_qiy" decimal
+  "es_no" int
+}
+
+Table "sm_ate_sil" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "branch" int
+  "ist_tey" int
+  "mebleg" decimal
+  "amort_meb" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_ate_sil_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "ate_siy" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "amort_meb" decimal
+  "es_no" int
+}
+
+Table "sm_ate_siy" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "hesab" nvarchar
+  "amort_hes" nvarchar
+  "ol_vah" nvarchar
+  "amort_faiz" decimal
+  "min_meb" decimal
+  "tes" bit
+}
+
+Table "sm_ate_siy_say" {
+  "idn" int [primary key]
+  "tarix" datetime
+  "mal" int
+  "ol_vah" int
+  "miq_el" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "say_sil" decimal
+  "mebleg" decimal
+  "emel" int
+  "emel_id" int
+  "anbar" int
+  "sen_id" int
+  "kontra" int
+}
+
+Table "sm_ate_siy_sil" {
+  "idn" int [primary key]
+  "tarix" datetime
+  "mal" int
+  "ol_vah" int
+  "miq_el" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "dax_id" int
+  "emel" int
+  "emel_id" int
+  "anbar" int
+  "sen_id" int
+  "kontra" int
+}
+
+Table "sm_ay_bagla" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "xerc" int
+  "branch" int
+  "hes_ay" nvarchar
+  "deb_meb" decimal
+  "kred_meb" decimal
+  "hes" bit
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_ay_bagla_sab" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_ay_bagla_sab_el" {
+  "idn" int [primary key]
+  "num" int
+  "es_no" int
+  "sen_no" nvarchar
+  "hes_sifir" nvarchar
+  "desc1" bit
+  "desc2" bit
+  "desc3" bit
+  "hes_artan" nvarchar
+  "desc4" bit
+  "desc5" bit
+  "desc6" bit
+  "mezmun" nvarchar
+  "merhele" int
+}
+
+Table "sm_aylar" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_bank_hes" {
+  "idn" int
+  "name" nvarchar
+  "hes_no" nvarchar
+  "valyuta" nvarchar
+  "bank_name" nvarchar
+  "swift" nvarchar
+  "fil_kod" nvarchar
+  "mux_hes" nvarchar
+  "hesab" nvarchar
+  "bank_addr" nvarchar
+  "voen" nvarchar
+  "el_sexs" nvarchar
+  "hes_tar" datetime
+  "branch" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_bank_od" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "bank_hes" int
+  "hesab" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "med_meb" decimal
+  "med_yek" decimal
+  "mex_meb" decimal
+  "mex_yek" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "kassa" int
+  "sobe" int
+  "nov" int
+  "mebleg" decimal
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_bank_od_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "sen_no" nvarchar
+  "hesab" nvarchar
+  "desc1" int
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "edv_der" int
+  "edv_faiz" decimal
+  "med_meb" decimal
+  "mex_meb" decimal
+  "med_edv" decimal
+  "mex_edv" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mezmun" nvarchar
+  "nov" int
+  "bank_hes" int
+  "mebleg" decimal
+  "med_kon" decimal
+  "mex_kon" decimal
+  "val_kon" nvarchar
+  "kur_kon" decimal
+  "sifaris" int
+  "bolme" int
+  "teleb_id" int
+}
+
+Table "sm_bank_od_el_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "el_no" int
+  "num" int
+  "qaime" int
+  "kontra" int
+  "mebleg" decimal
+  "odenen" decimal
+  "qaliq" decimal
+}
+
+Table "sm_barcode_emel" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "serh" nvarchar
+  "tes" bit
+  "r" bit
+}
+
+Table "sm_barcode_emel_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "cap_say" int
+  "qiymet" decimal
+  "sat_qiy" decimal
+  "es_no" int
+}
+
+Table "sm_bon_art" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kart_no" nvarchar
+  "bonus" decimal
+  "mezmun" nvarchar
+  "kontra_name" nvarchar
+}
+
+Table "sm_bon_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "ilk_tar" datetime
+  "son_tar" datetime
+  "branch" int
+  "hes_meb" decimal
+  "od_meb" decimal
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_bon_hes_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "eh_hes" nvarchar
+  "mebleg" decimal
+  "min_sat" decimal
+  "faiz" decimal
+  "hes_meb" decimal
+  "od_meb" decimal
+  "es_no" int
+}
+
+Table "sm_bon_od" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "hes_tar" datetime
+  "branch" int
+  "nov" int
+  "kassa" int
+  "kas_name" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "odenilecek" decimal
+  "od_val" decimal
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_bon_od_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "vezife" int
+  "eh_hes" nvarchar
+  "hes_meb" decimal
+  "odenilib" decimal
+  "od_meb" decimal
+  "odenilecek" decimal
+  "od_val" decimal
+  "borc" decimal
+  "es_no" int
+}
+
+Table "sm_bon_sifir" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "serh" nvarchar
+  "hes" bit
+}
+
+Table "sm_bon_sifir_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kontra" int
+  "bonus" decimal
+  "es_no" int
+}
+
+Table "sm_bon_ver" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kart_no" nvarchar
+  "bonus" decimal
+  "mezmun" nvarchar
+  "kontra_name" nvarchar
+}
+
+Table "sm_bonus_dey" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra1" int
+  "kontra2" int
+  "mebleg" decimal
+  "bonus" decimal
+  "serh" nvarchar
+}
+
+Table "sm_borc" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "nov" int
+  "kontra" nvarchar
+  "kon_name" nvarchar
+  "mebleg" decimal
+  "kon_hes" nvarchar
+  "hesab" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "sobe" int
+  "gx_nov" int
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_branch" {
+  "idn" int
+  "name" nvarchar
+  "hesab" nvarchar
+  "tes" bit
+  "kod" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "hesabat" bit
+}
+
+Table "sm_cash" {
+  "idn" int
+  "name" nvarchar
+  "nov" int
+  "valyuta" nvarchar
+  "hesab" nvarchar
+  "branch" int
+  "tes" bit
+  "kod" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_cash_get" {
+  "idn" int
+  "tarix" datetime
+  "sen_no" nvarchar
+  "mebleg" decimal
+  "serh" nvarchar
+  "mux" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_cash_sat" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "br_no" nvarchar
+  "dep_no" nvarchar
+  "tarix" datetime
+  "nov" nvarchar
+  "s06" decimal
+  "s07" decimal
+  "s08" decimal
+  "s09" decimal
+  "s10" decimal
+  "s11" decimal
+  "s12" decimal
+  "s13" decimal
+  "s14" decimal
+  "s15" decimal
+  "s16" decimal
+  "s17" decimal
+  "s18" decimal
+  "s19" decimal
+  "s20" decimal
+  "s21" decimal
+  "s22" decimal
+  "s23" decimal
+  "s00" decimal
+  "s01" decimal
+  "s02" decimal
+  "s03" decimal
+  "s04" decimal
+  "s05" decimal
+  "sat" decimal
+}
+
+Table "sm_cash_sum" {
+  "idn" int [primary key]
+  "num" int
+  "kassa" int
+  "Tarix" datetime
+  "nov" int
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_config" {
+  "idn" int
+  "ist" int
+  "kassa" int
+  "def_anbar" int
+  "def_kassa" int
+  "def_alici" int
+  "def_sobe" int
+  "sat_nov" int
+  "gun_say" int
+  "tes" bit
+  "all_br" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_constant" {
+  "idn" int
+  "name" nvarchar
+  "arg1" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_depo" {
+  "idn" int
+  "res_name" nvarchar
+  "name" nvarchar
+  "ist_sex" bit
+  "branch" int
+  "tes" bit
+  "kod" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "cvb_sexs" int
+  "status" int
+  "bolme" int
+  "hes" bit
+  "r" bit
+}
+
+Table "sm_dig_emel" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "sob_name" nvarchar
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_dig_emel_el" {
+  "idn" int [primary key]
+  "num" int
+  "es_no" int
+  "sen_no" nvarchar
+  "deb_hes" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "kred_hes" nvarchar
+  "desc4" nvarchar
+  "desc5" nvarchar
+  "desc6" nvarchar
+  "dn4" nvarchar
+  "dn5" nvarchar
+  "dn6" nvarchar
+  "d4" int
+  "d5" int
+  "d6" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "val" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "kr_val" nvarchar
+  "kr_kurs" decimal
+  "kr_meb" decimal
+  "mezmun" nvarchar
+  "bolme" int
+}
+
+Table "sm_dsmf_faiz" {
+  "idn" int
+  "name" nvarchar
+  "min_meb" decimal
+  "max_meb" decimal
+  "faiz" decimal
+  "sab_ver" decimal
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_edv" {
+  "idn" int
+  "name" nvarchar
+  "faiz" decimal
+  "hesab" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_edv_dep" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "bank_hes" int
+  "hesab" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "med_meb" decimal
+  "med_yek" decimal
+  "mex_meb" decimal
+  "mex_yek" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "kassa" int
+  "sobe" int
+  "nov" int
+  "mebleg" decimal
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_edv_dep_ellellll" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "sen_no" nvarchar
+  "hesab" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "edv_der" int
+  "edv_faiz" decimal
+  "med_meb" decimal
+  "mex_meb" decimal
+  "med_edv" decimal
+  "mex_edv" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mezmun" nvarchar
+  "nov" int
+  "bank_hes" int
+  "mebleg" decimal
+  "med_kon" decimal
+  "mex_kon" decimal
+  "val_kon" nvarchar
+  "kur_kon" decimal
+  "pul_vesait" int
+  "muqavile" int
+  "muq_name" nvarchar
+}
+
+Table "sm_edv_od" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "bank_hes" int
+  "hesab" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "med_meb" decimal
+  "med_yek" decimal
+  "mex_meb" decimal
+  "mex_yek" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "seriya" nvarchar
+  "nomre" int
+}
+
+Table "sm_edv_od_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "sen_no" nvarchar
+  "hesab" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "edv_der" int
+  "edv_faiz" decimal
+  "med_meb" decimal
+  "mex_meb" decimal
+  "med_edv" decimal
+  "mex_edv" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mezmun" nvarchar
+  "nov" int
+  "qaime" int
+}
+
+Table "sm_eh_bon_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "eh_hes" nvarchar
+  "mebleg" decimal
+  "faiz" decimal
+  "hes_meb" decimal
+  "od_meb" decimal
+  "es_no" int
+}
+
+Table "sm_eh_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "hes_ay" nvarchar
+  "is_gun" int
+  "branch" int
+  "hes_meb" decimal
+  "eh_ayirma" decimal
+  "eh_tutulma" decimal
+  "od_meb" decimal
+  "is_faiz" decimal
+  "is_meb" decimal
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "satisdan_borc" decimal
+  "bolme" int
+  "r_is_gun" int
+  "tibb_meb" decimal
+  "r" bit
+  "qeyd" nvarchar
+}
+
+Table "sm_eh_hes_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "eh_hes" nvarchar
+  "is_gun" int
+  "islen_gun" decimal
+  "xes_gun" int
+  "oklad" decimal
+  "hes_meb" decimal
+  "mukafat" decimal
+  "elave" decimal
+  "mezuniyyet" decimal
+  "xestelik" decimal
+  "kompens" decimal
+  "hes_cem" decimal
+  "gv_azad" decimal
+  "gv_hes_meb" decimal
+  "sab_ver_meb" decimal
+  "min_eh" decimal
+  "gv_der" decimal
+  "gv_meb" decimal
+  "gv_hes" nvarchar
+  "tf_der" decimal
+  "tf_meb" decimal
+  "tf_hes" nvarchar
+  "hem_der" decimal
+  "hem_meb" decimal
+  "hem_hes" nvarchar
+  "dv_der" decimal
+  "dv_meb" decimal
+  "dv_hes" nvarchar
+  "eh_ayirma" decimal
+  "od_meb" decimal
+  "borc" decimal
+  "avans" decimal
+  "od_cem" decimal
+  "ss_der" decimal
+  "ss_meb" decimal
+  "ss_hes" nvarchar
+  "ss_xh" nvarchar
+  "ss_desc1" nvarchar
+  "ss_desc2" nvarchar
+  "ss_desc3" nvarchar
+  "ss_dn1" nvarchar
+  "ss_dn2" nvarchar
+  "ss_dn3" nvarchar
+  "ss_d1" int
+  "ss_d2" int
+  "ss_d3" int
+  "dt_der" decimal
+  "dt_meb" decimal
+  "dt_hes" nvarchar
+  "dt_xh" nvarchar
+  "dt_desc1" nvarchar
+  "dt_desc2" nvarchar
+  "dt_desc3" nvarchar
+  "dt_dn1" nvarchar
+  "dt_dn2" nvarchar
+  "dt_dn3" nvarchar
+  "dt_d1" int
+  "dt_d2" int
+  "dt_d3" int
+  "is_faiz" decimal
+  "is_meb" decimal
+  "is_hes" nvarchar
+  "eh_tutulma" decimal
+  "es_no" int
+  "yap" decimal
+  "qaliq_borc" decimal
+  "yemek" decimal
+  "bonus" decimal
+  "briqadir" decimal
+  "cerime" decimal
+  "tutulma" decimal
+  "emek_borc" decimal
+  "kart" decimal
+  "um_qal" decimal
+  "ise_muzd" decimal
+  "hes_nov" int
+  "bolme" int
+}
+
+Table "sm_eh_hes_hr" {
+  "idn" int
+  "sen_no" nvarchar
+  "date" datetime
+  "year" int
+  "month" int
+  "accrued_month" nvarchar
+  "workday" int
+  "branch" int
+  "accured_amount" decimal
+  "salary_allocation" decimal
+  "salary_deduction" decimal
+  "payable_amount" decimal
+  "unemployment_rate" decimal
+  "unemployment_amount" decimal
+  "doc_confirm" bit
+  "block" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_eh_hes_hr_el" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "tabel_no" nvarchar
+  "employee" int
+  "employee_name" nvarchar
+  "personal_no" nvarchar
+  "position" int
+  "salary_account" nvarchar
+  "workday" int
+  "worked_day" int
+  "workhour" decimal
+  "workedhour" decimal
+  "salary" decimal
+  "accured_amount" decimal
+  "reward" decimal
+  "extra" decimal
+  "leave" decimal
+  "sick" decimal
+  "compensation" decimal
+  "overtime" decimal
+  "total_calculated" decimal
+  "income_tax_free" decimal
+  "income_tax_calc_amount" decimal
+  "constant_tax_amount" decimal
+  "min_salary" decimal
+  "income_tax_rate" decimal
+  "income_tax_amount" decimal
+  "constant_tax_pension_emp" decimal
+  "minimum_amount_pension_emp" decimal
+  "pension_fond_rate" decimal
+  "pension_fond_amount" decimal
+  "colleagues_rate" decimal
+  "colleagues_amount" decimal
+  "other_tax_rate" decimal
+  "other_tax_amount" decimal
+  "allocation_salary" decimal
+  "payable_amount" decimal
+  "debt" decimal
+  "advance" decimal
+  "payable_total" decimal
+  "fine_amount" decimal
+  "court_amount" decimal
+  "constant_tax_pension_company" decimal
+  "minimum_amount_pension_company" decimal
+  "social_insurance_rate" decimal
+  "social_insurance_amount" decimal
+  "other_deduction_rate" decimal
+  "other_deduction_amount" decimal
+  "salary_deduction" decimal
+  "unemployment_rate" decimal
+  "unemployment_amount" decimal
+  "health_insurance_amount" decimal
+  "health_insurance_rate" decimal
+  "health_insurance_constant_amount" decimal
+  "health_insurance_min_amount" decimal
+  "const_pension_emp_compen" decimal
+  "min_pension_emp_compen" decimal
+  "pen_fond_rate_compen" decimal
+  "const_pension_company_compen" decimal
+  "min_pension_company_compen" decimal
+  "soc_insurance_rate_compen" decimal
+  "allowance" decimal
+  "const_pension_emp_leave" decimal
+  "min_pension_emp_leave" decimal
+  "pen_fond_rate_leave" decimal
+  "const_pension_company_leave" decimal
+  "min_pension_company_leave" decimal
+  "soc_insurance_rate_leave" decimal
+}
+
+Table "sm_eh_hes_res_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "emp_name" nvarchar
+  "vezife" int
+  "eh_hes" nvarchar
+  "is_gun" int
+  "islen_gun" decimal
+  "xes_gun" int
+  "oklad" decimal
+  "hes_meb" decimal
+  "mukafat" decimal
+  "elave" decimal
+  "mezuniyyet" decimal
+  "xestelik" decimal
+  "kompens" decimal
+  "hes_cem" decimal
+  "gv_azad" decimal
+  "gv_hes_meb" decimal
+  "sab_ver_meb" decimal
+  "min_eh" decimal
+  "gv_der" decimal
+  "gv_meb" decimal
+  "gv_hes" nvarchar
+  "tf_der" decimal
+  "tf_meb" decimal
+  "tf_hes" nvarchar
+  "hem_der" decimal
+  "hem_meb" decimal
+  "hem_hes" nvarchar
+  "dv_der" decimal
+  "dv_meb" decimal
+  "dv_hes" nvarchar
+  "eh_ayirma" decimal
+  "od_meb" decimal
+  "borc" decimal
+  "avans" decimal
+  "od_cem" decimal
+  "ss_der" decimal
+  "ss_meb" decimal
+  "ss_hes" nvarchar
+  "ss_xh" nvarchar
+  "ss_desc1" nvarchar
+  "ss_desc2" nvarchar
+  "ss_desc3" nvarchar
+  "ss_dn1" nvarchar
+  "ss_dn2" nvarchar
+  "ss_dn3" nvarchar
+  "ss_d1" int
+  "ss_d2" int
+  "ss_d3" int
+  "dt_der" decimal
+  "dt_meb" decimal
+  "dt_hes" nvarchar
+  "dt_xh" nvarchar
+  "dt_desc1" nvarchar
+  "dt_desc2" nvarchar
+  "dt_desc3" nvarchar
+  "dt_dn1" nvarchar
+  "dt_dn2" nvarchar
+  "dt_dn3" nvarchar
+  "dt_d1" int
+  "dt_d2" int
+  "dt_d3" int
+  "eh_tutulma" decimal
+  "is_faiz" decimal
+  "is_meb" decimal
+  "is_hes" nvarchar
+  "es_no" int
+  "sab_dsmf_is" decimal
+  "min_dsmf_is" decimal
+  "sab_dsmf_ms" decimal
+  "min_dsmf_ms" decimal
+  "toplam" decimal
+  "sdi_kom" decimal
+  "mdi_kom" decimal
+  "sdm_kom" decimal
+  "mdm_kom" decimal
+  "td_kom" decimal
+  "k_sd" decimal
+  "hes_nov" int
+  "bolme" int
+  "tibb_meb" decimal
+  "tibb_faiz" decimal
+  "tibb_sab" decimal
+  "tibb_min_meb" decimal
+  "tibb_hes" nvarchar
+}
+
+Table "sm_eh_od" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "hes_ay" nvarchar
+  "branch" int
+  "nov" int
+  "kassa" int
+  "kas_name" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "odenilecek" decimal
+  "od_val" decimal
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "kassa_name" nvarchar
+  "bolme" int
+  "teleb_id" int
+  "r" bit
+  "mezmun" nvarchar
+}
+
+Table "sm_eh_od_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "vezife" int
+  "eh_hes" nvarchar
+  "hes_meb" decimal
+  "kec_borc" decimal
+  "kec_avans" decimal
+  "odenilib" decimal
+  "od_meb" decimal
+  "odenilecek" decimal
+  "avans" decimal
+  "od_val" decimal
+  "av_val" decimal
+  "borc" decimal
+  "es_no" int
+  "bolme" int
+}
+
+Table "sm_emel_ay" {
+  "idn" int
+  "tarix" datetime
+  "sen_no" nvarchar
+  "tarix1" datetime
+  "tarix2" datetime
+  "r" bit
+}
+
+Table "sm_emel_ay_el" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "hesab" nvarchar
+  "dovr_deb" decimal
+  "dovr_kred" decimal
+  "son_meb" decimal
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "tarix" datetime
+}
+
+Table "sm_emel_hes" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_emel_hes_el" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "name" nvarchar
+  "kap_name" nvarchar
+  "qeyd" nvarchar
+  "fontsize" decimal
+  "kap_fontsize" decimal
+  "fontstyle" int
+  "kap_fontstyle" int
+  "aciq1" bit
+  "kap_aciq1" bit
+  "d_k" int
+  "madde_no" nvarchar
+}
+
+Table "sm_emel_hes_el_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "el_no" int
+  "num" int
+  "hesab" nvarchar
+  "deb_kred" int
+  "nov" int
+  "aciq1" bit
+  "aciq2" bit
+  "aciq3" bit
+  "emsal" decimal
+}
+
+Table "sm_emp_hedef" {
+  "idn" int
+  "emp" int
+  "il" int
+  "ay" int
+  "mebleg" decimal
+}
+
+Table "sm_emp_hedef_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "oklad" decimal
+  "sat_meb1" decimal
+  "sat_meb2" decimal
+  "faiz" decimal
+  "bonus_meb" decimal
+  "es_no" int
+}
+
+Table "sm_esas_ves" {
+  "idn" int
+  "inv_no" nvarchar
+  "name" nvarchar
+  "class" int
+  "branch" int
+  "hesab" nvarchar
+  "ist_tar" datetime
+  "amort" bit
+  "likv_meb" decimal
+  "il_evvel" bit
+  "istehsal" bit
+  "active" int
+  "amort_hes" nvarchar
+  "xerc_hes" nvarchar
+  "xerc_mad" int
+  "amort_metod" int
+  "norma1" decimal
+  "norma2" decimal
+  "qiymet" decimal
+  "amort_meb" decimal
+  "qaliq" decimal
+  "qeyd" nvarchar
+  "status" int
+  "fol_idn" int
+  "folder" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "emp" int
+  "emp2" int
+  "bolme" int
+  "maya_hes" nvarchar
+  "sat_hes" nvarchar
+  "r" bit
+  "gel_nov" int
+  "maya_mad" int
+  "ara_hes" nvarchar
+}
+
+Table "sm_ev_amort" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "hes_ay" nvarchar
+  "is_gun" int
+  "branch" int
+  "ilk_meb" decimal
+  "amo_meb" decimal
+  "amo_hes" decimal
+  "son_meb" decimal
+  "hes" bit
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "bolme" int
+}
+
+Table "sm_ev_amort_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "ev_name" nvarchar
+  "ilk_meb" decimal
+  "amo_hes" decimal
+  "amo_meb" decimal
+  "son_meb" decimal
+  "es_no" int
+}
+
+Table "sm_ev_class" {
+  "idn" int
+  "name" nvarchar
+  "nov" int
+  "norma" decimal
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ev_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "branch" int
+  "nov" int
+  "qoy_nov" int
+  "qoy_hes" nvarchar
+  "mebleg" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "bolme" int
+}
+
+Table "sm_ev_ist_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "kap_qoy" int
+  "tik_oby" int
+  "tesisci" int
+  "kontra" int
+  "hesab" nvarchar
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_ev_med" {
+  "idn" int
+  "sen_no" nvarchar
+  "branch" int
+  "tarix" datetime
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "kon_hes" nvarchar
+  "qoy_nov" int
+  "qoy_hes" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "alis_xerc" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "edv_dax" bit
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "bolme" int
+}
+
+Table "sm_ev_med_ax" {
+  "idn" bigint [primary key]
+  "num" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "alis_xerc" int
+  "kontra" int
+  "hes_forma" int
+  "val_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "es_no" int
+  "edv_der" int
+  "edv_meb" decimal
+  "edv_faiz" decimal
+}
+
+Table "sm_ev_med_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "hecm" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "son_qiy" decimal
+  "es_no" int
+}
+
+Table "sm_ev_sil" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "branch" int
+  "hesab" nvarchar
+  "sebeb" int
+  "seb_name" nvarchar
+  "mebleg" decimal
+  "amort" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ev_sil_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "balans" decimal
+  "amort" decimal
+  "es_no" int
+}
+
+Table "sm_ev_ver" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "branch" int
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "kon_hes" nvarchar
+  "hesab" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "edv_dax" bit
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "bolme" int
+}
+
+Table "sm_ev_ver_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "balans" decimal
+  "amort" decimal
+  "qiymet" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "es_no" int
+  "qaliq" decimal
+  "mebleg" decimal
+}
+
+Table "sm_ev_yer_dey" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ev_yer_dey_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "inv_no" nvarchar
+  "esas_ves" int
+  "old_br" int
+  "new_br" int
+  "es_no" int
+  "old_bolme" int
+  "new_bolme" int
+}
+
+Table "sm_faza" {
+  "idn" int
+  "name" nvarchar
+  "mesul" int
+  "ist_sex" int
+  "tes" bit
+}
+
+Table "sm_gel" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "folder" tinyint
+  "fol_idn" int
+  "hesab" nvarchar
+  "faiz" decimal
+  "tes" bit
+  "qrup" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "nov" int
+  "qiymet" decimal
+  "qeyd" nvarchar
+  "qeyd2" nvarchar
+  "pl" bit
+  "bolusdurulme" bit
+  "muddet" decimal
+  "r" bit
+}
+
+Table "sm_gel_qrup" {
+  "idn" int
+  "name" nvarchar
+  "folder" tinyint
+  "fol_idn" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "pl_hes" bit
+  "r" bit
+  "amort" bit
+}
+
+Table "sm_gel_sec" {
+  "idn" int
+  "name" nvarchar
+  "miqdar" decimal
+}
+
+Table "sm_geri_akt" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kon_name" int
+  "qida_muh" int
+  "sirket_numa" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_geri_akt_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "mal" int
+  "miqdar" int
+  "ol_vah" nvarchar
+  "isteh_tar" datetime
+  "qeyd_prob" nvarchar
+  "qeyd_sebeb" nvarchar
+  "kod" nvarchar
+  "son_tar" datetime
+}
+
+Table "sm_good_avadanliq" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "miqdar" decimal
+  "es_no" int
+  "el_no" int
+}
+
+Table "sm_good_bar" {
+  "idn" int [primary key]
+  "num" int
+  "barcode_el" nvarchar
+  "ol_vah_el" int
+  "sat_qiy" decimal
+  "ol_emsal" decimal
+  "es_no" int
+}
+
+Table "sm_good_birles" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "ist_tap" int
+  "r" bit
+}
+
+Table "sm_good_birles_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "el_no" int
+  "son_tar" datetime
+  "sif_sen" int
+}
+
+Table "sm_good_birles_sil" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "son_tar" datetime
+  "el_no" int
+  "sif_sen" int
+}
+
+Table "sm_good_birles_xerc" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "el_no" int
+}
+
+Table "sm_good_bol" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_good_bol_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "el_no" int
+}
+
+Table "sm_good_bol_sil" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+}
+
+Table "sm_good_class" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "sobe" int
+  "guzest" decimal
+  "terezi" int
+  "tes" bit
+  "qeyd" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "bolme" int
+}
+
+Table "sm_good_group" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "tes" bit
+}
+
+Table "sm_good_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "mesul" int
+  "mesul_name" nvarchar
+  "anbar1" int
+  "anbar2" int
+  "getdi" datetime
+  "mebleg" decimal
+  "ist_proc" int
+  "auto" bit
+  "mux" bit
+  "mux_old" bit
+  "serh" nvarchar
+  "tes" bit
+  "sif_no" int
+  "sif_name" nvarchar
+  "novbe" int
+  "novbe_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "imp_idn" int
+  "res" bit
+  "is_yeri" int
+  "tesdiq" bit
+  "el_sif" int
+  "hm" bit
+  "ym" bit
+  "get_all" bit
+  "xid_meb" decimal
+  "xid_med_qaime" int
+  "hr" decimal
+  "emp_name" nvarchar
+  "r" bit
+}
+
+Table "sm_good_ist_avadanliq" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "miqdar" decimal
+  "el_no" int
+  "ist_tap" int
+}
+
+Table "sm_good_ist_el" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "ilk_faza" int
+  "son_faza" int
+  "class" int
+  "sobe" int
+  "miqdar" decimal
+  "qaliq" decimal
+  "mal_tek" int
+  "tek_miq" decimal
+  "mal_sil" int
+  "sil_miq" decimal
+  "plan_miq" decimal
+  "mel_meh" int
+  "esas_mal" int
+  "sif_miq" decimal
+}
+
+Table "sm_good_ist_esas" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "el_no" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "mehsul" int
+  "sif_miq" decimal
+  "qaliq" decimal
+}
+
+Table "sm_good_ist_faza" {
+  "idn" bigint [primary key]
+  "num" int
+  "faza_no" int
+  "faza" int
+  "mesul" int
+  "bas_tar" datetime
+  "son_tar" datetime
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_good_ist_ras" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "position" int
+  "ras_miq_new" decimal
+}
+
+Table "sm_good_ist_ras_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "el_no" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "emp_name" nvarchar
+}
+
+Table "sm_good_ist_xammal" {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "teyinat" int
+  "faza" int
+  "sobe" int
+  "mehsul" decimal
+  "tey_miq" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq1" decimal
+  "qaliq2" decimal
+  "esas" bit
+  "es_no" int
+}
+
+Table "sm_good_ist_xammal_hesab" {
+  "idn" int [primary key]
+  "num" int
+  "mal" int
+  "esas" int
+  "faza" int
+  "miqdar" decimal
+  "es_no" int
+}
+
+Table "sm_good_ist_xerc" {
+  "idn" int [primary key]
+  "num" int
+  "xerc" int
+  "kontra" int
+  "teyinat" int
+  "faza" int
+  "emp" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" int
+  "el_no" int
+  "qaime" int
+  "qal_miq" decimal
+}
+
+Table "sm_good_ist_xidmet" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "faza" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "norm_miq" decimal
+  "avadanliq" int
+  "brak_miq" decimal
+  "el_no" int
+  "emp_name" nvarchar
+  "mehsul" int
+  "miqdar_res" decimal
+  "mebleg_res" decimal
+}
+
+Table "sm_good_marka" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "sobe" int
+  "tes" bit
+  "qeyd" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_good_picture" {
+  "idn" int
+  "num" int
+  "foto" image
+  "es_no" int
+}
+
+Table "sm_good_xammal" {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "teyinat" int
+  "faza" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "esas" bit
+  "es_no" int
+  "nov" int
+  "itki_faizi" decimal
+  "plan_miq" decimal
+  "ilk_plan_miq" decimal
+  "faiz_plan_miq" decimal
+  "cix_plan_miq" decimal
+  "miq_ilk" decimal
+  "miq_faiz" decimal
+  "miq_cix" decimal
+}
+
+Table "sm_good_xerc" {
+  "idn" int [primary key]
+  "num" int
+  "xerc" int
+  "teyinat" int
+  "faza" int
+  "emp" int
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_good_xidmet" {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "teyinat" int
+  "faza" int
+  "mebleg" decimal
+  "es_no" int
+  "vezife" int
+  "qiymet" decimal
+  "miqdar" decimal
+  "muddet" decimal
+}
+
+Table "sm_goods" {
+  "idn" int
+  "class" int
+  "serial" nvarchar
+  "name" nvarchar
+  "property1" int
+  "kontra" int
+  "barcode" nvarchar
+  "price" decimal
+  "sellprice1" decimal
+  "sellprice2" decimal
+  "sellprice3" decimal
+  "sellprice4" decimal
+  "sellprice5" decimal
+  "son_qiy" decimal
+  "bate" decimal
+  "active" int
+  "full_name" nvarchar
+  "terezi" int
+  "hed_say" decimal
+  "hediyye" int
+  "hecm" decimal
+  "qeyd" nvarchar
+  "fol_idn" int
+  "folder" tinyint
+  "esas" int
+  "ol_vah" nvarchar
+  "en" int
+  "miqyas" decimal
+  "hesab" nvarchar
+  "mel01" nvarchar
+  "mel02" nvarchar
+  "mel03" nvarchar
+  "ist_mud" int
+  "sax_gun" int
+  "gun_mex" decimal
+  "ist_miq" decimal
+  "ist_gr" int
+  "ist_say" decimal
+  "tek_sil" int
+  "tek_say" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "tes" bit
+  "tara" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "men_nov" int
+  "ov_idn" int
+  "qrup" int
+  "hes_mat" nvarchar
+  "hes_sat" nvarchar
+  "hes_sg" nvarchar
+  "hes_ig" nvarchar
+  "hes_serf" nvarchar
+  "hes_sil" nvarchar
+  "hes_sa" nvarchar
+  "hes_se" nvarchar
+  "hes_ag" nvarchar
+  "status" int
+  "hes_sm" nvarchar
+  "qal_limit" decimal
+  "foto" image
+  "seriya" int
+  "max_limit" decimal
+  "reng" int
+  "reng_kod" nvarchar
+  "reng_sirket_kodu" nvarchar
+  "reng_name" nvarchar
+  "olcu" nvarchar
+  "olcu_kod" nvarchar
+  "muddet" decimal
+  "r" bit
+  "barcode_name" nvarchar
+  "naxis_xerci" decimal
+  "tikis_meb" decimal
+  "marka" int
+  "cins" int
+}
+
+Table "sm_goods_log" {
+  "idn" int
+  "class" int
+  "serial" nvarchar
+  "name" nvarchar
+  "property1" int
+  "kontra" int
+  "barcode" nvarchar
+  "price" decimal
+  "sellprice1" decimal
+  "sellprice2" decimal
+  "sellprice3" decimal
+  "sellprice4" decimal
+  "sellprice5" decimal
+  "son_qiy" decimal
+  "bate" decimal
+  "active" int
+  "full_name" nvarchar
+  "terezi" int
+  "hed_say" decimal
+  "hediyye" int
+  "hecm" decimal
+  "qeyd" nvarchar
+  "fol_idn" int
+  "folder" tinyint
+  "esas" int
+  "ol_vah" nvarchar
+  "en" int
+  "miqyas" decimal
+  "hesab" nvarchar
+  "mel01" nvarchar
+  "mel02" nvarchar
+  "mel03" nvarchar
+  "ist_mud" int
+  "sax_gun" int
+  "gun_mex" decimal
+  "ist_miq" decimal
+  "ist_gr" int
+  "ist_say" decimal
+  "tek_sil" int
+  "tek_say" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "tes" bit
+  "tara" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "men_nov" int
+  "ov_idn" int
+  "qrup" int
+  "hes_mat" nvarchar
+  "hes_sat" nvarchar
+  "hes_sg" nvarchar
+  "hes_ig" nvarchar
+  "hes_serf" nvarchar
+  "hes_sil" nvarchar
+  "hes_sa" nvarchar
+  "hes_se" nvarchar
+  "hes_ag" nvarchar
+  "status" int
+  "hes_sm" nvarchar
+  "qal_limit" decimal
+  "foto" image
+  "seriya" int
+  "max_limit" decimal
+  "reng" int
+  "reng_kod" nvarchar
+  "reng_sirket_kodu" nvarchar
+  "reng_name" nvarchar
+  "olcu" nvarchar
+  "olcu_kod" nvarchar
+  "muddet" decimal
+  "r" bit
+  "barcode_name" nvarchar
+  "naxis_xerci" decimal
+  "tikis_meb" decimal
+  "marka" int
+}
+
+Table "sm_goods_ol_vah" {
+  "idn" int [primary key]
+  "num" int
+  "ol_vah" int
+  "ol_vah_name" nvarchar
+  "emsal" decimal
+  "es_no" int
+}
+
+Table "sm_goods_sec" {
+  "idn" int
+  "serial" nvarchar
+  "name" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "qal" decimal
+  "son_tar" datetime
+  "barcode" nvarchar
+  "mal" int
+  "sifaris" int
+  "ilk_miq" decimal
+}
+
+Table "sm_guzest" {
+  "idn" int
+  "name" nvarchar
+  "guz_faiz" decimal
+  "hesab" nvarchar
+  "tes" bit
+}
+
+Table "sm_gv_faiz" {
+  "idn" int
+  "name" nvarchar
+  "min_meb" decimal
+  "max_meb" decimal
+  "faiz" decimal
+  "sab_ver" decimal
+  "tes" bit
+}
+
+Table "sm_hesab_bagla" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "il" int
+  "ay" int
+  "branch" int
+  "hes_ay" nvarchar
+  "hes" bit
+  "mux" bit
+  "qeyd" nvarchar
+  "r" bit
+  "sablon" int
+}
+
+Table "sm_hesab_bagla_el" {
+  "idn" int [primary key]
+  "num" int
+  "es_no" int
+  "hes_sifir" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "hes_artan" nvarchar
+  "desc4" nvarchar
+  "desc5" nvarchar
+  "desc6" nvarchar
+  "dn4" nvarchar
+  "dn5" nvarchar
+  "dn6" nvarchar
+  "d4" int
+  "d5" int
+  "d6" int
+  "mebleg" decimal
+  "val" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "mezmun" nvarchar
+  "merhele" int
+}
+
+Table "sm_ist_faza_trans" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "ist_tap" int
+  "faza1" int
+  "faza2" int
+  "emp1" int
+  "emp2" int
+  "sex1" int
+  "sex2" int
+  "mebleg" decimal
+  "user_id" int
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_ist_faza_trans_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "esas" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "miq_qal" decimal
+  "qaliq" decimal
+  "tam" bit
+  "es_no" int
+}
+
+Table "sm_ist_proc" {
+  "idn" int
+  "name" nvarchar
+  "qeyd" nvarchar
+  "hesab" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ist_proc_el" {
+  "idn" int [primary key]
+  "num" int
+  "faza1" int
+  "faza2" int
+  "qeyd" nvarchar
+  "es_no" int
+}
+
+Table "sm_ist_sexi" {
+  "idn" int
+  "name" nvarchar
+  "tes" bit
+}
+
+Table "sm_ist_sif" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "ist_tarix" datetime
+  "qeyd" nvarchar
+}
+
+Table "sm_ist_sif_el" {
+  "idn" bigint
+  "num" int
+  "es_no" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "ol_vah" int
+  "miqdar" decimal
+}
+
+Table "sm_ist_sif_sec" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "barcode" nvarchar
+  "mal" int
+  "faza" int
+  "ist_miq" decimal
+  "mehsul" int
+  "em_name" nvarchar
+  "gul_id" int
+}
+
+Table "sm_ist_tap_maya" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "ist_proc" int
+  "ist_tap1" int
+  "ist_tap2" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_kamp_mal" {
+  "idn" int
+  "sen_no" nvarchar
+  "sobe" int
+  "kontra" int
+  "tarix" datetime
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "status" int
+  "qeyd" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_kamp_mal_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "reng" int
+  "olcu" int
+  "es_no" int
+}
+
+Table "sm_kassa_transfer" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kassa1" int
+  "kassa2" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "kon_val" nvarchar
+  "kon_kurs" decimal
+  "mux" bit
+  "tes" bit
+  "sobe" int
+  "r" bit
+  "status" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "tesdiq" bit
+}
+
+Table "sm_kmd" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kassa" int
+  "nov" int
+  "kontra" nvarchar
+  "kon_name" nvarchar
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "kon_val" nvarchar
+  "kon_kurs" decimal
+  "mux" bit
+  "hesab" nvarchar
+  "emp" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sobe" int
+  "r" bit
+  "hes" bit
+  "qaime" int
+  "sifaris" int
+  "bolme" int
+  "bolme_name" nvarchar
+}
+
+Table "sm_kmd_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "qaime" int
+  "kontra" int
+  "anbar" int
+  "mebleg" decimal
+  "odenen" decimal
+  "qaliq" decimal
+}
+
+Table "sm_kmx" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kassa" int
+  "nov" int
+  "kontra" nvarchar
+  "kon_name" nvarchar
+  "alis_xerc" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "valyuta" nvarchar
+  "kurs" decimal
+  "yekun" decimal
+  "kon_val" nvarchar
+  "kon_kurs" decimal
+  "mux" bit
+  "hesab" nvarchar
+  "emp" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sobe" int
+  "r" bit
+  "teh_al" nvarchar
+  "hes" bit
+  "borc" decimal
+  "hes_ay" nvarchar
+  "qaime_sg" nvarchar
+  "sifaris" int
+  "bolme" int
+  "bolme_name" nvarchar
+  "teleb_id" int
+}
+
+Table "sm_kmx_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "qaime" int
+  "kontra" int
+  "anbar" int
+  "mebleg" decimal
+  "odenen" decimal
+  "qaliq" decimal
+}
+
+Table "sm_kontr_akt" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "expeditor_name" nvarchar
+  "ilk_meb" decimal
+  "sat_meb" decimal
+  "geri_meb" decimal
+  "od_meb" decimal
+  "dig_meb" decimal
+  "son_meb" decimal
+  "od_car" decimal
+  "kas_med" int
+  "mux" bit
+  "serh" nvarchar
+  "kon_hes" nvarchar
+  "ilk_tar" datetime
+  "son_tar" datetime
+  "tes" bit
+  "r" bit
+}
+
+Table "sm_kontr_akt_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "emel" int
+  "emel_name" nvarchar
+  "sen_no" nvarchar
+  "tarix" datetime
+  "mebleg" decimal
+  "sat_meb" decimal
+  "geri_meb" decimal
+  "od_meb" decimal
+  "dig_meb" decimal
+  "es_no" int
+}
+
+Table "sm_kontr_mal_al" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kontra_name" nvarchar
+  "anbar" int
+  "anb_name" nvarchar
+  "mebleg" decimal
+  "user_id" int
+  "serh" nvarchar
+  "tes" bit
+}
+
+Table "sm_kontr_mal_al_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "alis_no" nvarchar
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "od_tar" datetime
+}
+
+Table "sm_kontr_mal_al_geri" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kontra_name" nvarchar
+  "anbar" int
+  "anb_name" nvarchar
+  "mebleg" decimal
+  "med_sen" int
+  "user_id" int
+  "serh" nvarchar
+  "tes" bit
+}
+
+Table "sm_kontr_mal_al_geri_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "alis_no" nvarchar
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "od_tar" datetime
+}
+
+Table "sm_kontr_real" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kontra_name" nvarchar
+  "kon_hes" nvarchar
+  "anbar" int
+  "kassa" int
+  "sat_meb" decimal
+  "od_meb" decimal
+  "geri_meb" decimal
+  "borc_mal" decimal
+  "borc_pul" decimal
+  "vit_sat_meb" decimal
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+}
+
+Table "sm_kontr_real_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "reng" int
+  "sen_idn" int
+  "sen_tar" datetime
+  "vitrin" bit
+  "al_qiy" decimal
+  "qiymet" decimal
+  "miqdar" decimal
+  "al_meb" decimal
+  "mebleg" decimal
+  "sat_qal_miq" decimal
+  "sat_qal_meb" decimal
+  "od_qal_miq" decimal
+  "od_qal_meb" decimal
+  "sat_miq" decimal
+  "sat_meb" decimal
+  "od_miq" decimal
+  "od_meb" decimal
+  "geri_miq" decimal
+  "geri_meb" decimal
+  "el_meb" decimal
+  "es_no" int
+  "el_no" bigint
+}
+
+Table "sm_kontr_sat" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "od_tar" datetime
+  "kontra" int
+  "liz_kon" int
+  "liz_faiz" decimal
+  "liz_kas" int
+  "ilk_od" decimal
+  "med_sen" int
+  "med_sen_no" nvarchar
+  "sif_sen" int
+  "sif_form" int
+  "sif_form_name" nvarchar
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "xid_meb" decimal
+  "xid_edv" decimal
+  "is_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "kon_hes" nvarchar
+  "xerc_nov" int
+  "tes" bit
+  "dov_nis" nvarchar
+  "satici" int
+  "el_serh" nvarchar
+  "imp_idn" int
+  "kod" nvarchar
+  "med_idn" int
+  "tr_idn" int
+  "ist_idn" int
+  "sg_idn" int
+  "sy_idn" int
+  "is_idn" int
+  "sobe" int
+  "r" bit
+  "sif_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "hes" bit
+  "kampaniya" int
+  "ad_soyad" nvarchar
+  "mqd" decimal
+  "cancel" bit
+  "status_med" bit
+  "nov" int
+  "e_qaime" bit
+}
+
+Table "sm_kontr_sat_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "serial" nvarchar
+  "mal" int
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "maya_qiy" decimal
+  "maya_meb" decimal
+  "al_qiy" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "od_tar" datetime
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "ferq" decimal
+  "sif_miq" decimal
+  "kurs_qiy" decimal
+  "numune" bit
+  "hed" bit
+}
+
+Table "sm_kontr_sat_emp" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "emp" int
+  "sobe" int
+  "position" int
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_faiz" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qeyd" nvarchar
+}
+
+Table "sm_kontr_sat_geri" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "mv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "xid_meb" decimal
+  "xid_edv" decimal
+  "is_meb" decimal
+  "user_id" int
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+  "sat_idn" int
+  "sobe" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+  "ag_idn" int
+  "qaime" int
+  "valyuta" nvarchar
+  "kurs" decimal
+  "kon_hes" nvarchar
+  "hes" bit
+  "ad_soyad" nvarchar
+  "mqd" decimal
+  "sf_sen" int
+}
+
+Table "sm_kontr_sat_geri_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "barcode" nvarchar
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+  "maya_qiy" decimal
+  "numune" bit
+}
+
+Table "sm_kontr_sat_geri_emp" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "emp" int
+  "sobe" int
+  "position" int
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_faiz" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qeyd" nvarchar
+}
+
+Table "sm_kontr_sat_geri_hed" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "sm_kontr_sat_geri_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "guzest" decimal
+  "kompaniya" decimal
+  "mebleg" decimal
+  "guz_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "user_id" int
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+}
+
+Table "sm_kontr_sat_geri_ist_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "qeyd" nvarchar
+  "es_no" int
+  "name" nvarchar
+  "ol_vah" nvarchar
+}
+
+Table "sm_kontr_sat_hed" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "sm_kontr_sat_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "od_tar" datetime
+  "kontra" int
+  "liz_kon" int
+  "liz_faiz" decimal
+  "liz_kas" int
+  "ilk_od" decimal
+  "med_sen" int
+  "med_sen_no" nvarchar
+  "sif_sen" int
+  "sif_form" int
+  "sif_form_name" nvarchar
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "guzest" decimal
+  "kompaniya" decimal
+  "mebleg" decimal
+  "guz_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "user_id" int
+  "cancel" bit
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "kon_hes" nvarchar
+  "xerc_nov" int
+  "tes" bit
+  "dov_nis" nvarchar
+  "satici" int
+  "usta" int
+  "fehle" int
+  "satici_meb" decimal
+  "surucu_meb" decimal
+  "usta_meb" decimal
+  "fehle_meb" decimal
+  "satici_name" nvarchar
+  "usta_name" nvarchar
+  "fehle_name" nvarchar
+  "el_serh" nvarchar
+  "ins_user" nvarchar
+  "ins_date" nvarchar
+  "upd_user" nvarchar
+  "upd_date" nvarchar
+}
+
+Table "sm_kontr_sat_ist_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "maya_qiy" decimal
+  "al_qiy" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "qeyd" nvarchar
+  "od_tar" datetime
+  "name" nvarchar
+  "ol_vah" nvarchar
+}
+
+Table "sm_kontr_sat_qa" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "miqdar" decimal
+  "mebleg" decimal
+  "user_id" int
+  "tes" bit
+}
+
+Table "sm_kontr_sat_qa_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "qaime" int
+  "kontra" int
+  "expeditor" int
+  "miqdar" decimal
+  "mebleg" decimal
+  "es_no" int
+  "idn_temp" bigint
+}
+
+Table "sm_kontr_sif_sat" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "anbar" int
+  "expeditor" int
+  "anb_name" nvarchar
+  "kontra_name" nvarchar
+  "guzest" decimal
+  "guz_meb" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "mux" bit
+  "serh" nvarchar
+  "sat_tarix" datetime
+  "status" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_kontr_sif_sat_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "ol_vah" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "cat_miq" decimal
+  "qal_miq" decimal
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "sm_kontr_transfer" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra1" int
+  "kontra2" int
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "valyuta" nvarchar
+  "kurs" decimal
+  "val_2" nvarchar
+  "kurs2" decimal
+  "val_meb" decimal
+  "kontrakt1" nvarchar
+  "kontrakt2" nvarchar
+  "sobe" int
+  "mux" bit
+  "r" bit
+  "kon_hes1" nvarchar
+  "kon_hes2" nvarchar
+}
+
+Table "sm_kontra" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "emp" int
+  "surucu" int
+  "ziy_gun" int
+  "guzest" int
+  "unvan" nvarchar
+  "tel" nvarchar
+  "firma" nvarchar
+  "nov" int
+  "al_der" int
+  "mus_nov" int
+  "qeyd" nvarchar
+  "depozit" decimal
+  "folder" int
+  "fol_idn" int
+  "hesab" nvarchar
+  "real_hes" nvarchar
+  "sat_hes" nvarchar
+  "anbar" int
+  "branch" int
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "hesab1" nvarchar
+  "gun" decimal
+  "al_nov" int
+  "valyuta" nvarchar
+  "limit" decimal
+  "emp_limit" decimal
+  "sektor" int
+  "sektor_name" nvarchar
+  "yer_ec" int
+  "email" nvarchar
+  "r" bit
+  "voen" nvarchar
+  "rekvizit" nvarchar
+  "active" int
+  "vergi_status" int
+}
+
+Table "sm_kontra_bar" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "name" nvarchar
+  "kontra" int
+  "es_no" int
+  "sirket" int
+  "phone" nvarchar
+  "qeyd" nvarchar
+}
+
+Table "sm_kontra_class" {
+  "idn" int
+  "name" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_kontra_class_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "mebleg1" decimal
+  "mebleg2" decimal
+  "faiz" decimal
+  "qeyd" nvarchar
+}
+
+Table "sm_kontra_is" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "nov" int
+  "name" nvarchar
+  "vezife" int
+  "dog_tar" datetime
+  "cins" int
+  "aile_vez" int
+  "milliyyet" int
+  "vetendas" int
+  "hobbi" nvarchar
+  "tel" nvarchar
+  "email" nvarchar
+  "masin" nvarchar
+  "qeyd" nvarchar
+}
+
+Table "sm_kontra_kafe" {
+  "idn" int
+  "name" nvarchar
+  "emp" int
+  "surucu" int
+  "ziy_gun" int
+  "guzest" int
+  "unvan" nvarchar
+  "tel" nvarchar
+  "firma" nvarchar
+  "nov" int
+  "al_der" int
+  "mus_nov" int
+  "qeyd" nvarchar
+  "depozit" decimal
+  "folder" int
+  "fol_idn" int
+  "kod" nvarchar
+}
+
+Table "sm_kontra_sir" {
+  "idn" int
+  "name" nvarchar
+  "tes" bit
+}
+
+Table "sm_kredit_tey" {
+  "idn" int
+  "sen_no" nvarchar
+  "name" nvarchar
+  "qaime" int
+  "kassa" int
+  "tarix" datetime
+  "sen_tarix" datetime
+  "mebleg" decimal
+  "muddet" int
+  "gec_faiz" decimal
+  "serh" nvarchar
+  "nov" int
+  "odenis" decimal
+  "faiz_il" decimal
+  "faiz_ay" decimal
+  "od_ay" decimal
+  "kred_meb" decimal
+  "kontra" nvarchar
+  "arayisli" int
+  "faizli" int
+  "s_kom" decimal
+  "yekun" decimal
+  "endirim" decimal
+  "mux" bit
+}
+
+Table "sm_kredit_tey_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "tarix" datetime
+  "meb_ay" decimal
+  "meb_esas" decimal
+  "meb_faiz" decimal
+  "meb_gec" decimal
+  "meb_qal" decimal
+  "od_tar" datetime
+  "od_cem" decimal
+  "od_esas" decimal
+  "od_faiz" decimal
+  "od_gec" decimal
+  "esas_qal" decimal
+  "faiz_qal" decimal
+  "gec_qal" decimal
+}
+
+Table "sm_kredit_tey_el_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "el_no" int
+  "num" int
+  "od_sen" int
+  "od_tar" datetime
+  "mebleg" decimal
+  "meb_gec" decimal
+  "meb_faiz" decimal
+  "meb_esas" decimal
+  "balans" decimal
+}
+
+Table "sm_logo" {
+  "idn" int
+  "name" nvarchar
+  "logo" image
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_maas_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "ist_proc" int
+  "ist_tap1" int
+  "ist_tap2" int
+  "emsal" decimal
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "tes" bit
+}
+
+Table "sm_maas_hes_el" {
+  "idn" int [primary key]
+  "num" int
+  "emp" int
+  "oklad" decimal
+  "elave" decimal
+  "maas" decimal
+  "es_no" int
+}
+
+Table "sm_mails" {
+  "idn" int
+  "name" nvarchar
+  "mail" nvarchar
+  "num" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_mal_hes" {
+  "idn" int
+  "nov" int
+  "mal_nov" int
+  "hes_mat" nvarchar
+  "hes_sat" nvarchar
+  "hes_sg" nvarchar
+  "hes_ig" nvarchar
+  "hes_serf" nvarchar
+  "hes_sil" nvarchar
+  "hes_sa" nvarchar
+  "hes_se" nvarchar
+  "hes_ag" nvarchar
+  "hes_sm" nvarchar
+  "hes_rz" int
+  "kon_nov" int
+  "tec_hes" nvarchar
+  "mus_hes" nvarchar
+  "real_hes" nvarchar
+  "emp_nov" int
+  "teh_hes" nvarchar
+  "eh_hes" nvarchar
+  "gv_hes" nvarchar
+  "xerc_hes" nvarchar
+  "xerc_mad" int
+  "bon_hes" nvarchar
+  "bon_xerc_hes" nvarchar
+  "bon_xerc_mad" int
+  "ev_hes" nvarchar
+  "amo_hes" nvarchar
+  "amo_xerc_hes" nvarchar
+  "amo_xerc_mad" int
+  "ev_sat_hes" nvarchar
+  "ev_maya_hes" nvarchar
+  "ev_gel_hes" nvarchar
+  "gx_nov" int
+  "gx_hes" nvarchar
+  "kassa_val" nvarchar
+  "kassa_hes" nvarchar
+  "bank_val" nvarchar
+  "bank_hes" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_mal_ist" {
+  "idn" int [primary key]
+  "tarix" datetime
+  "mal" int
+  "ol_vah" int
+  "miq_el" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "dax_id" int
+  "emel" int
+  "emel_id" int
+  "anbar" int
+  "sen_id" int
+}
+
+Table "sm_mal_say" {
+  "idn" int [primary key]
+  "tarix" datetime
+  "mal" int
+  "ol_vah" int
+  "miq_el" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "say_sil" decimal
+  "mebleg" decimal
+  "emel" int
+  "emel_id" int
+  "anbar" int
+  "sen_id" int
+  "kontra" int
+  "serh" nvarchar
+  "son_tar" datetime
+}
+
+Table "sm_mal_sil" {
+  "idn" int [primary key]
+  "tarix" datetime
+  "mal" int
+  "ol_vah" int
+  "miq_el" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "dax_id" int
+  "emel" int
+  "emel_id" int
+  "anbar" int
+  "sen_id" int
+  "kontra" int
+  "serh" nvarchar
+  "son_tar" datetime
+}
+
+Table "sm_mal_uyg" {
+  "idn" int [primary key]
+  "mal1" nvarchar
+  "name1" nvarchar
+  "mal2" nvarchar
+  "name2" nvarchar
+  "say" int
+  "ol_vah1" nvarchar
+  "ol_vah2" nvarchar
+  "eyni" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_mal_uyg_m" {
+  "idn" int
+  "mal1" nvarchar
+  "name1" nvarchar
+  "mal2" nvarchar
+  "name2" nvarchar
+  "say" int
+  "ol_vah1" nvarchar
+  "ol_vah2" nvarchar
+  "eyni" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_mal_uyg_t" {
+  "idn" int
+  "mal1" nvarchar
+  "name1" nvarchar
+  "mal2" nvarchar
+  "name2" nvarchar
+  "say" int
+  "ol_vah1" nvarchar
+  "ol_vah2" nvarchar
+  "eyni" bit
+}
+
+Table "sm_maya_gun" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "tarix" datetime
+  "emp_say" decimal
+  "is_saat" decimal
+  "saat" decimal
+  "deqiqe" decimal
+  "saniye" decimal
+}
+
+Table "sm_maya_hes" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "anbar" int
+  "bolme" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "hes" bit
+  "mux" bit
+  "koh_meb" decimal
+  "mebleg" decimal
+  "xerc_meb" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_gun" int
+  "muddet" int
+  "r" bit
+}
+
+Table "sm_maya_hes_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "barcode" nvarchar
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "tip" int
+  "xus" int
+  "miqdar" decimal
+  "koh_qiy" decimal
+  "koh_meb" decimal
+  "xerc_qiy" decimal
+  "xerc_meb" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaime" int
+  "kontra" int
+  "muddet" decimal
+  "mud_xerc_qiy" decimal
+  "mud_xerc_meb" decimal
+  "ras_qiy" decimal
+  "ras_meb" decimal
+  "ist_tap" int
+}
+
+Table "sm_maya_xerc" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "xerc" int
+  "mebleg" decimal
+  "faiz" decimal
+  "yekun" decimal
+  "xerc_name" nvarchar
+}
+
+Table "sm_med_mux" {
+  "idn" int
+  "serh" nvarchar
+  "date1" datetime
+  "date2" datetime
+  "nov" int
+}
+
+Table "sm_milliyyet" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_muqavile" {
+  "idn" int
+  "tarix" datetime
+  "kontra" int
+  "name" nvarchar
+  "ilk_tar" datetime
+  "son_tar" datetime
+  "nov" int
+  "valyuta" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "pul_vesait" int
+}
+
+Table "sm_novbe_ist" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sira" int
+  "mesul" int
+  "mesul_name" nvarchar
+  "nov_mes" int
+  "reis" int
+  "anbar" int
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_ol_vah" {
+  "idn" int
+  "name" nvarchar
+  "folder" int
+  "fol_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "kod" nvarchar
+}
+
+Table "sm_pozuntu" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_pozuntu_akt" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "emp" int
+  "sahe" int
+  "menecer" int
+  "pozuntu" int
+  "qeyd" nvarchar
+  "mebleg" decimal
+}
+
+Table "sm_process_iz" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sifaris" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "serh" nvarchar
+  "hesabla" bit
+  "sex" int
+  "hm_sex" int
+  "tesdiq" bit
+  "r" bit
+}
+
+Table "sm_process_iz_anbar" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_etiket" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_qab" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_rosso" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_toxuma" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "sifaris" int
+  "ist_idn" int
+}
+
+Table "sm_process_iz_utu" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_yuma" {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_property1" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "bno" nvarchar
+  "tes" bit
+  "qeyd" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "folder" int
+  "fol_idn" int
+}
+
+Table "sm_pul_her_shablon" {
+  "idn" int
+  "sen_no" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_pul_her_shablon_el" {
+  "idn" int
+  "num" int
+  "es_no" int
+  "hesab" nvarchar
+  "name" nvarchar
+  "nov" int
+}
+
+Table "sm_pul_her_shablon_kassa" {
+  "idn" int
+  "num" int
+  "es_no" int
+  "hesab" nvarchar
+}
+
+Table "sm_pul_her_shablon_xerc" {
+  "idn" int
+  "num" int
+  "es_no" int
+  "hesab" nvarchar
+}
+
+Table "sm_pul_teleb" {
+  "idn" int
+  "sen_no" nvarchar
+  "emp" int
+  "branch" int
+  "tarix" datetime
+  "status" int
+  "tesdiq_1" bit
+  "tesdiq_2" bit
+  "tesdiq_3" bit
+  "tesdiq" bit
+  "geri" bit
+  "gonder" bit
+  "send" bit
+  "tesdiq_4" bit
+  "qeyd" nvarchar
+  "usr" int
+  "r" bit
+}
+
+Table "sm_pul_teleb_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "od_forma" int
+  "od_nov" int
+  "meb_od" decimal
+  "meb_tes" decimal
+  "valyuta" nvarchar
+  "kurs" float
+  "nov" int
+  "kontra" nvarchar
+  "esas" nvarchar
+  "od_tar" datetime
+  "qaliq" decimal
+  "qeyd" nvarchar
+  "tesdiq" int
+  "kon_id" int
+  "reng" int
+}
+
+Table "sm_pul_vesait" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "folder" tinyint
+  "fol_idn" int
+  "hesab" nvarchar
+  "faiz" decimal
+  "tes" bit
+  "qrup" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sil_seb" bit
+  "nov" int
+}
+
+Table "sm_qiymet_dey" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "faiz" decimal
+  "rnd" int
+  "ist" int
+  "cancel" bit
+}
+
+Table "sm_qiymet_dey_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "qiymet_old" decimal
+  "qiymet_new" decimal
+  "es_no" int
+}
+
+Table "sm_qoy_nov" {
+  "idn" int
+  "name" nvarchar
+  "hesab" nvarchar
+  "tes" bit
+}
+
+Table "sm_qr" {
+  "idn" int
+  "name" nvarchar
+  "qr" image
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_rasenka" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sif_sen" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "mux" bit
+  "hr" int
+  "kontra" int
+}
+
+Table "sm_rasenka_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "position" int
+  "el_no" int
+  "son" decimal
+}
+
+Table "sm_rasenka_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "el_no" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "emp_name" nvarchar
+  "xid_meb" decimal
+  "yekun" decimal
+}
+
+Table "sm_rasenka_emp" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sif_sen" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "mux" bit
+  "hr" int
+  "kontra" int
+}
+
+Table "sm_rasenka_emp_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "tabel_no" nvarchar
+  "emp" int
+  "mebleg" decimal
+}
+
+Table "sm_rasenka_emp_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "el_no" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+}
+
+Table "sm_rasenka_mal" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "deri" nvarchar
+  "parca" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "beh" decimal
+  "cat_tar" datetime
+  "qeyd" nvarchar
+  "qaliq" decimal
+  "es_no" int
+  "ist_miqdar" decimal
+  "nov" int
+  "ist_miq" decimal
+  "sat_miq" decimal
+  "ilk_miq" decimal
+  "duzelis" decimal
+}
+
+Table "sm_reng" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "sirket_kodu" nvarchar
+  "tes" bit
+  "qeyd" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "fol_idn" int
+  "folder" tinyint
+}
+
+Table "sm_sat_mux" {
+  "idn" int
+  "serh" nvarchar
+  "date1" datetime
+  "date2" datetime
+}
+
+Table "sm_sat_tenzimle_sec" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "barcode" nvarchar
+  "mal" int
+}
+
+Table "sm_sektor" {
+  "idn" int
+  "name" nvarchar
+  "folder" int
+  "fol_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "kod" nvarchar
+}
+
+Table "sm_send_mail" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "send_date" datetime
+  "say" int
+}
+
+Table "sm_send_mail_el" {
+  "idn" int [primary key]
+  "num" int
+  "serial" nvarchar
+  "mal" int
+  "name" nvarchar
+  "ol_vah" nvarchar
+  "sat_90" decimal
+  "eht_7" decimal
+  "ferq" decimal
+  "es_no" int
+}
+
+Table "sm_serv_class" {
+  "idn" int
+  "name" nvarchar
+  "kod" nvarchar
+  "tes" bit
+}
+
+Table "sm_service" {
+  "idn" int
+  "class" int
+  "serial" nvarchar
+  "name" nvarchar
+  "property1" int
+  "price" decimal
+  "active" int
+  "qeyd" nvarchar
+  "fol_idn" int
+  "folder" int
+  "hesab" nvarchar
+  "tes" bit
+}
+
+Table "sm_service_sec" {
+  "idn" int
+  "serial" nvarchar
+  "name" nvarchar
+  "miqdar" decimal
+}
+
+Table "sm_sif_med" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "guzest" decimal
+  "serh" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "nagd" bit
+  "kassa" int
+  "sobe" int
+}
+
+Table "sm_sif_med_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qaliq" decimal
+  "es_no" int
+  "ol_vah" nvarchar
+}
+
+Table "sm_sif_sec" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "barcode" nvarchar
+  "mal" int
+  "faza" int
+}
+
+Table "sm_sif_sened" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kassa" int
+  "emp" int
+  "anbar" int
+  "guzest" decimal
+  "mebleg" decimal
+  "beh_meb" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "but_sif" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sif_no" int
+  "nov" int
+  "vaxt" int
+  "cem_miq" decimal
+  "sex_no" int
+  "status" int
+  "sat_miq" decimal
+  "ist_miq" decimal
+  "teh_tarix" datetime
+  "kontra_name" nvarchar
+  "s_nov" int
+  "sat_nov" int
+  "muq" int
+  "bitti" bit
+  "r" bit
+  "cancel" int
+  "edv" int
+}
+
+Table "sm_sif_sened_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "deri" nvarchar
+  "parca" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "beh" decimal
+  "cat_tar" datetime
+  "qeyd" nvarchar
+  "qaliq" decimal
+  "es_no" int
+  "ist_miqdar" decimal
+  "nov" int
+  "ist_miq" decimal
+  "sat_miq" decimal
+  "ilk_miq" decimal
+  "duzelis" decimal
+}
+
+Table "sm_sifaris" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "anbar" int
+  "guzest" decimal
+  "serh" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "nagd" bit
+  "kassa" int
+  "sobe" int
+}
+
+Table "sm_sifaris_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qaliq" decimal
+  "es_no" int
+  "ol_vah" nvarchar
+}
+
+Table "sm_sifaris_form" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kassa" int
+  "emp" int
+  "anbar" int
+  "guzest" decimal
+  "mebleg" decimal
+  "beh_meb" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "but_sif" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sif_no" int
+  "nov" int
+  "vaxt" int
+  "sifaris" int
+  "miq_cem" decimal
+  "ym" bit
+  "hm" bit
+  "get_all" bit
+  "depo" int
+  "depo_name" nvarchar
+  "r" bit
+}
+
+Table "sm_sifaris_form_el" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "deri" nvarchar
+  "parca" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "beh" decimal
+  "cat_tar" datetime
+  "qeyd" nvarchar
+  "qaliq" decimal
+  "sif_miq" decimal
+  "faza" int
+  "esas_mal" int
+  "gul_id" int
+}
+
+Table "sm_sifaris_form_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "ist_tap" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+}
+
+Table "sm_sifaris_qaime" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kassa" int
+  "emp" int
+  "anbar" int
+  "guzest" decimal
+  "mebleg" decimal
+  "beh_meb" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "but_sif" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "sif_no" int
+  "r" bit
+}
+
+Table "sm_sifaris_qaime_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "qaime" int
+  "qaime_no" nvarchar
+  "miqdar" decimal
+  "qaliq" decimal
+  "miq_qal" decimal
+  "mebleg" decimal
+  "qeyd" nvarchar
+  "es_no" int
+  "el_sif" int
+}
+
+Table "sm_sifaris_qaime_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "anbar" int
+  "sax_gun" int
+  "gun_mex" decimal
+  "xam_miq" decimal
+  "sif_miq" decimal
+  "miqdar" decimal
+  "ist_miq" decimal
+  "qaliq" decimal
+  "miq_qal" decimal
+  "es_miq" decimal
+  "ist_hes_miq" decimal
+  "hes_miq" decimal
+  "faza" int
+  "el_no" int
+  "es_no" int
+  "mel_meh" int
+  "esas_mal" int
+}
+
+Table "sm_smeta" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "layihe" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "lay_man" int
+  "mes_man" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "ist_mud" nvarchar
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "mebleg" decimal
+  "komisyon" decimal
+  "yekun" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_ad" nvarchar
+  "sorgu" int
+  "hazir" bit
+  "mallar_deyis" bit
+  "hesabla" bit
+  "tesdiq" bit
+  "status" int
+  "teklif" bit
+  "serh" nvarchar
+  "sex_no" int
+  "r" bit
+}
+
+Table "sm_smeta_mal" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "kom_meb" decimal
+  "yekun" decimal
+  "kom_faiz" decimal
+}
+
+Table "sm_smeta_naxis" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "naxis_meb" decimal
+  "mehsul" int
+}
+
+Table "sm_smeta_real" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "layihe" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "lay_man" int
+  "mes_man" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "ist_mud" nvarchar
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "diz_meb" decimal
+  "fors_major" decimal
+  "mebleg" decimal
+  "komisyon" decimal
+  "yekun" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_ad" nvarchar
+  "smeta" int
+}
+
+Table "sm_smeta_real_mal" {
+  "idn" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "es_no" bigint
+  "hes" bit
+}
+
+Table "sm_smeta_real_mal_el" {
+  "idn" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "es_no" bigint
+  "hes" bit
+}
+
+Table "sm_smeta_real_xerc" {
+  "idn" bigint
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+}
+
+Table "sm_smeta_real_xerc_ds" {
+  "idn" bigint
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+}
+
+Table "sm_smeta_real_xidmet" {
+  "idn" bigint
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+}
+
+Table "sm_smeta_real_xidmet_ds" {
+  "idn" bigint
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+}
+
+Table "sm_smeta_satis" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "mal" int
+  "rasenka_meb" decimal
+  "xid_meb" decimal
+  "mehsul" int
+  "cem_maya" decimal
+  "marja" decimal
+  "sat_qiy" decimal
+  "gelir" decimal
+  "kod" nvarchar
+  "maya_meb" decimal
+  "sat_meb" decimal
+  "miqdar" decimal
+  "cem_gelir" decimal
+  "maya_qiy" decimal
+  "teklif_qiy" decimal
+  "naxis_meb" decimal
+  "xerc_meb" decimal
+}
+
+Table "sm_smeta_xammal" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "mehs_miq" decimal
+  "ol_vah" int
+  "anbar" int
+}
+
+Table "sm_smeta_xerc" {
+  "idn" bigint
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+  "mehsul" int
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "hes" bit
+}
+
+Table "sm_smeta_xerc_yeni" {
+  "idn" bigint
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" bigint
+  "mehsul" int
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "hes" bit
+}
+
+Table "sm_smeta_xidmet" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "mehsul" int
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "hes" bit
+  "faiz" decimal
+}
+
+Table "sm_smeta_xidmet_xerc" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "xerc" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "mehsul" int
+  "nov" int
+  "kontra" int
+  "kon_name" nvarchar
+  "hes" bit
+  "faiz" decimal
+}
+
+Table "sm_smeta_ym" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "anbar" int
+  "ol_vah" int
+  "mehs_miq" decimal
+}
+
+Table "sm_sob_say" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "ferq" decimal
+  "duzelis" decimal
+  "serh" nvarchar
+  "mebleg" decimal
+  "ist_tap1" int
+  "ist_tap2" int
+  "faza" int
+  "hesab" nvarchar
+  "mux" bit
+  "hes" bit
+  "tes" bit
+  "novbe" int
+  "novbe_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_yeri" int
+  "upd_qal" bit
+  "r" bit
+  "tesdiq" bit
+  "duz" bit
+  "sif_idn" int
+}
+
+Table "sm_sob_say_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "ol_vah" int
+  "ilk_miq" decimal
+  "med_miq" decimal
+  "trg_miq" decimal
+  "trc_miq" decimal
+  "sg_miq" decimal
+  "sc_miq" decimal
+  "mex_miq" decimal
+  "miqdar" decimal
+  "sayilan" decimal
+  "ferq" decimal
+  "duzelis" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+  "mal_name" nvarchar
+}
+
+Table "sm_sob_sil" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sobe" int
+  "sebeb" int
+  "ist_tap" int
+  "faza" int
+  "emp1" int
+  "emp2" int
+  "sex" int
+  "mebleg" decimal
+  "user_id" int
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "imp_idn" int
+  "is_yeri" int
+  "med_idn" int
+  "tr_idn" int
+  "sg_idn" int
+  "sy_idn" int
+  "is_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+  "tesdiq" bit
+}
+
+Table "sm_sob_sil_el" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "barcode" nvarchar
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "hesab" nvarchar
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "miq_qal" decimal
+  "qaliq" decimal
+  "tam" bit
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+}
+
+Table "sm_sob_sil_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+}
+
+Table "sm_sob_trans" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "emp1" int
+  "emp2" int
+  "sobe1" int
+  "sobe2" int
+  "guzest" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "ist_tap" int
+  "faza" int
+  "mezmun" nvarchar
+  "status" int
+  "tes" bit
+  "novbe" int
+  "novbe_name" nvarchar
+  "dov_nis" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "imp_idn" int
+  "sobe" int
+  "med_idn" int
+  "sy_idn" int
+  "sg_idn" int
+  "is_idn" int
+  "tr_idn" int
+  "is_yeri" int
+  "r" bit
+  "tesdiq" bit
+  "icra_et" bit
+  "sat_meb" decimal
+  "cvb_sexs" int
+  "teh_al" int
+  "teh_ver" int
+  "el_sif" int
+  "telebname" int
+  "surucu" int
+  "telebname_mag" int
+  "ist_sened" int
+  "teleb_idn" int
+  "hes" bit
+  "cem_miq" decimal
+}
+
+Table "sm_sob_trans_el" {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "ceki_cem" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "tam" bit
+  "miq_qal" decimal
+  "alis_no" nvarchar
+  "kod" nvarchar
+  "barcode" nvarchar
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+  "sat_qiy" decimal
+  "sat_meb" decimal
+  "sifaris" int
+}
+
+Table "sm_sob_trans_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+}
+
+Table "sm_sob_trans_sif" {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "hes" bit
+  "yekun" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+}
+
+Table "sm_sobeler_geri" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kon_hes" nvarchar
+  "anbar" int
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "edv_dax" bit
+  "serh" nvarchar
+  "mux" bit
+  "tes" bit
+  "nagd" bit
+  "kassa" int
+  "sobe" int
+  "med_idn" int
+  "sg_idn" int
+  "tr_idn" int
+  "sy_idn" int
+  "sat_idn" int
+  "uy_ced" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_sobeler_geri_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "es_no" int
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "son_qiy" decimal
+  "son_meb" decimal
+  "serial" nvarchar
+}
+
+Table "sm_sobeler_med" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kon_name" nvarchar
+  "kon_hes" nvarchar
+  "anbar" int
+  "ist_tap" int
+  "faza" int
+  "class" int
+  "emp1" int
+  "emp2" int
+  "sex" int
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "al_xerc" decimal
+  "son_meb" decimal
+  "um_meb" decimal
+  "sat_meb" decimal
+  "serh" nvarchar
+  "edv_dax" bit
+  "mux" bit
+  "tes" bit
+  "emp3" int
+  "emp4" int
+  "emp5" int
+  "novbe" int
+  "novbe_name" nvarchar
+  "dov_nis" nvarchar
+  "status" int
+  "bas_vaxt" datetime
+  "bit_vaxt" datetime
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "yom_sen" int
+  "imp_idn" int
+  "nagd" bit
+  "kassa" int
+  "sobe" int
+  "sat_idn" int
+  "tr_idn" int
+  "uy_ced" bit
+  "kod" nvarchar
+  "st_idn" int
+  "r" bit
+  "sif_idn" int
+  "icra_et" bit
+  "gomruk_deyeri" decimal
+  "olcu" int
+  "anbar1" int
+  "anbar2" int
+  "miq" decimal
+  "el_sif" int
+  "avtosayman" bit
+  "sat_sif_idn" int
+}
+
+Table "sm_sobeler_med_anb" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kon_name" nvarchar
+  "kon_hes" nvarchar
+  "anbar" int
+  "ist_tap" int
+  "faza" int
+  "class" int
+  "emp1" int
+  "emp2" int
+  "sex" int
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "al_xerc" decimal
+  "son_meb" decimal
+  "um_meb" decimal
+  "sat_meb" decimal
+  "serh" nvarchar
+  "edv_dax" bit
+  "mux" bit
+  "tes" bit
+  "emp3" int
+  "emp4" int
+  "emp5" int
+  "novbe" int
+  "novbe_name" nvarchar
+  "dov_nis" nvarchar
+  "status" int
+  "bas_vaxt" datetime
+  "bit_vaxt" datetime
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "yom_sen" int
+  "imp_idn" int
+  "nagd" bit
+  "kassa" int
+  "sobe" int
+  "sat_idn" int
+  "tr_idn" int
+  "uy_ced" bit
+  "kod" nvarchar
+  "st_idn" int
+  "r" bit
+  "sif_idn" int
+  "icra_et" bit
+  "gomruk_deyeri" decimal
+  "olcu" int
+  "anbar1" int
+  "anbar2" int
+  "miq" decimal
+  "el_sif" int
+}
+
+Table "sm_sobeler_med_anb_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "alis_no" nvarchar
+  "esas_ist" int
+  "mal_ist" int
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "miqyas" decimal
+  "hecm" decimal
+  "hecm_cem" decimal
+  "qiymet" decimal
+  "mal_qiy" decimal
+  "sat_qiy" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "sat_meb" decimal
+  "son_qiy" decimal
+  "son_meb" decimal
+  "son_tar" datetime
+  "cap_say" int
+  "miq_qal" decimal
+  "qaliq" decimal
+  "tam" bit
+  "es_no" int
+  "el_no" int
+  "ist_tap" int
+  "ol_vah" int
+  "qeyd" nvarchar
+  "ferq" decimal
+  "sif_miq" decimal
+  "idxal_faiz" decimal
+  "idxal_meb" decimal
+  "gomruk_rusum" decimal
+}
+
+Table "sm_sobeler_med_avadanliq" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "miqdar" decimal
+  "el_no" int
+  "es_no" int
+  "ist_tap" int
+}
+
+Table "sm_sobeler_med_ax" {
+  "idn" bigint [primary key]
+  "num" int
+  "nov" int
+  "qaime" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "alis_xerc" int
+  "kontra" int
+  "hes_forma" int
+  "val_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "es_no" int
+  "edv_der" int
+  "edv_meb" decimal
+  "yekun" decimal
+  "edv_faiz" decimal
+}
+
+Table "sm_sobeler_med_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "alis_no" nvarchar
+  "esas_ist" int
+  "mal_ist" int
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "miqyas" decimal
+  "hecm" decimal
+  "hecm_cem" decimal
+  "qiymet" decimal
+  "mal_qiy" decimal
+  "sat_qiy" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "sat_meb" decimal
+  "son_qiy" decimal
+  "son_meb" decimal
+  "son_tar" datetime
+  "cap_say" int
+  "miq_qal" decimal
+  "qaliq" decimal
+  "tam" bit
+  "es_no" int
+  "el_no" int
+  "ist_tap" int
+  "ol_vah" int
+  "qeyd" nvarchar
+  "ferq" decimal
+  "sif_miq" decimal
+  "idxal_faiz" decimal
+  "idxal_meb" decimal
+  "gomruk_rusum" decimal
+}
+
+Table "sm_sobeler_med_el_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "ist_tap" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+}
+
+Table "sm_sobeler_med_emp" {
+  "idn" bigint [primary key]
+  "num" int
+  "emp" int
+  "faza" int
+  "hesab" nvarchar
+  "mebleg" decimal
+  "mal_ist" int
+  "ist_tap" int
+  "es_no" int
+}
+
+Table "sm_sobeler_med_gr" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "ol_vah" int
+  "mal_tek" int
+  "mal_ist" int
+  "porsiya" int
+  "miqdar" decimal
+  "elave" decimal
+  "sif_miq" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "miq_qal" decimal
+  "qaliq" decimal
+  "tam" bit
+  "tek_miq" decimal
+  "tek_qiy" decimal
+  "tek_meb" decimal
+  "ist_tap" int
+  "mal_sil" int
+  "sil_miq" decimal
+  "sil_qiy" decimal
+  "sil_meb" decimal
+  "seriya" nvarchar
+  "anbar" int
+  "esas_mal" int
+  "unikal" nvarchar
+  "ras_meb" decimal
+  "mat_qiy" decimal
+  "mat_meb" decimal
+}
+
+Table "sm_sobeler_med_sil" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "miq_qal" decimal
+  "qaliq" decimal
+  "anbar" int
+  "ist_tap" int
+  "es_no" int
+  "fk_no" int
+  "extra_meb" decimal
+  "fire_miq" decimal
+  "xam_miq" decimal
+  "esas_mal" int
+  "unikal" nvarchar
+}
+
+Table "sm_sobeler_med_xidmet" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "faza" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "norm_miq" decimal
+  "avadanliq" int
+  "brak_miq" decimal
+  "el_no" int
+}
+
+Table "sm_sobeler_sif" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "cat_tarix" datetime
+  "kontra" int
+  "kon_name" nvarchar
+  "anbar" int
+  "mebleg" decimal
+  "serh" nvarchar
+  "status" int
+  "telebname" int
+  "el_sif" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "valyuta" nvarchar
+  "kurs" decimal
+  "hesabla" bit
+  "tech_plan" int
+  "r" bit
+}
+
+Table "sm_sobeler_sif_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "ol_vah" int
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "cat_miq" decimal
+  "qal_miq" decimal
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "sm_sos_iqt_teh" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "musteri_sif" int
+  "sifaris_name" nvarchar
+  "musteri" int
+  "musteri_name" nvarchar
+  "gelir_sah" int
+  "is_yeri" nvarchar
+  "vezife" nvarchar
+  "maas" decimal
+  "heyat_yol" nvarchar
+  "yoldas_maas" decimal
+  "el_gel_yer" int
+  "el_gelir" decimal
+  "aile_uzv_say" nvarchar
+  "aile_xerc" decimal
+  "bank_adi1" int
+  "bank_adi2" int
+  "bank_adi3" int
+  "ay_ode1" decimal
+  "ay_ode2" decimal
+  "ay_ode_cem" decimal
+  "ay_ode3" decimal
+  "zamin_adi1" nvarchar
+  "zamin_adi2" nvarchar
+  "zamin_adi3" nvarchar
+  "zamin_adi4" nvarchar
+  "zamin_adi5" nvarchar
+  "qohum1" nvarchar
+  "qohum2" nvarchar
+  "qohum3" nvarchar
+  "qohum4" nvarchar
+  "qohum5" nvarchar
+  "oper1" int
+  "oper2" int
+  "oper3" int
+  "oper4" int
+  "oper5" int
+  "mobil1" nvarchar
+  "mobil2" nvarchar
+  "mobil3" nvarchar
+  "mobil4" nvarchar
+  "mobil5" nvarchar
+  "gelir_um" decimal
+  "aile_xerc_um" decimal
+  "bank_ohde" decimal
+  "qaliq" decimal
+  "odenis_meb" decimal
+  "muddet" decimal
+  "gecikme_sayi" decimal
+}
+
+Table "sm_tech_plan" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "layihe" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "lay_man" int
+  "mes_man" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "ist_mud" nvarchar
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "mebleg" decimal
+  "komisyon" decimal
+  "yekun" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_ad" nvarchar
+  "sorgu" int
+  "hazir" bit
+  "mallar_deyis" bit
+  "hesabla" bit
+  "tesdiq" bit
+  "status" int
+  "teklif" bit
+  "serh" nvarchar
+  "calculate" bit
+  "r" bit
+}
+
+Table "sm_tech_plan_cem_xammal" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "anbar" int
+  "ol_vah" int
+  "mehs_miq" decimal
+  "anb_qaliq" decimal
+  "ehtiyyac_qaliq" decimal
+}
+
+Table "sm_tech_plan_sif" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "kom_meb" decimal
+  "yekun" decimal
+  "kom_faiz" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+  "sif_kod" int
+}
+
+Table "sm_tech_plan_xammal" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "mehs_miq" decimal
+  "ol_vah" int
+  "anbar" int
+  "sifaris" int
+}
+
+Table "sm_teh_emel" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "emp" int
+  "emp_name" nvarchar
+  "hesab" nvarchar
+  "branch" int
+  "valyuta" nvarchar
+  "kurs" decimal
+  "ilk_qal" decimal
+  "mex_meb" decimal
+  "edv_meb" decimal
+  "val_meb" decimal
+  "yekun" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+  "kmx_1" int
+  "kmx_2" int
+  "kmx_3" int
+  "med_1" decimal
+  "med_2" decimal
+  "med_3" decimal
+  "bank_1" int
+  "bank_meb" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+  "sobe" int
+}
+
+Table "sm_teh_emel_el" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "tarix" datetime
+  "hesab" nvarchar
+  "desc1" nvarchar
+  "desc2" nvarchar
+  "desc3" nvarchar
+  "dn1" nvarchar
+  "dn2" nvarchar
+  "dn3" nvarchar
+  "d1" int
+  "d2" int
+  "d3" int
+  "edv_der" int
+  "edv_faiz" decimal
+  "miqdar" decimal
+  "mebleg" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "mezmun" nvarchar
+  "bolme" int
+  "teleb_id" int
+}
+
+Table "sm_teh_emel_med" {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "tarix" datetime
+  "nov" int
+  "sened" int
+  "sen_name" nvarchar
+  "miqdar" decimal
+  "mebleg" decimal
+  "mezmun" nvarchar
+  "no" int
+}
+
+Table "sm_telebname" {
+  "idn" int
+  "sen_no" nvarchar
+  "sobe" int
+  "kontra" int
+  "tarix" datetime
+  "son_tarix" datetime
+  "anbar" int
+  "telebname" int
+  "el_sif" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "tesdiq" bit
+}
+
+Table "sm_telebname_anbar" {
+  "idn" int
+  "sen_no" nvarchar
+  "sobe" int
+  "kontra" int
+  "sif_no" int
+  "tarix" datetime
+  "son_tarix" datetime
+  "anbar" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "el_sif" int
+  "ist_idn" int
+  "r" bit
+}
+
+Table "sm_telebname_anbar_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "reng" int
+  "olcu" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "qaliq" decimal
+  "toplam" decimal
+  "es_no" int
+  "trans_miq" decimal
+  "sex_qal" decimal
+}
+
+Table "sm_telebname_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "reng" int
+  "olcu" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "qaliq" decimal
+  "toplam" decimal
+  "es_no" int
+}
+
+Table "sm_telebname_magaza" {
+  "idn" int
+  "sen_no" nvarchar
+  "sobe" int
+  "kontra" int
+  "sif_no" int
+  "tarix" datetime
+  "son_tarix" datetime
+  "anbar" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "el_sif" int
+  "ist_idn" int
+  "r" bit
+}
+
+Table "sm_telebname_magaza_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "mal" int
+  "reng" int
+  "olcu" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "qaliq" decimal
+  "toplam" decimal
+  "es_no" int
+}
+
+Table "sm_test" {
+  "text" nvarchar
+}
+
+Table "sm_tf_faiz" {
+  "idn" int
+  "name" nvarchar
+  "min_meb" decimal
+  "max_meb" decimal
+  "faiz" decimal
+  "sab_ver" decimal
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_tibb_faiz" {
+  "idn" int
+  "name" nvarchar
+  "min_meb" decimal
+  "max_meb" decimal
+  "faiz" decimal
+  "sab_ver" decimal
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_tik_oby" {
+  "idn" int
+  "name" nvarchar
+  "hesab" nvarchar
+  "tes" bit
+}
+
+Table "sm_transfer_mux" {
+  "idn" int
+  "serh" nvarchar
+  "date1" datetime
+  "date2" datetime
+  "nov" int
+}
+
+Table "sm_uzun_emel" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "en" decimal
+  "qeyd" nvarchar
+}
+
+Table "sm_uzun_emel_el" {
+  "idn" int
+  "es_no" int
+  "num" int
+  "olcu" nvarchar
+  "en" int
+  "uzun" int
+  "miqdar" decimal
+  "cem" decimal
+}
+
+Table "sm_val" {
+  "idn" int
+  "name" nvarchar
+  "qisa_ad" nvarchar
+  "kurs" decimal
+  "mb_kurs" decimal
+  "mv" bit
+  "tes" bit
+  "pr_m" nvarchar
+  "pr_q" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_val_kurs" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mb_kurs" decimal
+  "mezmun" nvarchar
+  "mux" bit
+  "tes" bit
+}
+
+Table "sm_val_qiy" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "son_tar" datetime
+  "gelir" int
+  "xerc" int
+  "mus_ferq" decimal
+  "men_ferq" decimal
+  "mux" bit
+  "tes" bit
+  "r" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_val_qiy_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "hesab" nvarchar
+  "desc1" nvarchar
+  "d1" int
+  "valyuta" nvarchar
+  "deb_val" decimal
+  "kred_val" decimal
+  "ferq_val" decimal
+  "kurs" decimal
+  "ferq_vk" decimal
+  "deb_mv" decimal
+  "kred_mv" decimal
+  "ferq_mv" decimal
+  "ferq_mk" decimal
+  "es_no" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_vergi_oh" {
+  "idn" int
+  "kod" nvarchar
+  "name" nvarchar
+  "folder" tinyint
+  "fol_idn" int
+  "hesab" nvarchar
+  "faiz" decimal
+  "tes" bit
+  "qrup" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_vetendas" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_xammal_nov" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "sm_xammal_plan" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "layihe" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "lay_man" int
+  "mes_man" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "ist_mud" nvarchar
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "mebleg" decimal
+  "komisyon" decimal
+  "yekun" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_ad" nvarchar
+  "sorgu" int
+  "hazir" bit
+  "mallar_deyis" bit
+  "hesabla" bit
+  "tesdiq" bit
+  "status" int
+  "teklif" bit
+  "serh" nvarchar
+  "calculate" bit
+}
+
+Table "sm_xammal_plan_cem" {
+  "idn" int [primary key]
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "anbar" int
+  "ol_vah" int
+  "mehs_miq" decimal
+  "anb_qaliq" decimal
+  "ehtiyyac_qaliq" decimal
+  "sifaris" int
+}
+
+Table "sm_xammal_plan_sif" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "kom_meb" decimal
+  "yekun" decimal
+  "kom_faiz" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+}
+
+Table "sm_xid_med" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "al_nov" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "kon_hes" nvarchar
+  "mebleg" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+  "kassa" int
+  "sobe" int
+  "anbar" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_xid_med_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "es_no" int
+  "mezmun" nvarchar
+  "sobe" int
+  "esas_ves" int
+  "bolme" int
+}
+
+Table "sm_xid_med_geri" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "al_nov" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "kon_hes" nvarchar
+  "mebleg" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+  "kassa" int
+  "sobe" int
+  "anbar" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_xid_med_geri_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "es_no" int
+  "mezmun" nvarchar
+  "sobe" int
+}
+
+Table "sm_xid_sat" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kon_hes" nvarchar
+  "sat_nov" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "expeditor_name" nvarchar
+  "guzest" decimal
+  "mebleg" decimal
+  "guz_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "tes" bit
+  "kassa" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "r" bit
+}
+
+Table "sm_xid_sat_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "es_no" int
+  "bolme" int
+}
+
+Table "sm_xm_plan" {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "layihe" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "lay_man" int
+  "mes_man" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "ist_mud" nvarchar
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "mebleg" decimal
+  "komisyon" decimal
+  "yekun" decimal
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "is_ad" nvarchar
+  "sorgu" int
+  "hazir" bit
+  "mallar_deyis" bit
+  "hesabla" bit
+  "tesdiq" bit
+  "status" int
+  "teklif" bit
+  "serh" nvarchar
+  "calculate" bit
+  "sobe1" int
+  "sobe2" int
+  "hm" bit
+  "ym" bit
+  "r" bit
+}
+
+Table "sm_xm_plan_cem_xammal" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "anbar" int
+  "ol_vah" int
+  "mehs_miq" decimal
+  "anb_qaliq" decimal
+  "ehtiyyac_qaliq" decimal
+  "sifaris" int
+  "tr_miq" decimal
+}
+
+Table "sm_xm_plan_sif" {
+  "idn" bigint
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "marja" decimal
+  "faiz" decimal
+  "mat_meb" decimal
+  "xerc_meb" decimal
+  "fors_major" decimal
+  "kom_meb" decimal
+  "yekun" decimal
+  "kom_faiz" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+  "sif_kod" int
+}
+
+Table "sm_xm_plan_xammal" {
+  "idn" int
+  "es_no" bigint
+  "el_no" bigint
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "mehsul" int
+  "mebleg" decimal
+  "qiymet" decimal
+  "hes" bit
+  "mehs_miq" decimal
+  "ol_vah" int
+  "anbar" int
+  "sifaris" int
+}
+
+Table "sm_yol_mal" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "kontra" int
+  "kon_name" nvarchar
+  "anbar" int
+  "guzest" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "kon_hes" nvarchar
+  "tes" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+}
+
+Table "sm_yol_mal_el" {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "hecm" decimal
+  "hecm_cem" decimal
+  "qiymet" decimal
+  "sat_qiy" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "sat_meb" decimal
+  "son_qiy" decimal
+  "cap_say" int
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "support" {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "qeyd" nvarchar
+  "conf" bit
+  "conf_id" bigint
+}
+
+Table "support_ex" {
+  "idn" int
+  "fk_support" int
+  "num" int
+  "kind" int
+  "request" nvarchar
+  "status" int
+  "response" nvarchar
+}
+
+Table "support_file" {
+  "idn" int
+  "fk_ex" int
+  "num" int
+  "file_bin" varbinary
+  "file_bin_name" nvarchar
+  "note" nvarchar
+  "fff" varbinary
+}
+
+Table "support_file_res" {
+  "idn" int
+  "fk_ex" int
+  "num" int
+  "file_bin" varbinary
+  "file_bin_name" nvarchar
+  "note" nvarchar
+}
+
+Table "t1" {
+  "idn" int
+  "name" nvarchar
+  "meb" decimal
+}
+
+Table "t2" {
+  "idn" int
+  "mer_id" int
+  "meb" decimal
+}
+
+Table "test" {
+  "idn" int
+}
+
+Table "tmp_menu_emel" {
+  "idn" int
+  "name" nvarchar
+  "caption" nvarchar
+  "kart" int
+  "nov" tinyint
+  "menu_idn" nvarchar
+  "shortcut" int
+  "folder" tinyint
+  "fol_idn" int
+}
+
+Table "tmp_menu_emel_n" {
+  "idn" int
+  "name" nvarchar
+  "caption" nvarchar
+  "kart" int
+  "nov" tinyint
+  "menu_idn" nvarchar
+  "shortcut" int
+  "folder" tinyint
+  "fol_idn" int
+  "menu_nov" int
+  "glyph" varbinary
+  "left_list" nvarchar
+}
+
+Table "users" {
+  "idn" int
+  "name" nvarchar
+  "pass" nvarchar
+  "admin" bit
+  "emel" bit
+  "hes" bit
+  "multisession" bit
+  "mono" bit
+  "fol_idn" int
+  "folder" tinyint
+  "tes" bit
+  "all_br" bit
+  "all_dp" bit
+  "all_cs" bit
+  "emp" int
+  "def_anbar" int
+  "def_emp" int
+}
+
+Table "users_branch" {
+  "idn" int [primary key]
+  "num" int
+  "user_id" int
+  "branch" int
+}
+
+Table "users_cash" {
+  "idn" int [primary key]
+  "user_id" int
+  "num" int
+  "cash" int
+}
+
+Table "users_depo" {
+  "idn" int [primary key]
+  "num" int
+  "user_id" int
+  "group_no" int
+  "depo" nvarchar
+}
+
+Table "users_group" {
+  "idn" int
+  "name" nvarchar
+}
+
+Table "users_group_card" {
+  "idn" int
+  "fk_users_group" int
+  "num" int
+  "card" nvarchar
+  "view_per" bit
+  "new_per" bit
+  "edit_per" bit
+  "delete_per" bit
+}
+
+Table "users_group_card_tab" {
+  "idn" int [primary key]
+  "num" int
+  "fk_users_group" int
+  "fk_users_group_card" int
+  "kind" int
+  "tab_id" int
+  "tab_name" nvarchar
+  "permission" int
+}
+
+Table "users_group_oper" {
+  "idn" int
+  "fk_users_group" int
+  "num" int
+  "operation" nvarchar
+  "view_kind" tinyint
+  "view_count" int
+  "new_kind" tinyint
+  "new_count" int
+  "edit_kind" tinyint
+  "edit_count" int
+  "delete_kind" tinyint
+  "delete_count" int
+}
+
+Table "users_group_oper_tab" {
+  "idn" int [primary key]
+  "num" int
+  "fk_users_group" int
+  "fk_users_group_oper" int
+  "kind" int
+  "tab_id" int
+  "tab_name" nvarchar
+  "permission" int
+}
+
+Table "users_group_report" {
+  "idn" int
+  "fk_users_group" int
+  "num" int
+  "report" nvarchar
+  "view_kind" tinyint
+  "view_count" int
+  "view_script" nvarchar
+}
+
+Table "users_group_report_tab" {
+  "idn" int [primary key]
+  "num" int
+  "fk_users_group" int
+  "fk_users_group_report" int
+  "kind" int
+  "tab_id" int
+  "tab_name" nvarchar
+  "permission" bit
+}
+
+Table "users_kassa" {
+  "idn" int [primary key]
+  "user_id" int
+  "kassa" int
+}
+
+Table "users_oper" {
+  "idn" int [primary key]
+  "user_id" int
+  "group_no" int
+  "operation" nvarchar
+  "new" nvarchar
+  "edit" nvarchar
+  "del" nvarchar
+}
+
+Table "users_rep" {
+  "idn" int [primary key]
+  "user_id" int
+  "group_no" int
+  "report" nvarchar
+  "mux" nvarchar
+  "geri" nvarchar
+}
+
+Table "x" {
+  "x" nvarchar
+}
+
+Table "xammallar_sec" {
+  "idn" int
+  "kod" nvarchar
+  "miqdar" decimal
+  "barcode" nvarchar
+  "mal" int
+}
+
+Table "xerc_maddeleri" {
+  "qrup" nvarchar
+  "new_madde" nvarchar
+  "old_madde_1" nvarchar
+  "old_madde_2" nvarchar
+  "old_madde_3" nvarchar
+}
+
+Ref: "sm_kontra_class_el"."es_no" > "sm_kontra_class"."idn"
+Ref: "sm_good_ist_xammal_hesab"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_faza"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_sobeler_med_emp"."ist_tap" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_xammal"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_esas"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_el"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_xerc"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_ras"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_xidmet"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_avadanliq"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_good_ist_ras_el"."es_no" > "sm_good_ist"."idn"
+Ref: "sm_kontr_mal_al_geri_el"."es_no" > "sm_kontr_mal_al_geri"."idn"
+Ref: "sm_smeta_real_mal"."es_no" > "sm_smeta_real"."idn"
+Ref: "sm_smeta_real_mal_el"."es_no" > "sm_smeta_real"."idn"
+Ref: "sm_smeta_real_xerc"."es_no" > "sm_smeta_real"."idn"
+Ref: "sm_smeta_real_xerc_ds"."es_no" > "sm_smeta_real"."idn"
+Ref: "sm_smeta_real_xidmet"."es_no" > "sm_smeta_real"."idn"
+Ref: "sm_smeta_real_xidmet_ds"."es_no" > "sm_smeta_real"."idn"
+Ref: "support_ex"."fk_support" > "support"."idn"
+Ref: "support_file"."fk_ex" > "support_ex"."idn"
+Ref: "support_file_res"."fk_ex" > "support_ex"."idn"
+Ref: "sm_teh_emel_med"."es_no" > "sm_teh_emel"."idn"
+Ref: "sm_teh_emel_el"."es_no" > "sm_teh_emel"."idn"
+Ref: "sm_kontr_real_el"."es_no" > "sm_kontr_real"."idn"
+Ref: "mes_group_el"."es_no" > "mes_group"."idn"
+Ref: "sm_ev_yer_dey_el"."es_no" > "sm_ev_yer_dey"."idn"
+Ref: "sm_cash_sum"."es_no" > "sm_cash_get"."idn"
+Ref: "sm_rasenka_emp_el"."es_no" > "sm_rasenka_emp"."idn"
+Ref: "sm_rasenka_emp_el_el"."es_no" > "sm_rasenka_emp"."idn"
+Ref: "messages_el"."es_no" > "messages"."idn"
+Ref: "sm_sobeler_geri_el"."es_no" > "sm_sobeler_geri"."idn"
+Ref: "sm_xid_sat_el"."es_no" > "sm_xid_sat"."idn"
+Ref: "sm_sif_sened_el"."es_no" > "sm_sif_sened"."idn"
+Ref: "sm_sifaris_el"."es_no" > "sm_sifaris"."idn"
+Ref: "language_el"."es_no" > "language"."idn"
+Ref: "sm_bank_od_el"."es_no" > "sm_bank_od"."idn"
+Ref: "sm_bank_od_el_el"."es_no" > "sm_bank_od"."idn"
+Ref: "sm_ev_amort_el"."es_no" > "sm_ev_amort"."idn"
+Ref: "sm_telebname_magaza_el"."es_no" > "sm_telebname_magaza"."idn"
+Ref: "sm_dig_emel_el"."es_no" > "sm_dig_emel"."idn"
+Ref: "sm_sif_med_el"."es_no" > "sm_sif_med"."idn"
+Ref: "users_group_report_tab"."fk_users_group_report" > "users_group_report"."idn"
+Ref: "users_group_report_tab"."fk_users_group" > "users_group_report"."fk_users_group"
+Ref: "sm_sifaris_form_el"."es_no" > "sm_sifaris_form"."idn"
+Ref: "sm_sifaris_form_el_el"."es_no" > "sm_sifaris_form"."idn"
+Ref: "users_branch"."user_id" > "users"."idn"
+Ref: "users_depo"."user_id" > "users"."idn"
+Ref: "users_kassa"."user_id" > "users"."idn"
+Ref: "users_rep"."user_id" > "users"."idn"
+Ref: "users_oper"."user_id" > "users"."idn"
+Ref: "sm_kmd_el"."es_no" > "sm_kmd"."idn"
+Ref: "sm_sifaris_qaime_el"."es_no" > "sm_sifaris_qaime"."idn"
+Ref: "sm_sifaris_qaime_el_el"."es_no" > "sm_sifaris_qaime"."idn"
+Ref: "sm_kmx_el"."es_no" > "sm_kmx"."idn"
+Ref: "sm_bon_sifir_el"."es_no" > "sm_bon_sifir"."idn"
+Ref: "sm_edv_dep_ellellll"."es_no" > "sm_edv_dep"."idn"
+Ref: "sm_telebname_el"."es_no" > "sm_telebname"."idn"
+Ref: "sm_pul_her_shablon_el"."es_no" > "sm_pul_her_shablon"."idn"
+Ref: "sm_pul_her_shablon_kassa"."es_no" > "sm_pul_her_shablon"."idn"
+Ref: "sm_pul_her_shablon_xerc"."es_no" > "sm_pul_her_shablon"."idn"
+Ref: "sm_val_qiy_el"."es_no" > "sm_val_qiy"."idn"
+Ref: "sm_ev_sil_el"."es_no" > "sm_ev_sil"."idn"
+Ref: "users_group_report"."fk_users_group" > "users_group"."idn"
+Ref: "users_group_card"."fk_users_group" > "users_group"."idn"
+Ref: "users_group_oper"."fk_users_group" > "users_group"."idn"
+Ref: "sm_sobeler_sif_el"."es_no" > "sm_sobeler_sif"."idn"
+Ref: "sm_maas_hes_el"."es_no" > "sm_maas_hes"."idn"
+Ref: "sm_sob_sil_el"."es_no" > "sm_sob_sil"."idn"
+Ref: "sm_sob_sil_el_el"."es_no" > "sm_sob_sil"."idn"
+Ref: "sm_kontr_akt_el"."es_no" > "sm_kontr_akt"."idn"
+Ref: "sm_xammal_plan_sif"."es_no" > "sm_xammal_plan"."idn"
+Ref: "sm_xammal_plan_cem"."es_no" > "sm_xammal_plan"."idn"
+Ref: "users_group_oper_tab"."fk_users_group_oper" > "users_group_oper"."idn"
+Ref: "users_group_oper_tab"."fk_users_group" > "users_group_oper"."fk_users_group"
+Ref: "sm_kontr_sat_geri_ist_el"."es_no" > "sm_kontr_sat_geri_ist"."idn"
+Ref: "sm_ev_ist_el"."es_no" > "sm_ev_ist"."idn"
+Ref: "sm_kontr_sif_sat_el"."es_no" > "sm_kontr_sif_sat"."idn"
+Ref: "sm_sob_trans_sif"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_sob_trans_el_el"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_sob_trans_el"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_send_mail_el"."es_no" > "sm_send_mail"."idn"
+Ref: "sm_sobeler_med_sil"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_el"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_ax"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_xidmet"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_avadanliq"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_gr"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_sobeler_med_el_el"."es_no" > "sm_sobeler_med"."idn"
+Ref: "sm_emel_ay_el"."es_no" > "sm_emel_ay"."idn"
+Ref: "sm_ist_sif_el"."es_no" > "sm_ist_sif"."idn"
+Ref: "sm_telebname_anbar_el"."es_no" > "sm_telebname_anbar"."idn"
+Ref: "mob_sifaris_el"."es_no" > "mob_sifaris"."idn"
+Ref: "sm_uzun_emel_el"."es_no" > "sm_uzun_emel"."idn"
+Ref: "sm_emp_hedef_el"."es_no" > "sm_emp_hedef"."idn"
+Ref: "sm_emel_hes_el"."es_no" > "sm_emel_hes"."idn"
+Ref: "sm_kontra_bar"."es_no" > "sm_kontra_kafe"."idn"
+Ref: "sm_kontr_sat_hed"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_kontr_sat_el"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_kontr_sat_emp"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_good_birles_el"."es_no" > "sm_good_birles"."idn"
+Ref: "sm_good_birles_sil"."es_no" > "sm_good_birles"."idn"
+Ref: "sm_good_birles_xerc"."es_no" > "sm_good_birles"."idn"
+Ref: "sm_kredit_tey_el_el"."es_no" > "sm_kredit_tey"."idn"
+Ref: "sm_kredit_tey_el"."es_no" > "sm_kredit_tey"."idn"
+Ref: "hr_tabel_hes_el"."es_no" > "hr_tabel_hes"."idn"
+Ref: "sm_bon_hes_el"."es_no" > "sm_bon_hes"."idn"
+Ref: "sm_qiymet_dey_el"."es_no" > "sm_qiymet_dey"."idn"
+Ref: "sm_kontra_is"."es_no" > "sm_kontra"."idn"
+Ref: "sm_bon_od_el"."es_no" > "sm_bon_od"."idn"
+Ref: "sm_eh_od_el"."es_no" > "sm_eh_od"."idn"
+Ref: "sm_yol_mal_el"."es_no" > "sm_yol_mal"."idn"
+Ref: "sm_kontr_sat_geri_el"."es_no" > "sm_kontr_sat_geri"."idn"
+Ref: "sm_kontr_sat_geri_hed"."es_no" > "sm_kontr_sat_geri"."idn"
+Ref: "sm_kontr_sat_geri_emp"."es_no" > "sm_kontr_sat_geri"."idn"
+Ref: "sm_geri_akt_el"."es_no" > "sm_geri_akt"."idn"
+Ref: "sm_tech_plan_sif"."es_no" > "sm_tech_plan"."idn"
+Ref: "sm_tech_plan_cem_xammal"."es_no" > "sm_tech_plan"."idn"
+Ref: "sm_tech_plan_xammal"."es_no" > "sm_tech_plan"."idn"
+Ref: "sm_ev_ver_el"."es_no" > "sm_ev_ver"."idn"
+Ref: "sm_ay_bagla_sab_el"."es_no" > "sm_ay_bagla_sab"."idn"
+Ref: "sm_xm_plan_xammal"."es_no" > "sm_xm_plan"."idn"
+Ref: "sm_xm_plan_sif"."es_no" > "sm_xm_plan"."idn"
+Ref: "sm_xm_plan_cem_xammal"."es_no" > "sm_xm_plan"."idn"
+Ref: "sm_rasenka_el"."es_no" > "sm_rasenka"."idn"
+Ref: "sm_rasenka_el_el"."es_no" > "sm_rasenka"."idn"
+Ref: "sm_rasenka_mal"."es_no" > "sm_rasenka"."idn"
+Ref: "sm_hesab_bagla_el"."es_no" > "sm_hesab_bagla"."idn"
+Ref: "sm_good_xerc"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_picture"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_bar"."es_no" > "sm_goods"."idn"
+Ref: "sm_goods_ol_vah"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_xammal"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_xidmet"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_avadanliq"."es_no" > "sm_goods"."idn"
+Ref: "sm_pul_teleb_el"."es_no" > "sm_pul_teleb"."idn"
+Ref: "sm_barcode_emel_el"."es_no" > "sm_barcode_emel"."idn"
+Ref: "hr_eh_hes_el"."es_no" > "hr_eh_hes"."idn"
+Ref: "hr_eh_hes_res_el"."es_no" > "hr_eh_hes"."idn"
+Ref: "sm_kontr_sat_ist_el"."es_no" > "sm_kontr_sat_ist"."idn"
+Ref: "sm_kamp_mal_el"."es_no" > "sm_kamp_mal"."idn"
+Ref: "sm_edv_od_el"."es_no" > "sm_edv_od"."idn"
+Ref: "sm_ate_med_ax"."es_no" > "sm_ate_med"."idn"
+Ref: "sm_ate_med_el"."es_no" > "sm_ate_med"."idn"
+Ref: "t2"."mer_id" > "t1"."idn"
+Ref: "sm_xid_med_el"."es_no" > "sm_xid_med"."idn"
+Ref: "sm_kontr_mal_al_el"."es_no" > "sm_kontr_mal_al"."idn"
+Ref: "sm_ate_ist_el"."es_no" > "sm_ate_ist"."idn"
+Ref: "sm_sobeler_med_anb_el"."es_no" > "sm_sobeler_med_anb"."idn"
+Ref: "sm_sob_say_el"."es_no" > "sm_sob_say"."idn"
+Ref: "sm_eh_hes_res_el"."es_no" > "sm_eh_hes"."idn"
+Ref: "sm_eh_hes_hr_el"."es_no" > "sm_eh_hes"."idn"
+Ref: "sm_eh_hes_el"."es_no" > "sm_eh_hes"."idn"
+Ref: "sm_process_iz_anbar"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_toxuma"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_etiket"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_qab"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_rosso"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_utu"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_yuma"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_ev_med_ax"."es_no" > "sm_ev_med"."idn"
+Ref: "sm_ev_med_el"."es_no" > "sm_ev_med"."idn"
+Ref: "sm_ate_sil_el"."es_no" > "sm_ate_sil"."idn"
+Ref: "sm_maya_gun"."es_no" > "sm_maya_hes"."idn"
+Ref: "sm_maya_hes_el"."es_no" > "sm_maya_hes"."idn"
+Ref: "sm_maya_xerc"."es_no" > "sm_maya_hes"."idn"
+Ref: "sm_ist_faza_trans_el"."es_no" > "sm_ist_faza_trans"."idn"
+Ref: "sm_ist_proc_el"."es_no" > "sm_ist_proc"."idn"
+Ref: "sm_good_bol_el"."es_no" > "sm_good_bol"."idn"
+Ref: "sm_good_bol_sil"."es_no" > "sm_good_bol"."idn"
+Ref: "sm_kontr_sat_qa_el"."es_no" > "sm_kontr_sat_qa"."idn"
+Ref: "sm_smeta_xidmet"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_satis"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_xerc"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_mal"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_xammal"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_ym"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_xerc_yeni"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_xidmet_xerc"."es_no" > "sm_smeta"."idn"
+Ref: "sm_smeta_naxis"."es_no" > "sm_smeta"."idn"
+Ref: "sm_xid_med_geri_el"."es_no" > "sm_xid_med_geri"."idn"
+Ref: "accounting_template_ex"."es_no" > "accounting_template"."idn"

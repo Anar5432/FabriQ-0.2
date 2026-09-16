@@ -1,0 +1,23 @@
+Searching for EKIN in sm_sifaris_form today or last few days...
+Form: {'idn': 21801, 'sen_no': '021801', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'YM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-S(PARÇA)', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21801, 'sen_no': '021801', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'YM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-M(PARÇA)', 'miqdar': Decimal('4.0000')}
+Form: {'idn': 21801, 'sen_no': '021801', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'YM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-L(PARÇA)', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21801, 'sen_no': '021801', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'YM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-XL(PARÇA)', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21802, 'sen_no': '021802', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/01/0181 GÖDƏKCƏ QARA (QIRMIZI QARNİ) KİŞİ R-S', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21802, 'sen_no': '021802', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/01/0181 GÖDƏKCƏ QARA (QIRMIZI QARNİ) KİŞİ R-M', 'miqdar': Decimal('4.0000')}
+Form: {'idn': 21802, 'sen_no': '021802', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/01/0181 GÖDƏKCƏ QARA (QIRMIZI QARNİ) KİŞİ R-L', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21802, 'sen_no': '021802', 'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/01/0181 GÖDƏKCƏ QARA (QIRMIZI QARNİ) KİŞİ R-XL', 'miqdar': Decimal('2.0000')}
+Form: {'idn': 21795, 'sen_no': '021795', 'tarix': datetime.datetime(2026, 2, 21, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-M', 'miqdar': Decimal('8.0000')}
+Form: {'idn': 21795, 'sen_no': '021795', 'tarix': datetime.datetime(2026, 2, 21, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-L', 'miqdar': Decimal('4.0000')}
+
+Searching for EKIN in sm_kontr_sat...
+Sat: {'idn': 60832, 'sen_no': '060832', 'tarix': datetime.datetime(2026, 2, 25, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-M', 'miqdar': Decimal('8.0000')}
+Sat: {'idn': 60832, 'sen_no': '060832', 'tarix': datetime.datetime(2026, 2, 25, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-L', 'miqdar': Decimal('4.0000')}
+Sat: {'idn': 60832, 'sen_no': '060832', 'tarix': datetime.datetime(2026, 2, 25, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-S', 'miqdar': Decimal('4.0000')}
+Sat: {'idn': 60832, 'sen_no': '060832', 'tarix': datetime.datetime(2026, 2, 25, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0102 ŞALVAR QARA-QIRMIZI KİŞİ R-XL', 'miqdar': Decimal('4.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-S', 'miqdar': Decimal('2.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-M', 'miqdar': Decimal('4.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-L', 'miqdar': Decimal('2.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/02/0060 JİLET QARA-QIRMIZI KİŞİ R-XL', 'miqdar': Decimal('2.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0039 ŞALVAR QARA-QIRMIZI KİŞİ R-S ', 'miqdar': Decimal('4.0000')}
+Sat: {'idn': 60520, 'sen_no': '060520', 'tarix': datetime.datetime(2026, 2, 20, 0, 0), 'cname': 'EKIN SMART CITY TEKNOLOJİ', 'pname': 'HM-BETEX/04/0039 ŞALVAR QARA-QIRMIZI KİŞİ R-L', 'miqdar': Decimal('4.0000')}

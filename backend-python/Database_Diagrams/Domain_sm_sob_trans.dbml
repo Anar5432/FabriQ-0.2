@@ -1,0 +1,122 @@
+Table "sm_sob_trans_el" [headercolor: #28a745] {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "ceki_cem" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "tam" bit
+  "miq_qal" decimal
+  "alis_no" nvarchar
+  "kod" nvarchar
+  "barcode" nvarchar
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+  "sat_qiy" decimal
+  "sat_meb" decimal
+  "sifaris" int
+  Note: '🟢 GREEN: Used actively in the dashboard program'
+}
+
+Table "sm_sob_trans_sif" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "hes" bit
+  "yekun" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_sob_trans" [headercolor: #28a745] {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "emp1" int
+  "emp2" int
+  "sobe1" int
+  "sobe2" int
+  "guzest" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "ist_tap" int
+  "faza" int
+  "mezmun" nvarchar
+  "status" int
+  "tes" bit
+  "novbe" int
+  "novbe_name" nvarchar
+  "dov_nis" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "imp_idn" int
+  "sobe" int
+  "med_idn" int
+  "sy_idn" int
+  "sg_idn" int
+  "is_idn" int
+  "tr_idn" int
+  "is_yeri" int
+  "r" bit
+  "tesdiq" bit
+  "icra_et" bit
+  "sat_meb" decimal
+  "cvb_sexs" int
+  "teh_al" int
+  "teh_ver" int
+  "el_sif" int
+  "telebname" int
+  "surucu" int
+  "telebname_mag" int
+  "ist_sened" int
+  "teleb_idn" int
+  "hes" bit
+  "cem_miq" decimal
+  Note: '🟢 GREEN: Used actively in the dashboard program'
+}
+
+Table "sm_sob_trans_el_el" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+
+TableGroup sm_sob_trans_Hierarchy {
+  "sm_sob_trans_el"
+  "sm_sob_trans_sif"
+  "sm_sob_trans"
+  "sm_sob_trans_el_el"
+}

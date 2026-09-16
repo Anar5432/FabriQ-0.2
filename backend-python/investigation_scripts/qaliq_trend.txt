@@ -1,0 +1,13 @@
+man--- OLD ORDERS (Jan 2026) sm_sif_sened_el ---
+{'tarix': datetime.datetime(2026, 1, 1, 0, 0), 'miqdar': Decimal('20000.0000'), 'qaliq': Decimal('37.0000')}
+{'tarix': datetime.datetime(2026, 1, 1, 0, 0), 'miqdar': Decimal('1000.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 1, 1, 0, 0), 'miqdar': Decimal('1000.0000'), 'qaliq': Decimal('17.0000')}
+{'tarix': datetime.datetime(2026, 1, 1, 0, 0), 'miqdar': Decimal('304.0000'), 'qaliq': Decimal('203.0000')}
+{'tarix': datetime.datetime(2026, 1, 1, 0, 0), 'miqdar': Decimal('200.0000'), 'qaliq': Decimal('20.0000')}
+
+--- NEW ORDERS (June 2026) sm_sif_sened_el ---
+{'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'miqdar': Decimal('9.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 6, 15, 0, 0), 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000')}

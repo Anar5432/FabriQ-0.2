@@ -1,0 +1,5 @@
+{'idn': 900161, 'mal': 48635, 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000'), 'ist_miqdar': Decimal('0.0000'), 'ist_miq': Decimal('0.0000'), 'sat_miq': Decimal('0.0000'), 'ilk_miq': Decimal('3.0000')}
+{'idn': 900162, 'mal': 48634, 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000'), 'ist_miqdar': Decimal('0.0000'), 'ist_miq': Decimal('0.0000'), 'sat_miq': Decimal('0.0000'), 'ilk_miq': Decimal('6.0000')}
+{'idn': 900163, 'mal': 48623, 'miqdar': Decimal('9.0000'), 'qaliq': Decimal('0.0000'), 'ist_miqdar': Decimal('0.0000'), 'ist_miq': Decimal('0.0000'), 'sat_miq': Decimal('0.0000'), 'ilk_miq': Decimal('9.0000')}
+{'idn': 900164, 'mal': 48622, 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000'), 'ist_miqdar': Decimal('0.0000'), 'ist_miq': Decimal('0.0000'), 'sat_miq': Decimal('0.0000'), 'ilk_miq': Decimal('3.0000')}
+{'idn': 900165, 'mal': 48791, 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000'), 'ist_miqdar': Decimal('0.0000'), 'ist_miq': Decimal('0.0000'), 'sat_miq': Decimal('0.0000'), 'ilk_miq': Decimal('6.0000')}

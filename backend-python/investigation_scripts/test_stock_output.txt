@@ -1,0 +1,12 @@
+ID: 22801 | Dept: 3 | Balance: 2058.1000
+ID: 22802 | Dept: 3 | Balance: 2432.6000
+ID: 22802 | Dept: 5 | Balance: 18.4500
+ID: 22803 | Dept: 3 | Balance: 2196.3500
+ID: 22803 | Dept: 5 | Balance: 191.8000
+ID: 22804 | Dept: 3 | Balance: 2504.0500
+ID: 22804 | Dept: 5 | Balance: 154.2000
+ID: 22805 | Dept: 3 | Balance: 2582.4000
+ID: 22805 | Dept: 5 | Balance: 152.0500
+ID: 22806 | Dept: 3 | Balance: 718.6000
+ID: 22806 | Dept: 5 | Balance: 163.0000
+ID: 41751 | Dept: 3 | Balance: 490.8800

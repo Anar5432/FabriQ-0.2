@@ -1,0 +1,152 @@
+=== COMMENT ANALYSIS ===
+Transfer: 046772 | 2026-06-12 00:00:00 | BTF XAMMAL ANBARI -> XİDMƏT ANBARI
+  Comment (serh): 'TAMSTORE KÖYNƏK
+İLHAM SEX'
+----------------------------------------
+Transfer: 046765 | 2026-06-12 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'zaur vasmoy'
+----------------------------------------
+Transfer: 046765 | 2026-06-12 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'zaur vasmoy'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046754 | 2026-06-11 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'BƏRDƏ'
+----------------------------------------
+Transfer: 046746 | 2026-06-10 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046746 | 2026-06-10 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046746 | 2026-06-10 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046714 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAHİD VASMOY'
+----------------------------------------
+Transfer: 046714 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAHİD VASMOY'
+----------------------------------------
+Transfer: 046714 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAHİD VASMOY'
+----------------------------------------
+Transfer: 046714 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAHİD VASMOY'
+----------------------------------------
+Transfer: 046714 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAHİD VASMOY'
+----------------------------------------
+Transfer: 046712 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046712 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046712 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046712 | 2026-06-06 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046700 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'MONEX SİFARİŞİ VƏ BOXER EMZO'
+----------------------------------------
+Transfer: 046688 | 2026-06-04 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'ABŞERON'
+----------------------------------------
+Transfer: 046687 | 2026-06-05 00:00:00 | BTF XAMMAL ANBARI -> KƏSİM SEXİ
+  Comment (serh): 'AZƏRSU'
+----------------------------------------
+Transfer: 046684 | 2026-06-04 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046684 | 2026-06-04 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046684 | 2026-06-04 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046684 | 2026-06-04 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046684 | 2026-06-04 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'ZAUR VASMOY'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------
+Transfer: 046652 | 2026-06-01 00:00:00 | BTF HAZIR MƏHSUL ANBARI -> SƏDƏRƏK TOPDAN MAĞAZASI
+  Comment (serh): 'Zahid vasmoy'
+----------------------------------------

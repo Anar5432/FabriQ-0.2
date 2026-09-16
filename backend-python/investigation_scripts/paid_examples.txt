@@ -1,0 +1,5 @@
+Customer: SUMQAYİT MAGAZİN MƏKTƏBLİ | Order: 003602 | Total: 39.00000000 | Paid: 15.00
+Customer: SUMQAYİT MAGAZİN MƏKTƏBLİ | Order: 003610 | Total: 18.00000000 | Paid: 15.70
+Customer: Pərakəndə Sədərək | Order: 003611 | Total: 25.30000000 | Paid: 2220.00
+Customer: Pərakəndə Sədərək | Order: 003593 | Total: 10.00000000 | Paid: 297.00
+Customer: SUMQAYİT MAGAZİN MƏKTƏBLİ | Order: 003597 | Total: 110.00000000 | Paid: 10.00

@@ -1,0 +1,62 @@
+{
+    "mob_sifaris": {
+        "count": 3,
+        "latest_date": "2017-05-08 10:15:50.397000"
+    },
+    "mob_sifaris_el": {
+        "count": 0,
+        "latest_date": "N/A"
+    },
+    "sm_borc": {
+        "count": 676,
+        "latest_date": "2023-06-16 00:00:00"
+    },
+    "sm_kassa_transfer": {
+        "count": 2520,
+        "latest_date": "2026-07-20 00:00:00"
+    },
+    "sm_pul_her_shablon_kassa": {
+        "count": 3,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris": {
+        "count": 0,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris_el": {
+        "count": 0,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris_form": {
+        "count": 22022,
+        "latest_date": "2026-07-20 00:00:00"
+    },
+    "sm_sifaris_form_el": {
+        "count": 86764,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris_form_el_el": {
+        "count": 0,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris_qaime": {
+        "count": 3677,
+        "latest_date": "2026-07-20 00:00:00"
+    },
+    "sm_sifaris_qaime_el": {
+        "count": 3406,
+        "latest_date": "N/A"
+    },
+    "sm_sifaris_qaime_el_el": {
+        "count": 17177,
+        "latest_date": "N/A"
+    },
+    "sm_smeta_satis": {
+        "count": 52087,
+        "latest_date": "N/A"
+    },
+    "users_kassa": {
+        "count": 0,
+        "latest_date": "N/A"
+    }
+}

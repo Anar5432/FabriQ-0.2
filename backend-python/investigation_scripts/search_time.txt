@@ -1,0 +1,276 @@
+﻿--- SEARCHING DATABASE SCHEMA FOR TIME / CAPACITY / NORM METRICS ---
+
+Table: sm_ate_siy
+  - min_meb (decimal)
+
+Table: sm_bon_hes_el
+  - min_sat (decimal)
+
+Table: sm_dsmf_faiz
+  - min_meb (decimal)
+
+Table: sm_eh_hes_el
+  - min_eh (decimal)
+
+Table: sm_eh_hes_hr_el
+  - health_insurance_min_amount (decimal)
+  - min_pension_company_compen (decimal)
+  - min_pension_company_leave (decimal)
+  - min_pension_emp_compen (decimal)
+  - min_pension_emp_leave (decimal)
+  - min_salary (decimal)
+  - minimum_amount_pension_company (decimal)
+  - minimum_amount_pension_emp (decimal)
+  - overtime (decimal)
+  - personal_no (nvarchar)
+
+Table: sm_eh_hes_res_el
+  - min_dsmf_is (decimal)
+  - min_dsmf_ms (decimal)
+  - min_eh (decimal)
+  - tibb_min_meb (decimal)
+
+Table: sm_esas_ves
+  - norma1 (decimal)
+  - norma2 (decimal)
+
+Table: sm_ev_class
+  - norma (decimal)
+
+Table: sm_ev_ist_el
+  - tesisci (int)
+
+Table: sm_gel
+  - muddet (decimal)
+
+Table: sm_good_ist_el
+  - plan_miq (decimal)
+
+Table: sm_good_xammal
+  - cix_plan_miq (decimal)
+  - faiz_plan_miq (decimal)
+  - ilk_plan_miq (decimal)
+  - plan_miq (decimal)
+
+Table: sm_good_xidmet
+  - muddet (decimal)
+
+Table: sm_goods
+  - muddet (decimal)
+  - property1 (int)
+
+Table: sm_goods_log
+  - muddet (decimal)
+  - property1 (int)
+
+Table: sm_gv_faiz
+  - min_meb (decimal)
+
+Table: sm_kredit_tey
+  - muddet (int)
+
+Table: sm_maya_gun
+  - deqiqe (decimal)
+  - is_saat (decimal)
+  - saat (decimal)
+
+Table: sm_maya_hes
+  - muddet (int)
+
+Table: sm_maya_hes_el
+  - muddet (decimal)
+
+Table: sm_property1
+  - bno (nvarchar)
+  - fol_idn (int)
+  - folder (int)
+  - idn (int)
+  - ins_date (datetime)
+  - ins_user (nvarchar)
+  - kod (nvarchar)
+  - name (nvarchar)
+  - qeyd (nvarchar)
+  - tes (bit)
+  - ... and 2 more.
+
+Table: sm_service
+  - property1 (int)
+
+Table: sm_sif_sened
+  - vaxt (int)
+
+Table: sm_sifaris_form
+  - vaxt (int)
+
+Table: sm_sobeler_med
+  - bas_vaxt (datetime)
+  - bit_vaxt (datetime)
+
+Table: sm_sobeler_med_anb
+  - bas_vaxt (datetime)
+  - bit_vaxt (datetime)
+
+Table: sm_sobeler_sif
+  - tech_plan (int)
+
+Table: sm_sos_iqt_teh
+  - muddet (decimal)
+  - oper1 (int)
+  - oper2 (int)
+  - oper3 (int)
+  - oper4 (int)
+  - oper5 (int)
+  - zamin_adi1 (nvarchar)
+  - zamin_adi2 (nvarchar)
+  - zamin_adi3 (nvarchar)
+  - zamin_adi4 (nvarchar)
+  - ... and 1 more.
+
+Table: sm_tech_plan
+  - bas_tar (datetime)
+  - bit_tar (datetime)
+  - calculate (bit)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hazir (bit)
+  - hesabla (bit)
+  - idn (bigint)
+  - ins_date (datetime)
+  - ins_user (nvarchar)
+  - ... and 24 more.
+
+Table: sm_tech_plan_cem_xammal
+  - anb_qaliq (decimal)
+  - anbar (int)
+  - ehtiyyac_qaliq (decimal)
+  - el_no (bigint)
+  - es_no (bigint)
+  - hes (bit)
+  - idn (int)
+  - kod (nvarchar)
+  - mal (int)
+  - mebleg (decimal)
+  - ... and 5 more.
+
+Table: sm_tech_plan_sif
+  - es_no (bigint)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hes (bit)
+  - hesabla (bit)
+  - idn (bigint)
+  - ist_miq (decimal)
+  - kod (nvarchar)
+  - kom_faiz (decimal)
+  - kom_meb (decimal)
+  - ... and 15 more.
+
+Table: sm_tech_plan_xammal
+  - anbar (int)
+  - el_no (bigint)
+  - es_no (bigint)
+  - hes (bit)
+  - idn (int)
+  - kod (nvarchar)
+  - mal (int)
+  - mebleg (decimal)
+  - mehs_miq (decimal)
+  - mehsul (int)
+  - ... and 4 more.
+
+Table: sm_tf_faiz
+  - min_meb (decimal)
+
+Table: sm_tibb_faiz
+  - min_meb (decimal)
+
+Table: sm_xammal_plan
+  - bas_tar (datetime)
+  - bit_tar (datetime)
+  - calculate (bit)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hazir (bit)
+  - hesabla (bit)
+  - idn (bigint)
+  - ins_date (datetime)
+  - ins_user (nvarchar)
+  - ... and 23 more.
+
+Table: sm_xammal_plan_cem
+  - anb_qaliq (decimal)
+  - anbar (int)
+  - ehtiyyac_qaliq (decimal)
+  - el_no (bigint)
+  - es_no (bigint)
+  - hes (bit)
+  - idn (int)
+  - kod (nvarchar)
+  - mal (int)
+  - mebleg (decimal)
+  - ... and 6 more.
+
+Table: sm_xammal_plan_sif
+  - es_no (bigint)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hes (bit)
+  - hesabla (bit)
+  - idn (bigint)
+  - ist_miq (decimal)
+  - kod (nvarchar)
+  - kom_faiz (decimal)
+  - kom_meb (decimal)
+  - ... and 14 more.
+
+Table: sm_xm_plan
+  - bas_tar (datetime)
+  - bit_tar (datetime)
+  - calculate (bit)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hazir (bit)
+  - hesabla (bit)
+  - hm (bit)
+  - idn (bigint)
+  - ins_date (datetime)
+  - ... and 28 more.
+
+Table: sm_xm_plan_cem_xammal
+  - anb_qaliq (decimal)
+  - anbar (int)
+  - ehtiyyac_qaliq (decimal)
+  - el_no (bigint)
+  - es_no (bigint)
+  - hes (bit)
+  - idn (int)
+  - kod (nvarchar)
+  - mal (int)
+  - mebleg (decimal)
+  - ... and 7 more.
+
+Table: sm_xm_plan_sif
+  - es_no (bigint)
+  - faiz (decimal)
+  - fors_major (decimal)
+  - hes (bit)
+  - hesabla (bit)
+  - idn (bigint)
+  - ist_miq (decimal)
+  - kod (nvarchar)
+  - kom_faiz (decimal)
+  - kom_meb (decimal)
+  - ... and 15 more.
+
+Table: sm_xm_plan_xammal
+  - anbar (int)
+  - el_no (bigint)
+  - es_no (bigint)
+  - hes (bit)
+  - idn (int)
+  - kod (nvarchar)
+  - mal (int)
+  - mebleg (decimal)
+  - mehs_miq (decimal)
+  - mehsul (int)
+  - ... and 4 more.

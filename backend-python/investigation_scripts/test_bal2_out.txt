@@ -1,0 +1,6 @@
+﻿TESTING OVERALL BALANCES
+{'product_name': 'YM-T╞ÅB─░B ├ûNL├£K (1) R-3XL', 'dept_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'balance': Decimal('19378.0000')}
+{'product_name': 'YM-T╞ÅB─░B ├ûNL├£K (1) R-2XL', 'dept_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'balance': Decimal('17899.0000')}
+{'product_name': 'YM-T╞ÅB─░B C╞ÅRRAH XALATI ', 'dept_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'balance': Decimal('10148.0000')}
+{'product_name': 'YM-T╞ÅB─░B C╞ÅRRAH XALATI ', 'dept_name': 'MAYKA-BOXER SEX─░', 'balance': Decimal('7241.0000')}
+{'product_name': 'HM-T╞ÅB─░B C╞ÅRRAH XALATI ', 'dept_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'balance': Decimal('7241.0000')}

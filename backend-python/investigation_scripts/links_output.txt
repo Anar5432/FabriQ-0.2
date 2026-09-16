@@ -1,0 +1,23 @@
+--- Recent sm_sifaris_form ---
+(22517, '022517', datetime.datetime(2026, 7, 17, 0, 0), 1999, 'SEA BREEZE', '')
+(22518, '022518', datetime.datetime(2026, 7, 17, 0, 0), None, None, '')
+(22519, '022519', datetime.datetime(2026, 7, 16, 0, 0), 1999, 'SEA BREEZE', '')
+(22516, '022516', datetime.datetime(2026, 7, 16, 0, 0), 1790, 'Socar- Bakı Alineft Məktəbi', '')
+(22513, '022513', datetime.datetime(2026, 7, 15, 0, 0), 2120, 'HALAL P  MMC', '')
+(22514, '022514', datetime.datetime(2026, 7, 15, 0, 0), 1231, 'Elxan Şirniyyat', '')
+(22520, '022520', datetime.datetime(2026, 7, 15, 0, 0), 1865, 'BTF FABRİK', '')
+(22509, '022509', datetime.datetime(2026, 7, 15, 0, 0), 2101, 'ADONİS İÇ GEYİM', '')
+(22510, '022510', datetime.datetime(2026, 7, 15, 0, 0), None, None, '')
+(22511, '022511', datetime.datetime(2026, 7, 15, 0, 0), 2101, 'ADONİS İÇ GEYİM', '')
+
+--- Recent sm_smeta ---
+(9612, '009612', 4258, None, None)
+(9608, '009608', 4255, None, None)
+(9609, '009609', 4256, None, None)
+(9613, '009613', 4257, None, None)
+(9605, '009605', 4252, False, '')
+(9606, '009606', 4253, None, None)
+(9607, '009607', 4254, None, None)
+(9587, '009587', 4246, None, None)
+(9588, '009588', 4247, None, None)
+(9589, '009589', 4248, None, None)

@@ -1,0 +1,33 @@
+--- TABLE: sm_kmd ---
+Row count: 49105
+Columns: idn, sen_no, tarix, kassa, nov, kontra, kon_name, mebleg, mezmun, valyuta, kurs, yekun, kon_val, kon_kurs, mux, hesab, emp, tes, ins_user, ins_date, upd_user, upd_date, sobe, r, hes, qaime, sifaris, bolme, bolme_name
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 6, 30, 0, 0), 'kassa': 1, 'nov': 0, 'kontra': '144', 'kon_name': 'ILKIN QALIQ', 'mebleg': Decimal('920.5000'), 'mezmun': '', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'yekun': Decimal('920.50000000'), 'kon_val': 'AZN', 'kon_kurs': Decimal('1.0000'), 'mux': True, 'hesab': '531.01', 'emp': None, 'tes': False, 'ins_user': 'Admin', 'ins_date': datetime.datetime(2018, 7, 1, 12, 15, 8), 'upd_user': 'Sahib', 'upd_date': datetime.datetime(2023, 6, 17, 10, 25, 57), 'sobe': None, 'r': False, 'hes': False, 'qaime': None, 'sifaris': None, 'bolme': None, 'bolme_name': ''}
+
+--- TABLE: sm_kmx ---
+Row count: 38523
+Columns: idn, sen_no, tarix, kassa, nov, kontra, kon_name, alis_xerc, mebleg, mezmun, valyuta, kurs, yekun, kon_val, kon_kurs, mux, hesab, emp, tes, ins_user, ins_date, upd_user, upd_date, sobe, r, teh_al, hes, borc, hes_ay, qaime_sg, sifaris, bolme, bolme_name, teleb_id
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 7, 1, 0, 0), 'kassa': 1, 'nov': 0, 'kontra': '129', 'kon_name': 'BAZAR NƏĞD ALIŞ', 'alis_xerc': None, 'mebleg': Decimal('300.0000'), 'mezmun': 'Q2453 DUYME', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'yekun': Decimal('300.00000000'), 'kon_val': 'AZN', 'kon_kurs': Decimal('1.0000'), 'mux': True, 'hesab': '531.01', 'emp': None, 'tes': False, 'ins_user': 'Admin', 'ins_date': datetime.datetime(2018, 7, 1, 17, 59, 8), 'upd_user': 'Admin', 'upd_date': datetime.datetime(2018, 7, 9, 11, 41, 4), 'sobe': None, 'r': None, 'teh_al': None, 'hes': False, 'borc': None, 'hes_ay': None, 'qaime_sg': None, 'sifaris': None, 'bolme': None, 'bolme_name': None, 'teleb_id': None}
+
+--- TABLE: sm_kmd_el ---
+Row count: 528
+Columns: idn, num, es_no, qaime, kontra, anbar, mebleg, odenen, qaliq
+Sample: {'idn': 191, 'num': None, 'es_no': 12829, 'qaime': 734, 'kontra': 275, 'anbar': None, 'mebleg': Decimal('38580.0000'), 'odenen': Decimal('20000.0000'), 'qaliq': Decimal('18580.0000')}
+
+--- TABLE: sm_kmx_el ---
+Row count: 0
+
+--- TABLE: sm_bank_od ---
+Row count: 4417
+Columns: idn, sen_no, tarix, bank_hes, hesab, valyuta, kurs, med_meb, med_yek, mex_meb, mex_yek, mezmun, mux, tes, kassa, sobe, nov, mebleg, r, ins_user, ins_date, upd_user, upd_date
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 7, 1, 0, 0), 'bank_hes': 1, 'hesab': '223.01', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'med_meb': Decimal('11247.4300'), 'med_yek': Decimal('0.0000'), 'mex_meb': Decimal('0.0000'), 'mex_yek': Decimal('0.0000'), 'mezmun': '', 'mux': True, 'tes': False, 'kassa': None, 'sobe': None, 'nov': None, 'mebleg': Decimal('11247.4300'), 'r': False, 'ins_user': 'Admin', 'ins_date': datetime.datetime(2018, 7, 20, 14, 49, 44), 'upd_user': 'Sahib', 'upd_date': datetime.datetime(2023, 6, 17, 10, 26, 33)}
+
+--- TABLE: sm_bank_od_el ---
+Row count: 24856
+Columns: idn, es_no, num, sen_no, hesab, desc1, desc2, desc3, dn1, dn2, dn3, d1, d2, d3, edv_der, edv_faiz, med_meb, mex_meb, med_edv, mex_edv, valyuta, kurs, mezmun, nov, bank_hes, mebleg, med_kon, mex_kon, val_kon, kur_kon, sifaris, bolme, teleb_id
+Sample: {'idn': 1, 'es_no': 1, 'num': None, 'sen_no': None, 'hesab': '531.01', 'desc1': 144, 'desc2': '', 'desc3': '', 'dn1': 'ILKIN QALIQ', 'dn2': '', 'dn3': '', 'd1': 2, 'd2': 0, 'd3': 0, 'edv_der': None, 'edv_faiz': Decimal('0.0000'), 'med_meb': Decimal('11247.4300'), 'mex_meb': Decimal('0.0000'), 'med_edv': Decimal('0.0000'), 'mex_edv': Decimal('0.0000'), 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'mezmun': None, 'nov': None, 'bank_hes': None, 'mebleg': Decimal('11247.4300'), 'med_kon': Decimal('0.0000'), 'mex_kon': Decimal('0.0000'), 'val_kon': None, 'kur_kon': Decimal('0.0000'), 'sifaris': None, 'bolme': None, 'teleb_id': None}
+
+--- TABLE: sm_kassa_transfer ---
+Row count: 2456
+Columns: idn, sen_no, tarix, kassa1, kassa2, mebleg, mezmun, valyuta, kurs, yekun, kon_val, kon_kurs, mux, tes, sobe, r, status, ins_user, ins_date, upd_user, upd_date, tesdiq
+Sample: {'idn': 1, 'sen_no': '000001', 'tarix': datetime.datetime(2018, 8, 6, 0, 0), 'kassa1': 4, 'kassa2': 1, 'mebleg': Decimal('250.0000'), 'mezmun': '', 'valyuta': 'AZN', 'kurs': Decimal('1.0000'), 'yekun': Decimal('250.00000000'), 'kon_val': 'AZN', 'kon_kurs': Decimal('1.0000'), 'mux': True, 'tes': False, 'sobe': 23, 'r': False, 'status': 1, 'ins_user': 'Sumqayit', 'ins_date': datetime.datetime(2018, 8, 16, 18, 12, 24), 'upd_user': 'Sumqayit', 'upd_date': datetime.datetime(2018, 8, 18, 18, 17, 27), 'tesdiq': None}
+

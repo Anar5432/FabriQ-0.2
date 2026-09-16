@@ -1,0 +1,4 @@
+sm_good_ist columns: ['idn', 'sen_no', 'tarix', 'mesul', 'mesul_name', 'anbar1', 'anbar2', 'getdi', 'mebleg', 'ist_proc', 'auto', 'mux', 'mux_old', 'serh', 'tes', 'sif_no', 'sif_name', 'novbe', 'novbe_name', 'ins_user', 'ins_date', 'upd_user', 'upd_date', 'imp_idn', 'res', 'is_yeri', 'tesdiq', 'el_sif', 'hm', 'ym', 'get_all', 'xid_meb', 'xid_med_qaime', 'hr', 'emp_name', 'r']
+
+Error 2: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'qaime'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'sifaris'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'kontra'. (207)")
+Error 3: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'sifaris'. (207) (SQLExecDirectW)")

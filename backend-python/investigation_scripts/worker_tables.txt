@@ -1,0 +1,96 @@
+﻿
+============================================================
+TABLE: sm_maya_gun
+============================================================
+  Row 1:
+    idn: 459
+    tarix: 2021-02-28 00:00:00
+    es_no: 9
+    emp_say: 10.0000
+    is_saat: 9.0000
+    saat: 90.0000
+    deqiqe: 5400.0000
+  Row 2:
+    idn: 698
+    tarix: 2021-02-28 00:00:00
+    es_no: 11
+    emp_say: 5.0000
+    is_saat: 9.0000
+    saat: 45.0000
+    deqiqe: 2700.0000
+  Row 3:
+    idn: 458
+    tarix: 2021-02-27 00:00:00
+    es_no: 9
+    emp_say: 27.0000
+    is_saat: 9.0000
+    saat: 243.0000
+    deqiqe: 14580.0000
+  Row 4:
+    idn: 684
+    tarix: 2021-02-27 00:00:00
+    es_no: 11
+    emp_say: 41.0000
+    is_saat: 9.0000
+    saat: 369.0000
+    deqiqe: 22140.0000
+  Row 5:
+    idn: 457
+    tarix: 2021-02-26 00:00:00
+    es_no: 9
+    emp_say: 29.0000
+    is_saat: 9.0000
+    saat: 261.0000
+    deqiqe: 15660.0000
+
+============================================================
+TABLE: sm_maya_hes (parent of sm_maya_gun)
+============================================================
+  Row 1:
+    idn: 12
+    sen_no: 000012
+    tarix: 2024-12-09 00:00:00
+    ins_user: Ehdane Sefiyeva 
+  Row 2:
+    idn: 11
+    sen_no: 000011
+    tarix: 2021-05-06 00:00:00
+    muddet: 33404400
+    ins_user: Aqil Azakov
+  Row 3:
+    idn: 10
+    sen_no: 000010
+    tarix: 2021-03-29 00:00:00
+    muddet: 23360400
+    ins_user: Aqil Azakov
+  Row 4:
+    idn: 8
+    sen_no: 000008
+    tarix: 2021-03-19 00:00:00
+    muddet: 20217600
+    ins_user: Aqil Azakov
+  Row 5:
+    idn: 9
+    sen_no: 000009
+    tarix: 2021-03-19 00:00:00
+    muddet: 22096800
+    ins_user: Aqil Azakov
+
+============================================================
+TABLE: sm_sobeler_med (Dept working hours)
+============================================================
+  Row 1:
+    idn: 39858
+  Row 2:
+    idn: 39857
+  Row 3:
+    idn: 39856
+  Row 4:
+    idn: 39855
+  Row 5:
+    idn: 39854
+
+============================================================
+TABLE: sm_sobeler_sif (Dept orders)
+============================================================
+  [ERROR: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'sobe'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'mal'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'miqdar'. (207)")]

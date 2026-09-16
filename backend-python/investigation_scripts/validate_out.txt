@@ -1,0 +1,28 @@
+﻿VALIDATION: Sample orders per stage (sobe1-based)
+
+--- Stage: 0 Satis (4 items) ---
+  order=62028 | TM-Q─▒saqol k├╢yn╔Ök q─▒rm─▒z─▒ r╔Öngli | sobe1=None(None) | qaliq=20.0000
+  order=62024 | HM-BETEX/22/0051 OYUN├çU FORMASI K├ûYN╞ÅK-┼₧ORT R-2XL | sobe1=None(None) | qaliq=2.0000
+  order=61959 | TM-MATRAS ├£ST├£  180x200 | sobe1=None(None) | qaliq=1.0000
+  ... and 1 more
+
+--- Stage: 2 Kesim (1 items) ---
+  order=61776 | HM-BETEX 05/0007 POLO Q/Q A─₧ R-L | sobe1=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | qaliq=1.0000
+
+--- Stage: 4 Tikis (left Kesim) (9 items) ---
+  order=61804 | HM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-50 | sobe1=3(K╞ÅS─░M SEX─░) | qaliq=42.0000
+  order=61804 | HM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-46 | sobe1=3(K╞ÅS─░M SEX─░) | qaliq=5.0000
+  order=61803 | HM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-50 | sobe1=3(K╞ÅS─░M SEX─░) | qaliq=42.0000
+  ... and 6 more
+
+--- Stage: 5 Anbar (done) (6 items) ---
+  order=61996 | HM-MAYKA ALPAR BOZ R-2XL | sobe1=15(BTF DAX─░L─░ SATI┼₧ MA─₧AZASI ) | qaliq=266.0000
+  order=61926 | HM-MAYKA ALPAR BOZ R-2XL | sobe1=15(BTF DAX─░L─░ SATI┼₧ MA─₧AZASI ) | qaliq=298.0000
+  order=61909 | HM-MAYKA ALPAR BOZ R-2XL | sobe1=15(BTF DAX─░L─░ SATI┼₧ MA─₧AZASI ) | qaliq=298.0000
+  ... and 3 more
+
+--- Stage: 5 Anbar (left Tikis) (58 items) ---
+  order=61981 | HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S | sobe1=5(MAYKA-BOXER SEX─░) | qaliq=2.0000
+  order=61957 | HM-BETEX/15/0089 K─░TEL-┼₧ALVAR F╞ÅHL╞Å BOZ R-52 | sobe1=39(SON B├ûL├£M SEX─░) | qaliq=40.0000
+  order=61957 | HM-BETEX/15/0089 K─░TEL-┼₧ALVAR F╞ÅHL╞Å BOZ R-50 | sobe1=39(SON B├ûL├£M SEX─░) | qaliq=15.0000
+  ... and 55 more

@@ -1,0 +1,2 @@
+Time taken: 5.96 seconds
+Rows returned: 573

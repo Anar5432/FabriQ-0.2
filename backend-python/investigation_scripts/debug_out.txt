@@ -1,0 +1,72 @@
+﻿============================================================
+STEP 1: What's in sm_sob_trans for class 27 recently?
+============================================================
+  trans=46736 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-06-09 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE A─₧ K─░┼₧─░ R-M(PAR├ç
+  trans=46736 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-06-09 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE A─₧ K─░┼₧─░ R-M(R─░BA
+  trans=46669 | from=3(K╞ÅS─░M SEX─░) -> to=4(T─░K─░┼₧ SEX─░) | date=2026-06-06 00:00:00 | item=YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-46
+  trans=46669 | from=3(K╞ÅS─░M SEX─░) -> to=4(T─░K─░┼₧ SEX─░) | date=2026-06-06 00:00:00 | item=YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-48
+  trans=46669 | from=3(K╞ÅS─░M SEX─░) -> to=4(T─░K─░┼₧ SEX─░) | date=2026-06-06 00:00:00 | item=YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-50
+  trans=46669 | from=3(K╞ÅS─░M SEX─░) -> to=4(T─░K─░┼₧ SEX─░) | date=2026-06-06 00:00:00 | item=YM-BETEX/09/0040 POLO QISA QOL ANTRAS─░T R-52
+  trans=46681 | from=5(MAYKA-BOXER SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-06-02 00:00:00 | item=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M (P
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L (P
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M (R
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L (R
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S (P
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S (R
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-XS (
+  trans=46620 | from=3(K╞ÅS─░M SEX─░) -> to=5(MAYKA-BOXER SEX─░) | date=2026-05-28 00:00:00 | item=YM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-XS (
+  trans=46622 | from=5(MAYKA-BOXER SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-25 00:00:00 | item=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-L
+  trans=46622 | from=5(MAYKA-BOXER SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-25 00:00:00 | item=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-M
+  trans=46622 | from=5(MAYKA-BOXER SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-25 00:00:00 | item=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-S
+  trans=46622 | from=5(MAYKA-BOXER SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-25 00:00:00 | item=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K─░┼₧─░ R-XS
+  trans=46566 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-21 00:00:00 | item=HM-BETEX/05/0104 POLO T├£ND-G├ûY  R-L
+  trans=46566 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-21 00:00:00 | item=HM-BETEX/04/0105 ┼₧ALVAR T├£ND-G├ûY  K─░┼₧─░ R-50
+  trans=46565 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/05/0104 POLO T├╝nd-g├╢y  R-L(PAR├çA)
+  trans=46565 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/05/0104 POLO T├£ND G├ûY R-L(KLEVOY)
+  trans=46565 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/04/0105 ┼₧ALVAR QARA K─░┼₧─░ R-50(C─░BL─░K)
+  trans=46565 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/04/0105 ┼₧ALVAR QARA K─░┼₧─░ R-50(PAR├çA)
+  trans=46563 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-21 00:00:00 | item=HM-BETEX/06/0034 KOMB─░NEZON QIRMIZI K─░┼₧─░ R-50
+  trans=46561 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/06/0034 KOMB─░NEZON QIRMIZI K─░┼₧─░ R-50(PAR├ç
+  trans=46561 | from=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) -> to=24(BTF EKSPER─░MENTAL SEX XAMMAL ANBARI) | date=2026-05-21 00:00:00 | item=YM-BETEX/06/0034 KOMB─░NEZON QIRMIZI K─░┼₧─░ R-50(C─░BL
+  trans=46513 | from=4(T─░K─░┼₧ SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-18 00:00:00 | item=HM-BETEX/09/0004 K├ûYN╞ÅK A─₧ QISAQOL K─░┼₧─░ R-2XL
+  trans=46513 | from=4(T─░K─░┼₧ SEX─░) -> to=6(BTF HAZIR M╞ÅHSUL ANBARI) | date=2026-05-18 00:00:00 | item=HM-BETEX/09/0004 K├ûYN╞ÅK A─₧ QISAQOL K─░┼₧─░ R-3XL
+
+============================================================
+STEP 2: Open class-27 orders (last 60 days) vs their transfers
+============================================================
+  order=61981 | date=2026-06-11 00:00:00 | prod=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K | qaliq=2.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-06-02 00:00:00
+  order=62024 | date=2026-06-10 00:00:00 | prod=HM-BETEX/22/0051 OYUN├çU FORMASI K├ûYN╞ÅK-┼₧ | qaliq=2.0000 | stage=None(None) | trans_date=None
+  order=62028 | date=2026-06-10 00:00:00 | prod=TM-Q─▒saqol k├╢yn╔Ök q─▒rm─▒z─▒ r╔Öngli | qaliq=20.0000 | stage=None(None) | trans_date=None
+  order=61996 | date=2026-06-08 00:00:00 | prod=HM-MAYKA ALPAR BOZ R-2XL | qaliq=266.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-06-23 00:00:00
+  order=61959 | date=2026-06-05 00:00:00 | prod=TM-MATRAS ├£ST├£  180x200 | qaliq=1.0000 | stage=None(None) | trans_date=None
+  order=61957 | date=2026-06-05 00:00:00 | prod=HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-50 | qaliq=1.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-03-13 00:00:00
+  order=61957 | date=2026-06-05 00:00:00 | prod=HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-52 | qaliq=1.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-04-28 00:00:00
+  order=61957 | date=2026-06-05 00:00:00 | prod=HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å BOZ R-56 | qaliq=2.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-04-28 00:00:00
+  order=61957 | date=2026-06-05 00:00:00 | prod=HM-BETEX/15/0089 K─░TEL-┼₧ALVAR F╞ÅHL╞Å BOZ  | qaliq=15.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-05-12 00:00:00
+  order=61957 | date=2026-06-05 00:00:00 | prod=HM-BETEX/15/0089 K─░TEL-┼₧ALVAR F╞ÅHL╞Å BOZ  | qaliq=40.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-05-24 00:00:00
+  order=61926 | date=2026-06-03 00:00:00 | prod=HM-MAYKA ALPAR BOZ R-2XL | qaliq=298.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-06-23 00:00:00
+  order=61909 | date=2026-06-02 00:00:00 | prod=HM-MAYKA ALPAR BOZ R-2XL | qaliq=298.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-06-23 00:00:00
+  order=61909 | date=2026-06-02 00:00:00 | prod=HM-MAYKA ALPAR BOZ R-L | qaliq=382.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-05-31 00:00:00
+  order=61890 | date=2026-06-01 00:00:00 | prod=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K | qaliq=42.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-05-25 00:00:00
+  order=61890 | date=2026-06-01 00:00:00 | prod=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K | qaliq=27.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-06-02 00:00:00
+  order=61890 | date=2026-06-01 00:00:00 | prod=HM-BETEX/08/0063 T-SH─░RT OVERS─░ZE QARA K | qaliq=30.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-05-25 00:00:00
+  order=61904 | date=2026-06-01 00:00:00 | prod=HM-MAYKA ALPAR BOZ R-2XL | qaliq=298.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2025-06-23 00:00:00
+  order=61803 | date=2026-05-22 00:00:00 | prod=HM-BETEX/17/0013 PLA┼₧ SU KE├ç─░RM╞ÅY╞ÅN SARI | qaliq=5.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-01-31 00:00:00
+  order=61803 | date=2026-05-22 00:00:00 | prod=HM-BETEX/17/0013 PLA┼₧ SU KE├ç─░RM╞ÅY╞ÅN SARI | qaliq=2.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-03-04 00:00:00
+  order=61803 | date=2026-05-22 00:00:00 | prod=HM-BETEX/17/0013 PLA┼₧ SU KE├ç─░RM╞ÅY╞ÅN SARI | qaliq=2.0000 | stage=6(BTF HAZIR M╞ÅHSUL ANBARI) | trans_date=2026-03-04 00:00:00
+
+============================================================
+STEP 3: How many items match the date filter (trans.tarix >= order.tarix)?
+============================================================
+  [{'total_open_lines': 69, 'lines_with_stage': 2, 'lines_without_stage': 67}]
+
+============================================================
+STEP 4: WITHOUT the date filter - how many items match?
+============================================================
+  [{'total_open_lines': 69, 'lines_with_stage': 65, 'lines_without_stage': 4}]
+
+============================================================
+STEP 5: Sample stage distribution WITHOUT date filter
+============================================================
+  Stage distribution: [{'stage': 6, 'stage_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'cnt': 65}, {'stage': None, 'stage_name': None, 'cnt': 4}]

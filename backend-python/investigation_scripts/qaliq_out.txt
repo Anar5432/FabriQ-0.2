@@ -1,0 +1,9 @@
+--- MONEX (sm_sifaris_form) ---
+Error: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'kontra_name'. (207) (SQLExecDirectW)")
+
+--- ADONES (sm_sif_sened) ---
+{'es_no': 4111, 'num': None, 'name': 'HM-BETEX 05/0007 POLO TÜND GÖY R-54', 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 15, 0, 0)}
+{'es_no': 4111, 'num': None, 'name': 'HM-BETEX 05/0007 POLO TÜND GÖY R-52', 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 15, 0, 0)}
+{'es_no': 4111, 'num': None, 'name': 'HM-BETEX 05/0007 POLO TÜND GÖY R-50', 'miqdar': Decimal('9.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 15, 0, 0)}
+{'es_no': 4111, 'num': None, 'name': 'HM-BETEX 05/0007 POLO TÜND GÖY R-48', 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 15, 0, 0)}
+{'es_no': 4111, 'num': None, 'name': 'HM-BETEX 05/0007 POLO TÜND GÖY R-46', 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 15, 0, 0)}

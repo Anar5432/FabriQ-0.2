@@ -1,0 +1,50 @@
+--- Departments ---
+Dept 1: BTF XAMMAL ANBARI
+Dept 2: CORAB SEXİ H/M ANBARI
+Dept 3: KƏSİM SEXİ
+Dept 4: TİKİŞ SEXİ
+Dept 5: MAYKA-BOXER SEXİ
+Dept 6: BTF HAZIR MƏHSUL ANBARI
+Dept 7: BINƏ TOPDAN MAĞAZASI 
+Dept 8: BTF FURNİTURA ANBARI
+Dept 9: BTF EHTİYYAT HİSSƏLƏRİ ANBARI
+Dept 10: BTF OFİS LƏVAZİMATLARI
+Dept 11: SƏDƏRƏK TOPDAN MAĞAZASI
+Dept 12: XIRDALAN MƏKTƏBLİ SATIŞ MAGAZASI
+Dept 13: SUMQAYIT MƏKTƏBLİ SATIŞ MAGAZASI
+Dept 14: BTF ƏSAS VƏSAİTLƏR ANBARI
+Dept 15: BTF DAXİLİ SATIŞ MAĞAZASI 
+Dept 17: CORAB SEXİ
+Dept 18: CORAB SEXİ E/H ANBARI
+Dept 22: TİKİŞ SEXİ FURNİTURA ANBARI
+Dept 23: BTF OFiS NÜMUNƏ OTAGI
+Dept 24: BTF EKSPERİMENTAL SEX XAMMAL ANBARI
+Dept 25: BTF TƏSƏRRÜFAT ANBARI
+Dept 26: SƏBƏT SƏDƏRƏK
+Dept 27: SƏBƏT BİNƏ
+Dept 28: CORAB SEXI Y/F ANBARI
+Dept 29: XIRDALAN MAGAZA 2
+Dept 30: HÜMANİTAR ƏCƏMİ
+Dept 31: Maska 1 XAMMAL ANBARI
+Dept 32: MASKA 2 XAMMAL ANBARI
+Dept 33: MASKA 2 İSTEHSAL ANBARI
+Dept 34: MASKA 2 HAZIR MƏHSUL ANBARI
+Dept 35: REGİON SATIŞ ANBARI
+Dept 36: ŞƏRQ BAZARI
+Dept 37: BETEX
+Dept 38: XİDMƏT ANBARI
+Dept 39: SON BÖLÜM SEXİ
+Dept 40: NAXIŞ SEXİ
+Dept 41: SUMQAYIT SATIŞ ANBARI
+
+--- Raw Material Balances by Dept ---
+Dept 3: 247 distinct materials, 1075064.7068 total qty
+Dept 4: 16 distinct materials, 79570.5932 total qty
+Dept 33: 1 distinct materials, 20356.8600 total qty
+Dept 5: 3 distinct materials, 10388.8200 total qty
+Dept 38: 14 distinct materials, 9457.9000 total qty
+Dept 37: 9 distinct materials, 5699.4000 total qty
+Dept 24: 165 distinct materials, 4012.5600 total qty
+Dept 17: 3 distinct materials, 223.1200 total qty
+Dept 2: 3 distinct materials, 44.0000 total qty
+Dept 1: 1 distinct materials, 38.0000 total qty

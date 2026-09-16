@@ -1,0 +1,29 @@
+--- FOUND TABLES WITH KEYWORDS ---
+
+TABLE: sm_kmd_el | Rows: 528
+Columns: idn, num, es_no, qaime, kontra, anbar, mebleg, odenen, qaliq
+Sample: {'idn': 50805, 'num': None, 'es_no': 45125, 'qaime': 3615, 'kontra': 1060, 'anbar': None, 'mebleg': Decimal('160.0000'), 'odenen': Decimal('0.0000'), 'qaliq': Decimal('160.0000')}
+
+TABLE: sm_sifaris_qaime | Rows: 3676
+Columns: idn, sen_no, tarix, kontra, kassa, emp, anbar, guzest, mebleg, beh_meb, yekun, serh, mux, tes, but_sif, ins_user, ins_date, upd_user, upd_date, sif_no, r
+Sample: {'idn': 4183, 'sen_no': '004183', 'tarix': datetime.datetime(2020, 8, 17, 0, 0), 'kontra': None, 'kassa': None, 'emp': None, 'anbar': None, 'guzest': Decimal('0.0000'), 'mebleg': Decimal('0.0000'), 'beh_meb': Decimal('0.0000'), 'yekun': Decimal('0.0000'), 'serh': '', 'mux': None, 'tes': False, 'but_sif': 1, 'ins_user': 'Elvin Qeferli', 'ins_date': datetime.datetime(2020, 8, 18, 9, 32, 47), 'upd_user': 'Destec', 'upd_date': datetime.datetime(2021, 4, 10, 13, 8, 52), 'sif_no': 1085, 'r': False}
+
+TABLE: sm_sifaris_qaime_el | Rows: 3405
+Columns: idn, num, qaime, qaime_no, miqdar, qaliq, miq_qal, mebleg, qeyd, es_no, el_sif
+Sample: {'idn': 205438, 'num': None, 'qaime': 3905, 'qaime_no': '003905', 'miqdar': Decimal('0.0000'), 'qaliq': Decimal('0.0000'), 'miq_qal': Decimal('0.0000'), 'mebleg': Decimal('1704.2000'), 'qeyd': None, 'es_no': 4183, 'el_sif': 1085}
+
+TABLE: sm_sifaris_qaime_el_el | Rows: 17149
+Columns: idn, num, kod, mal, anbar, sax_gun, gun_mex, xam_miq, sif_miq, miqdar, ist_miq, qaliq, miq_qal, es_miq, ist_hes_miq, hes_miq, faza, el_no, es_no, mel_meh, esas_mal
+Sample: {'idn': 223542, 'num': None, 'kod': '500.02.02.07.01.128', 'mal': 5567, 'anbar': None, 'sax_gun': 0, 'gun_mex': Decimal('0.0000'), 'xam_miq': Decimal('0.0000'), 'sif_miq': Decimal('120.0000'), 'miqdar': Decimal('120.0000'), 'ist_miq': Decimal('120.0000'), 'qaliq': Decimal('0.0000'), 'miq_qal': Decimal('120.0000'), 'es_miq': Decimal('0.0000'), 'ist_hes_miq': Decimal('0.0000'), 'hes_miq': Decimal('0.0000'), 'faza': 5, 'el_no': 3905, 'es_no': 4183, 'mel_meh': None, 'esas_mal': 5567}
+
+TABLE: sm_bank_od_el_el | Rows: 571
+Columns: idn, es_no, el_no, num, qaime, kontra, mebleg, odenen, qaliq
+Sample: {'idn': 5599, 'es_no': 3958, 'el_no': 38, 'num': None, 'qaime': 2825, 'kontra': 38, 'mebleg': Decimal('155805.50'), 'odenen': Decimal('2277.92'), 'qaliq': Decimal('153527.58')}
+
+TABLE: sm_hesab_bagla_el | Rows: 12
+Columns: idn, num, es_no, hes_sifir, desc1, desc2, desc3, dn1, dn2, dn3, d1, d2, d3, hes_artan, desc4, desc5, desc6, dn4, dn5, dn6, d4, d5, d6, mebleg, val, kurs, yekun, mezmun, merhele
+Sample: {'idn': 960, 'num': None, 'es_no': 2, 'hes_sifir': '341.01', 'desc1': '', 'desc2': '', 'desc3': '', 'dn1': '', 'dn2': '', 'dn3': '', 'd1': 0, 'd2': 0, 'd3': 0, 'hes_artan': '343', 'desc4': '', 'desc5': '', 'desc6': '', 'dn4': '', 'dn5': '', 'dn6': '', 'd4': 0, 'd5': 0, 'd6': 0, 'mebleg': Decimal('0.0000'), 'val': '', 'kurs': Decimal('0.0000'), 'yekun': Decimal('0.0000'), 'mezmun': '', 'merhele': None}
+
+TABLE: sm_borc | Rows: 676
+Columns: idn, sen_no, tarix, nov, kontra, kon_name, mebleg, kon_hes, hesab, valyuta, kurs, yekun, serh, mux, tes, sobe, gx_nov, r, ins_user, ins_date, upd_user, upd_date
+Sample: {'idn': 706, 'sen_no': '000706', 'tarix': datetime.datetime(2023, 6, 16, 0, 0), 'nov': 0, 'kontra': '103', 'kon_name': 'FALKON FUAD -YUSİF', 'mebleg': Decimal('3285.2500'), 'kon_hes': '211.01', 'hesab': '611.01', 'valyuta': 'AZN', 'kurs': Decimal('1.00000000000000000000'), 'yekun': Decimal('3285.2500'), 'serh': 'knopka 773 kg 2.5usd*1.7 4.25azn', 'mux': True, 'tes': False, 'sobe': 1, 'gx_nov': 378, 'r': False, 'ins_user': 'Sahib', 'ins_date': datetime.datetime(2023, 6, 17, 15, 49, 35), 'upd_user': 'Sahib', 'upd_date': datetime.datetime(2023, 6, 17, 15, 54, 11)}

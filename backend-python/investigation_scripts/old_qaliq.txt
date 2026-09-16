@@ -1,0 +1,29 @@
+--- OLDER sm_sif_sened_el (New System) ---
+{'tarix': datetime.datetime(2026, 1, 5, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('104.0000'), 'sat_miq': Decimal('1.0000'), 'kontra_name': 'UMİCO '}
+{'tarix': datetime.datetime(2026, 1, 5, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('193.0000'), 'sat_miq': Decimal('1.0000'), 'kontra_name': 'UMİCO '}
+{'tarix': datetime.datetime(2026, 1, 5, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('54.0000'), 'sat_miq': Decimal('1.0000'), 'kontra_name': 'UMİCO '}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('0.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('0.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('1.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('1.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('0.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('2.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+{'tarix': datetime.datetime(2026, 1, 7, 0, 0), 'miqdar': Decimal('180.0000'), 'qaliq': Decimal('84.0000'), 'sat_miq': Decimal('180.0000'), 'kontra_name': 'ANAR QULİYEV SƏDƏRƏK ŞİRNİYYAT'}
+
+--- OLDER sm_sifaris_form_el (Old System) ---
+{'tarix': datetime.datetime(2026, 2, 9, 0, 0), 'miqdar': Decimal('430.0000'), 'qaliq': Decimal('3679.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 9, 0, 0), 'miqdar': Decimal('2114.0000'), 'qaliq': Decimal('111.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 9, 0, 0), 'miqdar': Decimal('2992.0000'), 'qaliq': Decimal('0.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('82.0000'), 'qaliq': Decimal('0.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('82.0000'), 'qaliq': Decimal('132.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('82.0000'), 'qaliq': Decimal('15.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('82.0000'), 'qaliq': Decimal('59.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('82.0000'), 'qaliq': Decimal('57.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('90.0000'), 'qaliq': Decimal('54.0000'), 'kontra': 1865}
+{'tarix': datetime.datetime(2026, 2, 23, 0, 0), 'miqdar': Decimal('90.0000'), 'qaliq': Decimal('99.0000'), 'kontra': 1865}
+
+--- sm_sif_sened_el QALIQ > 0 ---
+Count of rows with qaliq > 0: [{'count': 23540}]
+
+--- sm_sifaris_form_el QALIQ > 0 ---
+Count of rows with qaliq > 0: [{'count': 41686}]

@@ -1,0 +1,167 @@
+--- Deep Searching For EKIN and Adonis ---
+
+--- sm_sifaris_form (54 recent records) ---
+MATCH: {'idn': 22322, 'sen_no': '022322', 'tarix': datetime.datetime(2026, 6, 3, 0, 0), 'kontra': None, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22326, 'sen_no': '022326', 'tarix': datetime.datetime(2026, 6, 4, 0, 0), 'kontra': 474, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22340, 'sen_no': '022340', 'tarix': datetime.datetime(2026, 6, 5, 0, 0), 'kontra': 474, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22341, 'sen_no': '022341', 'tarix': datetime.datetime(2026, 6, 6, 0, 0), 'kontra': 474, 'mebleg': Decimal('432.6000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22345, 'sen_no': '022345', 'tarix': datetime.datetime(2026, 6, 8, 0, 0), 'kontra': None, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22351, 'sen_no': '022351', 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'kontra': None, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22354, 'sen_no': '022354', 'tarix': datetime.datetime(2026, 6, 10, 0, 0), 'kontra': 474, 'mebleg': Decimal('189.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22355, 'sen_no': '022355', 'tarix': datetime.datetime(2026, 6, 10, 0, 0), 'kontra': 474, 'mebleg': Decimal('25.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22372, 'sen_no': '022372', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'kontra': None, 'mebleg': Decimal('0.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22379, 'sen_no': '022379', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'kontra': 474, 'mebleg': Decimal('675.0000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22380, 'sen_no': '022380', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'kontra': 474, 'mebleg': Decimal('277.2000'), 'ins_user': 'Ayten'}
+MATCH: {'idn': 22384, 'sen_no': '022384', 'tarix': datetime.datetime(2026, 6, 17, 0, 0), 'kontra': 474, 'mebleg': Decimal('675.0000'), 'ins_user': 'Ayten'}
+
+--- sm_kontr_sat (189 recent records) ---
+MATCH: {'idn': 61918, 'sen_no': '061918', 'tarix': datetime.datetime(2026, 6, 3, 0, 0), 'kontra_name': 'SUMQAYIT İSTEDAD LİSEYİ', 'tam_yek': Decimal('20.00000000'), 'ins_user': 'Sumqayit'}
+MATCH: {'idn': 62005, 'sen_no': '062005', 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'kontra_name': 'Pərakəndə Sədərək', 'tam_yek': Decimal('20.00000000'), 'ins_user': 'Sederek'}
+MATCH: {'idn': 62063, 'sen_no': '062063', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'kontra_name': 'COVDƏT', 'tam_yek': Decimal('20.00000000'), 'ins_user': 'Sederek'}
+MATCH: {'idn': 62083, 'sen_no': '20255143', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'kontra_name': 'ƏMƏKDAŞLAR', 'tam_yek': Decimal('20.00000000'), 'ins_user': 'BTF Daxili  Satış mağazası '}
+MATCH: {'idn': 62090, 'sen_no': '20255148', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'kontra_name': 'MAĞAZA NAĞD SATIŞ', 'tam_yek': Decimal('20.00000000'), 'ins_user': 'BTF Daxili  Satış mağazası '}
+
+--- sm_kontr_sif_sat (0 recent records) ---
+
+--- sm_goods ---
+MATCH PRODUCT: {'idn': 52079, 'name': 'ADONİS', 'class': 27}
+MATCH PRODUCT: {'idn': 52080, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M', 'class': 27}
+MATCH PRODUCT: {'idn': 52081, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52082, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52083, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52084, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52085, 'name': 'HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-4XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52086, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-M', 'class': 27}
+MATCH PRODUCT: {'idn': 52087, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52088, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52089, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-2XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52090, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-3XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52091, 'name': 'HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-4XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52092, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-M', 'class': 27}
+MATCH PRODUCT: {'idn': 52093, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52094, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52095, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-2XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52096, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-3XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52097, 'name': 'HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-4XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52098, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-M', 'class': 27}
+MATCH PRODUCT: {'idn': 52099, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52100, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52101, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-2XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52102, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-3XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52103, 'name': 'HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-4XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52104, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M', 'class': 27}
+MATCH PRODUCT: {'idn': 52105, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52106, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52107, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52108, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52109, 'name': 'HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-4XL', 'class': 27}
+MATCH PRODUCT: {'idn': 52110, 'name': 'MAYKA ADONİS', 'class': 20}
+MATCH PRODUCT: {'idn': 52111, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52112, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52113, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52114, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52115, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52116, 'name': 'HM-BETEX/18/0051 ADONİS MAYKA AĞ KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52117, 'name': 'HM-BETEX/18/0052 ADONİS MAYKA AĞ UŞAQ (5-6 YAŞ)  R-36', 'class': 20}
+MATCH PRODUCT: {'idn': 52118, 'name': 'HM-BETEX/18/0052 ADONİS MAYKA AĞ UŞAQ (7-8 YAŞ)  R-38', 'class': 20}
+MATCH PRODUCT: {'idn': 52119, 'name': 'HM-BETEX/18/0052 ADONİS MAYKA AĞ UŞAQ (9-10 YAŞ)  R-40', 'class': 20}
+MATCH PRODUCT: {'idn': 52120, 'name': 'HM-BETEX/18/0052 ADONİS MAYKA AĞ UŞAQ (11-12 YAŞ)  R-42', 'class': 20}
+MATCH PRODUCT: {'idn': 52121, 'name': 'HM-BETEX/18/0052 ADONİS MAYKA AĞ UŞAQ (13-14 YAŞ)  R-44', 'class': 20}
+MATCH PRODUCT: {'idn': 52122, 'name': 'BOXER ADONİS', 'class': 20}
+MATCH PRODUCT: {'idn': 52123, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52124, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52125, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52126, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52127, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52128, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-4XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52129, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52130, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52131, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52132, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52133, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52134, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-4XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52135, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52136, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52137, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52138, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52139, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52140, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-4XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52141, 'name': 'HM-BETEX/18/0046 ADONİS BOXER QARA KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52142, 'name': 'HM-BETEX/18/0047 ADONİS BOXER KATLAMA QARA KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52143, 'name': 'HM-BETEX/18/0048 ADONİS BOXER VİSKON QARA KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52144, 'name': 'HAVLUBEL ADONİS', 'class': 20}
+MATCH PRODUCT: {'idn': 52145, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52146, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52147, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52148, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52149, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52150, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52151, 'name': 'HM-BETEX/18/0049 ADONİS HAVLUBEL QARA KİŞİ R-4XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52152, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-S', 'class': 20}
+MATCH PRODUCT: {'idn': 52153, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52154, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52155, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52156, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-2XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52157, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-3XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52158, 'name': 'HM-BETEX/18/0050 ADONİS HAVLUBEL LİKRALI SÜPRƏM QARA KİŞİ R-4XL', 'class': 20}
+MATCH PRODUCT: {'idn': 52777, 'name': 'HM-BETEX/18/0053 ADONİS HAVLUBEL POPLİN GÖY  KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52778, 'name': 'HM-BETEX 18/0054 ADONİS TOPİK-TUMAN QADIN R-M', 'class': 20}
+MATCH PRODUCT: {'idn': 52779, 'name': 'HM-BETEX/13/0070 ADONİS LAKOST SHORT YAŞIL KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52780, 'name': 'HM-BETEX/13/0070 ADONİS LAKOST SHORT NARINCI KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52781, 'name': 'HM-BETEX/13/0071 ADONİS RASHEL SHORT TÜND-GÖY KİŞİ R-L', 'class': 27}
+MATCH PRODUCT: {'idn': 52782, 'name': 'HM-BETEX/18/0055 ADONİS HAVLUBEL POPLİN GÖY  KİŞİ R-L', 'class': 20}
+MATCH PRODUCT: {'idn': 52786, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-M (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52787, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-L (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52788, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52789, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-2XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52790, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-3XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52791, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-4XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52792, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52793, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52794, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52795, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52796, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52797, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-L (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52798, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-M (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52799, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52800, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-2XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52801, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-3XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52802, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52803, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52804, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52805, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL(PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52806, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52807, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-4XL (PARÇA)', 'class': 32}
+MATCH PRODUCT: {'idn': 52851, 'name': 'ETİKET ADONİS ', 'class': 10}
+MATCH PRODUCT: {'idn': 52974, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-M (PARÇA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52975, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-L (PARÇA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52976, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-XL (PARÇA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52977, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-2XL (PARÇA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52978, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-3XL (PARÇA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52979, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-M (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52980, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-L (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52981, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52982, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-3XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52983, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-4XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52984, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-L (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52985, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-M (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52986, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52987, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-2XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52988, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-3XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52989, 'name': 'YM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-4XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52990, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52991, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52992, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52993, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52994, 'name': 'YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52995, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52996, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52997, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52998, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 52999, 'name': 'YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53000, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-M (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53001, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-L (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53002, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53003, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-2XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53004, 'name': 'YM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-3XL (SETKA) ', 'class': 32}
+MATCH PRODUCT: {'idn': 53005, 'name': 'YM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-2XL (SETKA) ', 'class': 32}

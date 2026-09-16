@@ -1,0 +1,1 @@
+[('Kapasitə (Ümumi)', 3158), ('Satış (sifariş)', 355), ('Ambar (Material) - Hazırlıq Səviyyəsi', 77), ('Kəsim', 1020), ('Tikiş', 20), ('Ambar', 1686)]

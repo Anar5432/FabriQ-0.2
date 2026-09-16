@@ -1,0 +1,14 @@
+HM-BETEX / YM-BETEX distinct classes:
+{'class': 15, 'cnt': 10}
+{'class': 32, 'cnt': 548}
+{'class': 6, 'cnt': 68}
+{'class': 34960, 'cnt': 1}
+{'class': 27, 'cnt': 6509}
+{'class': 21, 'cnt': 19}
+{'class': 18, 'cnt': 103}
+{'class': 10, 'cnt': 11}
+{'class': None, 'cnt': 6537}
+{'class': 48, 'cnt': 1}
+{'class': 31, 'cnt': 65}
+{'class': 20, 'cnt': 333}
+{'class': 28, 'cnt': 581}

@@ -1,0 +1,149 @@
+Table "sm_kontr_sat" [headercolor: #28a745] {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "od_tar" datetime
+  "kontra" int
+  "liz_kon" int
+  "liz_faiz" decimal
+  "liz_kas" int
+  "ilk_od" decimal
+  "med_sen" int
+  "med_sen_no" nvarchar
+  "sif_sen" int
+  "sif_form" int
+  "sif_form_name" nvarchar
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "xid_meb" decimal
+  "xid_edv" decimal
+  "is_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "kon_hes" nvarchar
+  "xerc_nov" int
+  "tes" bit
+  "dov_nis" nvarchar
+  "satici" int
+  "el_serh" nvarchar
+  "imp_idn" int
+  "kod" nvarchar
+  "med_idn" int
+  "tr_idn" int
+  "ist_idn" int
+  "sg_idn" int
+  "sy_idn" int
+  "is_idn" int
+  "sobe" int
+  "r" bit
+  "sif_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "hes" bit
+  "kampaniya" int
+  "ad_soyad" nvarchar
+  "mqd" decimal
+  "cancel" bit
+  "status_med" bit
+  "nov" int
+  "e_qaime" bit
+  Note: '🟢 GREEN: Used actively in the dashboard program'
+}
+
+Table "sm_kontr_sat_hed" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "es_no" int
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "sm_kontr_sat_emp" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "emp" int
+  "sobe" int
+  "position" int
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_faiz" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qeyd" nvarchar
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "sm_kontr_sat_el" [headercolor: #28a745] {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "serial" nvarchar
+  "mal" int
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "maya_qiy" decimal
+  "maya_meb" decimal
+  "al_qiy" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "od_tar" datetime
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "ferq" decimal
+  "sif_miq" decimal
+  "kurs_qiy" decimal
+  "numune" bit
+  "hed" bit
+  Note: '🟢 GREEN: Used actively in the dashboard program'
+}
+
+
+TableGroup sm_kontr_sat_Hierarchy {
+  "sm_kontr_sat"
+  "sm_kontr_sat_hed"
+  "sm_kontr_sat_emp"
+  "sm_kontr_sat_el"
+}

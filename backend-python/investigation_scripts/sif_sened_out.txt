@@ -1,0 +1,11 @@
+Checking sm_sif_sened...
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('1.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('1.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('2.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('2.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('4.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('4.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('6.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('4.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('6.0000')}
+{'idn': 4199, 'sen_no': '004199', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'name': 'HƏMKARLAR İTTİFAQI  (KURORT  )', 'miqdar': Decimal('4.0000')}

@@ -1,0 +1,26 @@
+﻿--- DEEP DATA ANALYSIS ---
+Product: HM-T╞ÅB─░B C╞ÅRRAH XALATI 
+Total Produced: 17389.0000 over 54 days
+Real Life Avg: 4.47 minutes per piece
+Database Muddet value: 320
+----------------------------------------
+Product: HM-MAYKA ALPAR BOZ R-L
+Total Produced: 5875.0000 over 606 days
+Real Life Avg: 148.53 minutes per piece
+Database Muddet value: 31
+----------------------------------------
+Product: HM-MAYKA ALPAR BOZ R-2XL
+Total Produced: 4886.0000 over 625 days
+Real Life Avg: 184.2 minutes per piece
+Database Muddet value: 31
+----------------------------------------
+Product: HM-MAYKA ALPAR BOZ R-XL
+Total Produced: 4620.0000 over 937 days
+Real Life Avg: 292.05 minutes per piece
+Database Muddet value: 31
+----------------------------------------
+Product: HM-MAYKA ALPAR BOZ R-M
+Total Produced: 4436.0000 over 941 days
+Real Life Avg: 305.46 minutes per piece
+Database Muddet value: 31
+----------------------------------------

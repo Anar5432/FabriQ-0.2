@@ -1,0 +1,622 @@
+Prefix: YM- | Count: 7201
+Prefix: HM- | Count: 5799
+Prefix: TM- | Count: 866
+Prefix: HM - | Count: 23
+Prefix: HM CLİNİC MEDİCAL TİBBİ XALAT QADIN U/Q R- | Count: 12
+Prefix: HM CLİNİC MEDİCAL PİJAMA R- | Count: 10
+Prefix: HM CLİNİC MEDİCAL TİBBİ XALAT KİŞİ U/Q R- | Count: 10
+Prefix: 28/1 VİSKON İPLİK HSF- | Count: 9
+Prefix: YM BETEX- | Count: 8
+Prefix: LOT- | Count: 6
+Prefix: T- | Count: 5
+Prefix: HM CLİNİC MEDİCAL TİBBİ XALAT QADIN Q/Q R- | Count: 5
+Prefix: DOKUMA ETİKET ALPAR R- | Count: 5
+Prefix: MARS- | Count: 5
+Prefix: A/BAT/U/0261 5- | Count: 5
+Prefix: A/BAT/U/0261 7- | Count: 5
+Prefix: A/BAT/U/0261 9- | Count: 5
+Prefix: A/BAT/U/0261 11- | Count: 5
+Prefix: A/BAT/U/0261 13- | Count: 5
+Prefix: A/BAT/U/0261 3- | Count: 4
+Prefix: A/BAT/U/0261 1- | Count: 4
+Prefix: DSX İDMAN KOSTYUMU (AKADEMİYA ) R- | Count: 4
+Prefix: A/PAN/U/0261 5- | Count: 4
+Prefix: A/PAN/U/0261 7- | Count: 4
+Prefix: A/PAN/U/0261 9- | Count: 4
+Prefix: A/PAN/U/0261 11- | Count: 4
+Prefix: A/PAN/U/0261 13- | Count: 4
+Prefix: AZ- | Count: 4
+Prefix: ANANAS POLO MAVİ R- | Count: 3
+Prefix: ANANAS POLO TÜND GÖY R- | Count: 3
+Prefix: A/PAN/U/0244 5- | Count: 3
+Prefix: A/PAN/U/0244 7- | Count: 3
+Prefix: A/PAN/U/0244 9- | Count: 3
+Prefix: ƏTƏK- | Count: 3
+Prefix: MARKER QEYD ÜÇÜN 2- | Count: 3
+Prefix: ŞAM- | Count: 3
+Prefix: A/BAT/U/0278 11- | Count: 3
+Prefix: A/BAT/U/0278 13- | Count: 3
+Prefix: A/BAT/U/0278 5- | Count: 3
+Prefix: A/BAT/U/0278 7- | Count: 3
+Prefix: A/BAT/U/0278 9- | Count: 3
+Prefix: A/C/U/0237 11- | Count: 3
+Prefix: A/C/U/0237 13- | Count: 3
+Prefix: A/C/U/0237 5- | Count: 3
+Prefix: A/C/U/0237 7- | Count: 3
+Prefix: A/C/U/0237 9- | Count: 3
+Prefix: A/BAT/U/0148 0- | Count: 2
+Prefix: A/BAT/U/0148 1- | Count: 2
+Prefix: A/BAT/U/0148 11- | Count: 2
+Prefix: A/BAT/U/0148 13- | Count: 2
+Prefix: A/BAT/U/0148 3- | Count: 2
+Prefix: A/BAT/U/0148 5- | Count: 2
+Prefix: A/BAT/U/0148 7- | Count: 2
+Prefix: A/BAT/U/0148 9- | Count: 2
+Prefix: A/BAT/U/0240 1- | Count: 2
+Prefix: A/BAT/U/0240 11- | Count: 2
+Prefix: A/BAT/U/0240 13- | Count: 2
+Prefix: A/BAT/U/0240 3- | Count: 2
+Prefix: A/BAT/U/0240 5- | Count: 2
+Prefix: A/BAT/U/0240 7- | Count: 2
+Prefix: A/BAT/U/0240 9- | Count: 2
+Prefix: HM SOBSAN T- | Count: 2
+Prefix: YM SOBSAN T- | Count: 2
+Prefix: ƏTƏK MANJETİ BEJ- | Count: 2
+Prefix: KÜR- | Count: 2
+Prefix: EL- | Count: 2
+Prefix: ANANAS POLO ELEKTRA R- | Count: 2
+Prefix: ANANAS POLO NARINCI R- | Count: 2
+Prefix: A/PAN/U/0261 3- | Count: 2
+Prefix: A/PAN/U/0261 0- | Count: 2
+Prefix: A/PAN/U/0261 1- | Count: 2
+Prefix: A/PAN/U/0259 11- | Count: 2
+Prefix: A/PAN/U/0259 13- | Count: 2
+Prefix: A/PAN/U/0259 7- | Count: 2
+Prefix: A/BAT/U/0261 0- | Count: 2
+Prefix: A/BAT/U/0252 1- | Count: 2
+Prefix: A/BAT/U/0252 11- | Count: 2
+Prefix: A/BAT/U/0233 3- | Count: 2
+Prefix: A/BAT/U/0233 5- | Count: 2
+Prefix: A/BAT/U/0265 9- | Count: 2
+Prefix: A/BEE//U/0273 11- | Count: 2
+Prefix: A/BEE//U/0273 13- | Count: 2
+Prefix: A/BEE//U/0273 5- | Count: 2
+Prefix: A/BEE//U/0273 7- | Count: 2
+Prefix: A/BEE//U/0273 9- | Count: 2
+Prefix: A/BAT/U/0214 0- | Count: 2
+Prefix: A/BAT/U/0214 1- | Count: 2
+Prefix: A/BAT/U/0214 11- | Count: 2
+Prefix: A/BAT/U/0214 13- | Count: 2
+Prefix: A/BAT/U/0214 3- | Count: 2
+Prefix: A/BAT/U/0214 5- | Count: 2
+Prefix: A/BAT/U/0214 7- | Count: 2
+Prefix: A/BAT/U/0214 9- | Count: 2
+Prefix: A/BAT/U/0233 0- | Count: 2
+Prefix: A/BAT/U/0233 1- | Count: 2
+Prefix: A/BAT/U/0252 3- | Count: 2
+Prefix: A/BAT/U/0252 5- | Count: 2
+Prefix: A/BAT/U/0252 7- | Count: 2
+Prefix: A/BAT/U/0252 9- | Count: 2
+Prefix: A/C/U/0188 11- | Count: 2
+Prefix: A/PAN/U/0214 1- | Count: 2
+Prefix: A/PAN/U/0214 11- | Count: 2
+Prefix: A/PAN/U/0244 11- | Count: 2
+Prefix: A/PAN/U/0244 13- | Count: 2
+Prefix: A/C/U/0188 5- | Count: 2
+Prefix: A/C/U/0188 7- | Count: 2
+Prefix: A/C/U/0188 9- | Count: 2
+Prefix: A/PAN/U/0214 3- | Count: 2
+Prefix: A/PAN/U/0214 5- | Count: 2
+Prefix: A/PAN/U/0214 7- | Count: 2
+Prefix: A/PAN/U/0214 9- | Count: 2
+Prefix: A/BEE/U/0269 11- | Count: 2
+Prefix: A/BEE/U/0269 13- | Count: 2
+Prefix: A/BEE/U/0269 5- | Count: 2
+Prefix: A/BEE/U/0269 7- | Count: 2
+Prefix: A/BEE/U/0269 9- | Count: 2
+Prefix: A/BEE/U/0276 0- | Count: 1
+Prefix: A/BEE/U/0276 1- | Count: 1
+Prefix: A/BEE/U/0276 11- | Count: 1
+Prefix: A/BEE/U/0276 13- | Count: 1
+Prefix: A/BEE/U/0276 3- | Count: 1
+Prefix: A/BEE/U/0276 5- | Count: 1
+Prefix: A/BEE/U/0276 7- | Count: 1
+Prefix: A/BEE/U/0276 9- | Count: 1
+Prefix: A/C/U/0004 1- | Count: 1
+Prefix: A/C/U/0004 11- | Count: 1
+Prefix: A/C/U/0004 3- | Count: 1
+Prefix: A/C/U/0004 5- | Count: 1
+Prefix: A/C/U/0004 7- | Count: 1
+Prefix: A/C/U/0004 9- | Count: 1
+Prefix: A/C/U/0063 11- | Count: 1
+Prefix: A/C/U/0063 13- | Count: 1
+Prefix: A/C/U/0063 5- | Count: 1
+Prefix: A/C/U/0063 7- | Count: 1
+Prefix: A/C/U/0063 9- | Count: 1
+Prefix: A/C/U/0109 11- | Count: 1
+Prefix: A/C/U/0109 5- | Count: 1
+Prefix: A/C/U/0109 7- | Count: 1
+Prefix: A/C/U/0109 9- | Count: 1
+Prefix: A/C/U/0117 11- | Count: 1
+Prefix: A/C/U/0117 13- | Count: 1
+Prefix: A/C/U/0117 5- | Count: 1
+Prefix: A/C/U/0117 7- | Count: 1
+Prefix: A/C/U/0117 9- | Count: 1
+Prefix: A/C/U/0136 11- | Count: 1
+Prefix: A/C/U/0136 13- | Count: 1
+Prefix: A/C/U/0136 3- | Count: 1
+Prefix: A/C/U/0136 5- | Count: 1
+Prefix: A/C/U/0136 7- | Count: 1
+Prefix: A/C/U/0136 9- | Count: 1
+Prefix: A/PAN/U/0225 11- | Count: 1
+Prefix: A/PAN/U/0225 3- | Count: 1
+Prefix: A/PAN/U/0225 5- | Count: 1
+Prefix: A/PAN/U/0225 7- | Count: 1
+Prefix: A/PAN/U/0225 9- | Count: 1
+Prefix: A/PAN/U/0233 11- | Count: 1
+Prefix: A/PAN/U/0233 13- | Count: 1
+Prefix: A/PAN/U/0233 5- | Count: 1
+Prefix: A/PAN/U/0233 7- | Count: 1
+Prefix: A/PAN/U/0233 9- | Count: 1
+Prefix: A/PAN/U/0240 11- | Count: 1
+Prefix: A/PAN/U/0240 13- | Count: 1
+Prefix: A/PAN/U/0240 5- | Count: 1
+Prefix: A/PAN/U/0240 7- | Count: 1
+Prefix: A/PAN/U/0240 9- | Count: 1
+Prefix: A/PAN/U/0242 1- | Count: 1
+Prefix: A/PAN/U/0242 3- | Count: 1
+Prefix: A/PAN/U/0242 5- | Count: 1
+Prefix: A/PAN/U/0243 1- | Count: 1
+Prefix: A/PAN/U/0243 11- | Count: 1
+Prefix: A/PAN/U/0243 3- | Count: 1
+Prefix: A/PAN/U/0243 5- | Count: 1
+Prefix: A/PAN/U/0243 7- | Count: 1
+Prefix: A/PAN/U/0243 9- | Count: 1
+Prefix: A/C/U/0221 11- | Count: 1
+Prefix: A/C/U/0221 13- | Count: 1
+Prefix: A/C/U/0221 5- | Count: 1
+Prefix: A/C/U/0221 7- | Count: 1
+Prefix: A/C/U/0221 9- | Count: 1
+Prefix: A/PAN/U/0214 13- | Count: 1
+Prefix: A/C/U/0188 13- | Count: 1
+Prefix: A/BAT/U/0255 1- | Count: 1
+Prefix: A/BAT/U/0255 11- | Count: 1
+Prefix: A/BAT/U/0255 13- | Count: 1
+Prefix: A/BAT/U/0255 3- | Count: 1
+Prefix: A/BAT/U/0255 5- | Count: 1
+Prefix: A/BAT/U/0255 7- | Count: 1
+Prefix: A/BAT/U/0255 9- | Count: 1
+Prefix: A/BAT/U/0256 0- | Count: 1
+Prefix: A/BAT/U/0256 1- | Count: 1
+Prefix: A/BAT/U/0256 3- | Count: 1
+Prefix: A/BAT/U/0233 11- | Count: 1
+Prefix: A/BAT/U/0233 13- | Count: 1
+Prefix: A/BAT/U/0263 1- | Count: 1
+Prefix: A/BAT/U/0263 11- | Count: 1
+Prefix: A/BAT/U/0263 13- | Count: 1
+Prefix: A/BAT/U/0263 3- | Count: 1
+Prefix: A/BAT/U/0263 5- | Count: 1
+Prefix: A/BAT/U/0263 7- | Count: 1
+Prefix: A/BAT/U/0263 9- | Count: 1
+Prefix: A/BAT/U/0265 1- | Count: 1
+Prefix: A/BAT/U/0265 11- | Count: 1
+Prefix: A/BAT/U/0265 13- | Count: 1
+Prefix: A/BAT/U/0265 3- | Count: 1
+Prefix: A/BAT/U/0265 5- | Count: 1
+Prefix: A/BAT/U/0265 7- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 1- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 11- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 3- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 5- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 7- | Count: 1
+Prefix: A/BEE/U/0051 ZOLAQLI 9- | Count: 1
+Prefix: A/BEE/U/0060 FLAMİNQO 1- | Count: 1
+Prefix: A/BEE/U/0060 FLAMİNQO 11- | Count: 1
+Prefix: A/BEE/U/0060 FLAMİNQO 3- | Count: 1
+Prefix: A/BEE/U/0060 FLAMİNQO 7- | Count: 1
+Prefix: A/BEE/U/0060 FLAMİNQO 9- | Count: 1
+Prefix: A/BEE/U/0061 UREK 1- | Count: 1
+Prefix: A/BEE/U/0061 UREK 3- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 1- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 11- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 3- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 5- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 7- | Count: 1
+Prefix: A/BEE/U/0083 ÇİYƏLƏK 9- | Count: 1
+Prefix: A/BAT/U/0267 1- | Count: 1
+Prefix: A/BAT/U/0267 11- | Count: 1
+Prefix: A/BAT/U/0267 13- | Count: 1
+Prefix: A/BAT/U/0267 3- | Count: 1
+Prefix: A/BAT/U/0267 5- | Count: 1
+Prefix: A/BAT/U/0267 7- | Count: 1
+Prefix: A/BAT/U/0267 9- | Count: 1
+Prefix: A/BAT/U/0233 7- | Count: 1
+Prefix: A/BAT/U/0233 9- | Count: 1
+Prefix: A/BAT/U/0240 0- | Count: 1
+Prefix: A/BAT/U/0252 13- | Count: 1
+Prefix: A/PAN/U/0259 9- | Count: 1
+Prefix: A/PAN/U/0259 5- | Count: 1
+Prefix: ANANAS POLO QARA R- | Count: 1
+Prefix: AZƏRLOTAREYA AZƏRLOTAREYA JİLETİ R- | Count: 1
+Prefix: BARKOD SCANNER- | Count: 1
+Prefix: BIÇAQ KONTRIK SAĞ- | Count: 1
+Prefix: ÇEK PRİNTER- | Count: 1
+Prefix: A/PAN/U/0256 1- | Count: 1
+Prefix: A/PAN/U/0256 11- | Count: 1
+Prefix: A/PAN/U/0256 13- | Count: 1
+Prefix: A/PAN/U/0256 3- | Count: 1
+Prefix: A/PAN/U/0256 5- | Count: 1
+Prefix: A/PAN/U/0256 7- | Count: 1
+Prefix: A/PAN/U/0256 9- | Count: 1
+Prefix: A/PAN/U/0257 1- | Count: 1
+Prefix: A/PAN/U/0257 11- | Count: 1
+Prefix: A/PAN/U/0257 13- | Count: 1
+Prefix: A/PAN/U/0257 3- | Count: 1
+Prefix: A/PAN/U/0257 5- | Count: 1
+Prefix: A/PAN/U/0257 7- | Count: 1
+Prefix: A/PAN/U/0257 9- | Count: 1
+Prefix: A/PAN/U/0274 1- | Count: 1
+Prefix: A/PAN/U/0274 3- | Count: 1
+Prefix: A/PAN/U/0274 5- | Count: 1
+Prefix: A/PAN/U/0278 11- | Count: 1
+Prefix: A/PAN/U/0278 13- | Count: 1
+Prefix: A/PAN/U/0278 7- | Count: 1
+Prefix: A/PAN/U/0278 9- | Count: 1
+Prefix: A/PAN/U/0281 11- | Count: 1
+Prefix: A/PAN/U/0281 5- | Count: 1
+Prefix: A/PAN/U/0281 7- | Count: 1
+Prefix: A/PAN/U/0281 9- | Count: 1
+Prefix: A/PAN/U/0336 1- | Count: 1
+Prefix: A/PAN/U/0336 11- | Count: 1
+Prefix: A/PAN/U/0336 3- | Count: 1
+Prefix: A/PAN/U/0336 5- | Count: 1
+Prefix: A/PAN/U/0336 7- | Count: 1
+Prefix: A/PAN/U/0336 9- | Count: 1
+Prefix: A/PL/U/0086 TOP 1- | Count: 1
+Prefix: A/PL/U/0086 TOP 11- | Count: 1
+Prefix: A/PL/U/0086 TOP 7- | Count: 1
+Prefix: A/PL/U/0086 TOP 9- | Count: 1
+Prefix: A/PL/U/0138 11- | Count: 1
+Prefix: A/PL/U/0138 5- | Count: 1
+Prefix: A/PL/U/0138 7- | Count: 1
+Prefix: A/PL/U/0138 9- | Count: 1
+Prefix: A/PR/U/0004 11- | Count: 1
+Prefix: A/PR/U/0004 13- | Count: 1
+Prefix: A/PR/U/0004 7- | Count: 1
+Prefix: A/PR/U/0004 9- | Count: 1
+Prefix: A/PR/U/0130 0- | Count: 1
+Prefix: A/PR/U/0130 1- | Count: 1
+Prefix: A/PR/U/0130 3- | Count: 1
+Prefix: A/PR/U/0130 5- | Count: 1
+Prefix: A/PR/U/0170 11- | Count: 1
+Prefix: A/PR/U/0170 13- | Count: 1
+Prefix: A/PR/U/0170 5- | Count: 1
+Prefix: A/PR/U/0170 7- | Count: 1
+Prefix: A/PR/U/0170 9- | Count: 1
+Prefix: A/PR/U/0223 0- | Count: 1
+Prefix: A/PR/U/0223 1- | Count: 1
+Prefix: A/PR/U/0223 11- | Count: 1
+Prefix: A/PR/U/0223 3- | Count: 1
+Prefix: A/PR/U/0223 5- | Count: 1
+Prefix: A/PR/U/0223 7- | Count: 1
+Prefix: A/PR/U/0223 9- | Count: 1
+Prefix: A/PR/U/0440 1- | Count: 1
+Prefix: A/PR/U/0440 3- | Count: 1
+Prefix: A/PR/U/0440 5- | Count: 1
+Prefix: A/RC/U/0248 0- | Count: 1
+Prefix: A/RC/U/0248 1- | Count: 1
+Prefix: A/RC/U/0248 3- | Count: 1
+Prefix: A/RC/U/0248 5- | Count: 1
+Prefix: ACON/U/0214 11- | Count: 1
+Prefix: ACON/U/0214 13- | Count: 1
+Prefix: ACON/U/0214 5- | Count: 1
+Prefix: ACON/U/0214 7- | Count: 1
+Prefix: ACON/U/0214 9- | Count: 1
+Prefix: ƏLCƏK BC- | Count: 1
+Prefix: LAPHAYEAT 2,5X12 SM YIKAMA TƏLİMATI- | Count: 1
+Prefix: LAPHAYEAT 2,5X6 SM BARKOD- | Count: 1
+Prefix: LAPHAYEAT 45X80 MM ASKI KART- | Count: 1
+Prefix: GİZLİ YUBKA ZAMOKU 20- | Count: 1
+Prefix: HM PİONER KOMBİNEZON QIRMIZI R- | Count: 1
+Prefix: MƏKTƏBLİ BETEX/M- | Count: 1
+Prefix: MERCURY KEZ- | Count: 1
+Prefix: MULTICOLOR [N:W] R- | Count: 1
+Prefix: NAUŞNİK COM3- | Count: 1
+Prefix: NM- | Count: 1
+Prefix: POLO- | Count: 1
+Prefix: QABARDİN SUKEÇİRMƏZ 80- | Count: 1
+Prefix: QABARDİN TURŞUYA DAVAMLI 65- | Count: 1
+Prefix: QARA- | Count: 1
+Prefix: QOL MANJET QƏHVƏYİ- | Count: 1
+Prefix: QOL MANJETİ MAVİ- | Count: 1
+Prefix: QUM- | Count: 1
+Prefix: SƏBİNƏ- | Count: 1
+Prefix: SİL   HM- | Count: 1
+Prefix: SİL YM- | Count: 1
+Prefix: YUMRUBOĞAZ T- | Count: 1
+Prefix: YM - | Count: 1
+Prefix: TRAP 50- | Count: 1
+Prefix: V- | Count: 1
+Prefix: XALAT- | Count: 1
+Prefix: YAKA MANJET AĞ- | Count: 1
+Prefix: YAKA MANJET QƏHVƏYİ- | Count: 1
+Prefix: YAKA NE 30/1 GÖY- | Count: 1
+Prefix: KASKA QAYNAQÇI HH- | Count: 1
+Prefix: MANJET NE 30/1 GÖY- | Count: 1
+Prefix: TAKIM ASKISI- | Count: 1
+Prefix: A/BAT/U/0243 1- | Count: 1
+Prefix: A/BAT/U/0243 11- | Count: 1
+Prefix: A/BAT/U/0243 13- | Count: 1
+Prefix: A/BAT/U/0243 3- | Count: 1
+Prefix: A/BAT/U/0243 5- | Count: 1
+Prefix: A/BAT/U/0243 7- | Count: 1
+Prefix: A/BAT/U/0243 9- | Count: 1
+Prefix: A/BAT/U/0244 11- | Count: 1
+Prefix: A/BAT/U/0244 13- | Count: 1
+Prefix: A/BAT/U/0244 5- | Count: 1
+Prefix: A/BAT/U/0244 7- | Count: 1
+Prefix: A/BAT/U/0244 9- | Count: 1
+Prefix: A/BAT/U/0163 0- | Count: 1
+Prefix: A/BAT/U/0163 1- | Count: 1
+Prefix: A/BAT/U/0163 11- | Count: 1
+Prefix: A/BAT/U/0163 13- | Count: 1
+Prefix: A/BAT/U/0163 3- | Count: 1
+Prefix: A/BAT/U/0163 5- | Count: 1
+Prefix: A/BAT/U/0163 7- | Count: 1
+Prefix: A/BAT/U/0163 9- | Count: 1
+Prefix: A/AL/U/0234 1- | Count: 1
+Prefix: A/AL/U/0234 11- | Count: 1
+Prefix: A/AL/U/0234 3- | Count: 1
+Prefix: A/AL/U/0234 5- | Count: 1
+Prefix: A/AL/U/0234 7- | Count: 1
+Prefix: A/AL/U/0253 1- | Count: 1
+Prefix: A/AL/U/0253 11- | Count: 1
+Prefix: A/AL/U/0253 3- | Count: 1
+Prefix: A/AL/U/0253 5- | Count: 1
+Prefix: A/AL/U/0253 7- | Count: 1
+Prefix: A/AL/U/0253 9- | Count: 1
+Prefix: A/BAT/U/0001 0- | Count: 1
+Prefix: A/BAT/U/0001 1- | Count: 1
+Prefix: A/BAT/U/0001 11- | Count: 1
+Prefix: A/BAT/U/0001 13- | Count: 1
+Prefix: A/BAT/U/0001 3- | Count: 1
+Prefix: A/BAT/U/0001 5- | Count: 1
+Prefix: A/BAT/U/0001 7- | Count: 1
+Prefix: A/BAT/U/0001 9- | Count: 1
+Prefix: A/BAT/U/0004 11- | Count: 1
+Prefix: A/BAT/U/0004 13- | Count: 1
+Prefix: A/BAT/U/0004 3- | Count: 1
+Prefix: A/BAT/U/0004 5- | Count: 1
+Prefix: A/BAT/U/0004 7- | Count: 1
+Prefix: A/BAT/U/0004 9- | Count: 1
+Prefix: A/BAT/U/0063 11- | Count: 1
+Prefix: A/BAT/U/0063 13- | Count: 1
+Prefix: A/BAT/U/0063 5- | Count: 1
+Prefix: A/BAT/U/0063 7- | Count: 1
+Prefix: A/BAT/U/0063 9- | Count: 1
+Prefix: A/BAT/U/0101 11- | Count: 1
+Prefix: A/BAT/U/0101 5- | Count: 1
+Prefix: A/BAT/U/0101 7- | Count: 1
+Prefix: A/BAT/U/0101 9- | Count: 1
+Prefix: A/BAT/U/0279 11- | Count: 1
+Prefix: A/BAT/U/0279 5- | Count: 1
+Prefix: A/BAT/U/0279 7- | Count: 1
+Prefix: A/BAT/U/0279 9- | Count: 1
+Prefix: A/BAT/U/0285 1- | Count: 1
+Prefix: A/BAT/U/0285 11- | Count: 1
+Prefix: A/BAT/U/0285 13- | Count: 1
+Prefix: A/BAT/U/0285 3- | Count: 1
+Prefix: A/BAT/U/0285 5- | Count: 1
+Prefix: A/BAT/U/0285 7- | Count: 1
+Prefix: A/BAT/U/0285 9- | Count: 1
+Prefix: A/BAT/U/0286 1- | Count: 1
+Prefix: A/BAT/U/0286 11- | Count: 1
+Prefix: A/BAT/U/0286 13- | Count: 1
+Prefix: A/BAT/U/0286 3- | Count: 1
+Prefix: A/BAT/U/0286 5- | Count: 1
+Prefix: A/BAT/U/0286 7- | Count: 1
+Prefix: A/BAT/U/0286 9- | Count: 1
+Prefix: A/BAT/U/0297 0- | Count: 1
+Prefix: A/BAT/U/0298 0- | Count: 1
+Prefix: A/BAT/U/0298 1- | Count: 1
+Prefix: A/BAT/U/0298 11- | Count: 1
+Prefix: A/BAT/U/0298 3- | Count: 1
+Prefix: A/BAT/U/0298 5- | Count: 1
+Prefix: A/BAT/U/0298 7- | Count: 1
+Prefix: A/BAT/U/0298 9- | Count: 1
+Prefix: A/BAT/U/0323 11- | Count: 1
+Prefix: A/BAT/U/0323 13- | Count: 1
+Prefix: A/BAT/U/0323 7- | Count: 1
+Prefix: A/BAT/U/0323 9- | Count: 1
+Prefix: A/BAT/U/0329 0- | Count: 1
+Prefix: A/BAT/U/0329 1- | Count: 1
+Prefix: A/BAT/U/0329 3- | Count: 1
+Prefix: A/BAT/U/0331 1- | Count: 1
+Prefix: A/BAT/U/0331 11- | Count: 1
+Prefix: A/BAT/U/0331 3- | Count: 1
+Prefix: A/BAT/U/0331 5- | Count: 1
+Prefix: A/BAT/U/0331 7- | Count: 1
+Prefix: A/BAT/U/0331 9- | Count: 1
+Prefix: A/BAT/U/0332 0- | Count: 1
+Prefix: A/BAT/U/0332 1- | Count: 1
+Prefix: A/BAT/U/0332 11- | Count: 1
+Prefix: A/BAT/U/0332 13- | Count: 1
+Prefix: A/BAT/U/0332 3- | Count: 1
+Prefix: A/BAT/U/0332 5- | Count: 1
+Prefix: A/BAT/U/0332 7- | Count: 1
+Prefix: A/BAT/U/0332 9- | Count: 1
+Prefix: A/BAT/U/0333 11- | Count: 1
+Prefix: A/BAT/U/0333 13- | Count: 1
+Prefix: A/BAT/U/0333 5- | Count: 1
+Prefix: A/BAT/U/0333 7- | Count: 1
+Prefix: A/BAT/U/0333 9- | Count: 1
+Prefix: A/BAT/U/0334 0- | Count: 1
+Prefix: A/BAT/U/0334 1- | Count: 1
+Prefix: A/BAT/U/0334 11- | Count: 1
+Prefix: A/BAT/U/0334 13- | Count: 1
+Prefix: A/BAT/U/0334 3- | Count: 1
+Prefix: A/BAT/U/0334 7- | Count: 1
+Prefix: A/BAT/U/0334 9- | Count: 1
+Prefix: A/BAT/U/0335 0- | Count: 1
+Prefix: A/BAT/U/0335 1- | Count: 1
+Prefix: A/BAT/U/0335 11- | Count: 1
+Prefix: A/BAT/U/0335 13- | Count: 1
+Prefix: A/BAT/U/0335 3- | Count: 1
+Prefix: A/BAT/U/0335 5- | Count: 1
+Prefix: A/BAT/U/0335 7- | Count: 1
+Prefix: A/BAT/U/0335 9- | Count: 1
+Prefix: A/BAT/U/0337 0- | Count: 1
+Prefix: A/BAT/U/0337 1- | Count: 1
+Prefix: A/BAT/U/0337 3- | Count: 1
+Prefix: A/BAT/U/0337 5- | Count: 1
+Prefix: A/BAT/U/0337 7- | Count: 1
+Prefix: A/BAT/U/0337 9- | Count: 1
+Prefix: A/BAT/U/0439 11- | Count: 1
+Prefix: A/BAT/U/0439 5- | Count: 1
+Prefix: A/BAT/U/0439 7- | Count: 1
+Prefix: A/BAT/U/0439 9- | Count: 1
+Prefix: A/C/U/0251 1- | Count: 1
+Prefix: A/C/U/0251 3- | Count: 1
+Prefix: A/C/U/0251 5- | Count: 1
+Prefix: A/C/U/0257 11- | Count: 1
+Prefix: A/C/U/0257 13- | Count: 1
+Prefix: A/C/U/0257 3- | Count: 1
+Prefix: A/C/U/0257 5- | Count: 1
+Prefix: A/C/U/0257 7- | Count: 1
+Prefix: A/C/U/0257 9- | Count: 1
+Prefix: A/C/U/0276 0- | Count: 1
+Prefix: A/C/U/0276 1- | Count: 1
+Prefix: A/C/U/0276 11- | Count: 1
+Prefix: A/C/U/0276 13- | Count: 1
+Prefix: A/C/U/0276 3- | Count: 1
+Prefix: A/C/U/0276 5- | Count: 1
+Prefix: A/C/U/0276 7- | Count: 1
+Prefix: A/C/U/0276 9- | Count: 1
+Prefix: A/C/U/0278 11- | Count: 1
+Prefix: A/C/U/0278 13- | Count: 1
+Prefix: A/C/U/0278 5- | Count: 1
+Prefix: A/C/U/0278 7- | Count: 1
+Prefix: A/C/U/0278 9- | Count: 1
+Prefix: A/CON/U/0004 11- | Count: 1
+Prefix: A/CON/U/0004 13- | Count: 1
+Prefix: A/CON/U/0004 3- | Count: 1
+Prefix: A/CON/U/0004 5- | Count: 1
+Prefix: A/CON/U/0004 7- | Count: 1
+Prefix: A/CON/U/0004 9- | Count: 1
+Prefix: A/CON/U/0188 11- | Count: 1
+Prefix: A/CON/U/0188 13- | Count: 1
+Prefix: A/CON/U/0188 5- | Count: 1
+Prefix: A/CON/U/0188 7- | Count: 1
+Prefix: A/CON/U/0188 9- | Count: 1
+Prefix: A/CON/U/0214 11- | Count: 1
+Prefix: A/CON/U/0214 13- | Count: 1
+Prefix: A/CON/U/0214 5- | Count: 1
+Prefix: A/CON/U/0214 7- | Count: 1
+Prefix: A/CON/U/0214 9- | Count: 1
+Prefix: A/CON/U/0237 11- | Count: 1
+Prefix: A/CON/U/0237 13- | Count: 1
+Prefix: A/CON/U/0237 5- | Count: 1
+Prefix: A/CON/U/0237 7- | Count: 1
+Prefix: A/CON/U/0237 9- | Count: 1
+Prefix: A/CON/U/0243 1- | Count: 1
+Prefix: A/CON/U/0243 11- | Count: 1
+Prefix: A/CON/U/0243 13- | Count: 1
+Prefix: A/CON/U/0243 3- | Count: 1
+Prefix: A/CON/U/0243 5- | Count: 1
+Prefix: A/CON/U/0243 7- | Count: 1
+Prefix: A/CON/U/0243 9- | Count: 1
+Prefix: A/CON/U/0259 11- | Count: 1
+Prefix: A/CON/U/0259 13- | Count: 1
+Prefix: A/CON/U/0259 7- | Count: 1
+Prefix: A/CON/U/0259 9- | Count: 1
+Prefix: A/CON/U/0261 11- | Count: 1
+Prefix: A/CON/U/0261 13- | Count: 1
+Prefix: A/CON/U/0261 5- | Count: 1
+Prefix: A/CON/U/0261 7- | Count: 1
+Prefix: A/CON/U/0261 9- | Count: 1
+Prefix: A/CON/U/0275 0- | Count: 1
+Prefix: A/CON/U/0275 1- | Count: 1
+Prefix: A/CON/U/0275 11- | Count: 1
+Prefix: A/CON/U/0275 13- | Count: 1
+Prefix: A/CON/U/0275 3- | Count: 1
+Prefix: A/CON/U/0275 5- | Count: 1
+Prefix: A/CON/U/0275 7- | Count: 1
+Prefix: A/CON/U/0275 9- | Count: 1
+Prefix: A/DS/U/0214 11- | Count: 1
+Prefix: A/DS/U/0214 13- | Count: 1
+Prefix: A/DS/U/0214 5- | Count: 1
+Prefix: A/DS/U/0214 7- | Count: 1
+Prefix: A/DS/U/0214 9- | Count: 1
+Prefix: A/EL/U/0140 1- | Count: 1
+Prefix: A/EL/U/0140 11- | Count: 1
+Prefix: A/EL/U/0140 13- | Count: 1
+Prefix: A/EL/U/0140 3- | Count: 1
+Prefix: A/EL/U/0140 5- | Count: 1
+Prefix: A/EL/U/0140 7- | Count: 1
+Prefix: A/EL/U/0140 9- | Count: 1
+Prefix: A/EL/U/0188 11- | Count: 1
+Prefix: A/EL/U/0188 13- | Count: 1
+Prefix: A/EL/U/0188 5- | Count: 1
+Prefix: A/EL/U/0188 7- | Count: 1
+Prefix: A/EL/U/0188 9- | Count: 1
+Prefix: A/EL/U/0242 1- | Count: 1
+Prefix: A/EL/U/0242 11- | Count: 1
+Prefix: A/EL/U/0242 13- | Count: 1
+Prefix: A/EL/U/0242 3- | Count: 1
+Prefix: A/EL/U/0242 5- | Count: 1
+Prefix: A/EL/U/0242 7- | Count: 1
+Prefix: A/EL/U/0242 9- | Count: 1
+Prefix: A/MOON/U/0247 11- | Count: 1
+Prefix: A/MOON/U/0247 5- | Count: 1
+Prefix: A/MOON/U/0247 7- | Count: 1
+Prefix: A/MOON/U/0247 9- | Count: 1
+Prefix: A/NC/U/0221 11- | Count: 1
+Prefix: A/NC/U/0221 13- | Count: 1
+Prefix: A/NC/U/0221 5- | Count: 1
+Prefix: A/NC/U/0221 7- | Count: 1
+Prefix: A/NC/U/0221 9- | Count: 1
+Prefix: A/NIKO/U/0114 11- | Count: 1
+Prefix: A/NIKO/U/0114 13- | Count: 1
+Prefix: A/NIKO/U/0114 5- | Count: 1
+Prefix: A/NIKO/U/0114 7- | Count: 1
+Prefix: A/NIKO/U/0114 9- | Count: 1
+Prefix: A/NIKO/U/0167 11- | Count: 1
+Prefix: A/NIKO/U/0167 13- | Count: 1
+Prefix: A/NIKO/U/0167 5- | Count: 1
+Prefix: A/NIKO/U/0167 7- | Count: 1
+Prefix: A/NIKO/U/0167 9- | Count: 1
+Prefix: A/NIKO/U/0170 11- | Count: 1
+Prefix: A/NIKO/U/0170 13- | Count: 1
+Prefix: A/NIKO/U/0170 3- | Count: 1
+Prefix: A/NIKO/U/0170 5- | Count: 1
+Prefix: A/NIKO/U/0170 7- | Count: 1
+Prefix: A/NIKO/U/0170 9- | Count: 1
+Prefix: A/NİCO/U/0001 11- | Count: 1
+Prefix: A/NİCO/U/0001 13- | Count: 1
+Prefix: A/NİCO/U/0001 5- | Count: 1
+Prefix: A/NİCO/U/0001 7- | Count: 1
+Prefix: A/NİCO/U/0001 9- | Count: 1
+Prefix: A/NİKO/U/0134 0- | Count: 1
+Prefix: A/NİKO/U/0172 11- | Count: 1
+Prefix: A/NİKO/U/0172 5- | Count: 1
+Prefix: A/NİKO/U/0172 7- | Count: 1
+Prefix: A/NİKO/U/0172 9- | Count: 1
+Prefix: A/NİKO/U/0173 11- | Count: 1
+Prefix: A/NİKO/U/0173 5- | Count: 1
+Prefix: A/NİKO/U/0173 7- | Count: 1
+Prefix: A/NİKO/U/0173 9- | Count: 1
+Prefix: A/NİKO/U/0278 11- | Count: 1
+Prefix: A/NİKO/U/0278 13- | Count: 1
+Prefix: A/NİKO/U/0278 5- | Count: 1
+Prefix: A/NİKO/U/0278 7- | Count: 1
+Prefix: A/NİKO/U/0278 9- | Count: 1
+Prefix: A/NİKO/U/0438 11- | Count: 1
+Prefix: A/NİKO/U/0438 5- | Count: 1
+Prefix: A/NİKO/U/0438 7- | Count: 1
+Prefix: A/NİKO/U/0438 9- | Count: 1
+Prefix: A/PAN/U/0004 11- | Count: 1
+Prefix: A/PAN/U/0004 13- | Count: 1
+Prefix: A/PAN/U/0004 5- | Count: 1
+Prefix: A/PAN/U/0004 7- | Count: 1
+Prefix: A/PAN/U/0004 9- | Count: 1
+Prefix: A/PAN/U/0214 0- | Count: 1

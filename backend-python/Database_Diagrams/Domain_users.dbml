@@ -1,0 +1,75 @@
+Table "users_kassa" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "user_id" int
+  "kassa" int
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "users_rep" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "user_id" int
+  "group_no" int
+  "report" nvarchar
+  "mux" nvarchar
+  "geri" nvarchar
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "users" [headercolor: #007bff] {
+  "idn" int
+  "name" nvarchar
+  "pass" nvarchar
+  "admin" bit
+  "emel" bit
+  "hes" bit
+  "multisession" bit
+  "mono" bit
+  "fol_idn" int
+  "folder" tinyint
+  "tes" bit
+  "all_br" bit
+  "all_dp" bit
+  "all_cs" bit
+  "emp" int
+  "def_anbar" int
+  "def_emp" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "users_oper" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "user_id" int
+  "group_no" int
+  "operation" nvarchar
+  "new" nvarchar
+  "edit" nvarchar
+  "del" nvarchar
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "users_branch" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "user_id" int
+  "branch" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "users_depo" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "user_id" int
+  "group_no" int
+  "depo" nvarchar
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+
+TableGroup users_Hierarchy {
+  "users_kassa"
+  "users_rep"
+  "users"
+  "users_oper"
+  "users_branch"
+  "users_depo"
+}

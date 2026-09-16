@@ -1,0 +1,14 @@
+=== Top 10 Debtors in sm_borc ===
+Kontra: 144 | Name: ILKIN QALIQ | Debt: 1086442.3593
+Kontra: 163 | Name: TƏSİSÇİ- SƏKİNƏ XANİM | Debt: 538426.0000
+Kontra: 125 | Name: TÜRKİYƏ BAKU ÖRME KUMAŞ SƏNAYE 2 yeni | Debt: 413839.2250
+Kontra: 195 | Name: XIRDALAN MAGAZİN KƏMALƏ | Debt: 318890.0000
+Kontra: 34 | Name: İNTERNAT MEKTEBİ SABİR MUELLİM | Debt: 220000.0000
+Kontra: 166 | Name: BİNƏ T/M | Debt: 128305.8000
+Kontra: 264 | Name: BİNƏ T/M HÜSEYN | Debt: 118283.4000
+Kontra: 103 | Name: FALKON FUAD -YUSİF | Debt: 112854.9500
+Kontra: 3 | Name: BGİ | Debt: 96815.6200
+Kontra: 173 | Name: CORAB A  SEKTORU | Debt: 88466.3600
+
+=== Testing get_orders() output ===
+Error: get_orders() got an unexpected keyword argument 'status_filter'

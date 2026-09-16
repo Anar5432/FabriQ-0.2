@@ -1,0 +1,176 @@
+Table "sm_process_iz_utu" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz_yuma" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz_anbar" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz_qab" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz_rosso" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz" [headercolor: #28a745] {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sifaris" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "serh" nvarchar
+  "hesabla" bit
+  "sex" int
+  "hm_sex" int
+  "tesdiq" bit
+  "r" bit
+  Note: '🟢 GREEN: Used actively in the dashboard program'
+}
+
+Table "sm_process_iz_etiket" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_process_iz_toxuma" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "sifaris" int
+  "ist_idn" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+
+TableGroup sm_process_iz_Hierarchy {
+  "sm_process_iz_utu"
+  "sm_process_iz_yuma"
+  "sm_process_iz_anbar"
+  "sm_process_iz_qab"
+  "sm_process_iz_rosso"
+  "sm_process_iz"
+  "sm_process_iz_etiket"
+  "sm_process_iz_toxuma"
+}

@@ -1,0 +1,15 @@
+﻿Step 1: Get orders
+Orders found: 360
+Step 2: Get balances
+Balances found: 5820
+Total split order lines: 386
+Order 61369 | HM-BETEX 14/0025 ├ûNL├£K PLA┼₧OFK | split=1.0/1.0000 | phase=6
+Order 61369 | HM-BETEX/02/0014 OBA J─░LET BOZ | split=2.0/1.0000 | phase=6
+Order 61369 | HM-BETEX/05/0073 UZUNQOL POLO  | split=1.0/1.0000 | phase=6
+Order 61369 | HM-BETEX/01/0119 G├ûD╞ÅK├ç╞Å F╞ÅHL╞Å | split=1.0/1.0000 | phase=6
+Order 61366 | HM-BETEX/01/0073 G├ûD╞ÅKC╞Å T├£ND  | split=100.0/100.0000 | phase=6
+Order 61366 | HM-BETEX/01/0073 G├ûD╞ÅKC╞Å T├£ND  | split=100.0/100.0000 | phase=6
+Order 61366 | HM-BETEX/01/0073 G├ûD╞ÅKC╞Å T├£ND  | split=100.0/100.0000 | phase=6
+Order 61369 | HM-BETEX/02/0108 J─░LET NAZ─░K G | split=1.0/1.0000 | phase=6
+Order 61390 | HM-BETEX 01/0170 G├ûD╞ÅKC╞Å BOZ R | split=2.0/2.0000 | phase=6
+Order 61390 | HM-BETEX/15/0152 KITEL ┼₧ALVAR  | split=2.0/2.0000 | phase=6

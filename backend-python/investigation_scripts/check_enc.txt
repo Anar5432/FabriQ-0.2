@@ -1,0 +1,16 @@
+﻿=== Testing CORAB from DB ===
+python : Traceback (most recent call last):
+At line:1 char:1
++ python -X utf8 check_db.py 2>&1 | Out-File -FilePath check_enc.txt -E ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\User\.gemini\antigravity\scratch\backend\check_db.py", line 8, in <module>
+    data = get_orders('corab')
+  File "C:\Users\User\.gemini\antigravity\scratch\backend\dashboard\queries.py", line 265, in get_orders
+    raw_lines = query(sql, cache_key=f'{sector}_fabriq_orders_lines', cache_ttl=120)
+  File "C:\Users\User\.gemini\antigravity\scratch\backend\dashboard\erp_connector.py", line 65, in query
+    rows = [dict(zip(columns, row)) for row in cursor.fetchall()]
+                                               ~~~~~~~~~~~~~~~^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xdc in position 13: invalid continuation byte

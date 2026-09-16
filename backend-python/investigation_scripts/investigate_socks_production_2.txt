@@ -1,0 +1,20 @@
+sm_kontr_sat columns: ['idn', 'sen_no', 'tarix', 'od_tar', 'kontra', 'liz_kon', 'liz_faiz', 'liz_kas', 'ilk_od', 'med_sen', 'med_sen_no', 'sif_sen', 'sif_form', 'sif_form_name', 'surucu', 'expeditor', 'kontra_name', 'surucu_name', 'expeditor_name', 'anbar', 'getdi', 'mebleg', 'guzest', 'guz_meb', 'guz_yek', 'yekun', 'xid_meb', 'xid_edv', 'is_meb', 'valyuta', 'kurs', 'mv_meb', 'edv_der', 'edv_faiz', 'edv_meb', 'mv_edv', 'tam_yek', 'mv_yek', 'edv_dax', 'mux', 'serh', 'kon_hes', 'xerc_nov', 'tes', 'dov_nis', 'satici', 'el_serh', 'imp_idn', 'kod', 'med_idn', 'tr_idn', 'ist_idn', 'sg_idn', 'sy_idn', 'is_idn', 'sobe', 'r', 'sif_idn', 'ins_user', 'ins_date', 'upd_user', 'upd_date', 'hes', 'kampaniya', 'ad_soyad', 'mqd', 'cancel', 'status_med', 'nov', 'e_qaime']
+
+Recent Socks Production Orders (sm_good_ist):
+{'idn': 25563, 'tarix': datetime.datetime(2026, 6, 10, 0, 0), 'sif_no': 22354, 'sif_name': None, 'mal_name': 'B/COR/K/Q/0029  SPORT QARA YAZISIZ 20/1', 'miqdar': Decimal('45.0000')}
+{'idn': 25564, 'tarix': datetime.datetime(2026, 6, 10, 0, 0), 'sif_no': 22355, 'sif_name': None, 'mal_name': 'B/ALP/K/U/0006 LUKRA QARA DESENLI SON', 'miqdar': Decimal('5.0000')}
+{'idn': 25560, 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'sif_no': 22351, 'sif_name': None, 'mal_name': 'B/EN/K/U/0005 QARA', 'miqdar': Decimal('864.0000')}
+{'idn': 25560, 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'sif_no': 22351, 'sif_name': None, 'mal_name': 'B/EN/K/Q/0029 QARA YAZISIZ 20/1', 'miqdar': Decimal('252.0000')}
+{'idn': 25561, 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'sif_no': 22351, 'sif_name': None, 'mal_name': 'B/EN/K/U/0005 QARA', 'miqdar': Decimal('864.0000')}
+{'idn': 25561, 'tarix': datetime.datetime(2026, 6, 9, 0, 0), 'sif_no': 22351, 'sif_name': None, 'mal_name': 'B/EN/K/Q/0029 QARA YAZISIZ 20/1', 'miqdar': Decimal('252.0000')}
+{'idn': 25553, 'tarix': datetime.datetime(2026, 6, 8, 0, 0), 'sif_no': 22345, 'sif_name': None, 'mal_name': 'B/EN/K/U/0005 QARA', 'miqdar': Decimal('876.0000')}
+{'idn': 25553, 'tarix': datetime.datetime(2026, 6, 8, 0, 0), 'sif_no': 22345, 'sif_name': None, 'mal_name': 'B/EN/K/Q/0029 QARA YAZISIZ 20/1', 'miqdar': Decimal('240.0000')}
+{'idn': 25549, 'tarix': datetime.datetime(2026, 6, 6, 0, 0), 'sif_no': 22341, 'sif_name': None, 'mal_name': 'B/COR/K/Q/0029  SPORT QARA YAZISIZ 20/1', 'miqdar': Decimal('103.0000')}
+{'idn': 25548, 'tarix': datetime.datetime(2026, 6, 5, 0, 0), 'sif_no': 22340, 'sif_name': None, 'mal_name': 'B/EN/K/U/0005 QARA', 'miqdar': Decimal('912.0000')}
+
+Recent Socks Sales Orders (sm_kontr_sat):
+{'idn': 62069, 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'kontra': 189, 'serh': '', 'customer': 'ƏMƏKDAŞLAR'}
+{'idn': 62065, 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'kontra': 963, 'serh': '', 'customer': 'MAĞAZA NAĞD SATIŞ'}
+{'idn': 62063, 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'kontra': 1200, 'serh': '', 'customer': 'COVDƏT'}
+{'idn': 62059, 'tarix': datetime.datetime(2026, 6, 12, 0, 0), 'kontra': 963, 'serh': '', 'customer': 'MAĞAZA NAĞD SATIŞ'}
+{'idn': 62057, 'tarix': datetime.datetime(2026, 6, 12, 0, 0), 'kontra': 963, 'serh': '', 'customer': 'MAĞAZA NAĞD SATIŞ'}

@@ -1,0 +1,29 @@
+--- 1. Columns in sm_smeta_satis ---
+idn: bigint
+es_no: bigint
+num: int
+mal: int
+rasenka_meb: decimal
+xid_meb: decimal
+mehsul: int
+cem_maya: decimal
+marja: decimal
+sat_qiy: decimal
+gelir: decimal
+kod: nvarchar
+maya_meb: decimal
+sat_meb: decimal
+miqdar: decimal
+cem_gelir: decimal
+maya_qiy: decimal
+teklif_qiy: decimal
+naxis_meb: decimal
+xerc_meb: decimal
+
+--- 2. Sample from sm_smeta_satis ---
+{'idn': 297659, 'es_no': 9472, 'num': None, 'mal': 40527, 'rasenka_meb': None, 'xid_meb': None, 'mehsul': 40527, 'cem_maya': None, 'marja': None, 'sat_qiy': Decimal('0.0000'), 'gelir': None, 'kod': '-040527', 'maya_meb': None, 'sat_meb': None, 'miqdar': Decimal('4.0000'), 'cem_gelir': None, 'maya_qiy': None, 'teklif_qiy': None, 'naxis_meb': None, 'xerc_meb': None}
+{'idn': 297658, 'es_no': 9472, 'num': None, 'mal': 40528, 'rasenka_meb': None, 'xid_meb': None, 'mehsul': 40528, 'cem_maya': None, 'marja': None, 'sat_qiy': Decimal('0.0000'), 'gelir': None, 'kod': '-040528', 'maya_meb': None, 'sat_meb': None, 'miqdar': Decimal('27.0000'), 'cem_gelir': None, 'maya_qiy': None, 'teklif_qiy': None, 'naxis_meb': None, 'xerc_meb': None}
+{'idn': 297657, 'es_no': 9472, 'num': None, 'mal': 40529, 'rasenka_meb': None, 'xid_meb': None, 'mehsul': 40529, 'cem_maya': None, 'marja': None, 'sat_qiy': Decimal('0.0000'), 'gelir': None, 'kod': '-040529', 'maya_meb': None, 'sat_meb': None, 'miqdar': Decimal('16.0000'), 'cem_gelir': None, 'maya_qiy': None, 'teklif_qiy': None, 'naxis_meb': None, 'xerc_meb': None}
+
+--- 3. How many active smetas? ---
+Count: 482

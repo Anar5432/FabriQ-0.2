@@ -1,0 +1,17 @@
+=== RESEARCH ON EXAMPLE (SMETA/BOM) CALCULATIONS ===
+
+--- 1. Recent Smeta (Example) Documents ---
+Error checking sm_smeta: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'num'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'ad'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'sifaris'. (207)")
+
+--- 2. Raw Materials linked to Smeta (sm_smeta_xammal) ---
+Xammal ID: 789 | Smeta Ref (es_no): 417 | Material: QABARDİN 16X12 65-35% PAMBIQ 240 QR BOZ | Qty for 1 item: 1.5700
+Xammal ID: 788 | Smeta Ref (es_no): 417 | Material: QABARDİN 16X12 65-35% PAMBIQ 240 QR NARINCI | Qty for 1 item: 0.2100
+Xammal ID: 787 | Smeta Ref (es_no): 417 | Material: ASTAR QARA | Qty for 1 item: 0.4100
+Xammal ID: 786 | Smeta Ref (es_no): 417 | Material: 3 İPLİK NE 30/70/10 XAKİ  310-330 GR EN 185 | Qty for 1 item: 0.4250
+Xammal ID: 785 | Smeta Ref (es_no): 417 | Material: RİBANA OE 20/1 XAKİ | Qty for 1 item: 0.0180
+
+--- 3. Raw Material Planning/Requests (sm_xammal_plan) ---
+Error checking sm_xammal_plan: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'mal'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'sifaris'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'mal'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'plan_miqdar'. (207)")
+
+--- 4. Is there a link in sm_sob_trans to the Plan? ---
+sm_sob_trans check error: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'req_no'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'plan_id'. (207); [42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'es_no'. (207)")

@@ -1,0 +1,50 @@
+﻿======================================================================
+CONFIRMED ROOT CAUSE:
+1. sobe2 (destination) is ALWAYS 6 (Finished Goods) for complete items
+   => Cannot use sobe2 to find intermediate stages
+2. sobe1 (source/origin) tells us WHERE items came FROM in the latest transfer
+   => sobe1=3 (Kesim) means item just LEFT cutting, now in Tikis
+   => sobe1=4 or 5 (Tikis) means item just LEFT sewing, now in Finished Goods
+
+CORRECT APPROACH:
+  For items with transfer: use sobe2 (destination) from LATEST transfer
+  BUT the 'Ambar' destination (6) means it COMPLETED that stage
+  So we need to handle:
+    sobe2=3 (Kesim) = item arrived in Cutting dept = K╔Ösim stage
+    sobe2=4 or 5 (Tikis) = item arrived in Sewing dept = Tiki┼ƒ stage
+    sobe2=6 (Finished Goods) = item completed = Ambar stage
+    sobe2=NULL = no transfer yet = Sat─▒┼ƒ stage
+======================================================================
+
+VERIFICATION: Distribution via sobe2 (WITHOUT date filter):
+  sobe2 distribution: [{'stage': 6, 'stage_name': 'BTF HAZIR M╞ÅHSUL ANBARI', 'cnt': 65}, {'stage': None, 'stage_name': None, 'cnt': 4}]
+
+VERIFICATION: Distribution via sobe1 (WHERE items left from):
+  sobe1 distribution: [{'stage': 5, 'stage_name': 'MAYKA-BOXER SEX─░', 'cnt': 28}, {'stage': 4, 'stage_name': 'T─░K─░┼₧ SEX─░', 'cnt': 19}, {'stage': 39, 'stage_name': 'SON B├ûL├£M SEX─░', 'cnt': 11}, {'stage': 15, 'stage_name': 'BTF DAX─░L─░ SATI┼₧ MA─₧AZASI ', 'cnt': 6}, {'stage': None, 'stage_name': None, 'cnt': 4}, {'stage': 24, 'stage_name': 'BTF EKSPER─░MENTAL SEX XAMMAL ANBARI', 'cnt': 1}]
+
+
+FINAL ANSWER: sobe2 (destination) is the RIGHT field, but:
+  - There was a date filter bug: trans.tarix >= order.tarix was TOO STRICT
+  - Many production transfers happen BEFORE the official sales order date
+    because the factory can start making things before the sales order is placed!
+  - SOLUTION: Remove the date filter, just get the MOST RECENT transfer for each item
+  - Items showing sobe2=6 means COMPLETED/READY IN WAREHOUSE = Ambar stage (correct!)
+  - Items with NO transfer = still at Sat─▒┼ƒ stage (waiting for production to start)
+
+  The 67% 'Sat─▒┼ƒ' is the real count of orders not yet started in production
+  The 291 'Ambar' is the count of items that are ready/done
+  K╔Ösim and Tiki┼ƒ ARE 0 in sobe2 because the DB only records COMPLETED moves
+  When an item goes Kesim -> Tikis, sobe2=4/5
+  When an item goes Tikis -> Anbar, sobe2=6
+  So RIGHT NOW, are there any active items in Kesim (sobe2=3)?
+
+  Check: are there ANY items currently IN KESIM (sent to Kesim but not yet sent onwards)?
+[{'in_kesim': 0}]
+[{'in_tikis_but_not_anbar': 0}]
+
+SUMMARY: We need a smarter approach - track per product:
+  1. If HAS transfer to sobe2=6 -> Ambar (done)
+  2. Else if HAS transfer to sobe2 IN (4,5) -> Tiki┼ƒ (in sewing)
+  3. Else if HAS transfer to sobe2=3 -> K╔Ösim (in cutting)
+  4. Else if HAS any transfer to sobe2 IN (8,9) -> Ambar Material
+  5. Else -> Sat─▒┼ƒ (not yet started)

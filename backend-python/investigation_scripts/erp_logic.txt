@@ -1,0 +1,16 @@
+=== ERP ORDER LOGIC ANALYSIS ===
+
+Found partially delivered Order Line in sm_sif_sened_el:
+ID: 2696, Order Header: 532, Product: 13897, Ordered: 782.0000, Delivered (sat_miq): 652.0000
+
+Invoices linked to this Order (s.sif_sen = 532):
+ - Invoice ID: 2480, Date: 2019-04-05 00:00:00, Invoiced Qty: 75.0000
+ - Invoice ID: 2887, Date: 2019-06-14 00:00:00, Invoiced Qty: 400.0000
+ - Invoice ID: 3015, Date: 2019-07-03 00:00:00, Invoiced Qty: 150.0000
+ - Invoice ID: 3032, Date: 2019-07-05 00:00:00, Invoiced Qty: 27.0000
+
+Triggers on Sales Invoice (sm_kontr_sat_el):
+ - No triggers found.
+
+3. Check for Triggers on sm_sif_sened_el (Orders)
+ - No triggers found.

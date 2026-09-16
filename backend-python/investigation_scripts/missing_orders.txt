@@ -1,0 +1,21 @@
+--- Recent Orders missing Rasenka ---
+Order No:   20255136 | Date: 2026-06-15 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-BOXER EMZO QARA R-XXL   | Qty: 2.0000
+Order No:   20255136 | Date: 2026-06-15 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-BOXER EMZO TÜND GÖY R-XL | Qty: 1.0000
+Order No:   20255136 | Date: 2026-06-15 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-BOXER EMZO QARA R-XL | Qty: 1.0000
+Order No: 20255135 | Date: 2026-06-15 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: HM- İKİNCİ SORT NƏNƏ GECƏLİK | Qty: 2.0000
+Order No: 20255134 | Date: 2026-06-15 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-MAYKA EMZO NE AĞ R-3XL İKİNCİ SORT | Qty: 43.0000
+Order No: 20255133 | Date: 2026-06-15 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: HM- İKİNCİ SORT NƏNƏ GECƏLİK | Qty: 2.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-S | Qty: 22.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-XS | Qty: 20.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-M | Qty: 12.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-L | Qty: 6.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-XL | Qty: 2.0000
+Order No: 062071 | Date: 2026-06-15 00:00:00 | Customer: Məlhəm Beynəlxalq Hospital | Product: HM-BETEX/09/0018 KÖYNƏK AÇIQ BƏNÖVŞƏYİ QADIN R-2XL | Qty: 2.0000
+Order No: 20255132 | Date: 2026-06-13 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-MAYKA EMZO NE AĞ R-2XL | Qty: 2.0000
+Order No: 20255131 | Date: 2026-06-13 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: UŞAQ CORABI CÜT qalın | Qty: 2.0000
+Order No: 20255130 | Date: 2026-06-13 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-MAYKA EMZO PREMİUM T-SHİRT 0 YAXA QARA R-XL | Qty: 1.0000
+Order No: 20255130 | Date: 2026-06-13 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-A SEKTORU ARTIQ MAL  | Qty: 3.0000
+Order No: 20255129 | Date: 2026-06-13 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: HM- İKİNCİ SORT NƏNƏ GECƏLİK | Qty: 2.0000
+Order No: 20255128 | Date: 2026-06-13 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: HM- İKİNCİ SORT NƏNƏ GECƏLİK | Qty: 3.0000
+Order No: 20255128 | Date: 2026-06-13 00:00:00 | Customer: ƏMƏKDAŞLAR | Product: HM-İKİNCİ SORT TUMAN | Qty: 1.0000
+Order No: 20255127 | Date: 2026-06-13 00:00:00 | Customer: MAĞAZA NAĞD SATIŞ | Product: HM-MAYKA EMZO PREMİUM T-SHİRT 0 YAXA TÜND GÖY R-2XL | Qty: 1.0000

@@ -1,0 +1,20 @@
+=== DEEP RESEARCH ON WAREHOUSE TRANSFERS ===
+
+--- Current Balances in Cutting (Dept 3, 24) for HM/YM ---
+  -> HM-MƏKTƏBLİ YUBKA ŞOTLANKA R-44 BƏNÖVŞƏYİ | Dept 3 | Balance: 52.0000
+  -> HM-MƏKTƏBLİ YUBKA ŞOTLANKA R-42 BƏNÖVŞƏYİ | Dept 3 | Balance: 75.0000
+
+--- Checking recent 2026 transfers for hidden order info in text fields ---
+
+--- Let's do a wider text search on serh and qeyd ---
+046772 (2026-06-12 00:00:00) | Item: DAKRON KÖYNƏKLİK MAVİ | Comment: 'TAMSTORE KÖYNƏK
+İLHAM SEX' | Note: 'None' | Serial: 'None'
+046765 (2026-06-12 00:00:00) | Item: HM-MAYKA EMZO PREMİUM T-SHİRT 0 YAXA TÜND GÖY R-2XL | Comment: 'zaur vasmoy ' | Note: 'None' | Serial: 'None'
+046765 (2026-06-12 00:00:00) | Item: HM-MAYKA BEE (PAMUK) AĞ R-L | Comment: 'zaur vasmoy ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-3XL | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-XXL   | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-XL | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-L  | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-M | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-BOXER EMZO QARA R-S  | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'
+046754 (2026-06-11 00:00:00) | Item: HM-HAVLUBEL EMZO GÖY R-XL | Comment: 'BƏRDƏ' | Note: 'None' | Serial: 'None'

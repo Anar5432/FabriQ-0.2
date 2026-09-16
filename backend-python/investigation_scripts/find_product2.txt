@@ -1,0 +1,11 @@
+Found Products:
+- ID: 23555, Name: HM-BETEX/01/0119 GÖDƏKÇƏ FƏHLƏ BOZ R-44, Class: 27
+  --> Class Name: İŞÇİ GEYİMLƏRİ (ID: 27)
+- ID: 34735, Name: HM-BETEX/01/0119 GÖDƏKÇƏ FƏHLƏ BOZ R-46, Class: 27
+  --> Class Name: İŞÇİ GEYİMLƏRİ (ID: 27)
+- ID: 34736, Name: HM-BETEX/01/0119 GÖDƏKÇƏ FƏHLƏ BOZ R-48, Class: 27
+  --> Class Name: İŞÇİ GEYİMLƏRİ (ID: 27)
+- ID: 34737, Name: HM-BETEX/01/0119 GÖDƏKÇƏ FƏHLƏ BOZ R-50, Class: 27
+  --> Class Name: İŞÇİ GEYİMLƏRİ (ID: 27)
+- ID: 34738, Name: HM-BETEX/01/0119 GÖDƏKÇƏ FƏHLƏ BOZ R-52, Class: 27
+  --> Class Name: İŞÇİ GEYİMLƏRİ (ID: 27)

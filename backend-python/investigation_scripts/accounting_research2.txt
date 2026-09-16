@@ -1,0 +1,11 @@
+dbo.sm_kmd_el | Rows: 528 | Last updated: Unknown (No date column)
+dbo.sm_pul_her_shablon_kassa | Rows: 3 | Last updated: Unknown (No date column)
+dbo.sm_bank_od_el_el | Rows: 571 | Last updated: Unknown (No date column)
+dbo.sm_hesab_bagla_el | Rows: 12 | Last updated: Unknown (No date column)
+dbo.sm_bank_od_el | Rows: 24856 | Last updated: Unknown (No date column)
+dbo.sm_kassa_transfer | Rows: 2456 | Last updated: 2026-06-13 16:02:25
+dbo.sm_kmd | Rows: 49105 | Last updated: 2026-06-13 15:59:41
+dbo.sm_kmx | Rows: 38523 | Last updated: 2026-06-13 13:24:07
+dbo.sm_bank_od | Rows: 4417 | Last updated: 2026-06-10 14:00:40
+dbo.sm_bank_hes | Rows: 18 | Last updated: 2025-12-11 19:12:37
+dbo.sm_hesab_bagla | Rows: 2 | Last updated: 2025-07-01 00:00:00

@@ -1,0 +1,27 @@
+{% extends 'dashboard/base.html' %}
+
+{% block content %}
+<div style="display:flex; justify-content:center; align-items:center; height:100vh; background:#f8fafc; font-family:sans-serif;">
+    <div style="background:white; padding:40px; border-radius:12px; box-shadow:0 10px 15px -3px rgba(0,0,0,0.1); max-width:500px; text-align:center;">
+        <svg style="width:64px; height:64px; color:#ef4444; margin:0 auto 20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+        <h2 style="color:#1e293b; margin-top:0; margin-bottom:16px;">Verilənlər Bazasına Qoşulmaq Mümkün Olmadı</h2>
+        <p style="color:#64748b; margin-bottom:24px; line-height:1.5;">
+            Sistemin məlumat bazasına (SQL Server) qoşulmaq cəhdi uğursuz oldu. Bu adətən şəbəkə problemi və ya VPN bağlantısının qopması səbəbindən baş verir.
+        </p>
+        <div style="background:#fee2e2; color:#b91c1c; padding:12px; border-radius:8px; font-size:14px; text-align:left; margin-bottom:24px;">
+            <strong>Xəta:</strong> {{ error_msg }}
+        </div>
+        <p style="color:#334155; font-weight:600; margin-bottom:16px;">
+            Nə etməli?
+        </p>
+        <ul style="color:#64748b; text-align:left; padding-left:20px; line-height:1.6; margin-bottom:24px;">
+            <li>Kompüterinizin internetə qoşulduğundan əmin olun.</li>
+            <li>Zavodun bazasına daxil olmaq üçün <strong>VPN bağlantınızı yoxlayın</strong> (əgər istifadə edirsinizsə).</li>
+            <li>IT şöbəsi ilə əlaqə saxlayıb bazanın (IP: 81.17.87.85, Port: 1433) aktiv olduğunu dəqiqləşdirin.</li>
+        </ul>
+        <button onclick="window.location.reload()" style="background:#3b82f6; color:white; border:none; padding:12px 24px; border-radius:6px; font-size:16px; cursor:pointer; font-weight:500;">
+            Yenidən Yoxla
+        </button>
+    </div>
+</div>
+{% endblock %}

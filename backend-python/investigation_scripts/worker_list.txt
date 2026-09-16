@@ -1,0 +1,173 @@
+# Anbar köməkçisi (1)
+- Vüsal  Qədirov  Rövşən
+# Anbardar (1)
+- Elçin  İsmayılov  Ehtiram
+# Araçı (5)
+- Mətanət  Hüseynova  Vahid qızı
+- Ülviyyə  Xosrovova  Yaşılxan
+- Xalidə  Məmmədova  İdris qızı
+- Xalidə Məmmədova İdris
+- Xatirə Məmmədova Bəhlul
+# Baş mühasib (1)
+- İlahə Mustafayeva Məhəmməd
+# Beyka kəsən (2)
+- Nəzakət  Meybullayeva  Bəybala
+- Vasif Məmmədov Hacıxan
+# Corab sexi (2)
+- Fərid  Bayramlı  Söhrab 
+- zeynəb məmmədova   
+# Direktor (1)
+- Səkinə  Babayeva  Rəşid
+# Dizayner (1)
+- Səbinə  Məmmədova  Azad
+# düymə -petlə operatoru (1)
+- Zenfira  Məmmədova  Əli
+# Etiketçi (1)
+- Ülkər  Bayramlı  Söhrab
+# HR (1)
+- Fidan Şəfiyeva əməkdaşlar
+# İcraçı Direktor (1)
+- İslam  Babayev  Yəhya
+# Kəsimçi (5)
+- Etibar Yaqubov Tərlan
+- Kamran Cavadov Aydın
+- Orxan  Məmmədov Elman
+- Sənan  Haqverdiyev  Nəriman 
+- Şəfa Zeynalova  Məhəmməd
+# Lekal operatoru (1)
+- Həlimə Manaflı Namiq
+# Lekalçı (2)
+- Kənan Hüseynov Hüseyn
+- Nazlı  İsmayılova  Xəqani
+# Logistika üzrə Menecer (1)
+- Emin  Babayev  İslam
+# Maliyyə Direktoru (1)
+- Elbrus Novruzov Kamil
+# Mexanik (3)
+- Elçin  Hüseynov Bilman
+- Elgün  Qasımov  Mobil
+- Vüqar  İsmayılov  Süleyman
+# Mühafizə (4)
+- Akif Baxışov Orucalı
+- Hüseyn Bəhramzadə ramin
+- İlqar  Quliyev  Aqşin
+- Real Göyüşov İlyas
+# Mühasib köməkçisi (2)
+- Eltun Abışov Xanlar
+- İlkin Sultanlı Asif
+# Naxış operatoru (1)
+- Zöhrə  Kərimova  Nurəddin
+# Ofis meneceri (1)
+- Aytəkin  Abdullayeva Əhmədağa
+# Operator (2)
+- nəfisə xxxxxxxx xxxxxxx
+- Nəzrin Praktikant xxxxxxx
+# ön kəsim (1)
+- Mədinə  Məmmədova  Hacıxan
+# Petlə düymə maşını üzrə operator (1)
+- Hüseyn  Paşayev  Adil
+# Qablaşdırıcı (5)
+- Esmira  Cabbarova  İsmayıl
+- Fəridə  Məmmədova  İslam
+- Lütfiyyə  Dəmirova  Ağaşirəli
+- Mədinə Dəmirova Sabir
+- Təranə Amoyeva Əziz
+# Rosso (1)
+- Gülmayə  Səfərova  Abbas
+# Satıcı  (2)
+- İradə Əliyeva Rasim
+- Mirhəsən Abdullayev Mirhüseyn
+# Satış Direktoru (1)
+- Elçin  Babayev  İslam
+# Satış meneceri (5)
+- Pərvanə  Mirzəyeva  Ədalət
+- Qafur  Hüseynov  Balasər
+- Süleyman  Bağırov Cabir
+- YUSİF ƏDİLZADƏ NƏSİMİ
+- Ziya  Cəlilov  İlham
+# Sətəm üzrə mütəxəssis (1)
+- Azər  Qasımov  Aydın
+# Sex rəisi (4)
+- Aytən  Bayramova  Namiq
+- Gülşən  Hüseynova Ənvər
+- Günel Hüseynli Firdovsi
+- Məhəbbət  Tahirova  Vəliyəddin
+# Sürücü (4)
+- Elşad  Əliyev  Saleh
+- Elşən  Əliyev  Ramiz
+- Elşən Əliyev Ramiz
+- Sərxan  Novruzov  Safalan
+# Tender və katirovkalar üzrə mütəxəssis (1)
+- Bəhmən  Mikayilov  Gümrah
+# Tikiş təmizlikçisi (3)
+- Leyla  Həsənova  Mahir
+- Sədaqət Abuzərova Bahadur
+- Suqra Verdiyeva Şəmi
+# TİKİŞÇİ (44)
+- Aygül Əliyeva       X
+- Aygün Süleymanova Vasif
+- Aynurə Novruzova Əziz
+- Aysu  Babazadə       X
+- Əfsanə  Əliyeva  Ağaddin
+- Əzizə Abdulkərimzadə Akif
+- Fatima Hüsiyeva Məmi
+- Fatimə  Əhmədova  x
+- Gülər  Hüseynova  Əlisultan
+- Güllər  Əmrahova  Mahmud
+- Gülnar Məmmədova İbrahim
+- Gülöyşə  Nuriyeva  İkram
+- Gülsəfa  Sultanova  Alməmməd
+- Gülsurə  Balayeva  Adıgözəl
+- Gülşən  Cabbarova Nüsrət
+- Hava  Məmmədova  Zeynalabdin
+- Hədiyyə  Quliyeva  Qəhrəman
+- Hicran Paşşanova Paşşan
+- İlahə  Haşımova  Abas
+- İmanova Larisa Eldar
+- Lamiyə Haqverdiyeva    
+- Larisa İmanova Eldar
+- Lyudmila  Həmidova       
+- Mədinə Nurbalayeva Əzizağa
+- Mehriban  Behbudova  Vaqif
+- Naibə  Təhməzova  Bayramqulu
+- Nərgiz İsmayılova Yalçın
+- Nəzakət Mürsəlova Teyyub
+- Paşayeva  Firuzə Fərman
+- Samir Mürsəlzadə Eldar
+- Samirə Məmmədova       Murad
+- Sədəf  Nəsirova  Dərgah
+- Səkinəxanım  Məmmədova  İslam
+- Sevil  Abdullayeva  İsbəndiyar
+- Sevinc Alıyeva  x
+- Solmaz Quliyeva Rəhim
+- Südabə Fətiyeva Əlisahib
+- Ülviyyə  Əhmədova (Aslanova ) Faiq
+- Xanım  Hüseynova  Layiq
+- xƏYALƏ  NOVRUZOVA ELŞƏN
+- Xoşqədəm Sadəddinova Qəhrəman
+- Yeganə  Əbilova  Bədir
+- Zəhra  Mehdiyeva        
+- Zəhra Mehdiyeva Mustafa
+# Tikişçi (2)
+- Fatimə Həbibova Azər
+- Zamin  Dadaşov  Böyükağa 
+# tikişçi (1)
+- Gültəkin Səfərova Yaqub
+# Toxucu (4)
+- Ağbəniz Mahmudova Fərəməz
+- Gülnar Rəsulova Fikrət
+- Gülnar Rəsulova Fikrət
+- Rəfiqə  İbrahimova  Əliəjdar
+# Ütücü (3)
+- Kəmalə Ənnağıyeva Elərus
+- Nigar  Əhmədova  Ədalət
+- Nüşabə Sadabalayeva Yaqub
+# Xadimə (2)
+- İlahə  Meybullayeva  bəy bala
+- Xalidə  Mamoşova  Mehman
+# Xəzinədar (5)
+- Dilşad Əliyeva Məsim
+- Fatimə  Xasıyeva  x 
+- Fəxriyyə Şumalova  Fəxrəddin
+- Fəxriyyə Şumalova  Fəxrəddin qızı
+- Günel İmaməliyeva Rövşən

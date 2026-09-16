@@ -1,0 +1,5 @@
+Statuses: ['Davam edir', 'Gecikmiş', 'Tamamlandı', 'Gözləyir']
+
+Found 2 pending orders.
+ORD-202 | Gözləyir | 2 | 2026-07-17 03:27:03.657742 | Şalvar
+ORD-201 | Davam edir | 0 | 2026-07-16 03:27:03.657692 | Polo T-Shirt

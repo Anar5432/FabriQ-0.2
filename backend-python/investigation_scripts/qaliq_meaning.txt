@@ -1,0 +1,5 @@
+Product 5347: Order qaliq=37.0000 | True Stock=236336.000000
+Product 26199: Order qaliq=17.0000 | True Stock=12278.000000
+Product 7687: Order qaliq=203.0000 | True Stock=21270.000000
+Product 31621: Order qaliq=20.0000 | True Stock=8877.000000
+Product 36207: Order qaliq=104.0000 | True Stock=3953.000000

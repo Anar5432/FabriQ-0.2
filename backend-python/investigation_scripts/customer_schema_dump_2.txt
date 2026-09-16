@@ -1,0 +1,49 @@
+
+=================================
+TABLE: sm_sifaris_form_el
+
+Sample Row:
+ idn: 1
+ es_no: 27
+ num: None
+ kod: B/BEE/K/U/0014
+ mal: 12903
+ deri: None
+ parca: None
+ miqdar: 1000.0000
+ qiymet: 4.3600
+ guzest: 0.0000
+ mebleg: 4360.0000
+ beh: 0.0000
+ cat_tar: None
+ qeyd: None
+ qaliq: 0.0000
+ sif_miq: None
+ faza: None
+ esas_mal: None
+ gul_id: None
+
+=================================
+TABLE: sm_smeta_satis
+
+Sample Row:
+ idn: 22
+ es_no: 2
+ num: None
+ mal: 15317
+ rasenka_meb: 0.0000
+ xid_meb: 0.0000
+ mehsul: 15317
+ cem_maya: 1.4950
+ marja: 1237.7926
+ sat_qiy: 20.0000
+ gelir: 20.0000
+ kod: E-015317
+ maya_meb: 2.9900
+ sat_meb: 40.0000
+ miqdar: 2.0000
+ cem_gelir: 0.0000
+ maya_qiy: 1.4950
+ teklif_qiy: 0.0000
+ naxis_meb: None
+ xerc_meb: None

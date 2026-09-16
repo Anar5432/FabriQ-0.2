@@ -1,0 +1,29 @@
+﻿======================================================================
+TESTING THE CORRECTED MAPPING USING sobe1 (source):
+  sobe1=NULL   -> stage='0' Sat─▒┼ƒ (not started)
+  sobe1=8 or 9 -> stage='1' Ambar (Material)
+  sobe1=3      -> stage='2' K╔Ösim (left cutting, now in sewing)
+  sobe1=4 or 5 -> stage='4' Tiki┼ƒ (left sewing, now in anbar)
+  sobe1=24     -> stage='2' K╔Ösim/Experimental (in production)
+  sobe1=39     -> stage='4' Son B├╢l├╝m (finishing = last stage before done)
+  sobe1=15     -> stage='5' Ambar (internal sales store = ready)
+  sobe2=6 AND sobe1=4/5/39 -> stage='5' Ambar (completed)
+======================================================================
+
+With sobe1-based mapping:
+  Stage 0 (Sat─▒┼ƒ (sifari┼ƒ)): 4 orders
+  Stage 1 (Ambar (Material)): 0 orders
+  Stage 2 (K╔Ösim): 1 orders
+  Stage 4 (Tiki┼ƒ): 0 orders
+  Stage 5 (Ambar): 64 orders
+
+Total: 69 orders
+
+This looks much more realistic! Let's validate with totals from DB...
+
+DB-computed stage distribution (sobe1-based):
+  5 Anbar: 47
+  5 SonBolum/Anbar: 11
+  5 IntSales/Anbar: 6
+  0 Satis: 4
+  2 Kesim/Exp: 1

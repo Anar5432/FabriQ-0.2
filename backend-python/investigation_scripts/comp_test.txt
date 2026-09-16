@@ -1,0 +1,85 @@
+
+--- Company: ADONES İÇ GEYİM ---
+ - HM-BETEX 05/0007 POLO TÜND GÖY R-54 | Miqdar: 3 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX 05/0007 POLO TÜND GÖY R-52 | Miqdar: 6 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX 05/0007 POLO TÜND GÖY R-50 | Miqdar: 9 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX 05/0007 POLO TÜND GÖY R-48 | Miqdar: 3 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX 05/0007 POLO TÜND GÖY R-46 | Miqdar: 6 | Date: 15 İyun | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L(PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL(PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M (PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L (PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M(PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL(PARÇA) | Miqdar: 86 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL (PARÇA) | Miqdar: 43 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL(PARÇA) | Miqdar: 86 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL(PARÇA) | Miqdar: 86 | Date: 20 May | Stage: Satış (sifariş)
+ - YM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL(PARÇA) | Miqdar: 86 | Date: 20 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0071 ADONİS RASHEL SHORT TÜND-GÖY KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0070 ADONİS LAKOST SHORT YAŞIL KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0070 ADONİS LAKOST SHORT NARINCI KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L | Miqdar: 1 | Date: 19 May | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-3XL | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-M | Miqdar: 150 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-3XL | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-2XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-L | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-M | Miqdar: 70 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT ORANGE NEON KİŞİ R-M | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-2XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-L | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT NEON YAŞIL KİŞİ R-M | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-L | Miqdar: 70 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-4XL | Miqdar: 250 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-3XL | Miqdar: 150 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-2XL | Miqdar: 225 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-XL | Miqdar: 225 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT QARA KİŞİ R-L | Miqdar: 150 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-3XL | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-XL | Miqdar: 145 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-2XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-XL | Miqdar: 125 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-L | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT TURKUAZ KİŞİ R-M | Miqdar: 50 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-4XL | Miqdar: 250 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-3XL | Miqdar: 70 | Date: 10 Apr | Stage: Satış (sifariş)
+ - HM-BETEX/13/0068 ADONİS SHORT LACİVERT KİŞİ R-2XL | Miqdar: 145 | Date: 10 Apr | Stage: Satış (sifariş)
+
+--- Company: EKIN SMART CITY TEKNOLOJİ ---
+ - HM-BETEX/05/0013 POLO UZUNQOL QARA R-XL | Miqdar: 4 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX/05/0013 POLO UZUNQOL QARA R-L | Miqdar: 4 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX/05/0013 POLO UZUNQOL QARA R-M | Miqdar: 8 | Date: 15 İyun | Stage: Satış (sifariş)
+ - HM-BETEX/05/0013 POLO UZUNQOL QARA R-S | Miqdar: 4 | Date: 15 İyun | Stage: Satış (sifariş)
+
+--- Company: MONEX  MMC ---
+ - YM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL ŞABALIDI R-M (PARÇA) | Miqdar: 100/100 | Date: 17 İyun | Stage: Kəsim
+ - YM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL BARDOVU R-M (PARÇA) | Miqdar: 100/100 | Date: 17 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M (PARÇA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M (RİBANA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M (RİBANA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M (PARÇA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M (RİBANA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M (PARÇA) | Miqdar: 50/50 | Date: 16 İyun | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL DƏRİ RƏNGİ R-M | Miqdar: 100/100 | Date: 13 İyun | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL ANTRASİT R-M | Miqdar: 100/100 | Date: 13 İyun | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL DƏRİ RƏNGİ R-M | Miqdar: 100/100 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL ŞABALIDI R-M | Miqdar: 100/100 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL BARDOVU R-M | Miqdar: 100/100 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0039 T-SHİRT OVERSİZE AÇIQ YAŞIL R-M | Miqdar: 150/150 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0039 T-SHİRT OVERSİZE BEJ R-M | Miqdar: 200/200 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0039 T-SHİRT OVERSİZE PİNK R-M | Miqdar: 150/150 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0039 T-SHİRT OVERSİZE QARA R-M | Miqdar: 300/300 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0039 T-SHİRT OVERSİZE AĞ R-M | Miqdar: 350/350 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M | Miqdar: 50/50 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M | Miqdar: 50/50 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M | Miqdar: 50/50 | Date: 28 May | Stage: Kəsim
+ - HM-BETEX/08/0069 LİCRALI OVERSİZE/TOMMY MODEL ANTRASİT R-M | Miqdar: 100/100 | Date: 28 May | Stage: Kəsim
+
+--- Company: TƏSİSÇİ- SƏKİNƏ BABAYEVA ---
+ - HM-BETEX 05/0007 POLO Q/Q AĞ R-2XL | Miqdar: 3/3 | Date: 3 İyun | Stage: Ambar

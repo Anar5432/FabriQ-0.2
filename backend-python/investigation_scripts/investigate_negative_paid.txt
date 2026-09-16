@@ -1,0 +1,4 @@
+{'tarix': datetime.datetime(2018, 7, 1, 0, 0), 'nov': 0, 'mebleg': Decimal('20035.0000'), 'yekun': Decimal('20035.0000'), 'serh': ''}
+{'tarix': datetime.datetime(2019, 2, 22, 0, 0), 'nov': 3, 'mebleg': Decimal('380.0000'), 'yekun': Decimal('380.0000'), 'serh': ''}
+
+---

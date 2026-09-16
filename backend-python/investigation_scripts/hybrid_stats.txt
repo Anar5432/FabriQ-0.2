@@ -1,0 +1,11 @@
+Total Base Lines Processed: 2676
+Lines Matched by Comment: 1020
+Lines Matched by FIFO: 983
+
+--- Phase Breakdown ---
+Phase 0: 432 items
+Phase 3: 1020 items
+Phase 6: 1682 items
+Phase 4: 15 items
+Phase 5: 5 items
+Phase 15: 4 items

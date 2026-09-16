@@ -1,0 +1,40 @@
+Fetched 131 companies.
+=== Companies with debt > 0 ===
+Company ID: 162 | Name: ANBAR NAGD SATİS | Total Debt: 12735.13 | Total Ordered: 167682.3757 | Total Paid: 154947.2457
+Company ID: 8 | Name: ARAZ MARKET KOORPORATİV | Total Debt: 514.63 | Total Ordered: 511552.85 | Total Paid: 511038.22
+Company ID: 13 | Name: AVROMED COMPANY | Total Debt: 3216.6 | Total Ordered: 62.0 | Total Paid: -3154.6
+Company ID: 14 | Name: AZ-TEXNOLAYN | Total Debt: 265.0 | Total Ordered: 34730.874 | Total Paid: 34465.874
+Company ID: 277 | Name: AZƏRTEXNİKA LTD MMC | Total Debt: 1215.0 | Total Ordered: 16147.0 | Total Paid: 14932.0
+Company ID: 434 | Name: BAZA SƏNAYE KOMBİNATI | Total Debt: 41316.88 | Total Ordered: 1296949.4317 | Total Paid: 1255632.5517000002
+Company ID: 18 | Name: COCA COLA | Total Debt: 2139.15 | Total Ordered: 575.0 | Total Paid: -1564.15
+Company ID: 151 | Name: DOVLƏT MİQRASİYA XİDMƏTİ | Total Debt: 500.0 | Total Ordered: 924.0 | Total Paid: 424.0
+Company ID: 149 | Name: DƏNİZKƏNARI BULVAR İDARƏSİ | Total Debt: 172.5 | Total Ordered: 242.5 | Total Paid: 70.0
+Company ID: 102 | Name: FİN PLAST | Total Debt: 4150.68 | Total Ordered: 50.0 | Total Paid: -4100.68
+Company ID: 154 | Name: HEYDƏR ƏLİYEV MƏRKƏZİ | Total Debt: 3995.0 | Total Ordered: 6733.0 | Total Paid: 2738.0
+Company ID: 26 | Name: KONSİS MMC | Total Debt: 152.0 | Total Ordered: 12644.82 | Total Paid: 12492.82
+Company ID: 954 | Name: KOTON SUMQAYİT | Total Debt: 14.71 | Total Ordered: 204203.5749 | Total Paid: 204188.86490000002
+Company ID: 25 | Name: KƏPƏZ ALÇI | Total Debt: 302.5 | Total Ordered: 7472.5 | Total Paid: 7170.0
+Company ID: 158 | Name: NB GROUP | Total Debt: 16166.1 | Total Ordered: 34211.1 | Total Paid: 18045.0
+Company ID: 28 | Name: OBA KOORPORATİV | Total Debt: 10830.52 | Total Ordered: 308693.0 | Total Paid: 297862.48
+Company ID: 39 | Name: SOCAR  KOMPLEKS QAZMA İŞLƏRİ TRESTİ-3. | Total Debt: 38119.0 | Total Ordered: 78624.2 | Total Paid: 40505.2
+Company ID: 38 | Name: SOCAR AZNEFT İSTEHSALAT BİRLİYİ  | Total Debt: 73392.0 | Total Ordered: 586084.577 | Total Paid: 512692.57700000005
+Company ID: 40 | Name: SOCAR AZƏRİKİMYA İSTEHSALAT BİRLİYİ-4. | Total Debt: 1492.0 | Total Ordered: 24487.36 | Total Paid: 22995.36
+Company ID: 51 | Name: SOCAR AZƏRİQAZ İSTEHSALAT BİRLİYİ-15 | Total Debt: 6558.0 | Total Ordered: 197437.2 | Total Paid: 190879.2
+Company ID: 47 | Name: SOCAR GEOFİZİKA VƏ GEOLOGİYA İDARƏSİ -11. | Total Debt: 1360.0 | Total Ordered: 2482.72 | Total Paid: 1122.7199999999998
+Company ID: 41 | Name: SOCAR H.ƏLİYEV ADINA NEFT EMALI ZAVODU -5. | Total Debt: 20415.0 | Total Ordered: 19345.8 | Total Paid: -1069.2000000000007
+Company ID: 53 | Name: SOCAR H.ƏLİYEV ADİNA DERİN OZULLƏR ZAVODU-17 | Total Debt: 236.0 | Total Ordered: 1302.13 | Total Paid: 1066.13
+Company ID: 57 | Name: SOCAR KARBAMİD ZAVODU -21 | Total Debt: 4.5 | Total Ordered: 11894.4 | Total Paid: 11889.9
+Company ID: 43 | Name: SOCAR MARKETİNG VƏ İQTİSADİ ƏMƏLİYATLAR İDARƏSİ -7 | Total Debt: 1205.0 | Total Ordered: 1377.888 | Total Paid: 172.88799999999992
+Company ID: 55 | Name: SOCAR NEFT KƏMƏRLƏRİ İDARƏSİ-19 | Total Debt: 160.0 | Total Ordered: 13588.88 | Total Paid: 13428.88
+Company ID: 52 | Name: SOCAR NEFT QAZ TİKİNTİ TRESTİ-16 | Total Debt: 23855.5 | Total Ordered: 11190.64 | Total Paid: -12664.86
+Company ID: 49 | Name: SOCAR NƏQLİYYAT İDARƏSİ-13 | Total Debt: 68295.0 | Total Ordered: 66785.08 | Total Paid: -1509.9199999999983
+Company ID: 48 | Name: SOCAR QAZ İXRAC İDARƏSİ-12 | Total Debt: 15332.0 | Total Ordered: 14965.04 | Total Paid: -366.9599999999991
+Company ID: 54 | Name: SOCAR SOSİAL İNKİŞAF İDARƏSİ-18 | Total Debt: 168.0 | Total Ordered: 5277.727 | Total Paid: 5109.727
+Company ID: 56 | Name: SOCAR İNFORMASİYA TEXNOLOG VƏ RABİTƏ İDARƏSİ-20 | Total Debt: 462.0 | Total Ordered: 676.14 | Total Paid: 214.14
+Company ID: 160 | Name: SOLİTON | Total Debt: 830.0 | Total Ordered: 2200.0 | Total Paid: 1370.0
+Company ID: 185 | Name: SİKA MMC | Total Debt: 1250.0 | Total Ordered: 11909.0 | Total Paid: 10659.0
+Company ID: 61 | Name: TƏMİZ ŞƏHƏR | Total Debt: 64300.7 | Total Ordered: 214042.906 | Total Paid: 149742.206
+Company ID: 161 | Name: VOSTOK SERVİCE | Total Debt: 1098.0 | Total Ordered: 1093.5 | Total Paid: -4.5
+Company ID: 189 | Name: ƏMƏKDAŞLAR | Total Debt: 9079.39 | Total Ordered: 96302.1306 | Total Paid: 87222.7406
+
+Total companies with non-zero debt: 36

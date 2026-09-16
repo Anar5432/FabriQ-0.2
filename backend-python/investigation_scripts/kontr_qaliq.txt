@@ -1,0 +1,11 @@
+--- sm_kontr_sat_el ---
+{'tarix': datetime.datetime(2026, 3, 2, 0, 0), 'miqdar': Decimal('200.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 2, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('2.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}
+{'tarix': datetime.datetime(2026, 4, 14, 0, 0), 'miqdar': Decimal('1.0000'), 'qaliq': Decimal('0.0000')}

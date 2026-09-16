@@ -1,0 +1,10 @@
+Prod Sif: {'idn': 25606, 'sif_no': 22392, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25605, 'sif_no': 22391, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25604, 'sif_no': 22390, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25603, 'sif_no': 22389, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25602, 'sif_no': 22388, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25601, 'sif_no': 22386, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25600, 'sif_no': 22385, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25599, 'sif_no': 22385, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25598, 'sif_no': 22384, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}
+Prod Sif: {'idn': 25597, 'sif_no': 22383, 'is_sat': 1, 'is_sif_sened': 0, 'is_sif_form': 1}

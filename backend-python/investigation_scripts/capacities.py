@@ -1,0 +1,20 @@
+CAPACITIES = {
+    "kitel": {"easy": 15, "hard": 10},
+    "şalvar": {"easy": 20, "hard": 15},
+    "Şalvar": {"easy": 20, "hard": 15},
+    "gödəkcə": {"easy": 12, "hard": 8},
+    "polar gödəkcə": {"easy": 25, "hard": 17},
+    "qısaqol gödəkcə": {"easy": 20, "hard": 15},
+    "xalat": {"easy": 25, "hard": 20},
+    "şalvar medical": {"easy": 30, "hard": 25},
+    "yağmurluq": {"easy": 30, "hard": 25},
+    "ixarə jileti": {"easy": 60, "hard": 30},
+    "önlük": {"easy": 100, "hard": 100}, 
+    "polo": {"easy": 40, "hard": 30},
+    "Polo T-Shirt": {"easy": 40, "hard": 30},
+    "papaq": {"easy": 100, "hard": 50},
+    "Qış corabı (Qalın)": {"easy": 30, "hard": 20},
+    "İkili İdman Corabı": {"easy": 40, "hard": 30},
+    "Qadın corabı": {"easy": 50, "hard": 40},
+    "default": {"easy": 20, "hard": 15}
+}

@@ -1,0 +1,3 @@
+Checking sm_sifaris_qaime for 004111...
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 7, 31, 0, 0), 'name': 'YM-BOXER BANAT TÜND-GÖY R-L', 'sif_miq': Decimal('0.0000'), 'miqdar': Decimal('17.0000')}
+{'idn': 4111, 'sen_no': '004111', 'tarix': datetime.datetime(2020, 7, 31, 0, 0), 'name': 'HM-BOXER BANAT TÜND GÖY R-L', 'sif_miq': Decimal('17.0000'), 'miqdar': Decimal('17.0000')}

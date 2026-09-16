@@ -1,0 +1,6 @@
+Found Products:
+- ID: 48934, Name: HM-BETEX/14/0038 ÖNLÜK BOZ İKİ CEBLİ UZUN , Class: 27
+- ID: 52494, Name: HM-BETEX/14/0038 ÖNLÜK AĞ İKİ CİBLİ , Class: 27
+- ID: 53077, Name: YM-BETEX/14/0038 ÖNLÜK AĞ İKİ CİBLİ (PARÇA), Class: 27
+
+Possible tables: [{'TABLE_NAME': 'sm_kontra_class'}, {'TABLE_NAME': 'mes_group'}, {'TABLE_NAME': 'mes_group_el'}, {'TABLE_NAME': 'sm_serv_class'}, {'TABLE_NAME': 'sm_good_group'}, {'TABLE_NAME': 'users_group_report'}, {'TABLE_NAME': 'users_group_report_tab'}, {'TABLE_NAME': 'users_group_oper_tab'}, {'TABLE_NAME': 'users_group'}, {'TABLE_NAME': 'users_group_card_tab'}, {'TABLE_NAME': 'users_group_card'}, {'TABLE_NAME': 'users_group_oper'}, {'TABLE_NAME': 'sm_kontra_class_el'}, {'TABLE_NAME': 'sm_gel_qrup'}, {'TABLE_NAME': 'sm_ev_class'}, {'TABLE_NAME': 'sm_good_class'}]

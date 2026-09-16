@@ -1,0 +1,6 @@
+Stage: Kapasitə (Ümumi) | Count: 3158
+Stage: Satış (sifariş) | Count: 432
+Stage: Ambar (Material) - Hazırlıq Səviyyəsi | Count: 0
+Stage: Kəsim | Count: 1020
+Stage: Tikiş | Count: 20
+Stage: Ambar | Count: 1686

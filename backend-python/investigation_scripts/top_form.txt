@@ -1,0 +1,21 @@
+Checking sm_sifaris_form top 20 recent rows...
+{'idn': 22384, 'sen_no': '022384', 'tarix': datetime.datetime(2026, 6, 17, 0, 0), 'customer': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('150.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22383, 'sen_no': '022383', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'MONEX  MMC', 'miqdar': Decimal('50.0000')}
+{'idn': 22382, 'sen_no': '022382', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('6.0000')}
+{'idn': 22382, 'sen_no': '022382', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('6.0000')}
+{'idn': 22382, 'sen_no': '022382', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('4.0000')}
+{'idn': 22382, 'sen_no': '022382', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('4.0000')}
+{'idn': 22382, 'sen_no': '022382', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('2.0000')}
+{'idn': 22380, 'sen_no': '022380', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('66.0000')}
+{'idn': 22379, 'sen_no': '022379', 'tarix': datetime.datetime(2026, 6, 16, 0, 0), 'customer': 'SƏDƏRƏK T/M YUSİF', 'miqdar': Decimal('150.0000')}
+{'idn': 22372, 'sen_no': '022372', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'customer': None, 'miqdar': Decimal('2940.0000')}
+{'idn': 22372, 'sen_no': '022372', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'customer': None, 'miqdar': Decimal('876.0000')}
+{'idn': 22370, 'sen_no': '022370', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('240.0000')}
+{'idn': 22370, 'sen_no': '022370', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('1320.0000')}
+{'idn': 22370, 'sen_no': '022370', 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'customer': 'BTF FABRİK', 'miqdar': Decimal('600.0000')}
+{'idn': 22376, 'sen_no': '022376', 'tarix': datetime.datetime(2026, 6, 11, 0, 0), 'customer': 'GENERAL SUPPLY', 'miqdar': Decimal('20.0000')}

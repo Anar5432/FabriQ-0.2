@@ -1,0 +1,55 @@
+=== Analyzing Wholesale vs B2B Production ===
+Total production docs (sm_good_ist): 25238
+Production docs with NO sif_no (Wholesale?): 945
+
+Recent Wholesale productions:
+Name: HM-BETEX/11/0130 XALAT AĞ R-S, Class: 27, Qty: 30.0000
+Name: HM-BETEX/11/0130 XALAT AĞ R-M, Class: 27, Qty: 150.0000
+Name: HM-BETEX/11/0130 XALAT AĞ R-L, Class: 27, Qty: 100.0000
+Name: HM-BETEX/11/0130 XALAT AĞ R-XL, Class: 27, Qty: 100.0000
+Name: HM-BETEX/11/0130 XALAT AĞ R-2XL, Class: 27, Qty: 100.0000
+Name: HM-BETEX/11/0130 XALAT AĞ R-3XL, Class: 27, Qty: 20.0000
+Name: HM-HAVLUBEL DESENLİ R-L , Class: 20, Qty: 120.0000
+Name: YM-BETEX/06/0001 KOMBİNEZON TÜND GÖY R-7XL (CİBLİK), Class: 18, Qty: 10.0000
+Name: YM-BETEX/06/0001 KOMBİNEZON TÜND GÖY R-7XL (QARNİ), Class: 18, Qty: 10.0000
+Name: YM-DƏDƏ TUMANI P/P400942-LACİVERT R-XL, Class: 20, Qty: 200.0000
+Name: YM-DƏDƏ TUMANI P/P400942-LACİVERT R-3XL, Class: 20, Qty: 300.0000
+Name: YM-DƏDƏ TUMANI P/P400942-LACİVERT R-4XL, Class: 20, Qty: 100.0000
+Name: YM-MAYKA NE R-M AĞ, Class: 20, Qty: 300.0000
+Name: YM-MAYKA NE R-L AĞ, Class: 20, Qty: 150.0000
+Name: YM-MAYKA NE R-XL AĞ, Class: 20, Qty: 900.0000
+Name: YM-MAYKA NE R-2XL AĞ, Class: 20, Qty: 1033.0000
+Name: YM-MAYKA (PAMUK) AĞ R-L, Class: 20, Qty: 450.0000
+Name: YM-MAYKA (PAMUK) AĞ R-XL, Class: 20, Qty: 831.0000
+Name: HM-HAVLUBEL EMZO QARA 2-Cİ SORT R-XL, Class: 20, Qty: 1.0000
+Name: HM-HAVLUBEL EMZO GÖY R-XL İKİNCİ SORT, Class: 20, Qty: 1.0000
+Name: HM-HAVLUBEL EMZO GÖY R-2XL İKİNCİ SORT, Class: 20, Qty: 5.0000
+Name: HM-HAVLUBEL EMZO TÜND GÖY R-L İKİNCİ SORT, Class: 20, Qty: 4.0000
+Name: HM-HAVLUBEL EMZO QARA R-L 2-Cİ SORT, Class: 20, Qty: 8.0000
+Name: HM-HAVLUBEL EMZO QARA R-XXL 2-Cİ SORT, Class: 20, Qty: 2.0000
+Name: HM-HAVLUBEL EMZO QARA R-3XL 2-Cİ SORT, Class: 20, Qty: 4.0000
+Name: HM-HAVLUBEL EMZO GÖY R-3XL 2-Cİ SORT, Class: 20, Qty: 5.0000
+Name: HM-HAVLUBEL EMZO AÇIQ BOZ R-XXL 2-Cİ SORT, Class: 20, Qty: 3.0000
+Name: HM-HAVLUBEL EMZO ANTRASİT R-XXL 2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-HAVLUBEL BEE TÜND GÖY R-XL İKİNCİ SORT, Class: 20, Qty: 5.0000
+Name: HM-HAVLUBEL BEE TÜND GÖY R-2XL İKİNCİ SORT, Class: 20, Qty: 3.0000
+Name: HM-HAVLUBEL BEE QARA R-3XL İKİNCİ SORT, Class: 20, Qty: 2.0000
+Name: HM-HAVLUBEL ANTRASİT R-3XL 2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-MAYKA EMZO NE AĞ R-M İKİNCİ SORT, Class: 20, Qty: 24.0000
+Name: HM-MAYKA EMZO NE AĞ R-L İKİNCİ SORT, Class: 20, Qty: 66.0000
+Name: HM-MAYKA EMZO NE AĞ R-S İKİNCİ SORT, Class: 20, Qty: 6.0000
+Name: HM-MAYKA EMZO NE AĞ R-XL İKİNCİ SORT, Class: 20, Qty: 54.0000
+Name: HM-MAYKA CEMSUN AĞ R-XXL İKİNCİ SORT, Class: 20, Qty: 5.0000
+Name: HM-MAYKA CEMSUN AĞ R-XL İKİNCİ SORT, Class: 20, Qty: 4.0000
+Name: HM-MAYKA CEMSUN AĞ R-S İKİNCİ SORT, Class: 20, Qty: 2.0000
+Name: HM-MAYKA BEE (PAMUK) AĞ R-M  2-Cİ SORT, Class: 20, Qty: 3.0000
+Name: HM-MAYKA BEE (PAMUK) AĞ R-L  2-Cİ SORT, Class: 20, Qty: 2.0000
+Name: HM-MAYKA BEE (PAMUK) AĞ R-XL  2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-MAYKA BEE (PAMUK) AĞ R-3XL  2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-MAYKA BEE (PAMUK) QARA R-S 2-Cİ SORT, Class: 20, Qty: 2.0000
+Name: HM-MAYKA BEE (PAMUK) QARA R-XL 2-Cİ SORT, Class: 20, Qty: 4.0000
+Name: HM-MAYKA BEE (PAMUK) QARA R-2XL 2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-MAYKA DONES AĞ R-M 2-Cİ SORT, Class: 20, Qty: 1.0000
+Name: HM-MAYKA DONES AĞ R-L 2-Cİ SORT, Class: 20, Qty: 3.0000
+Name: HM-MAYKA CEMSUN AĞ R-XL İKİNCİ SORT, Class: 20, Qty: 66.0000
+Name: HM-MAYKA CEMSUN AĞ R-S İKİNCİ SORT, Class: 20, Qty: 48.0000

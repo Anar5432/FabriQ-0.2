@@ -1,0 +1,597 @@
+Table "sm_sob_trans" [headercolor: #28a745] {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "emp1" int
+  "emp2" int
+  "sobe1" int
+  "sobe2" int
+  "guzest" decimal
+  "mebleg" decimal
+  "yekun" decimal
+  "serh" nvarchar
+  "mux" bit
+  "ist_tap" int
+  "faza" int
+  "mezmun" nvarchar
+  "status" int
+  "tes" bit
+  "novbe" int
+  "novbe_name" nvarchar
+  "dov_nis" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "imp_idn" int
+  "sobe" int
+  "med_idn" int
+  "sy_idn" int
+  "sg_idn" int
+  "is_idn" int
+  "tr_idn" int
+  "is_yeri" int
+  "r" bit
+  "tesdiq" bit
+  "icra_et" bit
+  "sat_meb" decimal
+  "cvb_sexs" int
+  "teh_al" int
+  "teh_ver" int
+  "el_sif" int
+  "telebname" int
+  "surucu" int
+  "telebname_mag" int
+  "ist_sened" int
+  "teleb_idn" int
+  "hes" bit
+  "cem_miq" decimal
+}
+
+Table "sm_sob_trans_sif" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "hes" bit
+  "yekun" decimal
+  "sifaris" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "qaliq_miq" decimal
+  "hesabla" bit
+}
+
+Table "sm_kontr_sat_el" [headercolor: #28a745] {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "barcode" nvarchar
+  "serial" nvarchar
+  "mal" int
+  "sobe" int
+  "reng" int
+  "miqdar" decimal
+  "maya_qiy" decimal
+  "maya_meb" decimal
+  "al_qiy" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qaliq" decimal
+  "vitrin" bit
+  "es_no" int
+  "od_tar" datetime
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "ferq" decimal
+  "sif_miq" decimal
+  "kurs_qiy" decimal
+  "numune" bit
+  "hed" bit
+}
+
+Table "sm_kontr_sat" [headercolor: #28a745] {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "od_tar" datetime
+  "kontra" int
+  "liz_kon" int
+  "liz_faiz" decimal
+  "liz_kas" int
+  "ilk_od" decimal
+  "med_sen" int
+  "med_sen_no" nvarchar
+  "sif_sen" int
+  "sif_form" int
+  "sif_form_name" nvarchar
+  "surucu" int
+  "expeditor" int
+  "kontra_name" nvarchar
+  "surucu_name" nvarchar
+  "expeditor_name" nvarchar
+  "anbar" int
+  "getdi" datetime
+  "mebleg" decimal
+  "guzest" decimal
+  "guz_meb" decimal
+  "guz_yek" decimal
+  "yekun" decimal
+  "xid_meb" decimal
+  "xid_edv" decimal
+  "is_meb" decimal
+  "valyuta" nvarchar
+  "kurs" decimal
+  "mv_meb" decimal
+  "edv_der" int
+  "edv_faiz" decimal
+  "edv_meb" decimal
+  "mv_edv" decimal
+  "tam_yek" decimal
+  "mv_yek" decimal
+  "edv_dax" bit
+  "mux" bit
+  "serh" nvarchar
+  "kon_hes" nvarchar
+  "xerc_nov" int
+  "tes" bit
+  "dov_nis" nvarchar
+  "satici" int
+  "el_serh" nvarchar
+  "imp_idn" int
+  "kod" nvarchar
+  "med_idn" int
+  "tr_idn" int
+  "ist_idn" int
+  "sg_idn" int
+  "sy_idn" int
+  "is_idn" int
+  "sobe" int
+  "r" bit
+  "sif_idn" int
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "hes" bit
+  "kampaniya" int
+  "ad_soyad" nvarchar
+  "mqd" decimal
+  "cancel" bit
+  "status_med" bit
+  "nov" int
+  "e_qaime" bit
+}
+
+Table "sm_process_iz_toxuma" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "sifaris" int
+  "ist_idn" int
+}
+
+Table "sm_process_iz_utu" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_good_picture" [headercolor: #dc3545] {
+  "idn" int
+  "num" int
+  "foto" image
+  "es_no" int
+}
+
+Table "sm_good_xerc" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "xerc" int
+  "teyinat" int
+  "faza" int
+  "emp" int
+  "mebleg" decimal
+  "es_no" int
+}
+
+Table "sm_process_iz" [headercolor: #28a745] {
+  "idn" bigint
+  "sen_no" nvarchar
+  "tarix" datetime
+  "sifaris" int
+  "kontra" int
+  "kontra_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "status" int
+  "serh" nvarchar
+  "hesabla" bit
+  "sex" int
+  "hm_sex" int
+  "tesdiq" bit
+  "r" bit
+}
+
+Table "sm_process_iz_qab" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_etiket" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_kontr_sat_hed" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "es_no" int
+}
+
+Table "sm_kontr_sat_emp" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "emp" int
+  "sobe" int
+  "position" int
+  "xidmet" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "al_faiz" decimal
+  "al_meb" decimal
+  "edv_meb" decimal
+  "yekun" decimal
+  "qeyd" nvarchar
+}
+
+Table "sm_goods_ol_vah" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "num" int
+  "ol_vah" int
+  "ol_vah_name" nvarchar
+  "emsal" decimal
+  "es_no" int
+}
+
+Table "sm_sob_trans_el_el" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "es_no" int
+  "el_no" int
+  "miqdar" decimal
+  "qiymet" decimal
+}
+
+Table "sm_good_xammal" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "teyinat" int
+  "faza" int
+  "sobe" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "esas" bit
+  "es_no" int
+  "nov" int
+  "itki_faizi" decimal
+  "plan_miq" decimal
+  "ilk_plan_miq" decimal
+  "faiz_plan_miq" decimal
+  "cix_plan_miq" decimal
+  "miq_ilk" decimal
+  "miq_faiz" decimal
+  "miq_cix" decimal
+}
+
+Table "sm_sob_trans_el" [headercolor: #28a745] {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "mal" int
+  "sobe" int
+  "miqdar" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "ceki_cem" decimal
+  "qiymet" decimal
+  "guzest" decimal
+  "mebleg" decimal
+  "qaliq" decimal
+  "tam" bit
+  "miq_qal" decimal
+  "alis_no" nvarchar
+  "kod" nvarchar
+  "barcode" nvarchar
+  "ol_vah" int
+  "qeyd" nvarchar
+  "son_tar" datetime
+  "serial" nvarchar
+  "sat_qiy" decimal
+  "sat_meb" decimal
+  "sifaris" int
+}
+
+Table "sm_goods" [headercolor: #28a745] {
+  "idn" int
+  "class" int
+  "serial" nvarchar
+  "name" nvarchar
+  "property1" int
+  "kontra" int
+  "barcode" nvarchar
+  "price" decimal
+  "sellprice1" decimal
+  "sellprice2" decimal
+  "sellprice3" decimal
+  "sellprice4" decimal
+  "sellprice5" decimal
+  "son_qiy" decimal
+  "bate" decimal
+  "active" int
+  "full_name" nvarchar
+  "terezi" int
+  "hed_say" decimal
+  "hediyye" int
+  "hecm" decimal
+  "qeyd" nvarchar
+  "fol_idn" int
+  "folder" tinyint
+  "esas" int
+  "ol_vah" nvarchar
+  "en" int
+  "miqyas" decimal
+  "hesab" nvarchar
+  "mel01" nvarchar
+  "mel02" nvarchar
+  "mel03" nvarchar
+  "ist_mud" int
+  "sax_gun" int
+  "gun_mex" decimal
+  "ist_miq" decimal
+  "ist_gr" int
+  "ist_say" decimal
+  "tek_sil" int
+  "tek_say" decimal
+  "ceki_mal" int
+  "ceki" decimal
+  "tes" bit
+  "tara" bit
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "men_nov" int
+  "ov_idn" int
+  "qrup" int
+  "hes_mat" nvarchar
+  "hes_sat" nvarchar
+  "hes_sg" nvarchar
+  "hes_ig" nvarchar
+  "hes_serf" nvarchar
+  "hes_sil" nvarchar
+  "hes_sa" nvarchar
+  "hes_se" nvarchar
+  "hes_ag" nvarchar
+  "status" int
+  "hes_sm" nvarchar
+  "qal_limit" decimal
+  "foto" image
+  "seriya" int
+  "max_limit" decimal
+  "reng" int
+  "reng_kod" nvarchar
+  "reng_sirket_kodu" nvarchar
+  "reng_name" nvarchar
+  "olcu" nvarchar
+  "olcu_kod" nvarchar
+  "muddet" decimal
+  "r" bit
+  "barcode_name" nvarchar
+  "naxis_xerci" decimal
+  "tikis_meb" decimal
+  "marka" int
+  "cins" int
+}
+
+Table "sm_process_iz_anbar" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_process_iz_rosso" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_good_bar" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "num" int
+  "barcode_el" nvarchar
+  "ol_vah_el" int
+  "sat_qiy" decimal
+  "ol_emsal" decimal
+  "es_no" int
+}
+
+Table "sm_process_iz_yuma" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "es_no" bigint
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "olcu_vah" nvarchar
+  "qaliq" decimal
+  "hes" bit
+  "sif_miq" decimal
+  "ilk_qal" decimal
+  "sifaris" int
+  "ist_idn" int
+  "kohne_qal" decimal
+  "trans_miq" decimal
+}
+
+Table "sm_good_avadanliq" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "miqdar" decimal
+  "es_no" int
+  "el_no" int
+}
+
+Table "sm_good_xidmet" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "teyinat" int
+  "faza" int
+  "mebleg" decimal
+  "es_no" int
+  "vezife" int
+  "qiymet" decimal
+  "miqdar" decimal
+  "muddet" decimal
+}
+
+Ref: "sm_sob_trans_sif"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_sob_trans_el_el"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_sob_trans_el"."es_no" > "sm_sob_trans"."idn"
+Ref: "sm_kontr_sat_hed"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_kontr_sat_el"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_kontr_sat_emp"."es_no" > "sm_kontr_sat"."idn"
+Ref: "sm_good_xerc"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_picture"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_bar"."es_no" > "sm_goods"."idn"
+Ref: "sm_goods_ol_vah"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_xammal"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_xidmet"."es_no" > "sm_goods"."idn"
+Ref: "sm_good_avadanliq"."es_no" > "sm_goods"."idn"
+Ref: "sm_process_iz_anbar"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_toxuma"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_etiket"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_qab"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_rosso"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_utu"."es_no" > "sm_process_iz"."idn"
+Ref: "sm_process_iz_yuma"."es_no" > "sm_process_iz"."idn"

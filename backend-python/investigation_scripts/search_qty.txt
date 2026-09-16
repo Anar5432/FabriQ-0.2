@@ -1,0 +1,19 @@
+--- Searching for specific quantities and strings ---
+
+--- sm_sifaris_form_el (2734 matching records) ---
+Line: {'idn': 48, 'es_no': 650, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-SPAR MARKET MÜHAFİZƏ KÖYNƏK MAVİ R-L'}
+Line: {'idn': 48, 'es_no': 3886, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-HOLCİM POLO KÖYNƏK KİŞİ (QISAQOL) R-L'}
+Line: {'idn': 46, 'es_no': 10133, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK FUCHSİA R-M'}
+Line: {'idn': 45, 'es_no': 10133, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK FUCHSİA R-L'}
+Line: {'idn': 44, 'es_no': 10133, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK FUCHSİA R-XL'}
+Line: {'idn': 43, 'es_no': 10205, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-KOÇAKLAR TEKSTİL POLO KÖYNƏK WHITE R-S'}
+Line: {'idn': 43, 'es_no': 2935, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-NURGÜN ŞALVAR TÜND GÖY R-M (48)'}
+Line: {'idn': 43, 'es_no': 3131, 'miqdar': Decimal('20.0000'), 'product_name': 'B/ANS/Q/O/0001 SIMPSON'}
+Line: {'idn': 43, 'es_no': 730, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-POLO KÖYNƏK BOZ-QARA R-M'}
+Line: {'idn': 42, 'es_no': 10133, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK PİNK R-3XL'}
+Line: {'idn': 41, 'es_no': 10144, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-KOÇAKLAR TEKSTİL POLO KÖYNƏK ASPHALT R-M'}
+Line: {'idn': 41, 'es_no': 2696, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-MİKAYIL İDMAN KOSTYUMU OĞLAN R-XS'}
+Line: {'idn': 39, 'es_no': 10372, 'miqdar': Decimal('20.0000'), 'product_name': 'HM-KOÇAKLAR TEKSTİL POLO KÖYNƏK İNDİGO BLUE R-XL'}
+Line: {'idn': 39, 'es_no': 10371, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK İNDİGO BLUE R-XL'}
+Line: {'idn': 36, 'es_no': 10175, 'miqdar': Decimal('20.0000'), 'product_name': 'YM-KOÇAKLAR TEKSTİL POLO KÖYNƏK BLACK R-L'}
+Error in sm_sifaris_form headers: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'id'. (207) (SQLExecDirectW)")

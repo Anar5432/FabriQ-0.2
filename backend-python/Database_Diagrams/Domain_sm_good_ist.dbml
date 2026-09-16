@@ -1,0 +1,243 @@
+Table "sm_good_ist_faza" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "num" int
+  "faza_no" int
+  "faza" int
+  "mesul" int
+  "bas_tar" datetime
+  "son_tar" datetime
+  "mebleg" decimal
+  "es_no" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_xammal" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "teyinat" int
+  "faza" int
+  "sobe" int
+  "mehsul" decimal
+  "tey_miq" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "qaliq1" decimal
+  "qaliq2" decimal
+  "esas" bit
+  "es_no" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_el" [headercolor: #007bff] {
+  "idn" bigint
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "mal" int
+  "ol_vah" int
+  "ilk_faza" int
+  "son_faza" int
+  "class" int
+  "sobe" int
+  "miqdar" decimal
+  "qaliq" decimal
+  "mal_tek" int
+  "tek_miq" decimal
+  "mal_sil" int
+  "sil_miq" decimal
+  "plan_miq" decimal
+  "mel_meh" int
+  "esas_mal" int
+  "sif_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_ras" [headercolor: #007bff] {
+  "idn" int
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "sif_miq" decimal
+  "ist_miq" decimal
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "position" int
+  "ras_miq_new" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_ras_el" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "num" int
+  "es_no" int
+  "el_no" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "emp_name" nvarchar
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist" [headercolor: #007bff] {
+  "idn" int
+  "sen_no" nvarchar
+  "tarix" datetime
+  "mesul" int
+  "mesul_name" nvarchar
+  "anbar1" int
+  "anbar2" int
+  "getdi" datetime
+  "mebleg" decimal
+  "ist_proc" int
+  "auto" bit
+  "mux" bit
+  "mux_old" bit
+  "serh" nvarchar
+  "tes" bit
+  "sif_no" int
+  "sif_name" nvarchar
+  "novbe" int
+  "novbe_name" nvarchar
+  "ins_user" nvarchar
+  "ins_date" datetime
+  "upd_user" nvarchar
+  "upd_date" datetime
+  "imp_idn" int
+  "res" bit
+  "is_yeri" int
+  "tesdiq" bit
+  "el_sif" int
+  "hm" bit
+  "ym" bit
+  "get_all" bit
+  "xid_meb" decimal
+  "xid_med_qaime" int
+  "hr" decimal
+  "emp_name" nvarchar
+  "r" bit
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_sobeler_med_emp" [headercolor: #007bff] {
+  "idn" bigint [primary key]
+  "num" int
+  "emp" int
+  "faza" int
+  "hesab" nvarchar
+  "mebleg" decimal
+  "mal_ist" int
+  "ist_tap" int
+  "es_no" int
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_xidmet" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "kod" nvarchar
+  "xidmet" int
+  "emp" int
+  "position" int
+  "sobe" int
+  "teyinat" int
+  "faza" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "norm_miq" decimal
+  "avadanliq" int
+  "brak_miq" decimal
+  "el_no" int
+  "emp_name" nvarchar
+  "mehsul" int
+  "miqdar_res" decimal
+  "mebleg_res" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_xerc" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "num" int
+  "xerc" int
+  "kontra" int
+  "teyinat" int
+  "faza" int
+  "emp" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "es_no" int
+  "el_no" int
+  "qaime" int
+  "qal_miq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_avadanliq" [headercolor: #dc3545] {
+  "idn" bigint [primary key]
+  "es_no" int
+  "num" int
+  "avadanliq" int
+  "bas_tar" datetime
+  "bit_tar" datetime
+  "qeyd" nvarchar
+  "emp" int
+  "miqdar" decimal
+  "el_no" int
+  "ist_tap" int
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+Table "sm_good_ist_esas" [headercolor: #007bff] {
+  "idn" int [primary key]
+  "es_no" int
+  "num" int
+  "el_no" int
+  "kod" nvarchar
+  "mal" int
+  "miqdar" decimal
+  "qiymet" decimal
+  "mebleg" decimal
+  "mehsul" int
+  "sif_miq" decimal
+  "qaliq" decimal
+  Note: '🔵 BLUE: Actively used by factory, but not in dashboard'
+}
+
+Table "sm_good_ist_xammal_hesab" [headercolor: #dc3545] {
+  "idn" int [primary key]
+  "num" int
+  "mal" int
+  "esas" int
+  "faza" int
+  "miqdar" decimal
+  "es_no" int
+  Note: '🔴 RED: Old / Not Used (Zero data inside)'
+}
+
+
+TableGroup sm_good_ist_Hierarchy {
+  "sm_good_ist_faza"
+  "sm_good_ist_xammal"
+  "sm_good_ist_el"
+  "sm_good_ist_ras"
+  "sm_good_ist_ras_el"
+  "sm_good_ist"
+  "sm_sobeler_med_emp"
+  "sm_good_ist_xidmet"
+  "sm_good_ist_xerc"
+  "sm_good_ist_avadanliq"
+  "sm_good_ist_esas"
+  "sm_good_ist_xammal_hesab"
+}

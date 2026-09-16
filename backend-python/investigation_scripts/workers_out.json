@@ -1,0 +1,137 @@
+[
+  {
+    "emp": 401,
+    "tarix": "2026-04-25",
+    "product_name": "HM-BETEX/17/0013 PLAŞ SU KEÇİRMƏYƏN SARI  R-54",
+    "miqdar": "1500.0000",
+    "qiymet": "0.0080",
+    "mebleg": "12.0000",
+    "rn": 1
+  },
+  {
+    "emp": 401,
+    "tarix": "2024-04-08",
+    "product_name": "TM-BETEX/23/0013 PAPAQ GÖY",
+    "miqdar": "1845.0000",
+    "qiymet": "0.0500",
+    "mebleg": "92.2500",
+    "rn": 2
+  },
+  {
+    "emp": 401,
+    "tarix": "2024-04-06",
+    "product_name": "TM-BETEX/23/0013 PAPAQ GÖY",
+    "miqdar": "990.0000",
+    "qiymet": "0.0500",
+    "mebleg": "49.5000",
+    "rn": 3
+  },
+  {
+    "emp": 401,
+    "tarix": "2024-04-06",
+    "product_name": "TM-BETEX/23/0013 PAPAQ GÖY",
+    "miqdar": "410.0000",
+    "qiymet": "0.0500",
+    "mebleg": "20.5000",
+    "rn": 4
+  },
+  {
+    "emp": 401,
+    "tarix": "2024-04-05",
+    "product_name": "TM-BETEX/23/0013 PAPAQ GÖY",
+    "miqdar": "1320.0000",
+    "qiymet": "0.0500",
+    "mebleg": "66.0000",
+    "rn": 5
+  },
+  {
+    "emp": 7937,
+    "tarix": "2026-07-13",
+    "product_name": "HM-BETEX 05/0004 POLO QISAQOL QARA R-2XL",
+    "miqdar": "12.0000",
+    "qiymet": "0.0500",
+    "mebleg": "0.6000",
+    "rn": 1
+  },
+  {
+    "emp": 7937,
+    "tarix": "2026-07-13",
+    "product_name": "HM-BETEX 05/0004 POLO QISAQOL QARA R-2XL",
+    "miqdar": "2.0000",
+    "qiymet": "0.0150",
+    "mebleg": "0.0300",
+    "rn": 2
+  },
+  {
+    "emp": 7937,
+    "tarix": "2026-07-13",
+    "product_name": "HM-BETEX 05/0004 POLO QISAQOL QARA R-2XL",
+    "miqdar": "2.0000",
+    "qiymet": "0.0580",
+    "mebleg": "0.1160",
+    "rn": 3
+  },
+  {
+    "emp": 7937,
+    "tarix": "2026-07-13",
+    "product_name": "HM-BETEX 05/0004 POLO QISAQOL QARA R-2XL",
+    "miqdar": "4.0000",
+    "qiymet": "0.0100",
+    "mebleg": "0.0400",
+    "rn": 4
+  },
+  {
+    "emp": 7937,
+    "tarix": "2026-07-13",
+    "product_name": "HM-BETEX 05/0004 POLO QISAQOL QARA R-2XL",
+    "miqdar": "4.0000",
+    "qiymet": "0.0320",
+    "mebleg": "0.1280",
+    "rn": 5
+  },
+  {
+    "emp": 7956,
+    "tarix": "2025-07-02",
+    "product_name": "HM-BETEX/09/0038 KÖYNƏK QISAQOL MAVİ R-56",
+    "miqdar": "100.0000",
+    "qiymet": "0.0150",
+    "mebleg": "1.5000",
+    "rn": 1
+  },
+  {
+    "emp": 7956,
+    "tarix": "2025-07-02",
+    "product_name": "HM-BETEX/09/0038 KÖYNƏK QISAQOL MAVİ R-56",
+    "miqdar": "200.0000",
+    "qiymet": "0.0100",
+    "mebleg": "2.0000",
+    "rn": 2
+  },
+  {
+    "emp": 7956,
+    "tarix": "2025-07-02",
+    "product_name": "HM-BETEX/09/0038 KÖYNƏK QISAQOL MAVİ R-56",
+    "miqdar": "100.0000",
+    "qiymet": "0.0300",
+    "mebleg": "3.0000",
+    "rn": 3
+  },
+  {
+    "emp": 7956,
+    "tarix": "2025-07-02",
+    "product_name": "HM-BETEX/09/0038 KÖYNƏK QISAQOL MAVİ R-56",
+    "miqdar": "100.0000",
+    "qiymet": "0.0500",
+    "mebleg": "5.0000",
+    "rn": 4
+  },
+  {
+    "emp": 7956,
+    "tarix": "2025-07-02",
+    "product_name": "HM-BETEX/09/0038 KÖYNƏK QISAQOL MAVİ R-56",
+    "miqdar": "100.0000",
+    "qiymet": "0.0300",
+    "mebleg": "3.0000",
+    "rn": 5
+  }
+]

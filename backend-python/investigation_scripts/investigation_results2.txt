@@ -1,0 +1,102 @@
+Salaries (sm_maas_hes) -> Total Records: 0, Last entry: None
+
+Expense Categories (xerc_maddeleri):
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Əmək haqqı xərcləri işəmuzd', 'old_madde_1': 'MAGAZİN İSCİLERİNİN EMEK HAQQİSİ', 'old_madde_2': 'ƏMƏK HAQQI', 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Əmək haqqı xərcləri vaxtamuzd', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Əmək haqqına əlavə premiya', 'old_madde_1': 'BONUS ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Personal aylıq əlavə xərclər', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Kompensasıya xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Motivasiya xərci', 'old_madde_1': 'TƏDBİR XƏRCLƏRİ', 'old_madde_2': 'BAYRAM XƏRCLƏRİ', 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Ezamiyyə xərcləri', 'old_madde_1': 'EZAMİYYƏ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Migrasiya xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'İşçilərin tibbi xərcləri', 'old_madde_1': 'HƏKİM VƏ DƏRMAN', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'İşçilərin sığorta xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'İşçilərin yemək xərci', 'old_madde_1': 'YEYİNTİ MƏHSULLARI ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'İş paltarları', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Personal nəqliyyat xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Personal Xərcləri', 'new_madde': 'Personal digər xərclər', 'old_madde_1': 'HR', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İcarə Xərcləri', 'new_madde': 'İcarə xərcləri', 'old_madde_1': 'ARENDA', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Azərişıq', 'old_madde_1': 'İŞIQ PULU ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Azərqaz', 'old_madde_1': 'QAZ PULU', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Azərsu', 'old_madde_1': 'SU PULU', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Tullantıların daşınması xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Dezinfeksiya və GEM', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Kommunal Xərclər', 'new_madde': 'Digər kommunal xərclər', 'old_madde_1': 'KOMUNAL XERC', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Rabitə Xərcləri', 'new_madde': 'Sabit telefon xərcləri', 'old_madde_1': 'TELEFON , KONTUR və İNTERNET', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Rabitə Xərcləri', 'new_madde': 'Mobil telefonu xərci', 'old_madde_1': 'MOBİL TELEFON PULU', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Rabitə Xərcləri', 'new_madde': 'İnternet xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Rabitə Xərcləri', 'new_madde': 'Digər rabitə xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Ofis ləvazimatları xərci', 'old_madde_1': 'OFİC XERCLERİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Təsərrüfat ləvazimatları', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Təmizlik xərcləri', 'old_madde_1': 'TƏMİZLİK LƏVAZIMATI', 'old_madde_2': 'TƏMİZLİK XƏRCLƏRİ', 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Mühafizə xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Servis xidməti xərcləri', 'old_madde_1': 'KARTİC DOLDURULMASİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Sığorta xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İnzibati xərclər', 'new_madde': 'Digər inzibati xərclər', 'old_madde_1': 'MOYKA (maşın)', 'old_madde_2': 'FƏHLƏ PULU', 'old_madde_3': None}
+{'qrup': 'Reklam-Marketing', 'new_madde': 'Reklam xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Reklam-Marketing', 'new_madde': 'Marketinq xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Reklam-Marketing', 'new_madde': 'PR xərcləri', 'old_madde_1': 'MƏTBUAT-JURNALİST', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Reklam-Marketing', 'new_madde': 'Digər reklam-marketing xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Sosial fond ayırmaları (DSMF)', 'old_madde_1': 'DSMF %', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Ödəmə mənbəyindən tutulan vergi (ÖMV)', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Mənfəət vergisi (MV)', 'old_madde_1': 'VERGİ ÖDNİŞLƏRİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Sadələşdirilmiş vergi', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Torpaq vergisi', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Əmlak vergisi (ƏV)', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'İnzibati cərimə və sanksiyalar (MS)', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Hesablanan faiz (ŞHV)', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Vergi yoxlamaları', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Gömrük rüsumları', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Bank faizləri', 'old_madde_1': 'ACCESS BANK KREDİT FAİZİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Məhkəmə və notarius xərcləri', 'old_madde_1': 'MƏHKƏMƏ VƏ HÜQÜQŞUNAS XƏRCLƏRİ', 'old_madde_2': 'RƏSMİ SƏNƏDLƏR', 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Bank xidmət komissiyası', 'old_madde_1': 'KOCURME PULU', 'old_madde_2': 'BANK XİDMƏTİ', 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Konvertasiya xərci', 'old_madde_1': 'KONVERTASİYA', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Vergi və Rüsum Xərcləri', 'new_madde': 'Digər vergi və rüsumlar', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Amortizasiya Xərcləri', 'new_madde': 'Amortizasiya xərci', 'old_madde_1': 'AMORTİZASİYA', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Nəqliyyat Xərcləri', 'new_madde': 'Avtomobil sığortası xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Nəqliyyat Xərcləri', 'new_madde': 'Yanacaq xərcləri', 'old_madde_1': 'Yanacag', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Nəqliyyat Xərcləri', 'new_madde': 'Kargo', 'old_madde_1': 'Tir xərcləri', 'old_madde_2': 'KARGO', 'old_madde_3': None}
+{'qrup': 'Nəqliyyat Xərcləri', 'new_madde': 'Poçt və kuryer xərci', 'old_madde_1': 'TAXİ', 'old_madde_2': 'POÇT VE KURYER', 'old_madde_3': None}
+{'qrup': 'Nəqliyyat Xərcləri', 'new_madde': 'Digər nəqliyyat xərcləri', 'old_madde_1': 'DAYANACAG', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Bina və Avadanlıqların Təmir Xərcləri', 'new_madde': 'Əsas vəsaitlərin təmir xərci', 'old_madde_1': 'TƏMİR XƏRCLƏRİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Bina və Avadanlıqların Təmir Xərcləri', 'new_madde': 'Bina və tikililərin təmir xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Bina və Avadanlıqların Təmir Xərcləri', 'new_madde': 'Avadanlıqların təmiri xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Bina və Avadanlıqların Təmir Xərcləri', 'new_madde': 'Nəqliyyat təmir xərci', 'old_madde_1': 'NEQLİYYAT TEMİRİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Bina və Avadanlıqların Təmir Xərcləri', 'new_madde': 'Digər xəmir xərcləri', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Digər Xərclər', 'new_madde': 'Konsultasiya xərci', 'old_madde_1': None, 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Digər Xərclər', 'new_madde': 'Ödənilən haqqlar', 'old_madde_1': 'STATİSTİKA VE MƏŞĞULLUQ', 'old_madde_2': 'FOVQELADE HALLAR', 'old_madde_3': 'HƏMKARLAR İTTİFAQI'}
+{'qrup': 'Digər Xərclər', 'new_madde': 'Tender xərcləri', 'old_madde_1': 'TENDER XERCLERİ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'Digər Xərclər', 'new_madde': 'Qonaq - hədiyyə xərcləri', 'old_madde_1': 'XEYRİYYƏ VƏ HƏDİYYƏ', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İstehsalat - Satış Xərcləri', 'new_madde': 'Alınan xidmətlər', 'old_madde_1': 'BASQİ XERCLERİ', 'old_madde_2': 'Visifka', 'old_madde_3': None}
+{'qrup': 'İstehsalat - Satış Xərcləri', 'new_madde': 'İstehsalat xərcləri', 'old_madde_1': 'İSTEHSALAT XƏRCLƏRİ', 'old_madde_2': 'MALLARİN ETİKET DEYİSKENLİYİ', 'old_madde_3': None}
+{'qrup': 'İstehsalat - Satış Xərcləri', 'new_madde': 'Satışdan hədiyyələr', 'old_madde_1': 'SATIŞ XƏRCİ (HƏDİYYƏ)', 'old_madde_2': None, 'old_madde_3': None}
+{'qrup': 'İstehsalat - Satış Xərcləri', 'new_madde': 'Dizayn xərcləri', 'old_madde_1': 'DİZAYN', 'old_madde_2': None, 'old_madde_3': None}
+
+Outgoing Cash (sm_kmx):
+{'idn': 38564, 'tarix': datetime.datetime(2026, 6, 13, 0, 0), 'mebleg': Decimal('5.0000'), 'kontra': '25', 'kontra_name': 'KƏPƏZ ALÇI'}
+{'idn': 38561, 'tarix': datetime.datetime(2026, 6, 12, 0, 0), 'mebleg': Decimal('200.0000'), 'kontra': '25', 'kontra_name': 'KƏPƏZ ALÇI'}
+{'idn': 38562, 'tarix': datetime.datetime(2026, 6, 12, 0, 0), 'mebleg': Decimal('200.0000'), 'kontra': '25', 'kontra_name': 'KƏPƏZ ALÇI'}
+{'idn': 38563, 'tarix': datetime.datetime(2026, 6, 12, 0, 0), 'mebleg': Decimal('5.0000'), 'kontra': '25', 'kontra_name': 'KƏPƏZ ALÇI'}
+{'idn': 38558, 'tarix': datetime.datetime(2026, 6, 11, 0, 0), 'mebleg': Decimal('5.5000'), 'kontra': '25', 'kontra_name': 'KƏPƏZ ALÇI'}
+
+Total Outgoing Cash (sm_kmx): 38523 entries, last on 2026-06-13 00:00:00
+
+Contractor Types (nov):
+{'nov': 0, 'cnt': 1318}
+{'nov': 3, 'cnt': 167}
+{'nov': 1, 'cnt': 435}
+{'nov': 2, 'cnt': 26}
+
+Customer Types (mus_nov):
+{'mus_nov': 9, 'cnt': 15}
+{'mus_nov': 3, 'cnt': 477}
+{'mus_nov': 6, 'cnt': 46}
+{'mus_nov': 7, 'cnt': 10}
+{'mus_nov': 1, 'cnt': 178}
+{'mus_nov': 10, 'cnt': 2}
+{'mus_nov': 4, 'cnt': 31}
+{'mus_nov': 5, 'cnt': 371}
+{'mus_nov': None, 'cnt': 207}
+{'mus_nov': 2, 'cnt': 551}
+{'mus_nov': 11, 'cnt': 6}
+{'mus_nov': 8, 'cnt': 52}

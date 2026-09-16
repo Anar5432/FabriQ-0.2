@@ -1,0 +1,6 @@
+=== RECENT CUTTING TRANSFERS WITH COMMENTS ===
+Date: 2026-06-05 | From Dept 1 to Dept 3 (Cutting) | Comment: 'AZƏRSU' | Note: 'None' | Total Qty: 11.0000
+Date: 2026-06-05 | From Dept 1 to Dept 3 (Cutting) | Comment: 'MONEX SİFARİŞİ VƏ BOXER EMZO' | Note: 'None' | Total Qty: 400.0000
+Date: 2026-06-04 | From Dept 1 to Dept 3 (Cutting) | Comment: 'ABŞERON' | Note: 'None' | Total Qty: 200.0000
+Date: 2026-05-30 | From Dept 1 to Dept 3 (Cutting) | Comment: 'ADONİS' | Note: 'None' | Total Qty: 400.0000
+Date: 2026-05-30 | From Dept 1 to Dept 3 (Cutting) | Comment: 'SOCAR AZƏRİQAZ' | Note: 'None' | Total Qty: 162.0000

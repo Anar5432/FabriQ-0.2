@@ -1,0 +1,15 @@
+﻿=== Testing CORAB from DB ===
+Corab companies: 18
+  - AD─░L SUMQAY─░T (1 orders)
+  - Asif ┼₧╔Öki (3 orders)
+  - COVD╞ÅT (1 orders)
+  - Camal Qobu (3 orders)
+  - ELNUR B─░N╞Å (Z─░YA) (12 orders)
+
+=== Testing ISCI from DB ===
+Isci companies: 31
+  - ADONES ─░├ç GEY─░M (2 orders)
+  - ARC PROTECT─░ON LLC (3 orders)
+  - ATS Food LLC (2 orders)
+  - AVRORA MMC (11 orders)
+  - AZV─░TAM─░N MMC (3 orders)

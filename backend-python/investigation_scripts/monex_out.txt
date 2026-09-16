@@ -1,0 +1,12 @@
+Checking product class for MONEX items...
+{'idn': 52931, 'name': 'HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M', 'class': 27}
+{'idn': 52932, 'name': 'HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M', 'class': 27}
+{'idn': 52933, 'name': 'HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M', 'class': 27}
+{'idn': 52934, 'name': 'HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL BEJ R-M', 'class': 27}
+{'idn': 52960, 'name': 'HM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL ANTRASİT R-M', 'class': 27}
+{'idn': 53010, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M (PARÇA)', 'class': 32}
+{'idn': 53011, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL AĞ R-M (RİBANA)', 'class': 32}
+{'idn': 53012, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M (PARÇA)', 'class': 32}
+{'idn': 53013, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL QARA R-M (RİBANA)', 'class': 32}
+{'idn': 53014, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M (PARÇA)', 'class': 32}
+{'idn': 53015, 'name': 'YM-BETEX/08/0070 LİCRASIZ SÜPRƏM/TOMMY MODEL PİNK R-M (RİBANA)', 'class': 32}

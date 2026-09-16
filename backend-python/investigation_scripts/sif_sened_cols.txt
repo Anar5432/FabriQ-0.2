@@ -1,0 +1,3 @@
+Columns in sm_sif_sened_el: ['idn', 'num', 'kod', 'mal', 'deri', 'parca', 'miqdar', 'qiymet', 'guzest', 'mebleg', 'beh', 'cat_tar', 'qeyd', 'qaliq', 'es_no', 'ist_miqdar', 'nov', 'ist_miq', 'sat_miq', 'ilk_miq', 'duzelis']
+
+Values for es_no 4111: [{'idn': 900161, 'mal': 48635, 'miqdar': Decimal('3.0000'), 'qaliq': Decimal('0.0000')}, {'idn': 900162, 'mal': 48634, 'miqdar': Decimal('6.0000'), 'qaliq': Decimal('0.0000')}, {'idn': 900163, 'mal': 48623, 'miqdar': Decimal('9.0000'), 'qaliq': Decimal('0.0000')}]

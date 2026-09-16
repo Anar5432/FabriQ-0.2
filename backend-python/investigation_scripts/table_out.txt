@@ -1,0 +1,4 @@
+Product ID is 45689
+Searching all tables for this product with miqdar=9...
+Error checking mob_sifaris_el: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'mal'. (207) (SQLExecDirectW)")
+Error checking sm_sifaris_qaime_el: ('42S22', "[42S22] [Microsoft][ODBC SQL Server Driver][SQL Server]Invalid column name 'mal'. (207) (SQLExecDirectW)")

@@ -1,0 +1,10 @@
+{'idn': 4, 'mal': 53010, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 3, 'mal': 53011, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 2, 'mal': 53012, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 1, 'mal': 53013, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 6, 'mal': 53014, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 5, 'mal': 53015, 'miqdar': Decimal('50.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 16, 0, 0)}
+{'idn': 2, 'mal': 52828, 'miqdar': Decimal('100.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 13, 0, 0)}
+{'idn': 3, 'mal': 52961, 'miqdar': Decimal('100.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 13, 0, 0)}
+{'idn': 1, 'mal': 53008, 'miqdar': Decimal('100.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 17, 0, 0)}
+{'idn': 2, 'mal': 53009, 'miqdar': Decimal('100.0000'), 'qaliq': Decimal('0.0000'), 'sif_miq': Decimal('0.0000'), 'tarix': datetime.datetime(2026, 6, 17, 0, 0)}
