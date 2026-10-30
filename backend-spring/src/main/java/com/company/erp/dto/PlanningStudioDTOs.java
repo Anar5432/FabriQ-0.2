@@ -30,6 +30,9 @@ public class PlanningStudioDTOs {
         private String unit;
         private Double neededQuantity;
         private Double availableQuantity;
+        private Double totalPhysicalStock;
+        private Double committedStock;
+        private Double freeAvailableStock;
         private Double missingQuantity;
         private Boolean isSufficient;
     }

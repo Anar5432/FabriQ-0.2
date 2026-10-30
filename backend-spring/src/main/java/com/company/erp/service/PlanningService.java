@@ -319,7 +319,46 @@ public class PlanningService {
     }
 
     // ══════════════════════════════════════════════════════════════
-    // PLANNING STUDIO: MATERIAL CHECK GATE
+    // TWO-TIER ATP RESERVATION: COMMITTED STOCK CALCULATION
+    // ══════════════════════════════════════════════════════════════
+    public java.util.Map<String, Double> calculateCommittedStockMap() {
+        java.util.Map<String, Double> committedMap = new java.util.HashMap<>();
+        List<OrderSnapshot> activeOrders = orderRepo.findAll();
+        for (OrderSnapshot order : activeOrders) {
+            // Strictly only lock materials for orders where isReservationActive is TRUE
+            if (!Boolean.TRUE.equals(order.getIsReservationActive())) continue;
+            if ("TAMAMLANDI".equals(order.getStatus()) || "Çatdırılıb".equals(order.getCurrentPhase())) continue;
+
+            int totalQty = order.getQuantity() != null ? order.getQuantity() : 0;
+            int delivered = order.getDeliveredQuantity() != null ? order.getDeliveredQuantity() : 0;
+            int inWh = order.getWarehouseQuantity() != null ? order.getWarehouseQuantity() : 0;
+            int remaining = Math.max(0, totalQty - delivered - inWh);
+            if (remaining <= 0) continue;
+
+            ProductType pt = order.getProductType();
+            List<RecipeBOM> boms = pt != null ? recipeRepo.findByProductType(pt) : java.util.Collections.emptyList();
+            if (boms.isEmpty()) {
+                String cat = pt != null ? pt.getCategory() : (order.getConveyorLine() != null ? order.getConveyorLine() : "Workwear");
+                if ("Socks".equalsIgnoreCase(cat)) {
+                    committedMap.merge("MAT-IPLIK-PAMBUQ", remaining * 0.085, Double::sum);
+                } else if ("Underwear-boxer".equalsIgnoreCase(cat)) {
+                    committedMap.merge("MAT-SUPREM", remaining * 0.30, Double::sum);
+                } else {
+                    committedMap.merge("MAT-QABARDIN", remaining * 1.80, Double::sum);
+                }
+            } else {
+                for (RecipeBOM bom : boms) {
+                    if (bom.getMaterial() != null) {
+                        committedMap.merge(bom.getMaterial().getId(), remaining * bom.getQuantityPerUnit(), Double::sum);
+                    }
+                }
+            }
+        }
+        return committedMap;
+    }
+
+    // ══════════════════════════════════════════════════════════════
+    // PLANNING STUDIO: TWO-TIER MATERIAL CHECK GATE
     // ══════════════════════════════════════════════════════════════
     public PlanningStudioDTOs.MaterialCheckResult checkMaterialAvailability(PlanningStudioDTOs.MaterialCheckRequest req) {
         String ptId = req.getProductTypeId() != null ? req.getProductTypeId() : "kitel";
@@ -329,6 +368,8 @@ public class PlanningService {
         List<RecipeBOM> recipes = pt != null ? recipeRepo.findByProductType(pt) : new ArrayList<>();
         List<PlanningStudioDTOs.MaterialCheckItem> items = new ArrayList<>();
         boolean allSufficient = true;
+
+        java.util.Map<String, Double> committedMap = calculateCommittedStockMap();
 
         if (recipes.isEmpty()) {
             String category = pt != null ? pt.getCategory() : (req.getConveyorLine() != null ? req.getConveyorLine() : "Workwear");
@@ -355,9 +396,11 @@ public class PlanningService {
             }
 
             Optional<com.company.erp.modules.catalog.model.Material> mOpt = materialRepo.findById(matId);
-            Double availVal = mOpt.map(inventoryRepo::getTotalAvailableQuantityByMaterial).orElse(0.0);
-            double avail = (availVal != null && availVal > 0) ? availVal : 5000.0;
-            boolean suff = avail >= needed;
+            Double physVal = mOpt.map(inventoryRepo::getTotalAvailableQuantityByMaterial).orElse(0.0);
+            double totalPhysical = (physVal != null && physVal > 0) ? physVal : 5000.0;
+            double committed = committedMap.getOrDefault(matId, 0.0);
+            double freeAvail = Math.max(0.0, totalPhysical - committed);
+            boolean suff = freeAvail >= needed;
             if (!suff) allSufficient = false;
 
             items.add(PlanningStudioDTOs.MaterialCheckItem.builder()
@@ -365,8 +408,11 @@ public class PlanningService {
                     .materialName(matName)
                     .unit(unit)
                     .neededQuantity(needed)
-                    .availableQuantity(avail)
-                    .missingQuantity(suff ? 0.0 : needed - avail)
+                    .totalPhysicalStock(totalPhysical)
+                    .committedStock(committed)
+                    .freeAvailableStock(freeAvail)
+                    .availableQuantity(freeAvail)
+                    .missingQuantity(suff ? 0.0 : needed - freeAvail)
                     .isSufficient(suff)
                     .build());
         } else {
@@ -377,17 +423,23 @@ public class PlanningService {
                 seenMaterials.add(matId);
 
                 double needed = qty * r.getQuantityPerUnit();
-                Double availVal = inventoryRepo.getTotalAvailableQuantityByMaterial(r.getMaterial());
-                double avail = availVal != null ? availVal : 0.0;
-                boolean suff = avail >= needed;
+                Double physVal = inventoryRepo.getTotalAvailableQuantityByMaterial(r.getMaterial());
+                double totalPhysical = (physVal != null && physVal > 0) ? physVal : 0.0;
+                double committed = committedMap.getOrDefault(matId, 0.0);
+                double freeAvail = Math.max(0.0, totalPhysical - committed);
+                boolean suff = freeAvail >= needed;
                 if (!suff) allSufficient = false;
+
                 items.add(PlanningStudioDTOs.MaterialCheckItem.builder()
                         .materialId(r.getMaterial().getId())
                         .materialName(r.getMaterial().getName())
                         .unit(r.getMaterial().getUnit())
                         .neededQuantity(needed)
-                        .availableQuantity(avail)
-                        .missingQuantity(suff ? 0.0 : needed - avail)
+                        .totalPhysicalStock(totalPhysical)
+                        .committedStock(committed)
+                        .freeAvailableStock(freeAvail)
+                        .availableQuantity(freeAvail)
+                        .missingQuantity(suff ? 0.0 : needed - freeAvail)
                         .isSufficient(suff)
                         .build());
             }
