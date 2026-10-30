@@ -33,25 +33,25 @@ export function matchStage(o, stageName) {
   const p = (o.currentPhase || 'Dizayn & Sifariş').toLowerCase();
   const s = stageName.toLowerCase();
   if (s.includes('paket') || s.includes('hazır') || s.includes('anbar')) {
-    return p.includes('paket') || p.includes('hazır') || p.includes('anbar');
+    return p.includes('paket') || p.includes('hazır') || p.includes('anbar') || p.includes('çatdırılıb') || (o.warehouseQuantity > 0 && (o.sewingQuantity || 0) === 0 && (o.cuttingQuantity || 0) === 0);
   }
   if (s.includes('dizayn') || s.includes('sifariş')) {
-    return p.includes('dizayn') || p.includes('sifariş');
+    return p.includes('dizayn') || p.includes('sifariş') || (o.status === 'DRAFT_QUOTATION');
   }
   if (s.includes('material') || s.includes('təchizat') || s.includes('techizat')) {
     return p.includes('material') || p.includes('təchizat') || p.includes('techizat');
   }
   if (s.includes('kəsim') || s.includes('kesim')) {
-    return p.includes('kəsim') || p.includes('kesim');
+    return p.includes('kəsim') || p.includes('kesim') || (o.cuttingQuantity || 0) > 0;
   }
   if (s.includes('hörgü') || s.includes('knitting') || s.includes('horgu')) {
-    return p.includes('hörgü') || p.includes('knitting') || p.includes('horgu');
+    return p.includes('hörgü') || p.includes('knitting') || p.includes('horgu') || ((o.queueQuantity || 0) > 0 && o.status === 'APPROVED_IN_PRODUCTION');
   }
   if (s.includes('forma') || s.includes('boarding')) {
     return p.includes('forma') || p.includes('boarding');
   }
   if (s.includes('tikiş') || s.includes('tikis') || s.includes('sewing') || s.includes('closing')) {
-    return p.includes('tikiş') || p.includes('tikis') || p.includes('sewing') || p.includes('closing');
+    return p.includes('tikiş') || p.includes('tikis') || p.includes('sewing') || p.includes('closing') || (o.sewingQuantity || 0) > 0;
   }
   return p.includes(s) || s.includes(p);
 }

@@ -44,6 +44,12 @@ export async function triggerSync() {
   return await res.json();
 }
 
+export async function fetchSyncStatus() {
+  const res = await fetch('/api/sync/status');
+  if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+  return await res.json();
+}
+
 export async function fetchOrderItems(orderId) {
   try {
     const res = await fetch(`/api/orders/${encodeURIComponent(orderId)}/items`);
