@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<title>Enterprise Production Milestone Preview</title>
+<style>
+  :root {
+    --bg: #0b0f19;
+    --s1: #111827;
+    --s2: #1e293b;
+    --s3: #334155;
+    --b1: rgba(255,255,255,0.08);
+    --t1: #f8fafc;
+    --t2: #cbd5e1;
+    --t3: #94a3b8;
+    --primary: #3b82f6;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --purple: #8b5cf6;
+    --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  body {
+    background: var(--bg);
+    color: var(--t1);
+    font-family: var(--font-main);
+    padding: 30px;
+  }
+  .preview-card {
+    background: var(--s1);
+    border: 1px solid var(--b1);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin-bottom: 25px;
+  }
+  
+  /* ── ENTERPRISE STAGE MILESTONE STEPPER ── */
+  .milestone-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 280px;
+  }
+  
+  .milestone-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .milestone-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .milestone-badge.stage-novbe { background: rgba(148, 163, 184, 0.15); color: #cbd5e1; border: 1px solid rgba(148, 163, 184, 0.3); }
+  .milestone-badge.stage-kesim { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.35); }
+  .milestone-badge.stage-tikis { background: rgba(139, 92, 246, 0.15); color: #c4b5fd; border: 1px solid rgba(139, 92, 246, 0.35); }
+  .milestone-badge.stage-anbar { background: rgba(14, 165, 233, 0.15); color: #7dd3fc; border: 1px solid rgba(14, 165, 233, 0.35); }
+  .milestone-badge.stage-deliv { background: rgba(16, 185, 129, 0.15); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.35); }
+
+  .milestone-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+  
+  .milestone-counts {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    font-weight: 600;
+    color: var(--t2);
+  }
+
+  /* 5-Stage Connected Milestone Stepper */
+  .milestone-stepper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 3px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 3px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  .mstep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 2px;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease;
+  }
+
+  .mstep-title {
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+  }
+
+  .mstep-val {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 1px;
+  }
+
+  /* Completed step */
+  .mstep.done {
+    background: rgba(16, 185, 129, 0.14);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+  }
+
+  /* Current Active Step */
+  .mstep.cur {
+    background: rgba(139, 92, 246, 0.22);
+    color: #e9d5ff;
+    border: 1px solid rgba(168, 85, 247, 0.6);
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.25);
+  }
+
+  /* Future / Waiting step */
+  .mstep.todo {
+    background: rgba(255, 255, 255, 0.02);
+    color: var(--t3);
+    border: 1px solid transparent;
+    opacity: 0.55;
+  }
+
+  .milestone-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10.5px;
+    font-family: var(--font-mono);
+    color: var(--t3);
+    margin-top: 1px;
+  }
+  
+  .rem-highlight {
+    color: var(--warning);
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<h3>Enterprise Production Stage Milestone — Vizual Nümunə</h3>
+
+<div class="preview-card">
+  <div style="font-size:12px; color:var(--t3); margin-bottom:8px;">Nümunə 1: Sifariş № 004439 (Şahin Elif — Mayka, 1400 ədəd)</div>
+  <div class="milestone-cell">
+    <div class="milestone-top">
+      <span class="milestone-badge stage-tikis"><span class="milestone-dot"></span>Tikiş Sexində</span>
+      <span class="milestone-counts">1,335 / 1,400 əd.</span>
+    </div>
+    
+    <div class="milestone-stepper">
+      <div class="mstep done">
+        <span class="mstep-title">Növbə</span>
+        <span class="mstep-val">50</span>
+      </div>
+      <div class="mstep done">
+        <span class="mstep-title">Kəsim</span>
+        <span class="mstep-val">—</span>
+      </div>
+      <div class="mstep cur">
+        <span class="mstep-title">Tikiş</span>
+        <span class="mstep-val">15</span>
+      </div>
+      <div class="mstep todo">
+        <span class="mstep-title">Anbar</span>
+        <span class="mstep-val">—</span>
+      </div>
+      <div class="mstep done">
+        <span class="mstep-title">Təhvil</span>
+        <span class="mstep-val">1,335</span>
+      </div>
+    </div>
+
+    <div class="milestone-bottom">
+      <span>Faktiki İcra: 95.4%</span>
+      <span class="rem-highlight">Qalıq: 65 ədəd</span>
+    </div>
+  </div>
+</div>
+
+<div class="preview-card">
+  <div style="font-size:12px; color:var(--t3); margin-bottom:8px;">Nümunə 2: Sifariş № 004463 (SƏDƏRƏK YUSİF — Corab, 1050 ədəd)</div>
+  <div class="milestone-cell">
+    <div class="milestone-top">
+      <span class="milestone-badge stage-anbar"><span class="milestone-dot"></span>Hazır Anbarda</span>
+      <span class="milestone-counts">0 / 1,050 cüt</span>
+    </div>
+    
+    <div class="milestone-stepper">
+      <div class="mstep done">
+        <span class="mstep-title">Növbə</span>
+        <span class="mstep-val">521</span>
+      </div>
+      <div class="mstep done">
+        <span class="mstep-title">Hörgü</span>
+        <span class="mstep-val">—</span>
+      </div>
+      <div class="mstep done">
+        <span class="mstep-title">Tikiş</span>
+        <span class="mstep-val">—</span>
+      </div>
+      <div class="mstep cur">
+        <span class="mstep-title">Anbar</span>
+        <span class="mstep-val">529</span>
+      </div>
+      <div class="mstep todo">
+        <span class="mstep-title">Təhvil</span>
+        <span class="mstep-val">0</span>
+      </div>
+    </div>
+
+    <div class="milestone-bottom">
+      <span>Anbarda Təhvil Gözləyir: 529 cüt</span>
+      <span class="rem-highlight">Qalıq: 1,050 cüt</span>
+    </div>
+  </div>
+</div>
+
+<div class="preview-card">
+  <div style="font-size:12px; color:var(--t3); margin-bottom:8px;">Nümunə 3: Sifariş № 004466 (SAMİR GƏNCƏ — Corab, 160 ədəd)</div>
+  <div class="milestone-cell">
+    <div class="milestone-top">
+      <span class="milestone-badge stage-deliv"><span class="milestone-dot"></span>Tamamlandı</span>
+      <span class="milestone-counts">160 / 160 cüt</span>
+    </div>
+    
+    <div class="milestone-stepper">
+      <div class="mstep done"><span class="mstep-title">Növbə</span><span class="mstep-val">✓</span></div>
+      <div class="mstep done"><span class="mstep-title">Hörgü</span><span class="mstep-val">✓</span></div>
+      <div class="mstep done"><span class="mstep-title">Tikiş</span><span class="mstep-val">✓</span></div>
+      <div class="mstep done"><span class="mstep-title">Anbar</span><span class="mstep-val">✓</span></div>
+      <div class="mstep done"><span class="mstep-title">Təhvil</span><span class="mstep-val">160</span></div>
+    </div>
+
+    <div class="milestone-bottom">
+      <span style="color:var(--success); font-weight:600;">100% Çatdırılıb</span>
+      <span>Qalıq Yoxdur</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
