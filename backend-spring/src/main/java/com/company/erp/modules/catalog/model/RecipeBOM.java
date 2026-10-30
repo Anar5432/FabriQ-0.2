@@ -1,8 +1,6 @@
 package com.company.erp.modules.catalog.model;
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.Generated;
-import reactor.core.publisher.Sinks;
 
 @Entity
 @Table(name="recipe_bom")

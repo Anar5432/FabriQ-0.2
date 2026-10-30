@@ -95,8 +95,23 @@ public class OrderSnapshot {
     @Column(name = "delivered_quantity")
     private Integer deliveredQuantity;
 
+    @Column(name = "cutting_quantity")
+    private Integer cuttingQuantity;
+
+    @Column(name = "sewing_quantity")
+    private Integer sewingQuantity;
+
+    @Column(name = "warehouse_quantity")
+    private Integer warehouseQuantity;
+
+    @Column(name = "queue_quantity")
+    private Integer queueQuantity;
+
     @Column(name = "material_readiness_pct")
     private Integer materialReadinessPct;
+
+    @Column(name = "is_reservation_active")
+    private Boolean isReservationActive = true;
 
     @OneToMany(mappedBy = "order", cascade = CascadeType.ALL, fetch = FetchType.EAGER, orphanRemoval = true)
     @OrderBy("lineNum ASC")
