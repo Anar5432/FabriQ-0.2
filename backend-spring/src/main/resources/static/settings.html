@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FabriQ ERP — Master Tənzimləmələr və İstehsalat Gücü</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/settings.css">
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="app-header">
+  <div class="brand-area">
+    <div class="brand-icon">F</div>
+    <div class="brand-title">FabriQ <span>Master Calibration</span></div>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:12px;">
+    <a href="index.html" class="btn btn-outline" style="text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      İstehsalat Panelinə Qayıt
+    </a>
+  </div>
+
+  <div class="header-right">
+    <div class="live-sync-indicator" id="live-sync-indicator" title="MS SQL 5-saniyəlik canlı sinxronizasiya">
+      <span class="live-dot"></span>
+      <span class="live-text">5s Real-Time Sync</span>
+    </div>
+  </div>
+</header>
+
+<!-- ── MAIN SETTINGS CONTENT ── -->
+<main class="settings-container">
+
+  <!-- Header Banner -->
+  <div class="settings-header-banner">
+    <div class="settings-banner-info">
+      <h1>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        İstehsalat Tənzimləmələri və Canlı Kalibrasiya
+      </h1>
+      <p>Burada dəyişdirilən bütün parametrlər və sifariş rezervasiyaları dərhal yadda saxlanılır və Planlama Moduluna tətbiq olunur.</p>
+    </div>
+    <div class="settings-stat-badge" id="settings-active-badge">
+      Yüklənir...
+    </div>
+  </div>
+
+  <div class="settings-grid">
+
+    <!-- CARD 1: ACTIVE ORDERS & MATERIAL RESERVATIONS -->
+    <div class="settings-card">
+      <div class="settings-card-header">
+        <div>
+          <div class="settings-card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            Aktiv Sifarişlər və Xammal Rezervasiyası (ATP Ledger)
+          </div>
+          <div class="settings-card-subtitle">
+            Yalnız <strong>ON</strong> statusunda olan sifarişlər anbardakı xammalı bloklayır. Qalan sifarişlər planlama zamanı nəzərə alınmır.
+          </div>
+        </div>
+
+        <div style="display:flex; gap:8px;">
+          <button type="button" class="btn btn-outline btn-sm" onclick="bulkToggleAllOrders(true)">Hamısını Aktiv Et</button>
+          <button type="button" class="btn btn-outline btn-sm" onclick="bulkToggleAllOrders(false)">Hamısını Deaktiv Et</button>
+        </div>
+      </div>
+
+      <!-- Filter Toolbar -->
+      <div class="settings-toolbar">
+        <div class="settings-search-box">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="settings-order-search" placeholder="Sifariş №, müştəri və ya məhsul axtar...">
+        </div>
+
+        <div class="settings-quick-filters">
+          <button type="button" class="settings-filter-pill active" data-filter="all" onclick="setOrderFilter('all')">Hamısı</button>
+          <button type="button" class="settings-filter-pill" data-filter="active" onclick="setOrderFilter('active')">Yalnız Rezerv Edilənlər (ON)</button>
+          <button type="button" class="settings-filter-pill" data-filter="inactive" onclick="setOrderFilter('inactive')">Deaktivlər (OFF)</button>
+        </div>
+      </div>
+
+      <!-- Orders Table -->
+      <div class="table-area" style="max-height: 480px; overflow-y: auto;">
+        <table class="table">
+          <thead>
+            <tr>
+              <th style="width: 70px; text-align: center;">Rezerv</th>
+              <th style="width: 100px;">Sifariş №</th>
+              <th>Müştəri & Tarix</th>
+              <th>Məhsul & Kateqoriya</th>
+              <th style="width: 130px; text-align: right;">Sifariş / Təhvil</th>
+              <th style="width: 120px; text-align: right;">Qalıq İstehsalat</th>
+              <th style="width: 130px;">Status</th>
+            </tr>
+          </thead>
+          <tbody id="settings-orders-tbody">
+            <tr>
+              <td colspan="7" style="text-align: center; padding: 40px; color: var(--t3);">Sifarişlər yüklənir...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CARD 2: PRODUCTION BASELINES & PIECE RATES -->
+    <div class="settings-card">
+      <div class="settings-card-header">
+        <div>
+          <div class="settings-card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            İstehsalat Gücü və Ədədi Normalar (Production Power)
+          </div>
+          <div class="settings-card-subtitle">
+            Hər məhsul üçün 1 briqadanın günlük istehsal gücü (Asan və Çətin modellər üzrə ədəd/gün).
+          </div>
+        </div>
+      </div>
+
+      <div id="settings-baselines-container">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <!-- CARD 3: WORKER TEAMS -->
+    <div class="settings-card">
+      <div class="settings-card-header">
+        <div>
+          <div class="settings-card-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Konveyer Xətləri və Briqada Heyətləri
+          </div>
+          <div class="settings-card-subtitle">
+            Hər istehsalat bantında standart işləyən dərzi və fəhlə sayı.
+          </div>
+        </div>
+      </div>
+
+      <div id="settings-teams-container" style="display:flex; gap:16px; flex-wrap:wrap;">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- ── STICKY BOTTOM SAVE BAR ── -->
+<div class="sticky-save-bar">
+  <div class="save-bar-info">
+    <span id="settings-unsaved-alert" style="display:none; align-items:center; gap:6px; color:var(--warning); font-weight:600;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      Saxlanılmamış dəyişikliklər var!
+    </span>
+    <span>Dəyişiklikləri yadda saxladıqdan sonra Planlama modulu yeni parametrlərlə işləyəcək.</span>
+  </div>
+
+  <div class="save-bar-actions">
+    <a href="index.html" class="btn btn-outline">İmtina Et</a>
+    <button type="button" class="btn btn-primary" id="btn-save-settings" onclick="saveAllSettings()" style="padding:10px 24px; font-size:13.5px;">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+      Dəyişiklikləri Yadda Saxla və Tətbiq Et
+    </button>
+  </div>
+</div>
+
+<script type="module" src="js/settings.js"></script>
+</body>
+</html>
