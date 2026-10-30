@@ -30,6 +30,15 @@ public class SyncController {
         return ResponseEntity.ok(res);
     }
 
+    @GetMapping("/api/sync/status")
+    public ResponseEntity<Map<String, Object>> getSyncStatus() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("version", legacyService.getDataVersion());
+        map.put("lastSyncTime", legacyService.getLastSyncTime().toString());
+        map.put("totalOrders", orderRepo.count());
+        return ResponseEntity.ok(map);
+    }
+
     @GetMapping("/api/sync/inventory")
     public String syncInventory() {
         legacyService.syncInventoryFromLegacy();
