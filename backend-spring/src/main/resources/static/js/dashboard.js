@@ -9,6 +9,12 @@ import { populateExistingOrdersDropdown } from './planning.js';
 ══════════════════════════════════════ */
 
 export async function loadOrders() {
+  renderSidebar();
+  renderStageStrip();
+  const tbody = document.getElementById('dashboard-table-body');
+  if (tbody && (!state.allOrders || state.allOrders.length === 0)) {
+    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding: 48px; color: var(--t3);"><div style="font-size:14px; font-weight:500;">Sifarişlər yüklənir...</div></td></tr>';
+  }
   try {
     state.allOrders = await fetchOrders();
     renderSidebar();
@@ -233,13 +239,12 @@ export function renderDashboardTable() {
     const client = o.customerName || 'B2B Sifarişçi';
     const prod = o.productType ? o.productType.name : 'Standart Məhsul';
     const prodCode = o.productType ? o.productType.id : '';
-    const totalQty = o.quantity || 500;
-    const delivered = o.deliveredQuantity !== null && o.deliveredQuantity !== undefined ? o.deliveredQuantity : 0;
-    const pct = Math.min(100, Math.round((delivered / totalQty) * 100));
+    const totalQty = o.quantity || 0;
+    const delivered = (o.deliveredQuantity !== null && o.deliveredQuantity !== undefined) ? o.deliveredQuantity : 0;
+    const pct = totalQty > 0 ? Math.min(100, Math.round((delivered / totalQty) * 100)) : 0;
+    const remaining = Math.max(0, totalQty - delivered);
     const stage = o.currentPhase || 'Dizayn & Sifariş';
     const ghost = isGhostOrder(o);
-
-
 
     const rowStyle = (ghost && state.showArchive) ? 'opacity:0.7;' : '';
     return `
@@ -252,14 +257,19 @@ export function renderDashboardTable() {
           <div style="color:var(--t1); font-weight:500;">${prod}</div>
           ${prodCode ? `<div style="font-family:var(--font-mono); font-size:10.5px; color:var(--t3);">${prodCode}</div>` : ''}
         </td>
-        <td><span style="font-family:var(--font-mono); font-size:11.5px;">${totalQty} əd.</span></td>
+        <td><span style="font-family:var(--font-mono); font-size:11.5px;">${totalQty.toLocaleString()} əd.</span></td>
         <td>
           <div class="qty-cell">
             <div class="qty-numbers">
-              <span style="color:var(--t2);">${delivered} / ${totalQty}</span>
-              <span style="color:var(--t3); font-size:10px;">${pct}%</span>
+              <span style="font-weight:600; font-family:var(--font-mono); font-size:11.5px; color:var(--t1);">${delivered.toLocaleString()} / ${totalQty.toLocaleString()}</span>
+              <span style="color:var(--t3); font-size:10.5px; font-family:var(--font-mono);">${pct}%</span>
             </div>
             <div class="qty-track"><div class="qty-fill" style="width:${pct}%;"></div></div>
+            <div style="font-size:10px; color:var(--t3); font-family:var(--font-mono); margin-top:2px;">
+              ${remaining <= 0 
+                ? `<span style="color:var(--success); font-weight:600;">✓ Tamamlandı</span>` 
+                : `<span style="color:var(--warning);">Qalıq: ${remaining.toLocaleString()} əd.</span>`}
+            </div>
           </div>
         </td>
 
@@ -289,6 +299,313 @@ export function renderDashboardTable() {
 export function loadMoreOrders() {
   state.batchLimit = (state.batchLimit || 50) + 50;
   renderDashboardTable();
+}
+
+
+
+let currentInspectedOrder = null;
+let currentInspectedItems = [];
+let currentDensityMode = 'comfortable';
+let isHeaderCompact = false;
+let isModalFullscreen = false;
+
+export function toggleModalFullscreen() {
+  const modalBox = document.getElementById('inspect-modal-box');
+  const btnText = document.getElementById('btn-fullscreen-text');
+  if (!modalBox) return;
+  isModalFullscreen = !isModalFullscreen;
+  if (isModalFullscreen) {
+    modalBox.classList.add('modal-fullscreen');
+    if (btnText) btnText.textContent = 'Kiçilt';
+  } else {
+    modalBox.classList.remove('modal-fullscreen');
+    if (btnText) btnText.textContent = 'Tam Ekran';
+  }
+}
+
+export function toggleInspectHeader() {
+  const headerWrapper = document.getElementById('inspect-header-wrapper');
+  const iconEl = document.getElementById('inspect-header-toggle-icon');
+  const textEl = document.getElementById('inspect-header-toggle-text');
+  if (!headerWrapper) return;
+  isHeaderCompact = !isHeaderCompact;
+  if (isHeaderCompact) {
+    headerWrapper.classList.add('header-compact');
+    if (iconEl) iconEl.textContent = '▼';
+    if (textEl) textEl.textContent = 'Geniş Başlıq';
+  } else {
+    headerWrapper.classList.remove('header-compact');
+    if (iconEl) iconEl.textContent = '▲';
+    if (textEl) textEl.textContent = 'Yığcam Başlıq';
+  }
+}
+
+export function setSuborderDensity(mode) {
+  currentDensityMode = mode;
+  const table = document.getElementById('m-suborders-table');
+  const btnComf = document.getElementById('btn-density-comfortable');
+  const btnComp = document.getElementById('btn-density-compact');
+  
+  if (mode === 'compact') {
+    if (table) table.classList.add('compact-mode');
+    if (btnComp) btnComp.classList.add('active');
+    if (btnComf) btnComf.classList.remove('active');
+  } else {
+    if (table) table.classList.remove('compact-mode');
+    if (btnComf) btnComf.classList.add('active');
+    if (btnComp) btnComp.classList.remove('active');
+  }
+}
+
+export function filterSubordersList() {
+  const input = document.getElementById('suborder-filter-input');
+  const query = (input?.value || '').trim().toLowerCase();
+  const clearBtn = document.getElementById('btn-clear-suborder-filter');
+  if (clearBtn) {
+    if (query.length > 0) clearBtn.classList.add('visible');
+    else clearBtn.classList.remove('visible');
+  }
+
+  let filtered = currentInspectedItems;
+  if (query.length > 0) {
+    const norm = normalizeAz(query);
+    filtered = currentInspectedItems.filter(item => {
+      const pName = normalizeAz(item.productName || '');
+      const pCode = (item.productCode || '').toLowerCase();
+      const variant = normalizeAz(item.variantDetails || '');
+      const phase = normalizeAz(item.currentPhase || '');
+      const line = String(item.lineNum || '');
+      return pName.includes(norm) || pCode.includes(query) || variant.includes(norm) || phase.includes(norm) || line === query;
+    });
+  }
+
+  renderSubordersRows(filtered, currentInspectedOrder);
+
+  const countBadgeEl = document.getElementById('m-suborders-count');
+  if (countBadgeEl) {
+    if (query.length > 0) {
+      countBadgeEl.textContent = `${filtered.length} / ${currentInspectedItems.length} göstərilir`;
+    } else {
+      countBadgeEl.textContent = `${currentInspectedItems.length} alt-sifariş / növ`;
+    }
+  }
+}
+
+export function clearSuborderFilter() {
+  const input = document.getElementById('suborder-filter-input');
+  if (input) {
+    input.value = '';
+    filterSubordersList();
+    input.focus();
+  }
+}
+
+export function scrollSuborders(dir) {
+  const wrapper = document.getElementById('suborders-table-wrapper');
+  if (!wrapper) return;
+  if (dir === 'top') {
+    wrapper.scrollTo({ top: 0, behavior: 'smooth' });
+  } else {
+    wrapper.scrollTo({ top: wrapper.scrollHeight, behavior: 'smooth' });
+  }
+}
+
+function renderSubordersRows(items, o) {
+  const subTbody = document.getElementById('m-suborders-table-body');
+  if (!subTbody) return;
+
+  if (!items || items.length === 0) {
+    subTbody.innerHTML = `
+      <tr>
+        <td colspan="8" style="text-align:center; padding: 35px 20px; color: var(--t3);">
+          Axtarışa uyğun alt-sifariş tapılmadı.
+        </td>
+      </tr>
+    `;
+    return;
+  }
+
+  const prod = o && o.productType ? o.productType.name : 'Məhsul';
+  const isSocks = (o && o.conveyorLine || '').toLowerCase().includes('sock') ||
+                  (o && o.productType && (o.productType.category || '').toLowerCase().includes('sock'));
+  const step2Name = isSocks ? 'Hörgü' : 'Kəsim';
+  const step3Name = isSocks ? 'Burunbağlama' : 'Tikiş';
+
+  subTbody.innerHTML = items.map((item, idx) => {
+    const lineNo = item.lineNum || (idx + 1);
+    const pName = item.productName || prod;
+    const pCode = item.productCode || '';
+    const variant = item.variantDetails || 'Standart';
+    const qty = item.quantity || 0;
+    const deliv = (item.deliveredQuantity !== null && item.deliveredQuantity !== undefined) ? item.deliveredQuantity : 0;
+    const itemPct = qty > 0 ? Math.min(100, Math.round((deliv / qty) * 100)) : 0;
+    const rem = Math.max(0, qty - deliv);
+
+    const qW = item.warehouseQuantity || 0;
+    const qS = item.sewingQuantity || 0;
+    const qC = item.cuttingQuantity || 0;
+    const qQ = item.queueQuantity || 0;
+
+    let subStep = 1;
+    let subStepName = 'Növbədə';
+    let fillPct = 0;
+
+    if (deliv >= qty && qty > 0) {
+      subStep = 5;
+      subStepName = 'Çatdırılıb';
+      fillPct = 100;
+    } else if (qW > 0 && qS === 0 && qC === 0) {
+      subStep = 4;
+      subStepName = 'Hazır Anbar';
+      fillPct = 75;
+    } else if (qS > 0) {
+      subStep = 3;
+      subStepName = step3Name;
+      fillPct = 50;
+    } else if (qC > 0) {
+      subStep = 2;
+      subStepName = step2Name;
+      fillPct = 25;
+    } else if (qW > 0) {
+      subStep = 4;
+      subStepName = 'Hazır Anbar';
+      fillPct = 75;
+    } else {
+      const ph = (item.currentPhase || (o ? o.currentPhase : '') || '').toLowerCase();
+      if (ph.includes('anbar')) {
+        subStep = 4;
+        subStepName = 'Hazır Anbar';
+        fillPct = 75;
+      } else if (ph.includes('tikiş') || ph.includes('tikis') || ph.includes('burun')) {
+        subStep = 3;
+        subStepName = step3Name;
+        fillPct = 50;
+      } else if (ph.includes('kəsim') || ph.includes('kesim') || ph.includes('hörgü') || ph.includes('horgu')) {
+        subStep = 2;
+        subStepName = step2Name;
+        fillPct = 25;
+      } else if (ph.includes('çatdır') || ph.includes('catdir')) {
+        subStep = 5;
+        subStepName = 'Çatdırılıb';
+        fillPct = 100;
+      } else {
+        subStep = 1;
+        subStepName = 'Növbədə';
+        fillPct = 0;
+      }
+    }
+
+    const phase = item.currentPhase || (o ? o.currentPhase : 'Dizayn & Sifariş') || 'Dizayn & Sifariş';
+    const status = item.status || (deliv >= qty ? 'TAMAMLANDI' : 'PROSESDƏ');
+    const fabric = item.fabricSpecs || '';
+    
+    // Material Fullness & Resources
+    const fullnessPct = (item.materialReadinessPct !== null && item.materialReadinessPct !== undefined) ? item.materialReadinessPct : 100;
+    const isMatReady = item.materialStatus === 'READY' || fullnessPct >= 100;
+    const leadTime = item.leadTimeDays || 0;
+    const unit = item.materialUnit || 'kq';
+    const reqQty = item.requiredMaterialQty !== null && item.requiredMaterialQty !== undefined ? item.requiredMaterialQty : Math.round(qty * 0.35);
+    const availQty = item.availableMaterialQty !== null && item.availableMaterialQty !== undefined ? item.availableMaterialQty : (isMatReady ? reqQty : Math.round(reqQty * (fullnessPct / 100)));
+    const missingQty = Math.max(0, Math.round((reqQty - availQty) * 10) / 10);
+    const matDetail = item.materialDetails || (isMatReady ? 'Bütün xammal anbarda hazırdır' : 'Xammal çatışmır');
+
+    let stageBadgeClass = 'badge-blue';
+    const lowerPhase = phase.toLowerCase();
+    if (lowerPhase.includes('kəsim') || lowerPhase.includes('kesim') || lowerPhase.includes('hörgü')) {
+      stageBadgeClass = 'badge-amber';
+    } else if (lowerPhase.includes('tikiş') || lowerPhase.includes('tikis') || lowerPhase.includes('burun')) {
+      stageBadgeClass = 'badge-blue';
+    } else if (lowerPhase.includes('anbar') || lowerPhase.includes('ütü') || lowerPhase.includes('paket') || lowerPhase.includes('tamam') || lowerPhase.includes('çatdır')) {
+      stageBadgeClass = 'badge-green';
+    }
+
+    let statusBadgeClass = 'badge-blue';
+    if (status === 'TAMAMLANDI' || deliv >= qty) {
+      statusBadgeClass = 'badge-green';
+    } else if (status === 'GÖZLƏYİR' || status === 'PLAN') {
+      statusBadgeClass = 'badge-neutral';
+    }
+
+    return `
+      <tr>
+        <td style="color:var(--t3); font-family:var(--font-mono); font-size:11px;">${lineNo}</td>
+        <td>
+          <div style="font-weight:600; color:var(--t1); font-size:12px; line-height:1.3;">${pName}</div>
+          <div style="display:flex; gap:6px; align-items:center; margin-top:2px; flex-wrap:wrap;">
+            ${pCode ? `<span style="font-family:var(--font-mono); font-size:10px; color:var(--t3);">${pCode}</span>` : ''}
+            ${fabric ? `<span class="fabric-spec-tag">${fabric}</span>` : ''}
+          </div>
+        </td>
+        <td><span class="suborder-variant">${variant}</span></td>
+        <td style="text-align:right; font-family:var(--font-mono); font-weight:600; font-size:12px;">${qty.toLocaleString()} əd.</td>
+        <td>
+          <div class="sub-timeline-wrap">
+            <div class="sub-timeline-track-wrap">
+              <div class="sub-timeline-bar-bg"></div>
+              <div class="sub-timeline-bar-fill" style="width: ${fillPct}%;"></div>
+
+              <!-- Step 1: Növbədə -->
+              <div class="sub-timeline-node ${subStep >= 1 ? (subStep === 1 ? 'cur' : 'done') : ''}" title="1. Növbədə: ${qQ.toLocaleString()} əd.">
+                <div class="sub-timeline-circle">1</div>
+              </div>
+
+              <!-- Step 2: Kəsim / Hörgü -->
+              <div class="sub-timeline-node ${subStep >= 2 ? (subStep === 2 ? 'cur' : 'done') : ''}" title="2. ${step2Name}: ${qC.toLocaleString()} əd.">
+                <div class="sub-timeline-circle">2</div>
+              </div>
+
+              <!-- Step 3: Tikiş / Burunbağlama -->
+              <div class="sub-timeline-node ${subStep >= 3 ? (subStep === 3 ? 'cur' : 'done') : ''}" title="3. ${step3Name}: ${qS.toLocaleString()} əd.">
+                <div class="sub-timeline-circle">3</div>
+              </div>
+
+              <!-- Step 4: Hazır Anbar -->
+              <div class="sub-timeline-node ${subStep >= 4 ? (subStep === 4 ? 'cur' : 'done') : ''}" title="4. Hazır Anbar: ${qW.toLocaleString()} əd.">
+                <div class="sub-timeline-circle">4</div>
+              </div>
+
+              <!-- Step 5: Çatdırılıb -->
+              <div class="sub-timeline-node ${subStep >= 5 ? 'cur done' : ''}" title="5. Çatdırılıb: ${deliv.toLocaleString()} əd.">
+                <div class="sub-timeline-circle">5</div>
+              </div>
+            </div>
+
+            <!-- Numbers & Status below the Graphic -->
+            <div class="sub-timeline-meta">
+              <span class="sub-timeline-stage-tag">${subStepName}</span>
+              <span class="sub-timeline-qty">${deliv.toLocaleString()} / ${qty.toLocaleString()} əd. <span class="sub-timeline-pct">(${itemPct}%)</span></span>
+              <span class="sub-timeline-rem ${rem <= 0 ? 'rem-done' : 'rem-left'}">${rem <= 0 ? '✓ Tamam' : 'Qalıq: ' + rem.toLocaleString() + ' əd.'}</span>
+            </div>
+          </div>
+        </td>
+        <td>
+          <span class="badge ${stageBadgeClass}"><span class="badge-dot"></span>${phase}</span>
+        </td>
+        <td>
+          <div class="mat-cell">
+            <div class="mat-top-row">
+              <span class="mat-pill ${isMatReady ? 'mat-pill-ready' : 'mat-pill-shortage'}">
+                ${isMatReady ? '<span class="badge-dot"></span>Yetərlidir' : '<span class="badge-dot-pulse"></span>Çatışmır'}
+              </span>
+              <span class="mat-fullness-label ${isMatReady ? 'color-success' : 'color-danger'}">
+                ${availQty} / ${reqQty} ${unit} (${fullnessPct}%)
+              </span>
+            </div>
+            <div class="mat-track">
+              <div class="mat-fill ${isMatReady ? 'mat-fill-green' : 'mat-fill-amber'}" style="width:${fullnessPct}%;"></div>
+            </div>
+            <div class="mat-detail-row">
+              <span class="mat-detail-text" title="${matDetail}">${matDetail}</span>
+              ${missingQty > 0 ? `<span class="mat-missing-tag">-${missingQty} ${unit}</span>` : ''}
+            </div>
+          </div>
+        </td>
+        <td>
+          <span class="badge ${statusBadgeClass}"><span class="badge-dot"></span>${status}</span>
+        </td>
+      </tr>
+    `;
+  }).join('');
 }
 
 export async function openInspectModal(orderId) {
@@ -324,101 +641,56 @@ export async function openInspectModal(orderId) {
     }
   }
 
+  currentInspectedOrder = o;
+  currentInspectedItems = items || [];
+
+  // Order Summary Grid (Clean & Compact without gigantic stepper)
   const gridEl = document.getElementById('m-inspect-grid');
   if (gridEl) {
     gridEl.innerHTML = `
       <div class="modal-kv"><div class="modal-kv-k">Müştəri Təşkilat</div><div class="modal-kv-v" style="font-family:var(--font-main); font-size:12.5px; font-weight:600;">${client}</div></div>
       <div class="modal-kv"><div class="modal-kv-k">Məhsul Qrupu</div><div class="modal-kv-v" style="font-family:var(--font-main); font-size:12.5px;">${prod}</div></div>
-      <div class="modal-kv"><div class="modal-kv-k">Ümumi Sifariş Həcmi</div><div class="modal-kv-v">${totalQty} ədəd</div></div>
-      <div class="modal-kv"><div class="modal-kv-k">Təhvil Verilən Cəmi</div><div class="modal-kv-v" style="color:var(--success); font-weight:600;">${delivered} ədəd (${totalPct}%)</div></div>
+      <div class="modal-kv"><div class="modal-kv-k">Ümumi Sifariş Həcmi</div><div class="modal-kv-v">${totalQty.toLocaleString()} ədəd</div></div>
+      <div class="modal-kv"><div class="modal-kv-k">Təhvil Verilən Cəmi</div><div class="modal-kv-v" style="color:var(--success); font-weight:600;">${delivered.toLocaleString()} ədəd (${totalPct}%)</div></div>
       <div class="modal-kv"><div class="modal-kv-k">Konveyer / Xətt</div><div class="modal-kv-v" style="font-family:var(--font-main);">${o.conveyorLine || 'Standart'}</div></div>
       <div class="modal-kv"><div class="modal-kv-k">Sifariş Tarixi</div><div class="modal-kv-v">${o.orderDate || '—'}</div></div>
-      <div class="modal-kv"><div class="modal-kv-k">Hədəf Təhvil Tarixi (Deadline)</div><div class="modal-kv-v" style="color:var(--warning); font-weight:600;">${o.deadline || '—'}</div></div>
-      <div class="modal-kv"><div class="modal-kv-k">Xammal Təminatı (BOM)</div><div class="modal-kv-v" style="font-size:11.5px; font-family:var(--font-main); color:${o.materialShortage ? 'var(--danger)' : 'var(--success)'}; font-weight:600;">${o.materialShortage ? 'Xammal çatışmazlığı var' : 'Tam Təmin Olunub (100%)'}</div></div>
+      <div class="modal-kv" style="grid-column: span 2;"><div class="modal-kv-k">Hədəf Təhvil Tarixi (Deadline)</div><div class="modal-kv-v" style="color:var(--warning); font-weight:600;">${o.deadline || '—'}</div></div>
     `;
   }
 
   const countBadgeEl = document.getElementById('m-suborders-count');
   if (countBadgeEl) {
-    countBadgeEl.textContent = `${items.length} alt-sifariş / növ`;
+    countBadgeEl.textContent = `${currentInspectedItems.length} alt-sifariş / növ`;
   }
 
-  // Populate Suborders Table with each sub-order's individual stage
-  const subTbody = document.getElementById('m-suborders-table-body');
-  if (subTbody) {
-    if (!items || items.length === 0) {
-      subTbody.innerHTML = `
-        <tr>
-          <td colspan="7" style="text-align:center; padding: 25px; color: var(--t3);">
-            Bu sifariş üçün alt-məhsul qeydiyyatı tapılmadı.
-          </td>
-        </tr>
-      `;
-    } else {
-      subTbody.innerHTML = items.map((item, idx) => {
-        const lineNo = item.lineNum || (idx + 1);
-        const pName = item.productName || prod;
-        const pCode = item.productCode || '';
-        const variant = item.variantDetails || 'Standart';
-        const qty = item.quantity || 0;
-        const deliv = (item.deliveredQuantity !== null && item.deliveredQuantity !== undefined) ? item.deliveredQuantity : 0;
-        const itemPct = qty > 0 ? Math.min(100, Math.round((deliv / qty) * 100)) : 0;
-        const phase = item.currentPhase || o.currentPhase || 'Dizayn & Sifariş';
-        const status = item.status || (deliv >= qty ? 'TAMAMLANDI' : 'PROSESDƏ');
-
-        let stageBadgeClass = 'badge-blue';
-        const lowerPhase = phase.toLowerCase();
-        if (lowerPhase.includes('kəsim') || lowerPhase.includes('kesim')) {
-          stageBadgeClass = 'badge-amber';
-        } else if (lowerPhase.includes('tikiş') || lowerPhase.includes('tikis')) {
-          stageBadgeClass = 'badge-blue';
-        } else if (lowerPhase.includes('ütü') || lowerPhase.includes('paket') || lowerPhase.includes('tamam')) {
-          stageBadgeClass = 'badge-green';
-        }
-
-        let statusBadgeClass = 'badge-blue';
-        if (status === 'TAMAMLANDI' || deliv >= qty) {
-          statusBadgeClass = 'badge-green';
-        } else if (status === 'GÖZLƏYİR' || status === 'PLAN') {
-          statusBadgeClass = 'badge-neutral';
-        }
-
-        return `
-          <tr>
-            <td style="color:var(--t3); font-family:var(--font-mono); font-size:11px;">${lineNo}</td>
-            <td>
-              <div style="font-weight:600; color:var(--t1); font-size:12px;">${pName}</div>
-              ${pCode ? `<div style="font-family:var(--font-mono); font-size:10px; color:var(--t3);">${pCode}</div>` : ''}
-            </td>
-            <td><span class="suborder-variant">${variant}</span></td>
-            <td style="text-align:right; font-family:var(--font-mono); font-weight:600; font-size:12px;">${qty} əd.</td>
-            <td>
-              <div class="qty-cell">
-                <div class="qty-numbers">
-                  <span style="color:var(--t2);">${deliv} / ${qty}</span>
-                  <span style="color:var(--t3); font-size:9.5px;">${itemPct}%</span>
-                </div>
-                <div class="qty-track"><div class="qty-fill" style="width:${itemPct}%;"></div></div>
-              </div>
-            </td>
-            <td>
-              <span class="badge ${stageBadgeClass}"><span class="badge-dot"></span>${phase}</span>
-            </td>
-            <td>
-              <span class="badge ${statusBadgeClass}"><span class="badge-dot"></span>${status}</span>
-            </td>
-          </tr>
-        `;
-      }).join('');
-    }
+  const qtyBadgeEl = document.getElementById('m-suborders-qty-total');
+  if (qtyBadgeEl) {
+    const totalLinesQty = currentInspectedItems.reduce((acc, it) => acc + (it.quantity || 0), 0);
+    qtyBadgeEl.textContent = `${totalLinesQty > 0 ? totalLinesQty.toLocaleString() : totalQty.toLocaleString()} ədəd`;
   }
+
+  // Clear suborder search input
+  const filterInput = document.getElementById('suborder-filter-input');
+  if (filterInput) filterInput.value = '';
+  const clearBtn = document.getElementById('btn-clear-suborder-filter');
+  if (clearBtn) clearBtn.classList.remove('visible');
+
+  // Render Suborders Table rows
+  renderSubordersRows(currentInspectedItems, currentInspectedOrder);
+
+  // Apply current density mode
+  setSuborderDensity(currentDensityMode);
+
+  // Reset scroll to top
+  const tableWrapper = document.getElementById('suborders-table-wrapper');
+  if (tableWrapper) tableWrapper.scrollTop = 0;
 
   const modal = document.getElementById('inspect-modal');
   if (modal) modal.classList.add('open');
 }
 
 export function closeInspectModal(e) {
-  if (e && e.target.id !== 'inspect-modal') return;
+  if (e && e.target && e.target.id !== 'inspect-modal') return;
   const modal = document.getElementById('inspect-modal');
   if (modal) modal.classList.remove('open');
 }

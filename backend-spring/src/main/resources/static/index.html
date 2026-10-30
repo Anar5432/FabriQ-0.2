@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="az">
 <head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FabriQ ERP — Müəssisə İstehsalat İdarəetmə Paneli</title>
@@ -8,8 +11,8 @@
 <!-- Modular CSS Compartments -->
 <link rel="stylesheet" href="css/variables.css">
 <link rel="stylesheet" href="css/layout.css">
-<link rel="stylesheet" href="css/components.css">
-<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/components.css?v=11.0">
+<link rel="stylesheet" href="css/dashboard.css?v=11.0">
 <link rel="stylesheet" href="css/planning.css">
 </head>
 <body>
@@ -34,6 +37,14 @@
   </div>
 
   <div class="header-right">
+    <div class="live-sync-indicator" id="live-sync-indicator" title="MS SQL ERP (81.17.85.185) ilə canlı real-time əlaqə">
+      <span class="live-dot"></span>
+      <span class="live-text" id="live-sync-text">Canlı: 81.17.85.185</span>
+    </div>
+    <a href="settings.html" class="btn btn-outline" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px;" title="Aktiv Sifarişlər və İstehsalat Gücü Tənzimləmələri">
+      <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+      Master Tənzimləmələr
+    </a>
     <button class="btn btn-outline" id="btn-sync" onclick="syncFromLegacy()">
       <svg viewBox="0 0 24 24"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
       MS SQL Sinxronizasiya
@@ -100,7 +111,7 @@
             <th>Müştəri (Şirkət)</th>
             <th>Məhsul & Növ</th>
             <th style="width: 100px;">Sifariş</th>
-            <th style="width: 130px;">İstehsal / Təhvil</th>
+            <th style="width: 210px;">İstehsalat Mərhələsi & Təhvil</th>
             <th style="width: 110px;">Sifariş Tarixi</th>
             <th style="width: 75px; text-align: right;">Əməliyyat</th>
           </tr>
@@ -114,39 +125,30 @@
 </div>
 
 <!-- ══════════════════════════════════════
-     VIEW 2: İSTEHSALAT PLANLAMASI (PLANNING STUDIO)
+     VIEW 2: İSTEHSALAT PLANLAMASI (FORWARD PLANNING STUDIO)
 ══════════════════════════════════════ -->
 <div class="view-container" id="view-planning">
   <div class="planning-header">
-    <div class="plan-tabs">
-      <button class="plan-tab-btn active" id="tab-btn-opt1" onclick="switchPlanningMode('forward')">
-        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-        Rejim 1: Mövcud Resurslarla Nə Vaxt Təhvil Verilər? (Forward)
-      </button>
-      <button class="plan-tab-btn" id="tab-btn-opt2" onclick="switchPlanningMode('backward')">
-        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-        Rejim 2: Hədəf Tarixə Çatdırmaq Üçün Nə Qədər Resurs Lazımdır? (Backward)
-      </button>
+    <div style="display:flex; align-items:center; gap:12px;">
+      <div style="font-size:15px; font-weight:700; color:var(--t1); display:flex; align-items:center; gap:8px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        İstehsalat Təqvimi Planlaması (Forward Planning)
+      </div>
+      <span class="badge badge-blue">Resurs &rarr; Təhvil Tarixi</span>
     </div>
     <div style="font-size: 11.5px; color: var(--t3);">
-      Hesablama Qaydası: +30% Kəsim sürəti norması & Dəftər ədədi normativləri
+      Hesablama Qaydası: +30% Kəsim sürəti norması & İki-Səviyyəli Sərbəst Anbar Qalığı
     </div>
   </div>
 
   <div class="plan-body">
     <!-- Planning Left Form -->
     <div class="plan-form-col">
-      <div class="plan-form-title" id="form-mode-title">Planlama Parametrləri</div>
+      <div class="plan-form-title">Planlama Parametrləri</div>
 
-      <div class="form-group" style="background: rgba(79, 128, 255, 0.05); padding: 10px; border-radius: 6px; border: 1px dashed var(--b2); margin-bottom: 14px;">
-        <label class="form-label" style="color: var(--primary);">Mövcud Sifarişdən Məlumatları Doldur (İstəyə görə)</label>
-        <select class="form-select" id="plan-input-existing-order" onchange="onExistingOrderSelect()">
-          <option value="">-- Yeni Fərdi Sifariş Planlaması --</option>
-        </select>
-      </div>
-
+      <!-- Level 1: Category Selection -->
       <div class="form-group">
-        <label class="form-label">İstehsalat Kateqoriyası / Bant</label>
+        <label class="form-label">1. İstehsalat Kateqoriyası / Bant</label>
         <select class="form-select" id="plan-input-cat" onchange="onPlanCategoryChange()">
           <option value="Workwear">Workwear (İş Geyimi - Bant 1)</option>
           <option value="Underwear-boxer">Underwear-boxer (Alt Geyim - Bant 2)</option>
@@ -154,17 +156,34 @@
         </select>
       </div>
 
+      <!-- Level 2: Two Choices (Standard vs Past Order) with Search -->
       <div class="form-group">
-        <label class="form-label">Məhsul Növü</label>
-        <select class="form-select" id="plan-input-prod" onchange="triggerMaterialCheck()">
-          <!-- Populated based on category -->
+        <label class="form-label">2. Məhsul Mənbəyi və Modeli</label>
+        <div class="source-switch-tabs">
+          <button type="button" class="source-tab-btn active" id="btn-source-standard" onclick="switchProductSource('standard')">
+            Standart Məhsul
+          </button>
+          <button type="button" class="source-tab-btn" id="btn-source-existing" onclick="switchProductSource('existing')">
+            Mövcud Müştəri Sifarişi
+          </button>
+        </div>
+
+        <!-- Live Search Input -->
+        <div class="plan-search-box">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="plan-item-search" placeholder="Məhsul adı, müştəri və ya sifariş № axtar..." oninput="onPlanItemSearch()">
+        </div>
+
+        <select class="form-select" id="plan-input-prod" onchange="onProductSelectChange()">
+          <!-- Populated by JS based on Category + Source + Search -->
         </select>
       </div>
 
+      <!-- Quantity and Start Date -->
       <div class="form-row-2">
         <div class="form-group">
           <label class="form-label">Sifariş Miqdarı (ədəd)</label>
-          <input type="number" class="form-input" id="plan-input-qty" value="1000" min="50" step="50" oninput="triggerMaterialCheck()">
+          <input type="number" class="form-input" id="plan-input-qty" value="500" min="50" step="50" oninput="triggerMaterialCheck()">
         </div>
         <div class="form-group">
           <label class="form-label">Başlama Tarixi</label>
@@ -172,70 +191,52 @@
         </div>
       </div>
 
-      <!-- Forward-specific inputs -->
-      <div id="forward-only-inputs">
-        <div class="form-row-2">
-          <div class="form-group">
-            <label class="form-label">Təyin Edilmiş İşçi Sayı</label>
-            <input type="number" class="form-input" id="plan-input-workers" value="10" min="1" max="50">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Dəftər Çətinlik Dərəcəsi</label>
-            <select class="form-select" id="plan-input-diff">
-              <option value="EASY">Asan (Easy Piece-Rate)</option>
-              <option value="HARD">Çətin (Hard Piece-Rate)</option>
-            </select>
-          </div>
-        </div>
-      </div>
-
-      <!-- Backward-specific inputs -->
-      <div id="backward-only-inputs" style="display: none;">
+      <!-- Workers and Difficulty -->
+      <div class="form-row-2">
         <div class="form-group">
-          <label class="form-label" style="color: var(--warning);">Müştəri Hədəf Tarixi (Deadline)</label>
-          <input type="date" class="form-input" id="plan-input-deadline">
+          <label class="form-label">Təyin Edilmiş İşçi Sayı</label>
+          <input type="number" class="form-input" id="plan-input-workers" value="10" min="1" max="50">
         </div>
-        <div class="form-row-2">
-          <div class="form-group">
-            <label class="form-label">Standart Briqada Sayı</label>
-            <input type="number" class="form-input" id="plan-input-baseworkers" value="10" min="1">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Çətinlik Norması</label>
-            <select class="form-select" id="plan-input-backdiff">
-              <option value="EASY">Asan (Standart)</option>
-              <option value="HARD">Çətin (Mürəkkəb)</option>
-            </select>
-          </div>
+        <div class="form-group">
+          <label class="form-label">Model Çətinlik Dərəcəsi</label>
+          <select class="form-select" id="plan-input-diff">
+            <option value="EASY">Asan (Standart Model)</option>
+            <option value="HARD">Çətin (Mürəkkəb / Çox detallı)</option>
+          </select>
         </div>
       </div>
 
-      <!-- Interactive Material Gate -->
+      <!-- Hidden Lead Time Inputs (fed from shortage modal or manual) -->
+      <input type="hidden" id="plan-lead-design" value="0">
+      <input type="hidden" id="plan-lead-sourcing" value="0">
+
+      <!-- Interactive Two-Tier Material Gate -->
       <div class="material-gate-box">
         <div class="gate-header">
-          <span class="gate-title">Xammal Anbar Yoxlanışı (BOM Gate)</span>
+          <span class="gate-title">Xammal Qalığı (İki-Səviyyəli ATP Qapısı)</span>
           <span class="gate-status-pill ok" id="gate-status-badge">Yoxlanılır...</span>
         </div>
-        <div class="gate-mat-list" id="gate-mat-details">
-          <!-- Material check results -->
+        <div id="gate-mat-details">
+          <!-- Two-tier table populated by JS -->
         </div>
-        <div class="lead-prompts" id="gate-lead-prompts" style="display: none;">
-          <div style="font-size: 11px; font-weight: 600; color: var(--warning);">Xammal Çatışmazlığı: Təchizat vaxtı tələb olunur</div>
-          <div class="form-row-2">
-            <div class="form-group">
-              <label class="form-label" style="font-size: 10.5px;">Dizayn / Kalıp (gün)</label>
-              <input type="number" class="form-input" id="plan-lead-design" value="1" min="0">
-            </div>
-            <div class="form-group">
-              <label class="form-label" style="font-size: 10.5px;">Təchizat Müddəti (gün)</label>
-              <input type="number" class="form-input" id="plan-lead-sourcing" value="5" min="0">
-            </div>
+
+        <!-- Shortage Callback Notification -->
+        <div id="gate-shortage-alert-box" style="display:none; background:rgba(239,68,68,0.1); border:1px solid rgba(239,68,68,0.3); border-radius:6px; padding:10px; margin-top:6px;">
+          <div style="font-size:11.5px; font-weight:600; color:var(--danger); display:flex; align-items:center; justify-content:space-between;">
+            <span>⚠️ Xammal Çatışmazlığı Var!</span>
+            <button type="button" class="btn btn-outline btn-sm" style="font-size:10.5px; padding:2px 8px; border-color:var(--danger); color:var(--danger);" onclick="openShortageModal()">
+              Təchizat Vaxtı Təyin Et
+            </button>
+          </div>
+          <div style="font-size:11px; color:var(--t3); margin-top:4px;" id="gate-shortage-summary">
+            Aktiv sifarişlərin rezervindən sonra sərbəst qalıq yetərli deyil.
           </div>
         </div>
       </div>
 
-      <button class="btn btn-primary" style="padding: 10px; justify-content: center; font-size: 13px;" onclick="calculateActivePlan()">
-        Planı Hesabla
+      <button class="btn btn-primary" style="padding: 12px; justify-content: center; font-size: 13.5px; font-weight:700;" onclick="calculateActivePlan()">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+        İstehsalat Planını Hesabla
       </button>
     </div>
 
@@ -243,7 +244,7 @@
     <div class="plan-results-col">
       <div class="result-card" id="plan-result-container">
         <div style="text-align: center; padding: 60px 20px; color: var(--t3);">
-          Soldakı parametrləri seçərək "Planı Hesabla" düyməsini sıxın.
+          Soldakı parametrləri seçərək "İstehsalat Planını Hesabla" düyməsini sıxın.
         </div>
       </div>
     </div>
@@ -254,39 +255,82 @@
      INSPECTION MODAL (PURE CURRENT STATE & SUBORDERS)
 ══════════════════════════════════════ -->
 <div class="modal-backdrop" id="inspect-modal" onclick="closeInspectModal(event)">
-  <div class="modal-box modal-box-wide" onclick="event.stopPropagation()">
+  <div class="modal-box modal-box-wide" id="inspect-modal-box" onclick="event.stopPropagation()">
     <div class="modal-header">
-      <div class="modal-title" id="m-inspect-title">Sifariş Detalları</div>
-      <button class="modal-close" onclick="closeInspectModal()">×</button>
+      <div style="display:flex; align-items:center; gap:12px; min-width:0; flex:1;">
+        <div class="modal-title" id="m-inspect-title" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Sifariş Detalları</div>
+      </div>
+      <div class="modal-header-actions" style="display:flex; align-items:center; gap:8px;">
+        <!-- Compact / Detailed Header Toggle -->
+        <button type="button" class="btn btn-outline btn-sm" id="btn-toggle-inspect-header" onclick="toggleInspectHeader()" title="Sifariş xülasəsini yığcamlaşdır və ya aç">
+          <span id="inspect-header-toggle-icon">▲</span> <span id="inspect-header-toggle-text">Yığcam Başlıq</span>
+        </button>
+        <!-- Fullscreen Toggle -->
+        <button type="button" class="btn btn-outline btn-sm" id="btn-modal-fullscreen" onclick="toggleModalFullscreen()" title="Tam Ekran rejiminə keç / kiçilt">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+          <span id="btn-fullscreen-text">Tam Ekran</span>
+        </button>
+        <button class="modal-close" onclick="closeInspectModal()" title="Bağla (Esc)">×</button>
+      </div>
     </div>
     <div class="modal-body">
-      <!-- 1. Header Grid Information -->
-      <div class="modal-grid" id="m-inspect-grid">
-        <!-- Current order inspection fields -->
+      <!-- 1. Header Grid Information (Collapsible) -->
+      <div class="inspect-header-wrapper" id="inspect-header-wrapper">
+        <div class="modal-grid" id="m-inspect-grid">
+          <!-- Current order inspection fields -->
+        </div>
       </div>
 
-
-
-      <!-- 3. Suborders & Line Items Breakdown -->
-      <div class="suborders-section">
+      <!-- 2. Suborders & Line Items Breakdown -->
+      <div class="suborders-section" id="m-suborders-section">
         <div class="suborders-header">
-          <div class="suborders-title">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-            Tərkib Məhsulları və Alt-Sifarişlər (Mərhələlər üzrə İzləmə)
+          <div class="suborders-header-left">
+            <div class="suborders-title">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              Tərkib Məhsulları və Alt-Sifarişlər
+            </div>
+            <span class="badge badge-neutral" id="m-suborders-count">0 alt-sifariş</span>
+            <span class="badge badge-blue" id="m-suborders-qty-total" style="font-family:var(--font-mono); font-size:11px;">0 ədəd</span>
           </div>
-          <span class="badge badge-neutral" id="m-suborders-count">0 alt-sifariş</span>
+
+          <div class="suborders-header-actions">
+            <!-- Filter search input inside suborders -->
+            <div class="suborder-search-box">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="suborder-filter-input" placeholder="Ölçü, rəng və ya məhsul axtar..." oninput="filterSubordersList()">
+              <button type="button" class="suborder-search-clear" id="btn-clear-suborder-filter" onclick="clearSuborderFilter()" title="Təmizlə">×</button>
+            </div>
+
+            <!-- View Density Switch (Standart vs Yığcam) -->
+            <div class="density-switch">
+              <button type="button" class="density-btn active" id="btn-density-comfortable" onclick="setSuborderDensity('comfortable')" title="Standart geniş görünüş">
+                Geniş
+              </button>
+              <button type="button" class="density-btn" id="btn-density-compact" onclick="setSuborderDensity('compact')" title="Daha çox sətri eyni anda görmək üçün yığcam rejim">
+                Yığcam
+              </button>
+            </div>
+
+            <!-- Scroll Assist Buttons -->
+            <div class="scroll-assist-btns">
+              <button type="button" class="scroll-assist-btn" onclick="scrollSuborders('top')" title="Səhifənin əvvəlinə sürüşdür">↑</button>
+              <button type="button" class="scroll-assist-btn" onclick="scrollSuborders('bottom')" title="Səhifənin sonuna sürüşdür">↓</button>
+            </div>
+          </div>
         </div>
-        <div class="table-area suborders-table-wrapper">
-          <table class="suborders-table">
+
+        <div class="table-area suborders-table-wrapper" id="suborders-table-wrapper">
+          <table class="suborders-table" id="m-suborders-table">
             <thead>
               <tr>
-                <th style="width: 35px;">#</th>
+                <th style="width: 38px;">#</th>
                 <th>Məhsul / Alt-Sifariş</th>
-                <th>Rəng & Ölçü</th>
-                <th style="width: 80px; text-align: right;">Sifariş</th>
-                <th style="width: 125px;">İstehsal / Təhvil</th>
-                <th style="width: 140px;">Cari Şöbə (Mərhələ)</th>
-                <th style="width: 100px;">Status</th>
+                <th style="width: 120px;">Rəng & Ölçü</th>
+                <th style="width: 90px; text-align: right;">Sifariş</th>
+                <th style="width: 210px;">İstehsalat Mərhələsi & Təhvil</th>
+                <th style="width: 130px;">Cari Şöbə</th>
+                <th style="width: 250px;">Xammal Ehtiyatı & Doluluq (BOM)</th>
+                <th style="width: 105px;">Status</th>
               </tr>
             </thead>
             <tbody id="m-suborders-table-body">
@@ -296,7 +340,10 @@
         </div>
       </div>
     </div>
-    <div class="modal-footer">
+    <div class="modal-footer" style="display:flex; justify-content:space-between; align-items:center;">
+      <div style="font-size:11.5px; color:var(--t3); display:flex; align-items:center; gap:8px;" id="m-inspect-footer-tip">
+        <span>💡 İpucu: Siçanın çarxı (scroll) ilə rahat sürüşdürün və ya daha çox sətri görmək üçün "Yığcam" rejimə keçin.</span>
+      </div>
       <button class="btn btn-outline" onclick="closeInspectModal()">Bağla</button>
     </div>
   </div>
@@ -305,6 +352,42 @@
 <div id="toast"></div>
 
 <!-- ES6 Module Entrypoint -->
-<script type="module" src="js/app.js"></script>
+<script type="module" src="js/app.js?v=11.0"></script>
+
+<!-- ══════════════════════════════════════
+     SHORTAGE CALLBACK LEAD-TIME MODAL
+══════════════════════════════════════ -->
+<div class="modal-backdrop" id="shortage-modal" style="display:none;" onclick="closeShortageModal(event)">
+  <div class="modal-box" style="max-width: 580px;" onclick="event.stopPropagation()">
+    <div class="modal-header">
+      <div class="modal-title" style="color: var(--warning); display:flex; align-items:center; gap:8px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Xammal Çatışmazlığı və Təchizat Günləri
+      </div>
+      <button class="modal-close" onclick="closeShortageModal()">×</button>
+    </div>
+    <div class="modal-body">
+      <p style="font-size:12.5px; color:var(--t2); margin-bottom:14px;">
+        Aşağıdakı xammallar digər aktiv fabrikin sifarişlərinin rezervləri çıxıldıqdan sonra sərbəst qalıqda çatışmır. Təchizatçıdan gözlənilən çatdırılma günlərini qeyd edin:
+      </p>
+      <div id="modal-shortage-items-table" style="margin-bottom:16px;"></div>
+      <div class="form-row-2">
+        <div class="form-group">
+          <label class="form-label" style="font-size:11px;">Dizayn / Lekal Hazırlığı (gün)</label>
+          <input type="number" class="form-input" id="modal-lead-design" value="1" min="0">
+        </div>
+        <div class="form-group">
+          <label class="form-label" style="font-size:11px;">Ümumi Təchizat Buferi (gün)</label>
+          <input type="number" class="form-input" id="modal-lead-sourcing" value="5" min="0">
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer" style="display:flex; justify-content:flex-end; gap:10px;">
+      <button type="button" class="btn btn-outline" onclick="closeShortageModal()">Bağla</button>
+      <button type="button" class="btn btn-primary" onclick="applyShortageModal()">Buferləri Tətbiq Et & Planla</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
