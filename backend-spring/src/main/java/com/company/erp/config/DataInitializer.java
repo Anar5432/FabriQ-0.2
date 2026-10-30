@@ -103,8 +103,7 @@ public class DataInitializer implements CommandLineRunner {
         // If BOM rows already exist, skip all material/BOM/inventory seeding.
         // This prevents duplicate rows on every server restart.
         if (recipeRepo.count() > 0) {
-            System.out.println("=== BOM already seeded (" + recipeRepo.count() + " rows). Skipping. ===");
-            seedSampleOrdersIfNeeded();
+            System.out.println("=== BOM already seeded (" + recipeRepo.count() + " rows). Master data ready. ===");
             return;
         }
         System.out.println("=== First run: seeding Materials, BOMs, and Inventory ===");
@@ -166,72 +165,7 @@ public class DataInitializer implements CommandLineRunner {
         saveInventory(poliamid,      40.0,  "WH-SOCKS");
         saveInventory(qablasdirma, 20000.0, "WH-SOCKS");
 
-        System.out.println("=== BOM Seeding Complete: " + recipeRepo.count() + " recipe rows ===");
-        seedSampleOrdersIfNeeded();
         System.out.println("=== Factory Master Data Seeding Complete ===");
-    }
-
-    /**
-     * Seeds realistic active production orders (5 per category / 15 total) with current
-     * dates (August/September 2026) and future deadlines (October/November 2026).
-     * Automatically purges legacy remnants older than 90 days so they never pollute the
-     * active planning engine or planning studio.
-     */
-    private void seedSampleOrdersIfNeeded() {
-        // 1. Purge legacy remnants older than 90 days from order snapshots
-        List<OrderSnapshot> allOrders = orderRepo.findAll();
-        for (OrderSnapshot ord : allOrders) {
-            if (ord.getOrderDate() != null && ord.getOrderDate().isBefore(LocalDate.now().minusDays(90))) {
-                orderRepo.delete(ord);
-            }
-        }
-
-        // 2. Workwear Orders (Bant 1)
-        seedOrderIfNotExists("ORD-WW-01", "kitel", "Workwear", "SOCAR (Neft Emalı Zavodu)", 450, 150, "Tikiş", "APPROVED_IN_PRODUCTION", 10, 20);
-        seedOrderIfNotExists("ORD-WW-02", "salvar", "Workwear", "Paşa Holdinq (Tikinti Qrupu)", 800, 200, "Kəsim", "APPROVED_IN_PRODUCTION", 8, 25);
-        seedOrderIfNotExists("ORD-WW-03", "godekce", "Workwear", "Azərsu ASC (Su Kanal İdarəsi)", 350, 0, "Material Təchizatı", "MATERIAL_GATHERING", 5, 30);
-        seedOrderIfNotExists("ORD-WW-04", "polo", "Workwear", "Baku Steel Company ASC", 1200, 0, "Dizayn & Sifariş", "DRAFT_QUOTATION", 3, 35);
-        seedOrderIfNotExists("ORD-WW-05", "polar_godekce", "Workwear", "Norm Sement Zavodu", 600, 600, "Hazır Məhsul", "TAMAMLANDI", 25, 5);
-
-        // 3. Underwear-boxer Orders (Bant 2)
-        seedOrderIfNotExists("ORD-UW-01", "boxer", "Underwear-boxer", "Bravo Supermarketlər Şəbəkəsi", 2500, 1000, "Tikiş", "APPROVED_IN_PRODUCTION", 7, 20);
-        seedOrderIfNotExists("ORD-UW-02", "mayka", "Underwear-boxer", "Rahat Supermarketlər", 3000, 500, "Kəsim", "APPROVED_IN_PRODUCTION", 5, 25);
-        seedOrderIfNotExists("ORD-UW-03", "kulot", "Underwear-boxer", "Bazarstore MMC", 1500, 0, "Material Təchizatı", "MATERIAL_GATHERING", 3, 28);
-        seedOrderIfNotExists("ORD-UW-04", "boxer", "Underwear-boxer", "Araz Supermarket Qrupu", 4000, 0, "Dizayn & Sifariş", "DRAFT_QUOTATION", 2, 40);
-        seedOrderIfNotExists("ORD-UW-05", "mayka", "Underwear-boxer", "Al Marketlər Şəbəkəsi", 1800, 1800, "Hazır Məhsul", "TAMAMLANDI", 20, 10);
-
-        // 4. Socks Orders (Bant 3)
-        seedOrderIfNotExists("ORD-SK-01", "idman_corabi", "Socks", "Silk Way West Airlines", 5000, 2000, "Hörgü (Knitting)", "APPROVED_IN_PRODUCTION", 12, 25);
-        seedOrderIfNotExists("ORD-SK-02", "qis_corabi", "Socks", "Azərbaycan Dəmir Yolları QSC", 3500, 1000, "Tikiş (Toe-closing)", "APPROVED_IN_PRODUCTION", 10, 22);
-        seedOrderIfNotExists("ORD-SK-03", "qadin_corabi", "Socks", "Azercell Telekom MMC", 2000, 0, "Forma (Boarding)", "APPROVED_IN_PRODUCTION", 6, 18);
-        seedOrderIfNotExists("ORD-SK-04", "kosak_corabi", "Socks", "Bakı Metropoliteni QSC", 4000, 0, "Material Təchizatı", "MATERIAL_GATHERING", 4, 30);
-        seedOrderIfNotExists("ORD-SK-05", "idman_corabi", "Socks", "Neftçi PFK İdman Klubu", 2500, 2500, "Paket & Anbar", "TAMAMLANDI", 18, 12);
-    }
-
-    private void seedOrderIfNotExists(String id, String prodId, String category, String client,
-                                      int qty, int deliveredQty, String stage, String status,
-                                      int daysAgo, int daysAhead) {
-        ProductType pt = productTypeRepo.findById(prodId).orElse(null);
-        if (pt == null) return;
-        OrderSnapshot ord = orderRepo.findById(id).orElse(new OrderSnapshot());
-        ord.setId(id);
-        ord.setProductType(pt);
-        ord.setConveyorLine(category);
-        ord.setCustomerName(client);
-        ord.setQuantity(qty);
-        ord.setDeliveredQuantity(deliveredQty);
-        ord.setCurrentPhase(stage);
-        ord.setStatus(status);
-        ord.setTesdiqStatus("DRAFT_QUOTATION".equals(status) ? 0 : 1);
-        ord.setIsHypothetical(false);
-        ord.setOrderDate(LocalDate.now().minusDays(daysAgo));
-        ord.setDeadline(LocalDate.now().plusDays(daysAhead));
-        ord.setDesignDays(stage.contains("Dizayn") ? 1.0 : 0.0);
-        ord.setSourcingDays(stage.contains("Material") ? 2.0 : 0.0);
-        ord.setMaterialReadinessPct(deliveredQty > 0 || stage.contains("Tikiş") || stage.contains("Hörgü") ? 100 : 80);
-        ord.setMaterialShortage(ord.getMaterialReadinessPct() < 100);
-        ord.setShortageDetails(ord.getMaterialShortage() ? "Xammal ehtiyatı çatışmır" : "");
-        orderRepo.save(ord);
     }
 
     private Material saveMaterial(String id, String name, String unit, String color) {
