@@ -14,19 +14,24 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
-        format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
-  data:
-    redis:
-      host: localhost
-      port: 6379
+  web:
+    resources:
+      cache:
+        period: 0
+        cachecontrol:
+          no-cache: true
+          no-store: true
+          must-revalidate: true
+      chain:
+        cache: false
 
   legacy-db:
-    url: jdbc:sqlserver://192.168.100.1:1433;databaseName=BTFERPDB;encrypt=true;trustServerCertificate=true;loginTimeout=5;
-    coraba-url: jdbc:sqlserver://192.168.100.1:1433;databaseName=BTFERPDB_CORABA;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+    url: jdbc:sqlserver://81.17.85.185:1433;databaseName=BTFERPDB;encrypt=true;trustServerCertificate=true;loginTimeout=5;
+    coraba-url: jdbc:sqlserver://81.17.85.185:1433;databaseName=BTFERPDB_CORABA;encrypt=true;trustServerCertificate=true;loginTimeout=5;
     username: User1
     password: bfzY7835WCS72M
